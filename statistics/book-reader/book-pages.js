@@ -1,0 +1,1 @@
+window.BOOK_PAGES = ['/chapter-1/1-1-definitions-of-statistics-probability-and-key-terms.html', '/chapter-preface/1-introduction.html', '/chapter-preface/b-appendix-b-practice-tests-1-4-and-final-exams.html'];

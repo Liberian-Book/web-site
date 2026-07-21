@@ -1,0 +1,11 @@
+{
+  "name": "bot-reader-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual book reader website",
+  "scripts": {
+    "dev": "bunx serve -l 8080",
+    "start": "bunx serve -l 8080",
+    "deploy": "npx wrangler pages deploy . --project-name openstax-vn --commit-dirty=true"
+  }
+}

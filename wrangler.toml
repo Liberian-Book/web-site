@@ -1,0 +1,10 @@
+# wrangler.toml
+# Configuration for Cloudflare Pages deployment
+
+name = "openstax-vn"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "DB"
+database_name = "openstax-comments-db"
+database_id = "e2083b8c-01e3-4764-adab-2220b9ae7b66"
