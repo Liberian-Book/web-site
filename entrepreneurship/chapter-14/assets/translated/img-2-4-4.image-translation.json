@@ -1,0 +1,209 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-4-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-4-frameworks-to-inform-your-entrepreneurial-path.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-4-4.vi.png",
+  "ocr": [
+    {
+      "text": "Resource",
+      "confidence": 76,
+      "bbox": {
+        "x": 110,
+        "y": 93,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "mobilization",
+      "confidence": 76,
+      "bbox": {
+        "x": 110,
+        "y": 216,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "ol ]",
+      "confidence": 76,
+      "bbox": {
+        "x": 110,
+        "y": 339,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "Culture",
+      "confidence": 76,
+      "bbox": {
+        "x": 110,
+        "y": 462,
+        "w": 880,
+        "h": 62
+      }
+    },
+    {
+      "text": "management",
+      "confidence": 76,
+      "bbox": {
+        "x": 110,
+        "y": 585,
+        "w": 880,
+        "h": 62
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Resource",
+      "normalizedSource": "Resource",
+      "target": "Tài nguyên",
+      "bbox": {
+        "x": 110,
+        "y": 93,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "mobilization",
+      "normalizedSource": "mobilization",
+      "target": "huy động",
+      "bbox": {
+        "x": 110,
+        "y": 216,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "ol ]",
+      "normalizedSource": "ol ]",
+      "target": "ol",
+      "bbox": {
+        "x": 110,
+        "y": 339,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "Culture",
+      "normalizedSource": "Culture",
+      "target": "Văn hóa",
+      "bbox": {
+        "x": 110,
+        "y": 462,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    },
+    {
+      "source": "management",
+      "normalizedSource": "management",
+      "target": "quản lý",
+      "bbox": {
+        "x": 110,
+        "y": 585,
+        "w": 880,
+        "h": 62
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: The Four Lenses Strategic Framework includes stakeholder engagement, culture management, resource mobilization/application, and knowledge development.\nButton label: Click to enlarge image of The Four Lenses Strategic Framework includes stakeholder engagement, culture management, resource mobilization/application, and knowledge development.\nEnglish caption: Figure 2.25 The Four Lenses Strategic Framework involves stakeholder engagement, culture management, resource mobilization/application, and knowledge development, and can provide synergies and insights in building compatible and aligned actions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3216601815823606,
+    "averageConfidence": 76,
+    "entropy": 2.6766065643460024,
+    "sharpness": 2.7267904735742756
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: The Four Lenses Strategic Framework includes stakeholder engagement, culture management, resource mobilization/application, and knowledge development.\nButton label: Click to enlarge image of The Four Lenses Strategic Framework includes stakeholder engagement, culture management, resource mobilization/application, and knowledge development.\nEnglish caption: Figure 2.25 The Four Lenses Strategic Framework involves stakeholder engagement, culture management, resource mobilization/application, and knowledge development, and can provide synergies and insights in building compatible and aligned actions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Resource => Tài nguyên\n- mobilization => huy động\n- ol ] => ol\n- Culture => Văn hóa\n- management => quản lý\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Tai nguyén",
+        "confidence": 62,
+        "bbox": {
+          "x": 150,
+          "y": 126,
+          "w": 1198,
+          "h": 84
+        }
+      },
+      {
+        "text": "huy déng",
+        "confidence": 62,
+        "bbox": {
+          "x": 150,
+          "y": 294,
+          "w": 1198,
+          "h": 84
+        }
+      },
+      {
+        "text": "a] dhe i 9",
+        "confidence": 62,
+        "bbox": {
+          "x": 150,
+          "y": 462,
+          "w": 1198,
+          "h": 84
+        }
+      },
+      {
+        "text": "Aa os 4",
+        "confidence": 62,
+        "bbox": {
+          "x": 150,
+          "y": 630,
+          "w": 1198,
+          "h": 84
+        }
+      },
+      {
+        "text": "Van héa",
+        "confidence": 62,
+        "bbox": {
+          "x": 150,
+          "y": 798,
+          "w": 1198,
+          "h": 84
+        }
+      },
+      {
+        "text": "quan ly",
+        "confidence": 62,
+        "bbox": {
+          "x": 150,
+          "y": 966,
+          "w": 1198,
+          "h": 84
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

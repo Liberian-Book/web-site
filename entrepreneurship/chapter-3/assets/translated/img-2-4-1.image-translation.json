@@ -1,0 +1,221 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-4-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-4-frameworks-to-inform-your-entrepreneurial-path.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-4-1.vi.png",
+  "ocr": [
+    {
+      "text": "THE BUSINESS MODEL CANVAS",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 46,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "— Customer",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 108,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "gyi Relationships",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 170,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "Fe BErTTe Value Customer",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 232,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "y Propositions Segments",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 294,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "Key Resources Channels",
+      "confidence": 74,
+      "bbox": {
+        "x": 130,
+        "y": 356,
+        "w": 1040,
+        "h": 31
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "THE BUSINESS MODEL CANVAS",
+      "normalizedSource": "THE BUSINESS MODEL CANVAS",
+      "target": "MÔ HÌNH KINH DOANH",
+      "bbox": {
+        "x": 130,
+        "y": 46,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "— Customer",
+      "normalizedSource": "— Customer",
+      "target": "— Khách hàng",
+      "bbox": {
+        "x": 130,
+        "y": 108,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "gyi Relationships",
+      "normalizedSource": "gyi Relationships",
+      "target": "Mối quan hệ",
+      "bbox": {
+        "x": 130,
+        "y": 170,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "Fe BErTTe Value Customer",
+      "normalizedSource": "Fe BErTTe Value Customer",
+      "target": "Giá trị đề xuất của khách hàng",
+      "bbox": {
+        "x": 130,
+        "y": 232,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "y Propositions Segments",
+      "normalizedSource": "y Propositions Segments",
+      "target": "Phân khúc",
+      "bbox": {
+        "x": 130,
+        "y": 294,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "Key Resources Channels",
+      "normalizedSource": "Key Resources Channels",
+      "target": "Tài nguyên chính kênh",
+      "bbox": {
+        "x": 130,
+        "y": 356,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: The business model canvas includes a framework of key partners, key activities, value propositions, customer relationships, customer segments, key resources, channels, cost structure, and revenue streams.\nButton label: Click to enlarge image of The business model canvas includes a framework of key partners, key activities, value propositions, customer relationships, customer segments, key resources, channels, cost structure, and revenue streams.\nEnglish caption: Figure 2.22 Here is an example of a Business Model Canvas with a framework to identify key components of the venture. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3864935064935065,
+    "averageConfidence": 74,
+    "entropy": 3.4903143151932454,
+    "sharpness": 4.150888817495908
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: The business model canvas includes a framework of key partners, key activities, value propositions, customer relationships, customer segments, key resources, channels, cost structure, and revenue streams.\nButton label: Click to enlarge image of The business model canvas includes a framework of key partners, key activities, value propositions, customer relationships, customer segments, key resources, channels, cost structure, and revenue streams.\nEnglish caption: Figure 2.22 Here is an example of a Business Model Canvas with a framework to identify key components of the venture. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- THE BUSINESS MODEL CANVAS => MÔ HÌNH KINH DOANH\n- — Customer => — Khách hàng\n- gyi Relationships => Mối quan hệ\n- Fe BErTTe Value Customer => Giá trị đề xuất của khách hàng\n- y Propositions Segments => Phân khúc\n- Key Resources Channels => Tài nguyên chính kênh\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "MO HINH KINH DOANH",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 87,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "el Gia tri Phan khuc",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 203,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "URC LT d& xudt cia khéch hang khach hang",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 319,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "Tai nguyén chinh kénh",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 435,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "Ca cau chi phi Nguén doanh thu",
+        "confidence": 74,
+        "bbox": {
+          "x": 217,
+          "y": 551,
+          "w": 1738,
+          "h": 58
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

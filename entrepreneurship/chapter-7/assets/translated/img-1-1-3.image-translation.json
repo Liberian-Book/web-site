@@ -1,0 +1,524 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-1-entrepreneurship-today.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Nations with Most Attractive Entrepreneurial Ventures",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 92,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "Nation Gross Domestic Product GEI",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 215,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "1. United States 52,676 83.6",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 338,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "2. Switzerland 54,933 80.4",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 461,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "3. Canada 42,104 79.2",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 584,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "4. United Kingdom 37,451 77.8",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 707,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "5. Australia 42,149 75.5",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 830,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "6. Denmark 44,005 74.3",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 953,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "7. Iceland 34,541 74.2",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 1076,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "8. Ireland 42,012 73.7",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 1199,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "9. Sweden 45,533 73.1",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 1322,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "10. France 37,948 68.5",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 1445,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "Attractiveness of Entrepreneur Ecosystem",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 1568,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.”",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 1691,
+        "w": 961,
+        "h": 61
+      }
+    },
+    {
+      "text": "Entrepreneur Middle East. January 26, 2017.",
+      "confidence": 94,
+      "bbox": {
+        "x": 120,
+        "y": 1814,
+        "w": 961,
+        "h": 61
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Nations with Most Attractive Entrepreneurial Ventures",
+      "normalizedSource": "Nations with Most Attractive Entrepreneurial Ventures",
+      "target": "Các quốc gia có cơ hội khởi nghiệp hấp dẫn nhất",
+      "bbox": {
+        "x": 120,
+        "y": 92,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Nation Gross Domestic Product GEI",
+      "normalizedSource": "Nation Gross Domestic Product GEI",
+      "target": "Quốc gia Tổng sản phẩm quốc nội GEI",
+      "bbox": {
+        "x": 120,
+        "y": 215,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "1. United States 52,676 83.6",
+      "normalizedSource": "1. United States 52,676 83.6",
+      "target": "1. Hoa Kỳ 52,676 83.6",
+      "bbox": {
+        "x": 120,
+        "y": 338,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "2. Switzerland 54,933 80.4",
+      "normalizedSource": "2. Switzerland 54,933 80.4",
+      "target": "2. Thụy Sĩ 54,933 80.4",
+      "bbox": {
+        "x": 120,
+        "y": 461,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "3. Canada 42,104 79.2",
+      "normalizedSource": "3. Canada 42,104 79.2",
+      "target": "3. Canada 42,104 79.2",
+      "bbox": {
+        "x": 120,
+        "y": 584,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "4. United Kingdom 37,451 77.8",
+      "normalizedSource": "4. United Kingdom 37,451 77.8",
+      "target": "4. Vương quốc Anh 37,451 77.8",
+      "bbox": {
+        "x": 120,
+        "y": 707,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "5. Australia 42,149 75.5",
+      "normalizedSource": "5. Australia 42,149 75.5",
+      "target": "5. Úc 42,149 75.5",
+      "bbox": {
+        "x": 120,
+        "y": 830,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "6. Denmark 44,005 74.3",
+      "normalizedSource": "6. Denmark 44,005 74.3",
+      "target": "6. Đan Mạch 44,005 74.3",
+      "bbox": {
+        "x": 120,
+        "y": 953,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "7. Iceland 34,541 74.2",
+      "normalizedSource": "7. Iceland 34,541 74.2",
+      "target": "7. Iceland 34,541 74.2",
+      "bbox": {
+        "x": 120,
+        "y": 1076,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "8. Ireland 42,012 73.7",
+      "normalizedSource": "8. Ireland 42,012 73.7",
+      "target": "8. Ireland 42,012 73.7",
+      "bbox": {
+        "x": 120,
+        "y": 1199,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "9. Sweden 45,533 73.1",
+      "normalizedSource": "9. Sweden 45,533 73.1",
+      "target": "9. Thụy Điển 45,533 73.1",
+      "bbox": {
+        "x": 120,
+        "y": 1322,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "10. France 37,948 68.5",
+      "normalizedSource": "10. France 37,948 68.5",
+      "target": "10. Pháp 37,948 68.5",
+      "bbox": {
+        "x": 120,
+        "y": 1445,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Attractiveness of Entrepreneur Ecosystem",
+      "normalizedSource": "Attractiveness of Entrepreneur Ecosystem",
+      "target": "Sự hấp dẫn của hệ sinh thái khởi nghiệp",
+      "bbox": {
+        "x": 120,
+        "y": 1568,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.”",
+      "normalizedSource": "Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.”",
+      "target": "Nhóm Inforgraphic.ly. “Đồ họa thông tin: Sự phát triển của khởi nghiệp trên toàn cầu.”",
+      "bbox": {
+        "x": 120,
+        "y": 1691,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    },
+    {
+      "source": "Entrepreneur Middle East. January 26, 2017.",
+      "normalizedSource": "Entrepreneur Middle East. January 26, 2017.",
+      "target": "Entrepreneur Middle East. Ngày 26 tháng 1, 2017.",
+      "bbox": {
+        "x": 120,
+        "y": 1814,
+        "w": 961,
+        "h": 61
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: Graph of nations with the most attractive entrepreneurial ventures. The United States has 52,676 million ventures, measured as Gross Domestic Product, with a Global Entrepreneurship Index (GEI) of 83.6 and attractiveness of the entrepreneur ecosystem over 80. Switzerland has 54,933 million ventures, with a GEI of 80.4 and attractiveness of the entrepreneur ecosystem around 80. Canada has 42,104 million ventures, with a GEI of 79.2 and attractiveness of the entrepreneur ecosystem around 80. The United Kingdom has 37,451 million ventures, with a GEI of 77.8 and attractiveness of the entrepreneur ecosystem a bit less than 80. Australia has 42,149 million ventures, with a GEI of 75.5 and attractiveness of the entrepreneur ecosystem around 76. Denmark has 44,005 million ventures, with a GEI of 74.3 and attractiveness of the entrepreneur ecosystem around 75. Iceland has 34,541 million ventures, with a GEI of 74.2 and attractiveness of the entrepreneur ecosystem around 75. Ireland has 42,012 million ventures, with a GEI of 73.7 and attractiveness of the entrepreneur ecosystem around 74. Sweden has 45,533 million ventures, with a GEI of 73.1 and attractiveness of the entrepreneur ecosystem around 73. France has 37,948 million ventures, with a GEI of 68.5 and attractiveness of the entrepreneur ecosystem around 68. Source: Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.” Entrepreneurship Middle East. January 26, 2017.\nButton label: Click to enlarge image of Graph of nations with the most attractive entrepreneurial ventures. The United States has 52,676 million ventures, measured as Gross Domestic Product, with a Global Entrepreneurship Index (GEI) of 83.6 and attractiveness of the entrepreneur ecosystem over 80. Switzerland has 54,933 million ventures, with a GEI of 80.4 and attractiveness of the entrepreneur ecosystem around 80. Canada has 42,104 million ventures, with a GEI of 79.2 and attractiveness of the entrepreneur ecosystem around 80. The United Kingdom has 37,451 million ventures, with a GEI of 77.8 and attractiveness of the entrepreneur ecosystem a bit less than 80. Australia has 42,149 million ventures, with a GEI of 75.5 and attractiveness of the entrepreneur ecosystem around 76. Denmark has 44,005 million ventures, with a GEI of 74.3 and attractiveness of the entrepreneur ecosystem around 75. Iceland has 34,541 million ventures, with a GEI of 74.2 and attractiveness of the entrepreneur ecosystem around 75. Ireland has 42,012 million ventures, with a GEI of 73.7 and attractiveness of the entrepreneur ecosystem around 74. Sweden has 45,533 million ventures, with a GEI of 73.1 and attractiveness of the entrepreneur ecosystem around 73. France has 37,948 million ventures, with a GEI of 68.5 and attractiveness of the entrepreneur ecosystem around 68. Source: Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.” Entrepreneurship Middle East. January 26, 2017.\nEnglish caption: Figure 1.4 The number of entrepreneurial businesses, in millions, is shown for several countries. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.9545663272783328,
+    "averageConfidence": 94,
+    "entropy": 2.348096448557044,
+    "sharpness": 5.084103119446172
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Graph of nations with the most attractive entrepreneurial ventures. The United States has 52,676 million ventures, measured as Gross Domestic Product, with a Global Entrepreneurship Index (GEI) of 83.6 and attractiveness of the entrepreneur ecosystem over 80. Switzerland has 54,933 million ventures, with a GEI of 80.4 and attractiveness of the entrepreneur ecosystem around 80. Canada has 42,104 million ventures, with a GEI of 79.2 and attractiveness of the entrepreneur ecosystem around 80. The United Kingdom has 37,451 million ventures, with a GEI of 77.8 and attractiveness of the entrepreneur ecosystem a bit less than 80. Australia has 42,149 million ventures, with a GEI of 75.5 and attractiveness of the entrepreneur ecosystem around 76. Denmark has 44,005 million ventures, with a GEI of 74.3 and attractiveness of the entrepreneur ecosystem around 75. Iceland has 34,541 million ventures, with a GEI of 74.2 and attractiveness of the entrepreneur ecosystem around 75. Ireland has 42,012 million ventures, with a GEI of 73.7 and attractiveness of the entrepreneur ecosystem around 74. Sweden has 45,533 million ventures, with a GEI of 73.1 and attractiveness of the entrepreneur ecosystem around 73. France has 37,948 million ventures, with a GEI of 68.5 and attractiveness of the entrepreneur ecosystem around 68. Source: Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.” Entrepreneurship Middle East. January 26, 2017.\nButton label: Click to enlarge image of Graph of nations with the most attractive entrepreneurial ventures. The United States has 52,676 million ventures, measured as Gross Domestic Product, with a Global Entrepreneurship Index (GEI) of 83.6 and attractiveness of the entrepreneur ecosystem over 80. Switzerland has 54,933 million ventures, with a GEI of 80.4 and attractiveness of the entrepreneur ecosystem around 80. Canada has 42,104 million ventures, with a GEI of 79.2 and attractiveness of the entrepreneur ecosystem around 80. The United Kingdom has 37,451 million ventures, with a GEI of 77.8 and attractiveness of the entrepreneur ecosystem a bit less than 80. Australia has 42,149 million ventures, with a GEI of 75.5 and attractiveness of the entrepreneur ecosystem around 76. Denmark has 44,005 million ventures, with a GEI of 74.3 and attractiveness of the entrepreneur ecosystem around 75. Iceland has 34,541 million ventures, with a GEI of 74.2 and attractiveness of the entrepreneur ecosystem around 75. Ireland has 42,012 million ventures, with a GEI of 73.7 and attractiveness of the entrepreneur ecosystem around 74. Sweden has 45,533 million ventures, with a GEI of 73.1 and attractiveness of the entrepreneur ecosystem around 73. France has 37,948 million ventures, with a GEI of 68.5 and attractiveness of the entrepreneur ecosystem around 68. Source: Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.” Entrepreneurship Middle East. January 26, 2017.\nEnglish caption: Figure 1.4 The number of entrepreneurial businesses, in millions, is shown for several countries. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Nations with Most Attractive Entrepreneurial Ventures => Các quốc gia có cơ hội khởi nghiệp hấp dẫn nhất\n- Nation Gross Domestic Product GEI => Quốc gia Tổng sản phẩm quốc nội GEI\n- 1. United States 52,676 83.6 => 1. Hoa Kỳ 52,676 83.6\n- 2. Switzerland 54,933 80.4 => 2. Thụy Sĩ 54,933 80.4\n- 3. Canada 42,104 79.2 => 3. Canada 42,104 79.2\n- 4. United Kingdom 37,451 77.8 => 4. Vương quốc Anh 37,451 77.8\n- 5. Australia 42,149 75.5 => 5. Úc 42,149 75.5\n- 6. Denmark 44,005 74.3 => 6. Đan Mạch 44,005 74.3\n- 7. Iceland 34,541 74.2 => 7. Iceland 34,541 74.2\n- 8. Ireland 42,012 73.7 => 8. Ireland 42,012 73.7\n- 9. Sweden 45,533 73.1 => 9. Thụy Điển 45,533 73.1\n- 10. France 37,948 68.5 => 10. Pháp 37,948 68.5\n- Attractiveness of Entrepreneur Ecosystem => Sự hấp dẫn của hệ sinh thái khởi nghiệp\n- Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.” => Nhóm Inforgraphic.ly. “Đồ họa thông tin: Sự phát triển của khởi nghiệp trên toàn cầu.”\n- Entrepreneur Middle East. January 26, 2017. => Entrepreneur Middle East. Ngày 26 tháng 1, 2017.\nPrevious output was rejected because these English source words were still visible: canada, iceland, ireland, entrepreneur, inforgraphic. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Cac qudc gia c6 co hdi khéi nghiép hap dan nhat",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 120,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "Quéc gia Téng san pham quédc ndi GEI",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 280,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "1. Hoa Ky 52,676 83.6",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 440,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "2. Thuy ST 54,933 80.4",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 600,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "3. Canada 42,104 79.2",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 760,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "4. Vuong quéc Anh 37,451 77.8",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 920,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "5. Uc 42,149 75.5",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 1080,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "6. Pan Mach 44,005 74.3",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 1240,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "7. Iceland 34,541 74.2",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 1400,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "8. Ireland 42,012 73%",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 1560,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "9. Thuy Dién 45,533 73.1",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 1720,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "10. Phap 37,948 68.5",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 1880,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "Su hap dan chia hé sinh thai khéi nghiép",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 2040,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "Nhém Inforgraphic.ly. “D8 hoa théng tin: Su phat trién clia khai nghiép trén toan cau.”",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 2200,
+          "w": 1254,
+          "h": 80
+        }
+      },
+      {
+        "text": "Entrepreneur Middle East. Ngay 26 thang 1, 2017.",
+        "confidence": 86,
+        "bbox": {
+          "x": 157,
+          "y": 2360,
+          "w": 1254,
+          "h": 80
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "canada",
+        "iceland",
+        "ireland",
+        "entrepreneur",
+        "inforgraphic",
+        "middle",
+        "east"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

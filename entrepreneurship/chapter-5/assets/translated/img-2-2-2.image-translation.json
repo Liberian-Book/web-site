@@ -1,0 +1,865 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "ie fr foe ft Gren 4",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 95,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "AE ri)",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 221,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "hot 1 4E TT",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 347,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "SER a 40 EER as",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 473,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "Dine ep CFSE TN ch he Coed a",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 599,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "St rr fe Fo ot 5 TT he",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 725,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "er ol Elli Ge tl bi itor flere Yamal, Jon fi]",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 851,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "TA i ee | =",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 977,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "Ee re i od a",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1103,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "Cle tg ri ts Ht Et ir hind gh |",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1229,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "foe et ce SB GL ie AE ado ke 2 eH ety",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1355,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "“anu plo wd a ARE Ter ii |",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1481,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "li a SLR ey ST",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1607,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "SE Bn de Re DP Pn",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1733,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "| CTR ET ad aH tii VERA",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1859,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "La ty of nein gd fete fy tick ro lags + sega,",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 1985,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "ea A Re",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2111,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "orton Jr Chie Ti rane ais dre, dri) Loge",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2237,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "ad a GE RTI",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2363,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "BR Te he ok Rh ei rr ot pepe",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2489,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "ee er ro REEL i",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2615,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "on nb cl (TRS tit fail Coit 37s Cor 40s on",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2741,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "gn FOE he pcs meson i. 45550 de",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2867,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "S53 the sry nd 11 dust do ver Goo he avitl Education i prwiveis f°§",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 2993,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "Tp prof wt” hich to Ge iso ors im accord yr ie 0 iol aminid)",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 3119,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "oe Ate. BL it 7 Gh ft Cot ASE Eh",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 3245,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "BS hist it ons third — whichis [foci oft cach Fowse] ft z",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 3371,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "ichiis 5 (eur of wach Rew] atl pec ul svi on",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 3497,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "8) EBERT Jor LE Rood yee smth women, Jos She oF Eyer",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 3623,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "ie gear fs Gncitt pall be giv, 3 edogris before cr lh",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 3749,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "citing guns hons 5; Potions tial bi ditrgeimsd Gy + E2diing “",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 3875,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "3 oll quasfons wi losarsl iy Ei 3 Viney mo usin",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 4001,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "3 ueliadd oe Gaaul sil bo Fredy dose nired is seo ese His som",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 4127,
+        "w": 1040,
+        "h": 63
+      }
+    },
+    {
+      "text": "4 povnd, ® - g",
+      "confidence": 30,
+      "bbox": {
+        "x": 130,
+        "y": 4253,
+        "w": 1040,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: (a) Copy of a draft of the Frame of Government in Pennsylvania by William Penn. (b) Painting of Benjamin Franklin, shown operating a printing press.\nButton label: Click to enlarge image of (a) Copy of a draft of the Frame of Government in Pennsylvania by William Penn. (b) Painting of Benjamin Franklin, shown operating a printing press.\nEnglish caption: Figure 2.13 (a) William Penn founded the Commonwealth of Pennsylvania as a sanctuary for persecuted Quakers. This colony could be considered an early form of social entrepreneurship. Shown is his first draft of The Frame of Government in Pennsylvania. (b) As one of the country’s founders, Benjamin Franklin contributed to the Declaration of Independence. His accomplishments as a printer, writer, postmaster, diplomat, and scientist (he contributed to the understanding of electricity) epitomize serial entrepreneurship. In this painting by Charles Mills, a young Ben Franklin is seen operating a printing press. (credit (a): modification of “William Penn - The First Draft of the Frame of Government - c1681” by University of Pennsylvania/Wikimedia Commons, Public Domain; credit (b): modification of “Franklin the printer” by Library of Congress/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 2.1746192893401015,
+    "averageConfidence": 30,
+    "entropy": 6.39391733870616,
+    "sharpness": 5.92514257976376
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Copy of a draft of the Frame of Government in Pennsylvania by William Penn. (b) Painting of Benjamin Franklin, shown operating a printing press.\nButton label: Click to enlarge image of (a) Copy of a draft of the Frame of Government in Pennsylvania by William Penn. (b) Painting of Benjamin Franklin, shown operating a printing press.\nEnglish caption: Figure 2.13 (a) William Penn founded the Commonwealth of Pennsylvania as a sanctuary for persecuted Quakers. This colony could be considered an early form of social entrepreneurship. Shown is his first draft of The Frame of Government in Pennsylvania. (b) As one of the country’s founders, Benjamin Franklin contributed to the Declaration of Independence. His accomplishments as a printer, writer, postmaster, diplomat, and scientist (he contributed to the understanding of electricity) epitomize serial entrepreneurship. In this painting by Charles Mills, a young Ben Franklin is seen operating a printing press. (credit (a): modification of “William Penn - The First Draft of the Frame of Government - c1681” by University of Pennsylvania/Wikimedia Commons, Public Domain; credit (b): modification of “Franklin the printer” by Library of Congress/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: pennsylvania, william, penn, benjamin, franklin, this, charles, mills. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Du thdo khung chink quyén",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 117,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "tai Bdo thinh viiong chung Pennsylvania",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 273,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "rT A BE 43 i Lo",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 429,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "tat sie Klatt Elyich of tie Mamie phat eB ii cts Spiked",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 585,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "To lp Tr nl dt or ltr. &5 4 rte [he A",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 741,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "[eo Gy raat fs. Eine. tha~Gepinent. ii 6¥iple. thf 5 the ciaaseoni,",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 897,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "aft thiaie Candide Ee iz Cin pial i sil oy Sets dele iaaless",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 1053,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "i clam evi gig kite Gorm os t Miki 2607 5 lo lace",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 1209,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "a Be a es hey nr",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 1365,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Ee A et ie pe ee R",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 1521,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "+ Corda Gossip enlie kar riod ays oe nites of trading dooiréate cot for. Grmixbenhiet |",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 1677,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "ET de isis ac bosstink ie meets",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 1833,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "climciereén akin spam dol feokemes bali Ae mind troncletbative blinds oft.",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 1989,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "ido drat int: ian! hole ssl hi duc cc ish drng his re ( cimin © e245 dls",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 2145,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Gi erniot mb En homiate, flarirmeatetc ive the-boatd nfo SH dois irony Fh ening",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 2301,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "+ “Giegnt otic. curt fo cFtcogimid rameci os Btsgons eit he ATE fey hui",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 2457,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Gd chief di; Td on foci bi gin, Grp fn id",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 2613,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "+ thie mika diol mmyt Gd fim rc dif HicAenct of eit ond = We ig",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 2769,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "tle dauie of Gros diare-die nyc] dioyinet mid $i) Hh ade .",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 2925,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "nist ign 45 Berl Poge ei uo hg PPL",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 3081,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "+ Chesd she ioufoinich iat-sbi lot the dois acs omic FGI",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 3237,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Lo buchen sigh",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 3393,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Lite Vin pred, ro a TR as Bo I RS \"Lig",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 3549,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Chel fe Horsre of eta “hu redeem; Cl erst domi",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 3705,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "cus, of cibiah diz fines iad cince tric; owls dont flit conbiunts ify ~",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 3861,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "ot. ear wi helene VS Tit hic Conockl {Re Shun i rtm.",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 4017,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "iota oof sod fhreig fctre cnc dmecnst of Seat te Hi=tsifEogi",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 4173,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "ZenaiiyZou. of bs Gugods A",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 4329,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Gomclic of ex Wun Rebirth eile onc fad €omedgts of rGarfrilockt oi",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 4485,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "+ IRA C= id exeriscc- woecsbigy Jersey crdhereiecd frie ect.",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 4641,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "baht Touinng and dei-fur-dorone eel ale ctuilé-€ duraetionike mmniscer off",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 4797,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Torys’ if ale bichbe lo al bwreisde-ad ccoonsiryiaudy, bobo: Clas camind",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 4953,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "we ES Th 7 ;",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 5109,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "+o pe semis hit diz Cimeoit fia Cony ci Romie Som",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 5265,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "WR thicd Ge cone bhiod rie Nfl in. expire aad hic, pur gierec Fasley yor",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 5421,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Gig. EK woddeasmard din Thon. gable ul thrice tint ff ue td Ln",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 5577,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Fiiods gait ir éosriccb ned ion adi hres -bajaes anand oped w. do",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 5733,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Clini ws Bor TY Pahopif chef do hHopdonl Fy a tulosiry Sx",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 5889,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "llgiishids 5 hnsir] dy ablotipfiaps 5. RAisdi own fassiiion",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 6045,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "rs rl ES eT Ae",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 6201,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "% pudvede 7",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 6357,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "Hinh 2.13 (a) William Penn dé thanh 1ap Béo thinh vugng chung Pennsylvania nhu mét nai 4n nau cho nhiing ngudi Quaker bi bic hai. Thudc dia nay cé thé dugc coi la mét hinh thic",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 6513,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "s6 khai ctia khdi nghiép xa héi. Hinh nay la ban du thio du tién cla 6ng vé Du thdo khung chinh quyén tai Pennsylvania.",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 6669,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "(b) La mét trong nhitng ngudi sang lap dat nudc, Benjamin Franklin dd dong gop vao Tuyén ngdn Déc lap. Nhitng thanh tyu ctia ng vdi vai tro thg in, nha vin, buu chinh, nha",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 6825,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "ngoai giao va nha khoa hoc (6ng da déng gép vao viéc hiéu bit vé dién) Ia hién than cia khai nghiép ni tiép. Trong bic tranh ny cia Charles Mills, mét Benjamin Franklin tré tudi",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 6981,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "dugc thdy dang van hanh may in.",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 7137,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "(ngusn tin dung (a): chinh sta ti “Dy thao dau tién vé khung chinh quyén clia Bao thinh viigng chung Pennsylvania - khong nam 1681” ctia Dai hoc Pennsylvania/Wikimedia Commons, Mién cong cong;",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 7293,
+          "w": 1289,
+          "h": 78
+        }
+      },
+      {
+        "text": "ngudn tin dung (b): chinh stra tir “Nha in Franklin” ctia Thu vién Quc hi/Wikimedia Commons, Mién cng cng)",
+        "confidence": 42,
+        "bbox": {
+          "x": 161,
+          "y": 7449,
+          "w": 1289,
+          "h": 78
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "pennsylvania",
+        "william",
+        "penn",
+        "benjamin",
+        "franklin",
+        "charles",
+        "mills",
+        "wikimedia",
+        "commons"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

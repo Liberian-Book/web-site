@@ -1,0 +1,578 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-1-overview-of-the-entrepreneurial-journey.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "aE. Sa RSET. aA i",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 99,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Es = Ce pe a ba a TG SU",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 231,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "ToT ” Cr bee RP Pp, RY an",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 363,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "pe RO ~% 3 RET rt gn ho PR AS",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 495,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Bs rea Se : 22 ETT Wakee io",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 627,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "EE SUR ESE le vr Ws A =",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 759,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "sw $0 Eis on Eh = 2% =",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 891,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "hg REL Lo a Zi [TC 0 SE",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1023,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "ag Sari Yi ph = a See ii Fa",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1155,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Be Ch a i Bop eT",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1287,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Be: oo A y= CL ogo an as",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1419,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "k ; . : : a cy Rr",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1551,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "5 Ne BRO ERIT op ER",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1683,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "rad WR g . Ey HE",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1815,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "u- + ~ in %",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 1947,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Tr A a8 2, vei ’ = pra s ~ pa",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 2079,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Te RR no",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 2211,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "SL A an Pg En NOP",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 2343,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "SNL TER, y GE I ae aE",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 2475,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "BA © \\ AE . FN Te a",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 2607,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Be A a a fre SAR Ss EW",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 2739,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "6 E OY ad Pe hart) et A er",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 2871,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "IR NET SR i oS Fg al",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 3003,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "a EES oe WBE rd MLR) GOR",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 3135,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "en ES NR RE i Sak Pe Ne",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 3267,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "9 . ee A LR STE RCINE S Yl ie Se RE as SS",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 3399,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "po ai pre eS Te Sas AL a INTHE a AR",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 3531,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Hy PR <= Bae RE i £m a Ara",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 3663,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "oR RNa RC SRE Te PS",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 3795,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "J RE ; SRC Mil WE SE",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 3927,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "TI A RS RE CARTE Po AL Wy",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 4059,
+        "w": 880,
+        "h": 66
+      }
+    },
+    {
+      "text": "Le BI I 1 a eC rs PR TL wr 30h NEE",
+      "confidence": 20,
+      "bbox": {
+        "x": 110,
+        "y": 4191,
+        "w": 880,
+        "h": 66
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Photo of a person white-water rafting.\nButton label: Click to enlarge image of Photo of a person white-water rafting.\nEnglish caption: Figure 2.2 For some, preparing for an entrepreneurial journey may seem like going on a river-rafting adventure that combines beautiful scenery with some exciting, but perhaps frightening, challenges. (credit: “Hands Up” by Jeramey Jannene/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 2.048,
+    "averageConfidence": 20,
+    "entropy": 7.136436608889198,
+    "sharpness": 3.1840068472422094
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a person white-water rafting.\nButton label: Click to enlarge image of Photo of a person white-water rafting.\nEnglish caption: Figure 2.2 For some, preparing for an entrepreneurial journey may seem like going on a river-rafting adventure that combines beautiful scenery with some exciting, but perhaps frightening, challenges. (credit: “Hands Up” by Jeramey Jannene/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: jeramey, jannene, flickr. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Ps BRE SET sm. : BR rt 2 Ex",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 130,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "SE rea Se SR rr EI al a Bhai",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 304,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "“ig b= > ey es pat « we Io, ? < SHES PETER ES a Nell a 2",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 478,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "cE RR EIR Re VRE ee ECR, PS a EP Te ll Sie LG Ne rH ASW SEE",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 652,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ro PR Rt SERN se CT EL EG Set",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 826,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ean Sia 2 Eo BL TN Palade Se",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 1000,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "a RIG FR er eR SET a Ca eR",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 1174,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "io 2 el EE ei Rg en,",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 1348,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Pong 5% {Re Had Ee g 7 Bis ae Pi",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 1522,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "pi Cas ER Er aC md",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 1696,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "ai SA SRT = TON ii = SNTRE AE",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 1870,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "BRIE I pr Ey SN ake er Ch RC",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 2044,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "0.5% WH Ed ws Tow [5 GE Pe =",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 2218,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "= oe 3 Reo ni TRS EDR. 3: = SR",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 2392,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Pra et EY. 5 Ea AB rt Te",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 2566,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Es Rs aC Les",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 2740,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "5X pt : 33 So fo xX . i es 5 0 Pex:",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 2914,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Lad i CR Re a RI RA an 8",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3088,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "Hinh 2.2 D6i véi mot sé ngudi, viéc chuan bi cho hanh trinh khéi nghiép c6 thé",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3262,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "giéng nhu tham gia mét cudc phiéu luvu chéo thuyén vuot thac, két hop canh quan",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3436,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "tuyét dep vai nhirng théach thirc tha vi, nhung c6 1€ cling dang so.",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3610,
+          "w": 1158,
+          "h": 87
+        }
+      },
+      {
+        "text": "(nguén: “Gio Tay Lén” clia Gié-ra-may Gian-né/Anh trén Fi-lo, CC BY 2.0)",
+        "confidence": 35,
+        "bbox": {
+          "x": 145,
+          "y": 3784,
+          "w": 1158,
+          "h": 87
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

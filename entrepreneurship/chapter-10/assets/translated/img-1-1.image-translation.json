@@ -1,0 +1,278 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "E 3 iE 4 RE——",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 123,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "- \\ ; } NS Text",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 286,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "hg : _— =",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 449,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "P he",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 612,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "/ @ Snapshot",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 775,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "Su) Camera roll",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 938,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": ", 1-9 sowed",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 1101,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "; ‘ ry",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 1264,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "FJ ™ LA \\ :",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 1427,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "(S) Voice",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 1590,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "w 2 » __\\ = ror",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 1753,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "& 7 NN m—",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 1916,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "= Vem —",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 2079,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "\\ ~ | New Note Not vor",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 2242,
+        "w": 2040,
+        "h": 82
+      }
+    },
+    {
+      "text": "“wt",
+      "confidence": 45,
+      "bbox": {
+        "x": 255,
+        "y": 2405,
+        "w": 2040,
+        "h": 82
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Photo of two men talking (left); on the right is a screenshot of an app with the words New Note at the top, with options for text, snapshot, camera roll, and voice.\nButton label: Click to enlarge image of Photo of two men talking (left); on the right is a screenshot of an app with the words New Note at the top, with options for text, snapshot, camera roll, and voice.\nEnglish caption: Figure 1.1 Phil Libin, former CEO of Evernote, discusses his product. Evernote is an app that allows users to create notes in a variety of formats and save and share them across platforms. (credit (a): modification of “Phil Libin and Loic Le Meur - LeWeb Day 1 - Dan Taylor/Heisenberg Media” by Heisenberg Media/Flickr, CC BY 2.0; credit (b): modification of “screenshot of the old Evernote iPhone app” by Jason Jones/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.9637610186092067,
+    "averageConfidence": 45,
+    "entropy": 7.01634752483551,
+    "sharpness": 0.9279532581342655
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of two men talking (left); on the right is a screenshot of an app with the words New Note at the top, with options for text, snapshot, camera roll, and voice.\nButton label: Click to enlarge image of Photo of two men talking (left); on the right is a screenshot of an app with the words New Note at the top, with options for text, snapshot, camera roll, and voice.\nEnglish caption: Figure 1.1 Phil Libin, former CEO of Evernote, discusses his product. Evernote is an app that allows users to create notes in a variety of formats and save and share them across platforms. (credit (a): modification of “Phil Libin and Loic Le Meur - LeWeb Day 1 - Dan Taylor/Heisenberg Media” by Heisenberg Media/Flickr, CC BY 2.0; credit (b): modification of “screenshot of the old Evernote iPhone app” by Jason Jones/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "oo \\ 4 - Ss Van ban",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 95,
+          "w": 1585,
+          "h": 63
+        }
+      },
+      {
+        "text": "Ea - re - ! —",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 222,
+          "w": 1585,
+          "h": 63
+        }
+      },
+      {
+        "text": "a Anh chup",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 349,
+          "w": 1585,
+          "h": 63
+        }
+      },
+      {
+        "text": "Ea Anh trong may",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 476,
+          "w": 1585,
+          "h": 63
+        }
+      },
+      {
+        "text": "a Gl LY",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 603,
+          "w": 1585,
+          "h": 63
+        }
+      },
+      {
+        "text": "PE” a a",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 730,
+          "w": 1585,
+          "h": 63
+        }
+      },
+      {
+        "text": "( Giong noi",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 857,
+          "w": 1585,
+          "h": 63
+        }
+      },
+      {
+        "text": "= x — ‘ ¢ [rare",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 984,
+          "w": 1585,
+          "h": 63
+        }
+      },
+      {
+        "text": "- ~ Ghi cha méi Ghi cha Yéu thich Pong bd",
+        "confidence": 55,
+        "bbox": {
+          "x": 198,
+          "y": 1111,
+          "w": 1585,
+          "h": 63
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

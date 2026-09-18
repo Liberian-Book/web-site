@@ -1,0 +1,140 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><div class="os-figure has-splash" id="fs-idp163541072"><figure data-id="fs-idp163541072" class="splash ui-has-child-figcaption"><span data-type="media" id="fs-idp141532880" data-alt="This photo shows branch lightening coming from a dark cloud and hitting the ground.">
+<button type="button" aria-label="Click to enlarge image of This photo shows branch lightening coming from a dark cloud and hitting the ground." class="image-button-wrapper"><img src="assets/img-4-1.webp" data-media-type="image/jpg" alt="This photo shows branch lightening coming from a dark cloud and hitting the ground." width="1401" height="651" loading="lazy"></button>
+</span>
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">4.1</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">You can use probability and discrete random variables to calculate the likelihood of lightning striking the ground five times during a half-hour thunderstorm. (credit: modification of work “CG lightning strike” by Axel Rouvin/ Flickr, CC BY 2.0)</span><span class="os-caption vn visible">Bạn có thể sử dụng xác suất và biến ngẫu nhiên rời rạc để tính toán khả năng sét đánh xuống đất năm lần trong một cơn giông kéo dài nửa giờ. (nguồn: sửa đổi từ tác phẩm “CG lightning strike” của Axel Rouvin/ Flickr, CC BY 2.0)</span>
+</figcaption></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+  <div class="intro-body">
+  <div data-type="note" data-has-label="true" id="fs-idp120416736" class="chapter-objectives ui-has-child-title" data-label=""><header><h2 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p id="element-959" class="eng hidden">By the end of this chapter, the student should be able to:</p><p id="element-959-vn" class="vn visible">Cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="list14235"><li class="eng hidden">Recognize and understand discrete probability distribution functions, in general.</li><li class="vn visible">Nhận biết và hiểu các hàm phân phối xác suất rời rạc, nói chung.</li>
+<li class="eng hidden">Calculate and interpret expected values.</li><li class="vn visible">Tính toán và diễn giải các Giá trị kỳ vọng.</li>
+<li class="eng hidden">Recognize the binomial probability distribution and apply it appropriately.</li><li class="vn visible">Nhận biết Phân phối Xác suất Nhị thức và áp dụng nó một cách thích hợp.</li>
+<li class="eng hidden">Recognize the Poisson probability distribution and apply it appropriately.</li><li class="vn visible">Nhận biết Phân phối Xác suất Poisson và áp dụng nó một cách thích hợp.</li>
+<li class="eng hidden">Recognize the geometric probability distribution and apply it appropriately.</li><li class="vn visible">Nhận biết phân phối xác suất hình học và áp dụng nó một cách thích hợp.</li>
+<li class="eng hidden">Recognize the hypergeometric probability distribution and apply it appropriately.</li><li class="vn visible">Nhận biết xác suất siêu bội và áp dụng nó một cách thích hợp.</li>
+<li class="eng hidden">Classify discrete word problems by their distributions.</li><li class="vn visible">Phân loại các bài toán rời rạc theo phân phối của chúng.</li>
+</ul>
+</div></section></div>
+  <div class="intro-text">
+    <h2 data-type="document-title" id="page_0b777791-2ace-41f1-bf62-3e8aa7a267bb_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span data-type="" itemprop="" class="os-text">Introduction</span>
+</h2><h2 data-type="document-title" id="page_0b777791-2ace-41f1-bf62-3e8aa7a267bb_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible">Giới thiệu</h2>
+    <p id="introch04" class="eng hidden">A student takes a ten-question, true-false quiz. Because the student had such a busy schedule, they could not study and guesses randomly at each answer. What is the probability of the student passing the test with at least a 70%?</p><p id="introch04-vn" class="vn visible">Một sinh viên làm bài kiểm tra 10 câu hỏi trắc nghiệm đúng/sai. Vì lịch trình bận rộn, sinh viên không thể học và đoán ngẫu nhiên cho mỗi câu trả lời. Xác suất để sinh viên đạt ít nhất 70% là bao nhiêu?</p><p id="element-804" class="eng hidden">The manager of an auto dealership might be interested in the color preferences for new car buyers. Suppose on average the dealership sells 20 cars per month. What is the probability that a customer prefers red cars?</p><p id="element-804-vn" class="vn visible">Người quản lý một đại lý ô tô có thể quan tâm đến sở thích màu sắc của người mua xe mới. Giả sử trung bình đại lý bán được 20 xe mỗi tháng. Xác suất để một khách hàng ưa chuộng xe màu đỏ là bao nhiêu?</p><p id="element-919" class="eng hidden">These two examples illustrate two different types of probability problems involving discrete random variables. Recall that discrete data are data that you can count. A <span data-type="term" id="term-00001" group-by="r">random variable</span> describes the outcomes of a statistical experiment in words. The values of a random variable can vary with each repetition of an experiment.</p><p id="element-919-vn" class="vn visible">Hai ví dụ này minh họa hai loại bài toán xác suất khác nhau liên quan đến biến ngẫu nhiên rời rạc. Nhắc lại rằng dữ liệu rời rạc là dữ liệu có thể đếm được. Một <span data-type="term" id="term-00001" group-by="r">biến ngẫu nhiên</span> mô tả các kết quả của một thí nghiệm thống kê bằng lời. Giá trị của một biến ngẫu nhiên có thể thay đổi với mỗi lần lặp lại một thí nghiệm.</p><section data-depth="1" id="randvarnot"><h3 data-type="title" class="eng hidden">Random Variable Notation</h3><h3 data-type="title" class="vn visible">Ký hiệu biến ngẫu nhiên</h3>
+<p id="element-197" class="eng hidden">Upper case letters such as <em data-effect="italics">X</em> or <em data-effect="italics">Y</em> denote a random variable. Lower case letters like <em data-effect="italics">x</em> or <em data-effect="italics">y</em> denote the value of a random variable. If  <strong><em data-effect="italics">X</em> is a random variable, then <em data-effect="italics">X</em> is written in words, and <em data-effect="italics">x</em> is given as a number.</strong></p><p id="element-197-vn" class="vn visible">Các chữ cái in hoa như <em data-effect="italics">X</em> hoặc <em data-effect="italics">Y</em> ký hiệu một biến ngẫu nhiên. Các chữ cái thường như <em data-effect="italics">x</em> hoặc <em data-effect="italics">y</em> ký hiệu giá trị của một biến ngẫu nhiên. Nếu <strong><em data-effect="italics">X</em> là một biến ngẫu nhiên, thì <em data-effect="italics">X</em> được viết bằng lời, và <em data-effect="italics">x</em> được biểu thị bằng một số.</strong></p>
+
+<p id="element-109" class="eng hidden">For example, let <em data-effect="italics">X</em> = the number of heads you get when you toss three fair coins. The sample space for the toss of three fair coins is <em data-effect="italics">TTT</em>; <em data-effect="italics">THH</em>; <em data-effect="italics">HTH</em>; <em data-effect="italics">HHT</em>; <em data-effect="italics">HTT</em>; <em data-effect="italics">THT</em>; <em data-effect="italics">TTH</em>; <em data-effect="italics">HHH</em>. Then, <em data-effect="italics">x</em> = 0, 1, 2, 3. <em data-effect="italics">X</em> is in words and <em data-effect="italics">x</em> is a number. Notice that for this example, the <em data-effect="italics">x</em> values are countable outcomes. Because you can count the possible values that <em data-effect="italics">X</em> can take on and the outcomes are random (the <em data-effect="italics">x</em> values 0, 1, 2, 3), <em data-effect="italics">X</em> is a discrete random variable.</p><p id="element-109-vn" class="vn visible">Ví dụ, hãy để <em data-effect="italics">X</em> = số mặt ngửa bạn nhận được khi tung ba đồng xu công bằng. Không gian mẫu cho việc tung ba đồng xu công bằng là <em data-effect="italics">TTT</em>; <em data-effect="italics">THH</em>; <em data-effect="italics">HTH</em>; <em data-effect="italics">HHT</em>; <em data-effect="italics">HTT</em>; <em data-effect="italics">THT</em>; <em data-effect="italics">TTH</em>; <em data-effect="italics">HHH</em>. Khi đó, <em data-effect="italics">x</em> = 0, 1, 2, 3. <em data-effect="italics">X</em> được biểu thị bằng lời và <em data-effect="italics">x</em> là một số. Lưu ý rằng đối với ví dụ này, các giá trị <em data-effect="italics">x</em> là các kết quả có thể đếm được. Bởi vì bạn có thể đếm các giá trị có thể có mà <em data-effect="italics">X</em> có thể nhận và các kết quả là ngẫu nhiên (các giá trị <em data-effect="italics">x</em> 0, 1, 2, 3), <em data-effect="italics">X</em> là một biến ngẫu nhiên rời rạc.</p></section><div data-type="note" data-has-label="true" id="fs-idp37582368" class="statistics collab ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Collaborative Exercise</span>
+</h3><h3 class="os-title vn visible" data-type="title">Bài tập hợp tác</h3></header><section>
+<div class="os-note-body">
+ 
+<p id="element-607" class="eng hidden">Toss a coin ten times and record the number of heads. After all members of the class have completed the experiment (tossed a coin ten times and counted the number of heads), fill in <a href="4-introduction#M01_Ch04_tbl001" class="autogenerated-content" aria-label="View Table 4.1">Table 4.1</a>. Let <em data-effect="italics">X</em> = the number of heads in ten tosses of the coin.</p><p id="element-607-vn" class="vn visible">Tung một đồng xu mười lần và ghi lại số mặt ngửa. Sau khi tất cả các thành viên trong lớp hoàn thành thí nghiệm (tung đồng xu mười lần và đếm số mặt ngửa), hãy điền vào <a href="4-introduction#M01_Ch04_tbl001" class="autogenerated-content" aria-label="View Table 4.1">Bảng 4.1</a>. Đặt <em data-effect="italics">X</em> = số mặt ngửa trong mười lần tung đồng xu.</p>
+
+<div class="os-table" id="M01_Ch04_tbl001"><table data-id="M01_Ch04_tbl001" data-summary="Table showing x, frequency of x and relative frequency of x. x = the number of heads in 10 tosses of a fair coin."><thead>
+  <tr>
+    <th scope="col" class="eng hidden"><strong><em data-effect="italics">x</em></strong></th><th scope="col" class="vn visible"><strong><em data-effect="italics">x</em></strong></th>
+    <th scope="col" class="eng hidden"><strong>Frequency of <em data-effect="italics">x</em></strong></th><th scope="col" class="vn visible">Tần số của <em data-effect="italics">x</em></th>
+    <th scope="col" class="eng hidden"><strong>Relative Frequency of <em data-effect="italics">x</em></strong></th><th scope="col" class="vn visible"><strong>Tần suất tương đối của <em data-effect="italics">x</em></strong></th>
+  </tr>
+</thead><tbody>
+  <tr>
+    <td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+  </td><td class="vn visible">
+  </td></tr>
+  <tr>
+    <td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+  </td><td class="vn visible">
+  </td></tr>
+  <tr>
+    <td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+  </td><td class="vn visible">
+  </td></tr>
+  <tr>
+    <td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+  </td><td class="vn visible">
+  </td></tr>
+  <tr>
+    <td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+  </td><td class="vn visible">
+  </td></tr>
+  <tr>
+    <td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+    </td><td class="vn visible">
+    </td><td class="eng hidden">
+  </td><td class="vn visible">
+  </td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">4.1</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible"><span class="os-title-label">Bảng </span>
+  <span class="os-number">4.1</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span></div>
+</div><ol id="element-388" type="a"><li class="eng hidden">Which value(s) of <em data-effect="italics">x</em> occurred most frequently?</li><li class="vn visible">Giá trị nào của <em data-effect="italics">x</em> xuất hiện thường xuyên nhất?</li>
+<li class="eng hidden">If you tossed the coin 1,000 times, what values could <em data-effect="italics">x</em> take on? Which value(s) of <em data-effect="italics">x</em> do you think would occur most frequently?</li><li class="vn visible">Nếu bạn tung đồng xu 1.000 lần, <em data-effect="italics">x</em> có thể nhận các giá trị nào? Bạn nghĩ giá trị nào của <em data-effect="italics">x</em> sẽ xuất hiện thường xuyên nhất?</li>
+<li class="eng hidden">What does the relative frequency column sum to?</li><li class="vn visible">Cột tần suất tương đối có tổng bằng bao nhiêu?</li>
+</ol></div></section></div>
+  </div>
+</div>
+</body></html>

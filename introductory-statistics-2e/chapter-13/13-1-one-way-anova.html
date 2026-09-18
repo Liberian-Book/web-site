@@ -1,0 +1,59 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><h2 data-type="document-title" id="page_98e8e22b-e3f2-4c29-af16-22ad2d87398d_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">13.1</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">One-Way ANOVA</span>
+</h2><h2 data-type="document-title" id="page_98e8e22b-e3f2-4c29-af16-22ad2d87398d_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">13.1</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">ANOVA một yếu tố</span></h2>
+
+<p id="fs-idm10364336" class="eng hidden">The purpose of a one-way ANOVA test is to determine the existence of a statistically significant difference among several group means. The test actually uses <span data-type="term" id="term-00001" group-by="v">variances</span> to help determine if the means are equal or not. In order to perform a one-way ANOVA test, there are five basic <strong>assumptions</strong> to be fulfilled:</p><p id="fs-idm10364336-vn" class="vn visible">Mục đích của kiểm định ANOVA một yếu tố là xác định sự tồn tại của sự khác biệt có ý nghĩa thống kê giữa trung bình của nhiều nhóm. Kiểm định này thực chất sử dụng <span data-type="term" id="term-00001" group-by="v">phương sai</span> để giúp xác định xem các trung bình có bằng nhau hay không. Để thực hiện kiểm định ANOVA một yếu tố, có năm <strong class="os-text">giả định</strong> cơ bản cần được đáp ứng:</p>
+
+<ol id="list-786879">
+<li class="eng hidden">Each population from which a sample is taken is assumed to be normal.</li><li class="vn visible">Mỗi quần thể mà từ đó một mẫu được lấy ra được giả định là tuân theo phân phối chuẩn.</li>
+<li class="eng hidden">All samples are randomly selected and independent.</li><li class="vn visible">Tất cả các mẫu được chọn ngẫu nhiên và độc lập.</li>
+<li class="eng hidden"> The populations are assumed to have <span data-type="term" id="term-00002" group-by="e">equal standard deviations</span> <strong>(or variances)</strong>.</li><li class="vn visible">Các quần thể được giả định có <span data-type="term" id="term-00002" group-by="e">độ lệch chuẩn bằng nhau (hoặc phương sai bằng nhau).</span></li>
+<li class="eng hidden">The factor is a categorical variable.</li><li class="vn visible">Yếu tố là một biến định tính.</li>
+<li class="eng hidden">The response is a numerical variable.</li><li class="vn visible">Biến đáp ứng là một biến định lượng.</li>
+</ol>
+
+<section data-depth="1" id="fs-idm3483088"><h3 data-type="title" class="eng hidden">The Null and Alternative Hypotheses</h3><h3 data-type="title" class="vn visible">Giả thuyết không và Giả thuyết đối</h3>
+<p id="me2" class="eng hidden">The null hypothesis is simply that all the group population means are the same. The alternative hypothesis is that at least one pair of means is different. For example, if there are <em data-effect="italics">k</em> groups:</p><p id="me2-vn" class="vn visible">Giả thuyết không chỉ đơn giản là tất cả các trung bình quần thể của các nhóm là như nhau. Giả thuyết đối là có ít nhất một cặp trung bình khác nhau. Ví dụ, nếu có <em data-effect="italics">k</em> nhóm:</p>
+<p id="element-671" class="eng hidden"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ</em><sub>1</sub> = <em data-effect="italics">μ</em><sub>2</sub> = <em data-effect="italics">μ</em><sub>3</sub> = ... = <em data-effect="italics">μ<sub>k</sub></em></p><p id="element-671-vn" class="vn visible"><em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ</em><sub>1</sub> = <em data-effect="italics">μ</em><sub>2</sub> = <em data-effect="italics">μ</em><sub>3</sub> = ... = <em data-effect="italics">μ<sub>k</sub></em></p>
+<p id="element-952" class="eng hidden"><em data-effect="italics">H<sub>a</sub></em>: At least two of the group means <em data-effect="italics">μ</em><sub>1</sub>, <em data-effect="italics">μ</em><sub>2</sub>, <em data-effect="italics">μ</em><sub>3</sub>, ..., <em data-effect="italics">μ<sub>k</sub></em> are not equal. That is, <em data-effect="italics">μ<sub>i</sub></em> ≠ <em data-effect="italics">μ<sub>j</sub></em> for some <em data-effect="italics">i</em> ≠ <em data-effect="italics">j</em>. </p><p id="element-952-vn" class="vn visible"><em data-effect="italics">H<sub>a</sub></em>: Ít nhất hai trong số các trung bình nhóm <em data-effect="italics">μ</em><sub>1</sub>, <em data-effect="italics">μ</em><sub>2</sub>, <em data-effect="italics">μ</em><sub>3</sub>, ..., <em data-effect="italics">μ<sub>k</sub></em> không bằng nhau. Nghĩa là, <em data-effect="italics">μ<sub>i</sub></em> ≠ <em data-effect="italics">μ<sub>j</sub></em> với một số <em data-effect="italics">i</em> ≠ <em data-effect="italics">j</em>.</p><p id="eip-969" class="eng hidden">The graphs, a set of box plots representing the distribution of values with the group means indicated by a horizontal line through the box, help in the understanding of the hypothesis test. In the first graph (blue box plots), <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ<sub>1</sub></em> = <em data-effect="italics">μ<sub>2</sub></em> = <em data-effect="italics">μ<sub>3</sub></em> and the three populations have the same distribution if the null hypothesis is true.  The variance of the combined data is approximately the same as the variance of each of the populations.</p><p id="eip-969-vn" class="vn visible">Các đồ thị, một tập hợp các Biểu đồ hộp đại diện cho sự phân bố của các giá trị với các trung bình nhóm được chỉ ra bởi một đường ngang qua hộp, giúp hiểu về hypothesis test. Trong đồ thị đầu tiên (các Biểu đồ hộp màu xanh lam), <em data-effect="italics">H<sub>0</sub></em>: <em data-effect="italics">μ<sub>1</sub></em> = <em data-effect="italics">μ</em><sub>2</sub> = <em data-effect="italics">μ</em><sub>3</sub> và ba Quần thể có cùng sự phân bố nếu giả thuyết không là đúng. Phương sai của Dữ liệu kết hợp xấp xỉ bằng Phương sai của từng Quần thể.</p>
+<p id="fs-idp14626496" class="eng hidden">If the null hypothesis is false, then the variance of the combined data is larger which is caused by the different means as shown in the second graph (green box plots).</p><p id="fs-idp14626496-vn" class="vn visible">Nếu giả thuyết không là sai, thì Phương sai của Dữ liệu kết hợp lớn hơn, điều này gây ra bởi các trung bình khác nhau như được chỉ ra trong đồ thị thứ hai (các Biểu đồ hộp màu xanh lục).</p>
+
+<div class="os-figure" id="fs-idp110803872"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idp110803872"><span data-type="media" id="eip-idp18347248" data-alt="The first illustration shows three vertical boxplots with equal means. The second illustration shows three vertical boxplots with unequal means.">
+<button type="button" aria-label="Click to enlarge image of The first illustration shows three vertical boxplots with equal means. The second illustration shows three vertical boxplots with unequal means." class="image-button-wrapper"><img src="assets/img-13-1-1.webp" data-media-type="image/png" alt="The first illustration shows three vertical boxplots with equal means. The second illustration shows three vertical boxplots with unequal means." width="506" height="755" loading="lazy"></button>
+</span>
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">13.2</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">(a) <em data-effect="italics">H<sub>0</sub></em> is true. All means are the same; the differences are due to random variation. (b) <em data-effect="italics">H<sub>0</sub></em> is not true. The means are not all the same; the differences are too large to be due to random variation.</span><span class="os-caption vn visible">(a) <em data-effect="italics">H<sub>0</sub></em> là đúng. Tất cả các trung bình đều giống nhau; sự khác biệt là do sự biến thiên ngẫu nhiên. (b) <em data-effect="italics">H<sub>0</sub></em> không đúng. Các trung bình không hoàn toàn giống nhau; sự khác biệt quá lớn để có thể do sự biến thiên ngẫu nhiên.</span>
+</figcaption></figure></div></section>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+  </body></html>

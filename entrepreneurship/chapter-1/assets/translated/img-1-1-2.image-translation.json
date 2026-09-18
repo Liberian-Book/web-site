@@ -1,0 +1,418 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-1-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-1-entrepreneurship-today.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-1-2.vi.png",
+  "ocr": [
+    {
+      "text": "\" pp",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 58,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "\"4 NL ~ HYDRATING",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 136,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "| 3 i's JCC CEI OIL",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 214,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "| exfoliating = Ith Passion Fruit Oil",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 292,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "| 5 BEE. .",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 370,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "| LIP BUTTER LIP BUTTER LIPBUTTER Son",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 448,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "= | S with responsibly sourced but CES I er Ts ith responsibly sourced biter Dk",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 526,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "NON Inc",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 604,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "5S i 2% [OC mera AN -",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 682,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "} SSPE ’ “i CS Uy 5 — wep",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 760,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "REY ; xX S737 v 3a >",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 838,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "Tu a / wX, | A500 y3menss",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 916,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "ale | | ao,",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 994,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "Hol | ol NL pray",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 1072,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "Ww IEE Xe “op 4 Ce",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 1150,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "FoR So Nr",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 1228,
+        "w": 961,
+        "h": 39
+      }
+    },
+    {
+      "text": "Se Nn STAT Srna © &",
+      "confidence": 38,
+      "bbox": {
+        "x": 120,
+        "y": 1306,
+        "w": 961,
+        "h": 39
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Photo of Burt’s Bees products, including lip butter, exfoliating clay mask, and lip oil.\nButton label: Click to enlarge image of Photo of Burt’s Bees products, including lip butter, exfoliating clay mask, and lip oil.\nEnglish caption: Figure 1.3 The Burt’s Bees product line grew from an idea for a lifestyle entrepreneurial venture into a major company. (credit: “Burt’s Bees” by Carol Bleistine/Flickr, CC BY 4.0)",
+  "metrics": {
+    "textDensity": 1.0915852016323846,
+    "averageConfidence": 38,
+    "entropy": 7.424669132775307,
+    "sharpness": 5.1899646125541485
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of Burt’s Bees products, including lip butter, exfoliating clay mask, and lip oil.\nButton label: Click to enlarge image of Photo of Burt’s Bees products, including lip butter, exfoliating clay mask, and lip oil.\nEnglish caption: Figure 1.3 The Burt’s Bees product line grew from an idea for a lifestyle entrepreneurial venture into a major company. (credit: “Burt’s Bees” by Carol Bleistine/Flickr, CC BY 4.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "* \\ MAE (A Co. IS",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 96,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "fhe peo : DAUDUGNG",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 224,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "i olin. hen ¥ ( ( MOI",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 352,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "mat na dat set = = = v6i Dau Chanh Day",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 480,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "| tdy t€ bao chét",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 608,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "Gi Chie xuit Rs bot",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 736,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "| Man Kakadu > = \" - - LN a",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 864,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "ol BG DUGNG MOI BG DUGNG MOI BG DUGNG MOI Se",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 992,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "| dogtoliouonicojtiachinhiém duc tao ngusn cé trach nhigm dudc tao nguén cé tréch nhiém oy",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 1120,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "p————— 4 by",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 1248,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "TES NE dT",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 1376,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "/ pps {0 Bui 6",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 1504,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": ". SRS ry I) Thay on co",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 1632,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "La Cay (4 ry, ag Bead oKg",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 1760,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "“ ph 7 PY 3 / le",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 1888,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "mdt na st How 2 Le) J \\ Zoi Hoa, a",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 2016,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "tay t€ bao chét Wnt OE | Nt, Pg | 04d hudong",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 2144,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "HN une ts ” . &MAT ONG",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 2272,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "/ 83% wo % 128 \\ $F £7 Po \\ 3 b...",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 2400,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "/ < (Ye \\ « <i ne AE",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 2528,
+          "w": 1578,
+          "h": 64
+        }
+      },
+      {
+        "text": "J et st N ph <- IN SHIq S NAT 2",
+        "confidence": 45,
+        "bbox": {
+          "x": 197,
+          "y": 2656,
+          "w": 1578,
+          "h": 64
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

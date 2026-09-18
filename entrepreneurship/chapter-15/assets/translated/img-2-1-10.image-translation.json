@@ -1,0 +1,269 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1-10.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-1-overview-of-the-entrepreneurial-journey.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-1-10.vi.png",
+  "ocr": [
+    {
+      "text": "Navigation 7 -",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 59,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "J L) : Potential Obstacles",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 137,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "| = + Limited outlook for the",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 215,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "S NN 2 appropriate strategies,",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 293,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "goals, or opportunities",
+      "confidence": 66,
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 39
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Navigation 7 -",
+      "normalizedSource": "Navigation 7 -",
+      "target": "Điều hướng 7 -",
+      "bbox": {
+        "x": 130,
+        "y": 59,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "J L) : Potential Obstacles",
+      "normalizedSource": "J L) : Potential Obstacles",
+      "target": "J L) : Các trở ngại tiềm năng",
+      "bbox": {
+        "x": 130,
+        "y": 137,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "| = + Limited outlook for the",
+      "normalizedSource": "| = + Limited outlook for the",
+      "target": "| = + Triển vọng hạn chế cho",
+      "bbox": {
+        "x": 130,
+        "y": 215,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "S NN 2 appropriate strategies,",
+      "normalizedSource": "S NN 2 appropriate strategies,",
+      "target": "các chiến lược thích hợp,",
+      "bbox": {
+        "x": 130,
+        "y": 293,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "goals, or opportunities",
+      "normalizedSource": "goals, or opportunities",
+      "target": "mục tiêu, hoặc cơ hội",
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: During Navigation, you should ask the following questions: How should I prepare for or deal with any potential obstacles or challenges, such as having no money or no solid business idea? What are some alternative routes to achieve my goals or dreams? Potential Obstacles include Limited outlook for the appropriate strategies, goals, or opportunities.\nButton label: Click to enlarge image of During Navigation, you should ask the following questions: How should I prepare for or deal with any potential obstacles or challenges, such as having no money or no solid business idea? What are some alternative routes to achieve my goals or dreams? Potential Obstacles include Limited outlook for the appropriate strategies, goals, or opportunities.\nEnglish caption: Figure 2.11 Navigation involves being prepared for and making changes when faced with obstacles. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3183673469387755,
+    "averageConfidence": 66,
+    "entropy": 3.84974146238892,
+    "sharpness": 4.542882510081828
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: During Navigation, you should ask the following questions: How should I prepare for or deal with any potential obstacles or challenges, such as having no money or no solid business idea? What are some alternative routes to achieve my goals or dreams? Potential Obstacles include Limited outlook for the appropriate strategies, goals, or opportunities.\nButton label: Click to enlarge image of During Navigation, you should ask the following questions: How should I prepare for or deal with any potential obstacles or challenges, such as having no money or no solid business idea? What are some alternative routes to achieve my goals or dreams? Potential Obstacles include Limited outlook for the appropriate strategies, goals, or opportunities.\nEnglish caption: Figure 2.11 Navigation involves being prepared for and making changes when faced with obstacles. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Navigation 7 - => Điều hướng 7 -\n- J L) : Potential Obstacles => J L) : Các trở ngại tiềm năng\n- | = + Limited outlook for the => | = + Triển vọng hạn chế cho\n- S NN 2 appropriate strategies, => các chiến lược thích hợp,\n- goals, or opportunities => mục tiêu, hoặc cơ hội\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "biéu hudng m1 =",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 92,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "NZ",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 215,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "ee Cau héi suy ngam",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 338,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "XN = LEN + T6i nén chuan bi ho&c déi pho",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 461,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "AN SN : nhu thé nao vai bat ky tré ngai",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 584,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "Xu Shen hodc thach thir tiem an nao,",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 707,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "Xu = Es chang han nhu khéng cé tién",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 830,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "A hodc khéng co y tudng kinh",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 953,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "doanh virng chac?",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 1076,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "+ C6 nhirng con dudng thay thé",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 1199,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "nao dé dat duoc muc tiéu hoc",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 1322,
+          "w": 1634,
+          "h": 62
+        }
+      },
+      {
+        "text": "udc mao cua toi?",
+        "confidence": 68,
+        "bbox": {
+          "x": 204,
+          "y": 1445,
+          "w": 1634,
+          "h": 62
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

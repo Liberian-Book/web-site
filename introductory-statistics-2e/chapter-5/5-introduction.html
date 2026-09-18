@@ -1,0 +1,103 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><div class="os-figure has-splash" id="fs-idp107728704"><figure data-id="fs-idp107728704" class="splash ui-has-child-figcaption"><span data-type="media" id="fs-idp88279424" data-alt="The image shows radish plants of various heights sprouting out of dirt.">
+<button type="button" aria-label="Click to enlarge image of The image shows radish plants of various heights sprouting out of dirt." class="image-button-wrapper"><img src="assets/img-5-1.webp" data-media-type="image/jpeg" alt="The image shows radish plants of various heights sprouting out of dirt." width="1401" height="651" loading="lazy"></button>
+</span>
+
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">5.1</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">The heights of these radish plants are continuous random variables. (credit: modification of work “Radish (Raphanus sativus): White rust caused by Albugo candida” by Scot Nelson/ Flickr, Public Domain)</span><span class="os-caption vn visible">Chiều cao của những cây củ cải này là các biến ngẫu nhiên liên tục. (nguồn: sửa đổi từ tác phẩm “Củ cải (Raphanus sativus): Bệnh gỉ trắng do Albugo candida” của Scot Nelson/ Flickr, Phạm vi công cộng)</span>
+</figcaption></figure></div>
+
+
+
+
+
+  
+  <div class="intro-body">
+  <div data-type="note" data-has-label="true" id="fs-idp13104688" class="chapter-objectives ui-has-child-title" data-label=""><header><h2 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu Chương</span></h2></header><section>
+<div class="os-note-body">
+<p id="element-103" class="eng hidden">By the end of this chapter, the student should be able to:</p><p id="element-103-vn" class="vn visible">Sau khi kết thúc chương này, học viên sẽ có thể:</p>
+<ul id="list1">
+<li class="eng hidden">Recognize and understand continuous probability density functions in general.</li><li class="vn visible">Nhận biết và hiểu được hàm mật độ xác suất liên tục nói chung.</li>
+<li class="eng hidden">Recognize the uniform probability distribution and apply it appropriately.</li><li class="vn visible">Nhận biết phân phối xác suất đều và áp dụng nó một cách phù hợp.</li>
+<li class="eng hidden">Recognize the exponential probability distribution and apply it appropriately.</li><li class="vn visible">Nhận biết phân phối xác suất mũ và áp dụng nó một cách phù hợp.</li>
+</ul>
+</div></section></div>
+  <div class="intro-text">
+    <h2 data-type="document-title" id="page_5b21fe4f-2515-4a5b-9935-f862434c88ed_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span data-type="" itemprop="" class="os-text">Introduction</span>
+</h2><h2 data-type="document-title" id="page_5b21fe4f-2515-4a5b-9935-f862434c88ed_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span data-type="" itemprop="" class="os-text">Giới thiệu</span></h2>
+    <p id="eip-idp101194160" class="eng hidden">Continuous random variables have many applications. Baseball batting averages, IQ scores, the length of time a long distance telephone call lasts, the amount of money a person carries, the length of time a computer chip lasts, and SAT scores are just a few. The field of reliability depends on a variety of continuous random variables.</p><p id="eip-idp101194160-vn" class="vn visible">Các biến ngẫu nhiên liên tục có nhiều ứng dụng. Trung bình đánh bóng trong bóng chày, điểm IQ, thời gian một cuộc gọi đường dài kéo dài, số tiền một người mang theo, thời gian một con chip máy tính tồn tại, và điểm SAT chỉ là một vài ví dụ. Lĩnh vực độ tin cậy phụ thuộc vào nhiều loại biến ngẫu nhiên liên tục.</p><div data-type="note" data-has-label="true" id="fs-idp89655056" data-label="" class="ui-has-child-title"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idm83037888" class="eng hidden">The values of discrete and continuous random variables can be ambiguous. For example, if <em data-effect="italics">X</em> is equal to the number of miles (to the nearest mile) you drive to work, then <em data-effect="italics">X</em> is a discrete random variable. You count the miles. If <em data-effect="italics">X</em> is the distance you drive to work, then you measure values of <em data-effect="italics">X</em> and <em data-effect="italics">X</em> is a continuous random variable. For a second example, if <em data-effect="italics">X</em> is equal to the number of books in a backpack, then <em data-effect="italics">X</em> is a discrete random variable. If <em data-effect="italics">X</em> is the weight of a book, then <em data-effect="italics">X</em> is a continuous random variable because weights are measured. How the random variable is defined is very important.</p><p id="fs-idm83037888-vn" class="vn visible">Các giá trị của biến ngẫu nhiên rời rạc và liên tục có thể gây nhầm lẫn. Ví dụ, nếu <em data-effect="italics">X</em> bằng số dặm (làm tròn đến dặm gần nhất) bạn lái xe đi làm, thì <em data-effect="italics">X</em> là một biến ngẫu nhiên rời rạc. Bạn đếm số dặm. Nếu <em data-effect="italics">X</em> là khoảng cách bạn lái xe đi làm, thì bạn đo các giá trị của <em data-effect="italics">X</em> và <em data-effect="italics">X</em> là một biến ngẫu nhiên liên tục. Ví dụ thứ hai, nếu <em data-effect="italics">X</em> bằng số sách trong một ba lô, thì <em data-effect="italics">X</em> là một biến ngẫu nhiên rời rạc. Nếu <em data-effect="italics">X</em> là trọng lượng của một cuốn sách, thì <em data-effect="italics">X</em> là một biến ngẫu nhiên liên tục vì trọng lượng được đo. Cách định nghĩa biến ngẫu nhiên rất quan trọng.</p>
+</div></section></div><section data-depth="1" id="eip-606"><h3 data-type="title" class="eng hidden">Properties of Continuous Probability Distributions</h3><h3 data-type="title" class="vn visible">Các tính chất của Phân phối Xác suất Liên tục</h3>
+<p id="eip-60" class="eng hidden">The graph of a continuous probability distribution is a curve. Probability is represented by area under the curve.</p><p id="eip-60-vn" class="vn visible">Đồ thị của một phân phối xác suất liên tục là một đường cong. Xác suất được biểu diễn bằng diện tích dưới đường cong.</p>
+<p id="eip-33" class="eng hidden">The curve is called the <span data-type="term" id="term-00001" group-by="p">probability density function</span> (abbreviated as <strong>pdf</strong>). We use the symbol <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) to represent the curve. <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) is the function that corresponds to the graph; we use the density function <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) to draw the graph of the probability distribution. </p><p id="eip-33-vn" class="vn visible">Đường cong được gọi là <span data-type="term" id="term-00001" group-by="p">hàm mật độ xác suất</span> (viết tắt là <strong>pdf</strong>). Chúng ta sử dụng ký hiệu <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) để biểu diễn đường cong. <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) là hàm số tương ứng với đồ thị; chúng ta dùng hàm mật độ <em data-effect="italics">f</em>(<em data-effect="italics">x</em>) để vẽ đồ thị của phân phối xác suất.</p><p id="eip-474" class="eng hidden"><strong>Area under the curve</strong> is given by a different function called the  <strong>cumulative distribution function </strong> (abbreviated as <strong>cdf</strong>). The cumulative distribution function is used to evaluate probability as area.</p><p id="eip-474-vn" class="vn visible"><strong>Diện tích dưới đường cong</strong> được cho bởi một hàm số khác gọi là <strong>hàm phân phối tích lũy</strong> (viết tắt là <strong>cdf</strong>). Hàm phân phối tích lũy được sử dụng để tính xác suất dưới dạng diện tích.</p>
+<ul id="eip-id1170587055152"><li class="eng hidden">The outcomes are measured, not counted.</li><li class="vn visible">Các kết quả được đo lường, không phải đếm.</li>
+<li class="eng hidden">The entire area under the curve and above the x-axis is equal to one.</li><li class="vn visible">Toàn bộ diện tích dưới đường cong và phía trên trục x bằng một.</li>
+<li class="eng hidden">Probability is found for intervals of <em data-effect="italics">x</em> values rather than for individual <em data-effect="italics">x</em> values.</li><li class="vn visible">Xác suất được tìm cho các khoảng giá trị của <em data-effect="italics">x</em> chứ không phải cho từng giá trị <em data-effect="italics">x</em> riêng lẻ.</li>
+<li class="eng hidden"><em data-effect="italics">P(c &lt; x &lt; d)</em> is the probability that the random variable <em data-effect="italics">X</em> is in the interval between the values <em data-effect="italics">c</em> and <em data-effect="italics">d</em>. <em data-effect="italics">P(c &lt; x &lt; d)</em> is the area under the curve, above the <em data-effect="italics">x</em>-axis, to the right of <em data-effect="italics">c</em> and the left of <em data-effect="italics">d</em>.</li><li class="vn visible"><em data-effect="italics">P(c &lt; x &lt; d)</em> là xác suất biến ngẫu nhiên <em data-effect="italics">X</em> nằm trong khoảng giữa các giá trị <em data-effect="italics">c</em> và <em data-effect="italics">d</em>. <em data-effect="italics">P(c &lt; x &lt; d)</em> là diện tích dưới đường cong, phía trên trục <em data-effect="italics">x</em>, bên phải <em data-effect="italics">c</em> và bên trái <em data-effect="italics">d</em>.</li>
+<li class="eng hidden"><em data-effect="italics">P(x = c) =</em> 0 The probability that <em data-effect="italics">x</em> takes on any single individual value is zero. The area below the curve, above the <em data-effect="italics">x</em>-axis, and between <em data-effect="italics">x</em> = <em data-effect="italics">c</em> and <em data-effect="italics">x</em> = <em data-effect="italics">c</em> has no width, and therefore no area (area = 0). Since the probability is equal to the area, the probability is also zero.</li><li class="vn visible"><em data-effect="italics">P(x = c) =</em> 0 Xác suất mà <em data-effect="italics">x</em> nhận một giá trị đơn lẻ bất kỳ bằng không. Diện tích dưới đường cong, phía trên trục <em data-effect="italics">x</em>, và giữa <em data-effect="italics">x</em> = <em data-effect="italics">c</em> và <em data-effect="italics">x</em> = <em data-effect="italics">c</em> không có chiều rộng, do đó không có diện tích (diện tích = 0). Vì xác suất bằng diện tích, nên xác suất cũng bằng không.</li>
+<li class="eng hidden"><em data-effect="italics">P(c &lt; x &lt; d)</em> is the same as <em data-effect="italics">P(c ≤ x ≤ d)</em> because probability is equal to area.</li><li class="vn visible"><em data-effect="italics">P(c &lt; x &lt; d)</em> giống như <em data-effect="italics">P(c ≤ x ≤ d)</em> vì xác suất bằng diện tích.</li>
+</ul>
+<p id="eip-423" class="eng hidden">We will find the area that represents probability by using geometry, formulas, technology, or probability tables.  In general, calculus is needed to find the area under the curve for many probability density functions.  When we use formulas to find the area in this textbook, the formulas were found by using the techniques of integral calculus.  However, because most students taking this course have not studied calculus, we will not be using calculus in this textbook.</p><p id="eip-423-vn" class="vn visible">Chúng ta sẽ tìm diện tích biểu thị xác suất bằng cách sử dụng hình học, công thức, công nghệ hoặc bảng xác suất. Nói chung, cần có phép tính tích phân để tìm diện tích dưới đường cong cho nhiều hàm mật độ xác suất. Khi chúng ta sử dụng công thức để tìm diện tích trong sách giáo khoa này, các công thức đó được tìm ra bằng cách sử dụng các kỹ thuật của giải tích tích phân. Tuy nhiên, vì hầu hết sinh viên tham gia khóa học này chưa học giải tích, chúng ta sẽ không sử dụng giải tích trong sách giáo khoa này.</p>
+<p id="eip-335" class="eng hidden">There are many continuous probability distributions. When using a continuous probability distribution to model probability, the distribution used is selected to model and fit the particular situation in the best way.</p><p id="eip-335-vn" class="vn visible">Có nhiều phân phối xác suất liên tục. Khi sử dụng một phân phối xác suất liên tục để mô hình hóa xác suất, phân phối được chọn sẽ được sử dụng để mô hình hóa và phù hợp nhất với tình huống cụ thể.</p>
+<p id="eip-94" class="eng hidden">In this chapter and the next, we will study the uniform distribution, the exponential distribution, and the normal distribution. The following graphs illustrate these distributions.</p><p id="eip-94-vn" class="vn visible">Trong chương này và chương tiếp theo, chúng ta sẽ nghiên cứu Phân phối Đồng nhất, Phân phối Mũ và phân phối chuẩn. Các đồ thị sau đây minh họa các phân phối này.</p><div class="os-figure" id="id4131243"><figure class="scaled-down ui-has-child-figcaption" data-id="id4131243">
+<span data-type="media" id="id1164320264037" data-alt="This graph shows a uniform distribution. The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 2 to x = 8.8. A region from x = 3 to x = 6 is shaded inside the rectangle. The shaded area represents P(3  x < 6).">
+<button type="button" aria-label="Click to enlarge image of This graph shows a uniform distribution. The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 2 to x = 8.8. A region from x = 3 to x = 6 is shaded inside the rectangle. The shaded area represents P(3  x < 6)." class="image-button-wrapper"><img src="assets/img-5-2.webp" data-media-type="image/png" alt="This graph shows a uniform distribution. The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 2 to x = 8.8. A region from x = 3 to x = 6 is shaded inside the rectangle. The shaded area represents P(3  x < 6)." width="981" height="515" loading="lazy"></button>
+</span>
+
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">5.2</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">The graph shows a Uniform Distribution with the area between <em data-effect="italics">x</em> = 3 and <em data-effect="italics">x</em> = 6 shaded to represent the probability that the value of the random variable <em data-effect="italics">X</em> is in the interval between three and six.</span><span class="os-caption vn visible">Đồ thị biểu diễn Phân phối Đồng nhất với vùng được tô giữa <em data-effect="italics">x</em> = 3 và <em data-effect="italics">x</em> = 6 để biểu thị xác suất giá trị của Biến ngẫu nhiên <em data-effect="italics">X</em> nằm trong Khoảng từ ba đến sáu.</span>
+</figcaption></figure></div><div class="os-figure" id="id3243513"><figure class="scaled-down ui-has-child-figcaption" data-id="id3243513"><span data-type="media" id="id1164323972015" data-alt="This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 < x < 4).">
+<button type="button" aria-label="Click to enlarge image of This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 < x < 4)." class="image-button-wrapper"><img src="assets/img-5-3.webp" data-media-type="image/png" alt="This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 < x < 4)." width="978" height="491" loading="lazy"></button>
+</span>
+
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">5.3</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">The graph shows an Exponential Distribution with the area between <em data-effect="italics">x</em> = 2 and <em data-effect="italics">x</em> = 4 shaded to represent the probability that the value of the random variable <em data-effect="italics">X</em> is in the interval between two and four.</span><span class="os-caption vn visible">Đồ thị biểu diễn Phân phối Mũ với vùng được tô giữa <em data-effect="italics">x</em> = 2 và <em data-effect="italics">x</em> = 4 để biểu thị xác suất giá trị của Biến ngẫu nhiên <em data-effect="italics">X</em> nằm trong Khoảng từ hai đến bốn.</span>
+</figcaption></figure></div><div class="os-figure" id="eip-id1164898429541"><figure class="scaled-down ui-has-child-figcaption" data-id="eip-id1164898429541">
+<span data-type="media" id="id1164323801239" data-alt="This is a normal distribution curve over a horizontal axis labeled from –3 to 3 in intervals of 1. The peak of the curve coincides with the point 0 on the horizontal axis. Vertical lines extend from 1 and 2 to the curve. The area between the lines is shaded. Text notes states “Shaded area represents probability P(1 < x < 2).”">
+<button type="button" aria-label="Click to enlarge image of This is a normal distribution curve over a horizontal axis labeled from –3 to 3 in intervals of 1. The peak of the curve coincides with the point 0 on the horizontal axis. Vertical lines extend from 1 and 2 to the curve. The area between the lines is shaded. Text notes states “Shaded area represents probability P(1 < x < 2).”" class="image-button-wrapper"><img src="assets/img-5-4.webp" data-media-type="image/png" alt="This is a normal distribution curve over a horizontal axis labeled from –3 to 3 in intervals of 1. The peak of the curve coincides with the point 0 on the horizontal axis. Vertical lines extend from 1 and 2 to the curve. The area between the lines is shaded. Text notes states “Shaded area represents probability P(1 < x < 2).”" width="983" height="317" loading="lazy"></button>
+</span>
+
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">5.4</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">The graph shows the Standard Normal Distribution with the area between <em data-effect="italics">x</em> = 1 and <em data-effect="italics">x</em> = 2 shaded to represent the probability that the value of the random variable <em data-effect="italics">X</em> is in the interval between one and two.</span><span class="os-caption vn visible">Đồ thị biểu diễn Phân phối chuẩn tắc với vùng được tô giữa <em data-effect="italics">x</em> = 1 và <em data-effect="italics">x</em> = 2 để biểu thị xác suất giá trị của Biến ngẫu nhiên <em data-effect="italics">X</em> nằm trong Khoảng từ một đến hai.</span>
+</figcaption></figure></div>
+</section>
+  </div>
+</div>
+</body></html>

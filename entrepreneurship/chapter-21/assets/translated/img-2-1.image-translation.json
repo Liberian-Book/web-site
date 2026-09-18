@@ -1,0 +1,258 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-introduction.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "2 4 ng | > iy ~i BONE I = EEN",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 86,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "LAS SSR eh",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 201,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Chae re TRA SAE",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 316,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "> 3 iF a = i «*N - 9 py",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 431,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "AA Mp a] A",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 546,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "Pra ty 2. vi 2 OE aN EN",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 661,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "ly 1 BN 4 I ‘& LA |",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 776,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "SRR SEATS",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 891,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "[7) V3 ~ md I “g S| »n \" Ee",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 1006,
+        "w": 1400,
+        "h": 57
+      }
+    },
+    {
+      "text": "= mm >» NN 2) TW [Vl a &",
+      "confidence": 30,
+      "bbox": {
+        "x": 175,
+        "y": 1121,
+        "w": 1400,
+        "h": 57
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Photo of graduates in caps and gowns.\nButton label: Click to enlarge image of Photo of graduates in caps and gowns.\nEnglish caption: Figure 2.1 College graduates face numerous choices and challenges when deciding which pathway will lead to career satisfaction and success. (credit: modification of “commencement graduation ceremony” by “Goodfreephotos_com”/Pixabay, CC0)",
+  "metrics": {
+    "textDensity": 0.6350974930362117,
+    "averageConfidence": 30,
+    "entropy": 7.13467219179438,
+    "sharpness": 1.9497168888684524
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of graduates in caps and gowns.\nButton label: Click to enlarge image of Photo of graduates in caps and gowns.\nEnglish caption: Figure 2.1 College graduates face numerous choices and challenges when deciding which pathway will lead to career satisfaction and success. (credit: modification of “commencement graduation ceremony” by “Goodfreephotos_com”/Pixabay, CC0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "ah =\" AY Pn, £ wi Wy. BRA oN",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 96,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "OQ | ~~ nN _- &",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 225,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "da oodlPen init EOES Soe",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 354,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "piss 1) dp ot Ama MEY NL",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 483,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "A Hy Br pi waa A *; wm, Samy",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 612,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "PEA TW — AR dn {TT 0% $x AQ",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 741,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "ons all Zh [14 = < 9 Js Ss Ta Wine 4 = \\ od",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 870,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "i PN) =p g CM",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 999,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "he - — OH J pe : 2 3 gc \" lg a)",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1128,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "= oT | LT y = Ny, : = =",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1257,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "I I SC — 2 i (| A qv Va Te",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1386,
+          "w": 1566,
+          "h": 64
+        }
+      },
+      {
+        "text": "tg SN ald NN Ny LL",
+        "confidence": 32,
+        "bbox": {
+          "x": 196,
+          "y": 1515,
+          "w": 1566,
+          "h": 64
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

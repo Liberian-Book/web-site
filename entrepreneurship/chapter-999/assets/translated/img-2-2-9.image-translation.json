@@ -1,0 +1,487 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-9.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Startup Launch Growth Harvest Rebirth",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 102,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "Pre-Launch « Small market | + Build market + Plan for + Redesign or",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 238,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "+ Discovery entry and scale future create new",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 374,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "+ Research * Manage, test, | to fit + Reap return venture",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 510,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "+ Define and monitor |+ Manage, test, on investment;",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 646,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "Opportunity progress and monitor 1]",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 782,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "progress s",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 918,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "\"Sm m— Pd",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 1054,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "Rs i 3 pera",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 1190,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "wn 42% Seal",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 1326,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "4] Re ~",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 1462,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "wv ad",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 1598,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "mr",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 1734,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "Resourcing",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 1870,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "+ Build support",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 2006,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "system, team,",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 2142,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "and plan",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 2278,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "+ Gather",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 2414,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "resources",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 2550,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "BE ee a aS",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 2686,
+        "w": 1042,
+        "h": 68
+      }
+    },
+    {
+      "text": "Time",
+      "confidence": 68,
+      "bbox": {
+        "x": 130,
+        "y": 2822,
+        "w": 1042,
+        "h": 68
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Startup Launch Growth Harvest Rebirth",
+      "normalizedSource": "Startup Launch Growth Harvest Rebirth",
+      "target": "Khởi nghiệp Ra mắt Tăng trưởng Thu hoạch Tái sinh",
+      "bbox": {
+        "x": 130,
+        "y": 102,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "Pre-Launch « Small market | + Build market + Plan for + Redesign or",
+      "normalizedSource": "Pre-Launch « Small market | + Build market + Plan for + Redesign or",
+      "target": "Trước khi ra mắt « Thị trường nhỏ | + Xây dựng thị trường + Kế hoạch cho + Thiết kế lại hoặc",
+      "bbox": {
+        "x": 130,
+        "y": 238,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Discovery entry and scale future create new",
+      "normalizedSource": "+ Discovery entry and scale future create new",
+      "target": "+ Khám phá đầu vào và quy mô tương lai tạo mới",
+      "bbox": {
+        "x": 130,
+        "y": 374,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Research * Manage, test, | to fit + Reap return venture",
+      "normalizedSource": "+ Research * Manage, test, | to fit + Reap return venture",
+      "target": "+ Nghiên cứu * Quản lý, thử nghiệm, | để phù hợp + Thu hồi lợi nhuận đầu tư",
+      "bbox": {
+        "x": 130,
+        "y": 510,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Define and monitor |+ Manage, test, on investment;",
+      "normalizedSource": "+ Define and monitor |+ Manage, test, on investment;",
+      "target": "+ Định nghĩa và theo dõi |+ Quản lý, thử nghiệm, trên đầu tư;",
+      "bbox": {
+        "x": 130,
+        "y": 646,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "Opportunity progress and monitor 1]",
+      "normalizedSource": "Opportunity progress and monitor 1]",
+      "target": "Cơ hội tiến triển và theo dõi 1]",
+      "bbox": {
+        "x": 130,
+        "y": 782,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "progress s",
+      "normalizedSource": "progress s",
+      "target": "tiến triển s",
+      "bbox": {
+        "x": 130,
+        "y": 918,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "\"Sm m— Pd",
+      "normalizedSource": "\"Sm m— Pd",
+      "target": "\"Sm m— Pd\"",
+      "bbox": {
+        "x": 130,
+        "y": 1054,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "Rs i 3 pera",
+      "normalizedSource": "Rs i 3 pera",
+      "target": "Rs i 3 pera",
+      "bbox": {
+        "x": 130,
+        "y": 1190,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "wn 42% Seal",
+      "normalizedSource": "wn 42% Seal",
+      "target": "niêm phong 42%",
+      "bbox": {
+        "x": 130,
+        "y": 1326,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "4] Re ~",
+      "normalizedSource": "4] Re ~",
+      "target": "4] Re ~",
+      "bbox": {
+        "x": 130,
+        "y": 1462,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "wv ad",
+      "normalizedSource": "wv ad",
+      "target": "wv ad",
+      "bbox": {
+        "x": 130,
+        "y": 1598,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "mr",
+      "normalizedSource": "mr",
+      "target": "ông",
+      "bbox": {
+        "x": 130,
+        "y": 1734,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "Resourcing",
+      "normalizedSource": "Resourcing",
+      "target": "Cung cấp tài nguyên",
+      "bbox": {
+        "x": 130,
+        "y": 1870,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Build support",
+      "normalizedSource": "+ Build support",
+      "target": "+ Xây dựng hỗ trợ",
+      "bbox": {
+        "x": 130,
+        "y": 2006,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "system, team,",
+      "normalizedSource": "system, team,",
+      "target": "hệ thống, đội ngũ,",
+      "bbox": {
+        "x": 130,
+        "y": 2142,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "and plan",
+      "normalizedSource": "and plan",
+      "target": "và kế hoạch",
+      "bbox": {
+        "x": 130,
+        "y": 2278,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Gather",
+      "normalizedSource": "+ Gather",
+      "target": "+ Tập hợp",
+      "bbox": {
+        "x": 130,
+        "y": 2414,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "resources",
+      "normalizedSource": "resources",
+      "target": "tài nguyên",
+      "bbox": {
+        "x": 130,
+        "y": 2550,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "BE ee a aS",
+      "normalizedSource": "BE ee a aS",
+      "target": "BE ee a aS",
+      "bbox": {
+        "x": 130,
+        "y": 2686,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": false
+    },
+    {
+      "source": "Time",
+      "normalizedSource": "Time",
+      "target": "Thời gian",
+      "bbox": {
+        "x": 130,
+        "y": 2822,
+        "w": 1042,
+        "h": 68
+      },
+      "overflow": true
+    }
+  ],
+  "imageContext": "Image alt: The Business Life Cycle moves from startup (pre-launch: discovery, research, and define opportunity; conception: solidify idea and opportunity, and build and test business model; and resourcing: build support system, team, and plan, and gather resources) to launch (small market entry and manage, test, and monitor progress) to growth (build market and scale to fit, and manage, test, and monitor progress) to maturity (strengthen market position and reap return on investment) to harvest (plan for future and reap return on investment) and then can either enter rebirth (redesign or create new venture) or exit (transition to next generation or close) over time.\nButton label: Click to enlarge image of The Business Life Cycle moves from startup (pre-launch: discovery, research, and define opportunity; conception: solidify idea and opportunity, and build and test business model; and resourcing: build support system, team, and plan, and gather resources) to launch (small market entry and manage, test, and monitor progress) to growth (build market and scale to fit, and manage, test, and monitor progress) to maturity (strengthen market position and reap return on investment) to harvest (plan for future and reap return on investment) and then can either enter rebirth (redesign or create new venture) or exit (transition to next generation or close) over time.\nEnglish caption: Figure 2.20 The life cycle of a venture roughly parallels the life cycle of a person through different stages that span pre-birth through infancy, youth, maturity, retirement, and then an end or a restart. However, unlike in the human life cycle, the venture stages do not have to be static or sequential. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 1.346099775827349,
+    "averageConfidence": 68,
+    "entropy": 4.535749059830778,
+    "sharpness": 4.789480375847945
+  }
+}

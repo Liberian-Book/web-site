@@ -1,0 +1,75 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><div class="os-figure has-splash" id="fs-idp119584608"><figure data-id="fs-idp119584608" class="splash ui-has-child-figcaption"><span data-type="media" id="fs-idm16785584" data-alt="This is a photo of a plate with a large pile of eggs in the foreground and six slices of toast in the background. There is a small dish of red jam sitting near the toast on the plate.">
+<button type="button" aria-label="Click to enlarge image of This is a photo of a plate with a large pile of eggs in the foreground and six slices of toast in the background. There is a small dish of red jam sitting near the toast on the plate." class="image-button-wrapper"><img src="assets/img-10-1.webp" data-media-type="image/jpeg" alt="This is a photo of a plate with a large pile of eggs in the foreground and six slices of toast in the background. There is a small dish of red jam sitting near the toast on the plate." width="1400" height="651" loading="lazy"></button></span>
+
+  <figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.1</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">If you want to test a claim that involves two groups (the types of breakfasts eaten east and west of the Mississippi River) you can use a slightly different technique when conducting a hypothesis test. (credit: modification of work “scrambled egg, toast and home-made berry jam (no added sugar) for breakfast” by Chloe Lim/ Flickr, CC BY 2.0)</span><span class="os-caption vn visible">Nếu bạn muốn kiểm định một khẳng định liên quan đến hai nhóm (các loại bữa sáng được ăn ở phía đông và phía tây sông Mississippi) bạn có thể sử dụng một kỹ thuật hơi khác khi thực hiện một <span class="term">hypothesis test</span>. (tín dụng: sửa đổi từ tác phẩm “trứng bác, bánh mì nướng và mứt quả tự làm (không thêm đường) cho bữa sáng” của Chloe Lim/ Flickr, CC BY 2.0)</span>
+</figcaption></figure></div>
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="intro-body">
+  <div data-type="note" data-has-label="true" id="fs-idm64219152" class="chapter-objectives ui-has-child-title" data-label=""><header><h2 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p id="element-864" class="eng hidden">By the end of this chapter, the student should be able to:</p><p id="element-864-vn" class="vn visible">Cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="list5267">
+<li class="eng hidden">Classify hypothesis tests by type.</li><li class="vn visible">Phân loại các <span class="term">hypothesis test</span> theo loại.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for two population means, population standard deviations known.</li><li class="vn visible">Thực hiện và diễn giải các <span class="term">hypothesis test</span> cho hai <span class="term">population</span> <span class="term">mean</span>, biết <span class="term">population</span> <span class="term">standard deviation</span>.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for two population means, population standard deviations unknown.</li><li class="vn visible">Thực hiện và diễn giải các <span class="term">hypothesis test</span> cho hai <span class="term">population</span> <span class="term">mean</span>, không biết <span class="term">population</span> <span class="term">standard deviation</span>.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for two population proportions.</li><li class="vn visible">Thực hiện và diễn giải các <span class="term">hypothesis test</span> cho hai <span class="term">population</span> <span class="term">proportion</span>.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for matched or paired samples.</li><li class="vn visible">Thực hiện và diễn giải các <span class="term">hypothesis test</span> cho các <span class="term">samples</span> được ghép cặp hoặc tương ứng.</li>
+</ul>
+</div></section></div>
+  <div class="intro-text">
+    <h2 data-type="document-title" id="page_30018942-982e-40a3-9cf2-355510616ffe_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span data-type="" itemprop="" class="os-text">Introduction</span>
+</h2><h2 data-type="document-title" id="page_30018942-982e-40a3-9cf2-355510616ffe_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-text" itemprop="" data-type="">Giới thiệu</span></h2>
+    <p id="element-8642" class="eng hidden">Studies often compare two groups. For example, researchers are interested in the effect aspirin has in preventing heart attacks. Over the last few years, newspapers and magazines have reported various aspirin studies involving two groups. Typically, one group is given aspirin and the other group is given a placebo. Then, the heart attack rate is studied over several years.</p><p id="element-8642-vn" class="vn visible">Các nghiên cứu thường so sánh hai nhóm. Ví dụ, các nhà nghiên cứu quan tâm đến tác dụng của aspirin trong việc ngăn ngừa các cơn đau tim. Trong vài năm qua, báo chí và tạp chí đã đưa tin về nhiều nghiên cứu về aspirin liên quan đến hai nhóm. Thông thường, một nhóm được dùng aspirin và nhóm còn lại được dùng <span class="term">placebo</span>. Sau đó, tỷ lệ đau tim được nghiên cứu trong vài năm.</p><p id="element-240" class="eng hidden">There are other situations that deal with the comparison of two groups. For example, studies compare various diet and exercise programs. Politicians compare the proportion of individuals from different income brackets who might vote for them. Students are interested in whether SAT or GRE preparatory courses really help raise their scores.</p><p id="element-240-vn" class="vn visible">Có những tình huống khác liên quan đến việc so sánh hai nhóm. Ví dụ, các nghiên cứu so sánh các chương trình ăn kiêng và tập thể dục khác nhau. Các chính trị gia so sánh tỷ lệ những người từ các nhóm thu nhập khác nhau có thể bỏ phiếu cho họ. Sinh viên quan tâm đến việc liệu các khóa học chuẩn bị SAT hoặc GRE có thực sự giúp tăng điểm của họ hay không.</p><p id="element-412" class="eng hidden">You have learned to conduct hypothesis tests on single means and single proportions. You will expand upon that in this chapter. You will compare two means or two proportions to each other. The general procedure is still the same, just expanded.</p><p id="element-412-vn" class="vn visible">Bạn đã học cách thực hiện hypothesis test trên trung bình đơn lẻ và tỷ lệ đơn lẻ. Bạn sẽ mở rộng điều đó trong chương này. Bạn sẽ so sánh hai trung bình hoặc hai tỷ lệ với nhau. Quy trình chung vẫn như cũ, chỉ được mở rộng.</p><p id="element-967" class="eng hidden">To compare two means or two proportions, you work with two groups. The groups are classified either as <strong>independent</strong> or <span data-type="term" id="term-00001" group-by="m">matched pairs</span>. <span data-type="term" id="term-00002" group-by="I">Independent groups</span> consist of two samples that are independent, that is, sample values selected from one population are not related in any way to sample values selected from the other population. <strong>Matched pairs</strong> consist of two samples that are dependent. The parameter tested using matched pairs is the population mean. The parameters tested using independent groups are either population means or population proportions.</p><p id="element-967-vn" class="vn visible">Để so sánh hai trung bình hoặc hai tỷ lệ, bạn làm việc với hai nhóm. Các nhóm được phân loại là <strong>độc lập</strong> hoặc <span data-type="term" id="term-00001" group-by="m">cặp ghép đôi</span>. <span data-type="term" id="term-00002" group-by="I">Các nhóm độc lập</span> bao gồm hai mẫu độc lập, nghĩa là, các giá trị mẫu được chọn từ một quần thể không liên quan dưới bất kỳ hình thức nào với các giá trị mẫu được chọn từ quần thể khác. <span data-type="term" id="term-00001" group-by="m">Cặp ghép đôi</span> bao gồm hai mẫu phụ thuộc. Tham số được kiểm tra bằng cặp ghép đôi là trung bình quần thể. Các tham số được kiểm tra bằng các nhóm độc lập là trung bình quần thể hoặc tỷ lệ quần thể.</p><div data-type="note" data-has-label="true" id="fs-idp1161216" data-label="" class="ui-has-child-title"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title">LƯU Ý</h3></header><section>
+<div class="os-note-body">
+  <p id="fs-idm27664608" class="eng hidden">This chapter relies on either a calculator or a computer to calculate the degrees of freedom, the test statistics, and <em data-effect="italics">p</em>-values. TI-83+ and TI-84 instructions are included as well as the test statistic formulas. When using a TI-83+ or TI-84 calculator, we do not need to separate two population means, independent groups, or population variances unknown into large and small sample sizes. However, most statistical computer software has the ability to differentiate these tests.</p><p id="fs-idm27664608-vn" class="vn visible">Chương này dựa vào máy tính bỏ túi hoặc máy tính để tính bậc tự do, thống kê kiểm định và các giá trị <em data-effect="italics">p</em>. Hướng dẫn sử dụng TI-83+ và TI-84 được bao gồm cũng như các công thức thống kê kiểm định. Khi sử dụng máy tính bỏ túi TI-83+ hoặc TI-84, chúng ta không cần phân biệt hai trung bình quần thể, các nhóm độc lập, hoặc phương sai quần thể chưa biết thành kích thước mẫu lớn và nhỏ. Tuy nhiên, hầu hết các phần mềm thống kê máy tính đều có khả năng phân biệt các bài kiểm tra này.</p></div></section></div><p id="element-281" class="eng hidden"><span data-type="newline"><br></span>This chapter deals with the following hypothesis tests:</p><p id="element-281-vn" class="vn visible"><span data-type="newline"><br></span>Chương này đề cập đến các hypothesis test sau:</p><div data-type="list" id="element-545">
+  <div data-type="title" class="eng hidden">Independent groups (samples are independent)</div><div data-type="title" class="vn visible">Các nhóm độc lập (mẫu độc lập)</div>
+  <ul><li class="eng hidden">Test of two population means.</li><li class="vn visible">Kiểm định hai trung bình quần thể.</li>
+<li class="eng hidden">Test of two population proportions.</li><li class="vn visible">Kiểm định hai tỷ lệ quần thể.</li>
+</ul>
+</div><div data-type="list" id="element-786">
+  <div data-type="title" class="eng hidden">Matched or paired samples (samples are dependent)</div><div data-type="title" class="vn visible">Các mẫu ghép đôi hoặc cặp (mẫu phụ thuộc)</div>
+  <ul><li class="eng hidden">Test of the population mean of differences of measures for paired individuals or objects.</li><li class="vn visible">Kiểm định trung bình Quần thể của hiệu số đo lường cho các cá thể hoặc đối tượng ghép cặp.</li>
+</ul>
+</div>
+  </div>
+</div>
+</body></html>

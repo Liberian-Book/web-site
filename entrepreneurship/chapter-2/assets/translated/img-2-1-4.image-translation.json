@@ -1,0 +1,213 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-1-overview-of-the-entrepreneurial-journey.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-1-4.vi.png",
+  "ocr": [
+    {
+      "text": "Inspiration T =]",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 48,
+        "w": 1040,
+        "h": 32
+      }
+    },
+    {
+      "text": "1 Reflection Question 3 3",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 112,
+        "w": 1040,
+        "h": 32
+      }
+    },
+    {
+      "text": "+ Do I have the mental,",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 176,
+        "w": 1040,
+        "h": 32
+      }
+    },
+    {
+      "text": "[SP physical, psychological, or",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 240,
+        "w": 1040,
+        "h": 32
+      }
+    },
+    {
+      "text": "financial capabilities and",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 304,
+        "w": 1040,
+        "h": 32
+      }
+    },
+    {
+      "text": "support system to launch a",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 368,
+        "w": 1040,
+        "h": 32
+      }
+    },
+    {
+      "text": "venture?",
+      "confidence": 77,
+      "bbox": {
+        "x": 130,
+        "y": 432,
+        "w": 1040,
+        "h": 32
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Inspiration T =]",
+      "normalizedSource": "Inspiration T =]",
+      "target": "Cảm hứng T =]",
+      "bbox": {
+        "x": 130,
+        "y": 48,
+        "w": 1040,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "1 Reflection Question 3 3",
+      "normalizedSource": "1 Reflection Question 3 3",
+      "target": "1 Câu hỏi phản ánh 3 3",
+      "bbox": {
+        "x": 130,
+        "y": 112,
+        "w": 1040,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Do I have the mental,",
+      "normalizedSource": "+ Do I have the mental,",
+      "target": "+ Tôi có khả năng về tinh thần,",
+      "bbox": {
+        "x": 130,
+        "y": 176,
+        "w": 1040,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "[SP physical, psychological, or",
+      "normalizedSource": "[SP physical, psychological, or",
+      "target": "[SP thể chất, tâm lý, hoặc",
+      "bbox": {
+        "x": 130,
+        "y": 240,
+        "w": 1040,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "financial capabilities and",
+      "normalizedSource": "financial capabilities and",
+      "target": "khả năng tài chính và",
+      "bbox": {
+        "x": 130,
+        "y": 304,
+        "w": 1040,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "support system to launch a",
+      "normalizedSource": "support system to launch a",
+      "target": "hệ thống hỗ trợ để khởi động một",
+      "bbox": {
+        "x": 130,
+        "y": 368,
+        "w": 1040,
+        "h": 32
+      },
+      "overflow": false
+    },
+    {
+      "source": "venture?",
+      "normalizedSource": "venture?",
+      "target": "dự án không?",
+      "bbox": {
+        "x": 130,
+        "y": 432,
+        "w": 1040,
+        "h": 32
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: On the left is a drawing of a person with Inspiration above her head. She has the following Reflection Question: Do I have the mental, physical, psychological, or financial capabilities and support system to launch a venture? She identifies Potential Obstacles: Self-doubt, Fear of the unknown, and Limited time, resources, or personal connections.\nButton label: Click to enlarge image of On the left is a drawing of a person with Inspiration above her head. She has the following Reflection Question: Do I have the mental, physical, psychological, or financial capabilities and support system to launch a venture? She identifies Potential Obstacles: Self-doubt, Fear of the unknown, and Limited time, resources, or personal connections.\nEnglish caption: Figure 2.5 When inspired to start an entrepreneurial venture, one questions whether they can do it and identifies obstacles that might present challenges. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.44912280701754387,
+    "averageConfidence": 77,
+    "entropy": 3.6759056307964784,
+    "sharpness": 4.523943816034681
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: On the left is a drawing of a person with Inspiration above her head. She has the following Reflection Question: Do I have the mental, physical, psychological, or financial capabilities and support system to launch a venture? She identifies Potential Obstacles: Self-doubt, Fear of the unknown, and Limited time, resources, or personal connections.\nButton label: Click to enlarge image of On the left is a drawing of a person with Inspiration above her head. She has the following Reflection Question: Do I have the mental, physical, psychological, or financial capabilities and support system to launch a venture? She identifies Potential Obstacles: Self-doubt, Fear of the unknown, and Limited time, resources, or personal connections.\nEnglish caption: Figure 2.5 When inspired to start an entrepreneurial venture, one questions whether they can do it and identifies obstacles that might present challenges. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Inspiration T =] => Cảm hứng T =]\n- 1 Reflection Question 3 3 => 1 Câu hỏi phản ánh 3 3\n- + Do I have the mental, => + Tôi có khả năng về tinh thần,\n- [SP physical, psychological, or => [SP thể chất, tâm lý, hoặc\n- financial capabilities and => khả năng tài chính và\n- support system to launch a => hệ thống hỗ trợ để khởi động một\n- venture? => dự án không?\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Cam hing |",
+        "confidence": 47,
+        "bbox": {
+          "x": 217,
+          "y": 87,
+          "w": 1738,
+          "h": 58
+        }
+      },
+      {
+        "text": "“a rl",
+        "confidence": 47,
+        "bbox": {
+          "x": 217,
+          "y": 203,
+          "w": 1738,
+          "h": 58
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

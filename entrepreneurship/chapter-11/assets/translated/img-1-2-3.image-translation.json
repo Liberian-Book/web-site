@@ -1,0 +1,167 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-2-entrepreneurial-vision-and-goals.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-2-3.vi.png",
+  "ocr": [
+    {
+      "text": "SPECIFIC",
+      "confidence": 95,
+      "bbox": {
+        "x": 50,
+        "y": 65,
+        "w": 398,
+        "h": 43
+      }
+    },
+    {
+      "text": "MEASURABLE",
+      "confidence": 95,
+      "bbox": {
+        "x": 50,
+        "y": 151,
+        "w": 398,
+        "h": 43
+      }
+    },
+    {
+      "text": "ACHIEVABLE",
+      "confidence": 95,
+      "bbox": {
+        "x": 50,
+        "y": 237,
+        "w": 398,
+        "h": 43
+      }
+    },
+    {
+      "text": "RELEVANT",
+      "confidence": 95,
+      "bbox": {
+        "x": 50,
+        "y": 323,
+        "w": 398,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "SPECIFIC",
+      "normalizedSource": "SPECIFIC",
+      "target": "CỤ THỂ",
+      "bbox": {
+        "x": 50,
+        "y": 65,
+        "w": 398,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "MEASURABLE",
+      "normalizedSource": "MEASURABLE",
+      "target": "CÓ THỂ ĐO LƯỜNG",
+      "bbox": {
+        "x": 50,
+        "y": 151,
+        "w": 398,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "ACHIEVABLE",
+      "normalizedSource": "ACHIEVABLE",
+      "target": "CÓ THỂ ĐẠT ĐƯỢC",
+      "bbox": {
+        "x": 50,
+        "y": 237,
+        "w": 398,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "RELEVANT",
+      "normalizedSource": "RELEVANT",
+      "target": "LIÊN QUAN",
+      "bbox": {
+        "x": 50,
+        "y": 323,
+        "w": 398,
+        "h": 43
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: SMART goals are specific, measurable, achievable, relevant, and timely.\nButton label: Click to enlarge image of SMART goals are specific, measurable, achievable, relevant, and timely.\nEnglish caption: Figure 1.9 Creating SMART goals can help you realize your vision. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.25554439811410207,
+    "averageConfidence": 95,
+    "entropy": 3.4858013017874327,
+    "sharpness": 3.742081194343185
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: SMART goals are specific, measurable, achievable, relevant, and timely.\nButton label: Click to enlarge image of SMART goals are specific, measurable, achievable, relevant, and timely.\nEnglish caption: Figure 1.9 Creating SMART goals can help you realize your vision. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- SPECIFIC => CỤ THỂ\n- MEASURABLE => CÓ THỂ ĐO LƯỜNG\n- ACHIEVABLE => CÓ THỂ ĐẠT ĐƯỢC\n- RELEVANT => LIÊN QUAN\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "CU THE",
+        "confidence": 79,
+        "bbox": {
+          "x": 120,
+          "y": 157,
+          "w": 963,
+          "h": 104
+        }
+      },
+      {
+        "text": "CO THE PO LUGNG",
+        "confidence": 79,
+        "bbox": {
+          "x": 120,
+          "y": 366,
+          "w": 963,
+          "h": 104
+        }
+      },
+      {
+        "text": "CO THE DAT DUGC",
+        "confidence": 79,
+        "bbox": {
+          "x": 120,
+          "y": 575,
+          "w": 963,
+          "h": 104
+        }
+      },
+      {
+        "text": "LIEN QUAN",
+        "confidence": 79,
+        "bbox": {
+          "x": 120,
+          "y": 784,
+          "w": 963,
+          "h": 104
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

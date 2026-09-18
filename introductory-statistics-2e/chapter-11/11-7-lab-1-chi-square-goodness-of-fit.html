@@ -1,0 +1,303 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><h2 data-type="document-title" id="page_c0a340ad-4816-43f1-bddf-cf2b281deb43_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">11.7</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Lab 1: Chi-Square Goodness-of-Fit</span>
+</h2><h2 data-type="document-title" id="page_c0a340ad-4816-43f1-bddf-cf2b281deb43_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">11.7</span><span class="os-divider"> </span><span data-type="" itemprop="" class="os-text">Bài thực hành 1: Kiểm định độ phù hợp Chi-Bình phương</span></h2>
+  
+  <div data-type="note" data-has-label="true" id="fs-id1170646469482" class="statistics lab ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Stats Lab </span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Bài thực hành Thống kê </span></h3></header><section>
+<div class="os-note-body"><h4 data-type="title" class="os-subtitle eng hidden">
+  <span class="os-subtitle-label">Lab 1: Chi-Square Goodness-of-Fit</span>
+</h4><h4 data-type="title" class="os-subtitle vn visible"><span class="os-subtitle-label">Bài thực hành 1: Kiểm định độ phù hợp Chi-Bình phương</span></h4>
+<p id="id5380446" class="eng hidden">Class Time: </p><p id="id5380446-vn" class="vn visible">Thời gian học:</p>
+  <p id="id5380454" class="eng hidden">Names:</p><p id="id5380454-vn" class="vn visible">Tên:</p>
+   <div data-type="list" id="id5380464"><div data-type="title" class="eng hidden">Student Learning Outcome</div><div data-type="title" class="vn visible">Kết quả học tập của sinh viên</div><ul><li class="eng hidden">The student will evaluate data collected to determine if they fit either the uniform or exponential distributions. </li><li class="vn visible">Sinh viên sẽ đánh giá dữ liệu thu thập được để xác định xem chúng có phù hợp với phân phối đều hay phân phối mũ hay không.</li>
+   </ul></div><p id="element-875862734"><span data-type="title" class="eng hidden">Collect the Data</span><span data-type="title" class="vn visible">Thu thập Dữ liệu</span><span class="eng hidden">
+    Go to your local supermarket. Ask 30 people as they leave for the total amount on their grocery receipts. (Or, ask three cashiers for the last ten amounts. Be sure to include the express lane, if it is open.)</span><span class="vn visible">Hãy đến siêu thị địa phương của bạn. Hỏi 30 người khi họ rời đi về tổng số tiền trên hóa đơn mua hàng của họ. (Hoặc, hỏi ba nhân viên thu ngân về mười số tiền cuối cùng. Hãy chắc chắn bao gồm cả quầy thanh toán nhanh, nếu nó mở.)</span></p>
+   <div data-type="note" data-has-label="true" id="eip-665" data-label="" class="ui-has-child-title"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">You may need to combine two categories so that each cell has an expected value of at least five.
+ </div></section></div><ol id="list-87585" data-mark-suffix=".">
+    <li data-mark-suffix="."><span class="eng hidden">Record the values.
+     </span><span class="vn visible">Ghi lại các giá trị.</span><div class="os-table" id="table023865"><table data-id="table023865" data-summary="Blank table with 30 empty cells." role="presentation"><tbody>
+        <tr>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+       </tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">11.23</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 11.23</div>
+</div>
+    </li>
+    <li data-mark-suffix="."><span class="eng hidden">Construct a histogram of the data. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes. </span><span class="vn visible">Lập biểu đồ tần suất của dữ liệu. Chia thành năm đến sáu khoảng. Phác thảo đồ thị bằng thước kẻ và bút chì. Chia tỷ lệ các trục.</span><div class="os-figure" id="id42008923"><figure class="scaled-down ui-has-child-figcaption" data-id="id42008923"><span data-type="media" id="id42008927" data-alt="Blank graph with relative frequency on vertical"><button type="button" aria-label="Click to enlarge image of Blank graph with relative frequency on vertical" class="image-button-wrapper"><img src="assets/img-11-7-1.webp" data-media-type="image/png" alt="Blank graph with relative frequency on vertical" width="1316" height="700" loading="lazy"></button></span><figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.9</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible">Hình 11.9</figcaption></figure></div></li>
+    <li data-mark-suffix="."><span class="eng hidden"> Calculate the following: </span><span class="vn visible">Tính toán các giá trị sau:</span><ol id="list3242" type="a">
+      <li class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="0" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(5 (2 0 1) 3 4)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-annotation="depth:1" data-semantic-id="5" data-semantic-children="2,4" data-semantic-content="3" data-semantic-owns="2 3 4" data-semantic-level-number="0" data-speech-node="true"><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="5" data-semantic-owns="0 1" data-semantic-level-number="1" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="2" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover><mjx-mo space="4" data-semantic-type="relation" data-semantic-role="equality" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="3" data-semantic-parent="5" data-semantic-operator="relseq,=" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c3D">=</mjx-c></mjx-mo><mjx-mrow data-semantic-added="true" data-semantic-type="empty" data-semantic-role="unknown" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="4" data-semantic-parent="5" data-semantic-level-number="1" data-speech-node="true"></mjx-mrow></mjx-mrow></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(5 (2 0 1) 3 4)"><semantics><mrow><mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="2,4" data-semantic-content="3" data-semantic-owns="2 3 4" data-semantic-level-number="0" data-speech-node="true"><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-children="0,1" data-semantic-parent="5" data-semantic-owns="0 1" data-semantic-level-number="1" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="2" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="2" data-speech-node="true">¯</mo></mover><mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-annotation="nemeth:number;depth:2" data-semantic-="" data-semantic-parent="5" data-semantic-operator="relseq,=" data-semantic-level-number="1" data-speech-node="true">=</mo><mrow data-semantic-added="true" data-semantic-type="empty" data-semantic-role="unknown" data-semantic-annotation="nemeth:number;depth:2" data-semantic-="" data-semantic-parent="5" data-semantic-level-number="1" data-speech-node="true"></mrow></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow xmlns="http://www.w3.org/1998/Math/MathML"><mover accent="true"><mi>x</mi><mo>¯</mo></mover><mo>=</mo></mrow></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container>________</li><li class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="0" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(5 (2 0 1) 3 4)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-annotation="depth:1" data-semantic-id="5" data-semantic-children="2,4" data-semantic-content="3" data-semantic-owns="2 3 4" data-semantic-level-number="0" data-speech-node="true"><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="2" data-semantic-children="0,1" data-semantic-parent="5" data-semantic-owns="0 1" data-semantic-level-number="1" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="2" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover><mjx-mo space="4" data-semantic-type="relation" data-semantic-role="equality" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="3" data-semantic-parent="5" data-semantic-operator="relseq,=" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c3D">=</mjx-c></mjx-mo><mjx-mrow data-semantic-added="true" data-semantic-type="empty" data-semantic-role="unknown" data-semantic-annotation="nemeth:number;depth:2" data-semantic-id="4" data-semantic-parent="5" data-semantic-level-number="1" data-speech-node="true"></mjx-mrow></mjx-mrow></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(5 (2 0 1) 3 4)"><semantics><mrow><mrow data-semantic-type="relseq" data-semantic-role="equality" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="2,4" data-semantic-content="3" data-semantic-owns="2 3 4" data-semantic-level-number="0" data-speech-node="true"><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-children="0,1" data-semantic-parent="5" data-semantic-owns="0 1" data-semantic-level-number="1" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:3" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="2" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="2" data-speech-node="true">¯</mo></mover><mo data-semantic-type="relation" data-semantic-role="equality" data-semantic-annotation="nemeth:number;depth:2" data-semantic-="" data-semantic-parent="5" data-semantic-operator="relseq,=" data-semantic-level-number="1" data-speech-node="true">=</mo><mrow data-semantic-added="true" data-semantic-type="empty" data-semantic-role="unknown" data-semantic-annotation="nemeth:number;depth:2" data-semantic-="" data-semantic-parent="5" data-semantic-level-number="1" data-speech-node="true"></mrow></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow xmlns="http://www.w3.org/1998/Math/MathML"><mover accent="true"><mi>x</mi><mo>¯</mo></mover><mo>=</mo></mrow></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container>________</li>
+     <li class="eng hidden"><em data-effect="italics">s</em> = ________</li><li class="vn visible"><em data-effect="italics">s</em> = ________</li>
+     <li class="eng hidden"><em data-effect="italics">s</em><sup>2</sup> = ________</li><li class="vn visible"><em data-effect="italics">s</em><sup>2</sup> = ________</li>
+    </ol>
+    </li>
+   </ol>
+   <p id="element-755"><span data-type="title" class="eng hidden">Uniform Distribution</span><span data-type="title" class="vn visible">Phân phối Đồng nhất</span><span class="eng hidden">
+    Test to see if grocery receipts follow the uniform distribution.</span><span class="vn visible">Kiểm tra xem các hóa đơn tạp hóa có tuân theo phân phối đồng nhất hay không.</span></p>
+   <ol id="list-897576324" data-mark-suffix="."><li data-mark-suffix="." class="eng hidden">Using your lowest and highest values, <em data-effect="italics">X</em> ~ <em data-effect="italics">U</em> (_______, _______)</li><li data-mark-suffix="." class="vn visible">Sử dụng giá trị thấp nhất và cao nhất của bạn, X ~ U (_______, _______)</li>
+    <li data-mark-suffix="." class="eng hidden">Divide the distribution into fifths.</li><li data-mark-suffix="." class="vn visible">Chia phân phối thành năm phần.</li>
+    <li data-mark-suffix="."><span class="eng hidden">Calculate the following:
+     </span><span class="vn visible">Tính toán các giá trị sau:</span><ol id="list45865" type="a"><li class="eng hidden">lowest value = _________</li><li class="vn visible">giá trị thấp nhất = _________</li>
+      <li class="eng hidden">20<sup>th</sup> percentile = _________</li><li class="vn visible">Phân vị thứ 20 = _________</li>
+      <li class="eng hidden">40<sup>th</sup> percentile = _________</li><li class="vn visible">Phân vị thứ 40 = _________</li>
+      <li class="eng hidden">60<sup>th</sup> percentile = _________</li><li class="vn visible">Phân vị thứ 60 = _________</li>
+      <li class="eng hidden">80<sup>th</sup> percentile = _________</li><li class="vn visible">Phân vị thứ 80 = _________</li>
+      <li class="eng hidden">highest value = _________</li><li class="vn visible">giá trị cao nhất = _________</li>
+     </ol></li>
+    <li data-mark-suffix="."><span class="eng hidden">For each fifth, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.
+     </span><span class="vn visible">Đối với mỗi 1/5, hãy đếm số lượng hóa đơn quan sát được và ghi lại. Sau đó, xác định số lượng hóa đơn dự kiến và ghi lại.</span><div class="os-table" id="id58758asdfa533062"><table data-id="id58758asdfa533062" data-summary="The partially filled table presents each fifth in the first column, observed in the blank second column, and expected in the blank third column. There are 5 rows."><thead>
+        <tr>
+         <th scope="col" class="eng hidden">Fifth </th><th scope="col" class="vn visible">1/5</th>
+         <th scope="col" class="eng hidden">Observed</th><th scope="col" class="vn visible">Quan sát</th>
+         <th scope="col" class="eng hidden">Expected</th><th scope="col" class="vn visible">Dự kiến</th>
+        </tr>
+       </thead><tbody>
+        <tr>
+         <td class="eng hidden">1<sup>st</sup></td><td class="vn visible">thứ 1</td>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">2<sup>nd</sup></td><td class="vn visible">thứ 2</td>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">3<sup>rd</sup></td><td class="vn visible">thứ 3</td>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">4<sup>th</sup></td><td class="vn visible">thứ 4</td>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+        <tr>
+         <td class="eng hidden">5<sup>th</sup></td><td class="vn visible">thứ 5</td>
+         <td class="eng hidden">
+         </td><td class="vn visible">
+         </td><td class="eng hidden">
+        </td><td class="vn visible">
+        </td></tr>
+       </tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">11.24</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 11.24</div>
+</div></li>
+    <li data-mark-suffix="." class="eng hidden"><em data-effect="italics">H<sub>0</sub></em>: ________</li><li data-mark-suffix="." class="vn visible"><em data-effect="italics">H<sub>0</sub></em>: ________</li>
+    <li data-mark-suffix="." class="eng hidden"><em data-effect="italics">H<sub>a</sub></em>: ________</li><li data-mark-suffix="." class="vn visible"><em>H<sub>a</sub></em>: ________</li>
+    <li data-mark-suffix="." class="eng hidden">What distribution should you use for a hypothesis test?</li><li data-mark-suffix="." class="vn visible">Bạn nên sử dụng phân phối nào cho một hypothesis test?</li>
+    <li data-mark-suffix="." class="eng hidden">Why did you choose this distribution?</li><li data-mark-suffix="." class="vn visible">Tại sao bạn chọn phân phối này?</li>
+    <li data-mark-suffix="." class="eng hidden">Calculate the test statistic.</li><li data-mark-suffix="." class="vn visible">Tính thống kê kiểm định.</li>
+    <li data-mark-suffix="." class="eng hidden">Find the <em data-effect="italics">p</em>-value.</li><li data-mark-suffix="." class="vn visible">Tìm <em data-effect="italics">p</em>-value.</li>
+    <li data-mark-suffix="."><span class="eng hidden">Sketch a graph of the situation. Label and scale the </span><span class="vn visible">Phác thảo đồ thị của tình huống. Ghi nhãn và chia tỷ lệ cho</span><em data-effect="italics">x</em><span class="eng hidden">-axis. Shade the area corresponding to the </span><span class="vn visible">trục-. Tô bóng vùng tương ứng với</span><em data-effect="italics">p</em><span class="eng hidden">-value. </span><span class="vn visible">-value.</span><div class="os-figure" id="id40469669"><figure class="scaled-down ui-has-child-figcaption" data-id="id40469669"><span data-type="media" id="id40469674" data-alt="Blank graph with vertical and horizontal axes."><button type="button" aria-label="Click to enlarge image of Blank graph with vertical and horizontal axes." class="image-button-wrapper"><img src="assets/img-11-7-2.webp" data-media-type="image/png" alt="Blank graph with vertical and horizontal axes." width="1252" height="627" loading="lazy"></button></span><figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.10</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.10</span></figcaption></figure></div></li>
+    <li data-mark-suffix="." class="eng hidden">State your decision.</li><li data-mark-suffix="." class="vn visible">Nêu quyết định của bạn.</li>
+    <li data-mark-suffix="." class="eng hidden">State your conclusion in a complete sentence.</li><li data-mark-suffix="." class="vn visible">Nêu kết luận của bạn bằng một câu hoàn chỉnh.</li>
+   </ol><p id="element-875"><span data-type="title" class="eng hidden">Exponential Distribution</span><span data-type="title" class="vn visible">Phân phối Mũ</span><span class="eng hidden">
+    Test to see if grocery receipts follow the exponential distribution with decay parameter </span><span class="vn visible">Kiểm tra xem hóa đơn cửa hàng tạp hóa có tuân theo Phân phối Mũ với tham số suy giảm</span><span class="os-math-in-para"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="1" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(4 0 (3 1 2))" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-annotation="depth:1" data-semantic-id="4" data-semantic-children="0,3" data-semantic-owns="0 3" data-semantic-level-number="0" data-speech-node="true"><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mrow size="s"><mjx-mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="4" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c31">1</mjx-c></mjx-mn></mjx-mrow></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mrow size="s"><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="4" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-id="2" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(4 0 (3 1 2))"><semantics><mrow><mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,3" data-semantic-owns="0 3" data-semantic-level-number="0" data-speech-node="true"><mrow><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="4" data-semantic-level-number="1" data-speech-node="true">1</mn></mrow><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-children="1,2" data-semantic-parent="4" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">¯</mo></mover></mrow></mfrac></mrow><annotation-xml encoding="MathML-Content"><mfrac xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mn>1</mn></mrow><mrow><mover accent="true"><mi>x</mi><mo>¯</mo></mover></mrow></mfrac></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container></span><span class="eng hidden">.</span><span class="vn visible">.</span></p>
+   <ol id="list-86872534" data-mark-suffix="."><li data-mark-suffix="." class="eng hidden">Using <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="2" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(4 0 (3 1 2))" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mrow><mjx-mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-annotation="depth:1" data-semantic-id="4" data-semantic-children="0,3" data-semantic-owns="0 3" data-semantic-level-number="0" data-speech-node="true"><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn size="s" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="4" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c31">1</mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mover size="s" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="4" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-id="2" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-mrow></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(4 0 (3 1 2))"><semantics><mrow><mrow><mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,3" data-semantic-owns="0 3" data-semantic-level-number="0" data-speech-node="true"><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="4" data-semantic-level-number="1" data-speech-node="true">1</mn><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-children="1,2" data-semantic-parent="4" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">¯</mo></mover></mfrac></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mover accent="true"><mi>x</mi><mo>¯</mo></mover></mfrac></mrow></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> as the decay parameter, <em data-effect="italics">X</em> ~ <em data-effect="italics">Exp</em>(_________).</li><li data-mark-suffix="." class="vn visible">Sử dụng <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="2" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(4 0 (3 1 2))" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mrow><mjx-mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-annotation="depth:1" data-semantic-id="4" data-semantic-children="0,3" data-semantic-owns="0 3" data-semantic-level-number="0" data-speech-node="true"><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn size="s" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="4" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c31">1</mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mover size="s" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="4" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-id="2" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-mrow></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(4 0 (3 1 2))"><semantics><mrow><mrow><mfrac data-semantic-type="fraction" data-semantic-role="division" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,3" data-semantic-owns="0 3" data-semantic-level-number="0" data-speech-node="true"><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="4" data-semantic-level-number="1" data-speech-node="true">1</mn><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-children="1,2" data-semantic-parent="4" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">¯</mo></mover></mfrac></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mover accent="true"><mi>x</mi><mo>¯</mo></mover></mfrac></mrow></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> làm tham số suy giảm, <em data-effect="italics">X</em> ~ <em data-effect="italics">Exp</em>(_________). </li>
+    <li data-mark-suffix="."><span class="eng hidden">Calculate the following:
+     </span><span class="vn visible">Tính toán các giá trị sau:</span><ol id="list3248" type="a">
+      <li class="eng hidden">lowest value = ________</li><li class="vn visible">Giá trị thấp nhất = ________</li>
+      <li class="eng hidden">first quartile = ________</li><li class="vn visible">Tứ phân vị thứ nhất = ________</li>
+      <li class="eng hidden">37<sup>th</sup> percentile = ________</li><li class="vn visible">Phân vị thứ 37 = ________</li>
+      <li class="eng hidden">median = ________</li><li class="vn visible">Trung vị = ________</li>
+      <li class="eng hidden">63<sup>rd</sup> percentile = ________</li><li class="vn visible">Phân vị thứ 63 = ________</li>
+      <li class="eng hidden">3<sup>rd</sup> quartile = ________</li><li class="vn visible">Tứ phân vị thứ 3 = ________</li>
+      <li class="eng hidden">highest value = ________</li><li class="vn visible">Giá trị cao nhất = ________</li>
+     </ol>
+    </li>
+    <li data-mark-suffix="."><span class="eng hidden">For each cell, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.</span><span class="vn visible">Đối với mỗi ô, đếm số lượng hóa đơn quan sát được và ghi lại. Sau đó, xác định số lượng hóa đơn dự kiến và ghi lại.</span><div class="os-table" id="id5asd875fasssff533783"><table data-id="id5asd875fasssff533783" data-summary="The partially filled table presents the cell in the first column, observed in the blank second column, and the expected in the blank third column. There are 6 rows."><thead>
+       <tr>
+        <th scope="col" class="eng hidden">Cell</th><th scope="col" class="vn visible">Ô</th>
+        <th scope="col" class="eng hidden">Observed</th><th scope="col" class="vn visible">Quan sát</th>
+        <th scope="col" class="eng hidden">Expected</th><th scope="col" class="vn visible">Dự kiến</th>
+       </tr>
+      </thead><tbody>
+       <tr>
+        <td class="eng hidden">1<sup>st</sup></td><td class="vn visible">1<sup>lần</sup></td>
+        <td class="eng hidden">
+        </td><td class="vn visible">
+        </td><td class="eng hidden">
+       </td><td class="vn visible">
+       </td></tr>
+       <tr>
+        <td class="eng hidden">2<sup>nd</sup></td><td class="vn visible">2<sup>lần</sup></td>
+        <td class="eng hidden">
+        </td><td class="vn visible">
+        </td><td class="eng hidden">
+       </td><td class="vn visible">
+       </td></tr>
+       <tr>
+        <td class="eng hidden">3<sup>rd</sup></td><td class="vn visible">3<sup>lần</sup></td>
+        <td class="eng hidden">
+        </td><td class="vn visible">
+        </td><td class="eng hidden">
+       </td><td class="vn visible">
+       </td></tr>
+       <tr>
+        <td class="eng hidden">4<sup>th</sup></td><td class="vn visible">4<sup>lần</sup></td>
+        <td class="eng hidden">
+        </td><td class="vn visible">
+        </td><td class="eng hidden">
+       </td><td class="vn visible">
+       </td></tr>
+       <tr>
+        <td class="eng hidden">5<sup>th</sup></td><td class="vn visible">5<sup>lần</sup></td>
+        <td class="eng hidden">
+        </td><td class="vn visible">
+        </td><td class="eng hidden">
+       </td><td class="vn visible">
+       </td></tr>
+       <tr>
+        <td class="eng hidden">6<sup>th</sup></td><td class="vn visible">6<sup>lần</sup></td>
+        <td class="eng hidden">
+        </td><td class="vn visible">
+        </td><td class="eng hidden">
+       </td><td class="vn visible">
+       </td></tr>
+      </tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">11.25</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 11.25</div>
+</div>
+    </li>
+    <li data-mark-suffix="." class="eng hidden"><em data-effect="italics">H<sub>0</sub></em>: ________</li><li data-mark-suffix="." class="vn visible"><em data-effect="italics">H<sub>0</sub></em>: ________</li>
+    <li data-mark-suffix="." class="eng hidden"><em data-effect="italics">H<sub>a</sub></em>: ________</li><li data-mark-suffix="." class="vn visible">H<sub>a</sub>: ________</li>
+    <li data-mark-suffix="." class="eng hidden">What distribution should you use for a hypothesis test? </li><li data-mark-suffix="." class="vn visible">Bạn nên sử dụng phân phối nào cho một hypothesis test?</li>
+    <li data-mark-suffix="." class="eng hidden">Why did you choose this distribution? </li><li data-mark-suffix="." class="vn visible">Tại sao bạn chọn phân phối này?</li>
+    <li data-mark-suffix="." class="eng hidden">Calculate the test statistic.</li><li data-mark-suffix="." class="vn visible">Tính thống kê kiểm định.</li>
+    <li data-mark-suffix="." class="eng hidden">Find the <em data-effect="italics">p</em>-value.</li><li data-mark-suffix="." class="vn visible">Tìm <em data-effect="italics">p</em>-value.</li>
+    <li data-mark-suffix="."><span class="eng hidden">Sketch a graph of the situation. Label and scale the </span><span class="vn visible">Phác thảo đồ thị của tình huống. Ghi nhãn và chia tỷ lệ cho</span><em data-effect="italics">x</em><span class="eng hidden">-axis. Shade the area corresponding to the </span><span class="vn visible">trục. Tô bóng vùng tương ứng với</span><em data-effect="italics">p</em><span class="eng hidden">-value. </span><span class="vn visible">-value.</span><div class="os-figure" id="id42004364"><figure class="scaled-down ui-has-child-figcaption" data-id="id42004364"><span data-type="media" id="id42004370" data-alt="Blank graph with vertical and horizontal axes."><button type="button" aria-label="Click to enlarge image of Blank graph with vertical and horizontal axes." class="image-button-wrapper"><img src="assets/img-11-7-3.webp" data-media-type="image/png" alt="Blank graph with vertical and horizontal axes." width="1252" height="627" loading="lazy"></button></span><figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.11</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">11.11</span></figcaption></figure></div></li>
+    <li data-mark-suffix="." class="eng hidden">State your decision.</li><li data-mark-suffix="." class="vn visible">Nêu quyết định của bạn.</li>
+    <li data-mark-suffix="." class="eng hidden">State your conclusion in a complete sentence.</li><li data-mark-suffix="." class="vn visible">Nêu kết luận của bạn bằng một câu hoàn chỉnh.</li>
+   </ol><div data-type="list" id="list-8658234"><div data-type="title" class="eng hidden">Discussion Questions</div><div data-type="title" class="vn visible">Câu hỏi thảo luận</div><ol>
+    <li class="eng hidden">Did your data fit either distribution? If so, which?</li><li class="vn visible">Dữ liệu của bạn có phù hợp với phân phối nào không? Nếu có, là phân phối nào?</li>
+    <li class="eng hidden">In general, do you think it’s likely that data could fit more than one distribution? In complete sentences, explain why or why not.</li><li class="vn visible">Nhìn chung, bạn có cho rằng dữ liệu có khả năng phù hợp với nhiều hơn một phân phối không? Bằng các câu hoàn chỉnh, hãy giải thích tại sao có hoặc tại sao không.</li>
+   </ol></div>
+ </div></section></div>  
+  </body></html>

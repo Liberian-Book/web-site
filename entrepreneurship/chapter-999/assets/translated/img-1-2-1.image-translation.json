@@ -1,0 +1,238 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-2-entrepreneurial-vision-and-goals.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-2-1.vi.png",
+  "ocr": [
+    {
+      "text": "ro Tha, Ty",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 134,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "i 5 L r he",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 312,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "~~ Coaching Motivation",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 490,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "and | and",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 668,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": ": LL",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 846,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "3 training r b support r",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1024,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "ey hh >",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1202,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "oi Ty",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1380,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "pt hk",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1558,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "Advice",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1736,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "and",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 1914,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "1 direction",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 2092,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "» yr",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 2270,
+        "w": 892,
+        "h": 89
+      }
+    },
+    {
+      "text": "= rr",
+      "confidence": 34,
+      "bbox": {
+        "x": 112,
+        "y": 2448,
+        "w": 892,
+        "h": 89
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Benefits of Mentorships include coaching and training, motivation and support, goals and achievements, and advice and direction.\nButton label: Click to enlarge image of Benefits of Mentorships include coaching and training, motivation and support, goals and achievements, and advice and direction.\nEnglish caption: Figure 1.7 Finding a mentor can provide you with invaluable benefits. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.8939910313901346,
+    "averageConfidence": 34,
+    "entropy": 2.2677424181292736,
+    "sharpness": 2.1133938705567363
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Benefits of Mentorships include coaching and training, motivation and support, goals and achievements, and advice and direction.\nButton label: Click to enlarge image of Benefits of Mentorships include coaching and training, motivation and support, goals and achievements, and advice and direction.\nEnglish caption: Figure 1.7 Finding a mentor can provide you with invaluable benefits. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Dao tao bong luc",
+        "confidence": 79,
+        "bbox": {
+          "x": 125,
+          "y": 150,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "va va",
+        "confidence": 79,
+        "bbox": {
+          "x": 125,
+          "y": 351,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "huén luyén hd trg",
+        "confidence": 79,
+        "bbox": {
+          "x": 125,
+          "y": 552,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "Tu van",
+        "confidence": 79,
+        "bbox": {
+          "x": 125,
+          "y": 753,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "va",
+        "confidence": 79,
+        "bbox": {
+          "x": 125,
+          "y": 954,
+          "w": 1003,
+          "h": 100
+        }
+      },
+      {
+        "text": "dinh hudng",
+        "confidence": 79,
+        "bbox": {
+          "x": 125,
+          "y": 1155,
+          "w": 1003,
+          "h": 100
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

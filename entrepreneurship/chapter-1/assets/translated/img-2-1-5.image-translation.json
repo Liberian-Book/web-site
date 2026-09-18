@@ -1,0 +1,548 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-1-overview-of-the-entrepreneurial-journey.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-1-5.vi.png",
+  "ocr": [
+    {
+      "text": "- Woo 3",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 67,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "pa",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 156,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "NL Wa ve I i",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 245,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "1 mE, i by“ 5s ) ER a",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 334,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": ": BAe pa hide 7a",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 423,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "Sak bd 2 ISU We",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 512,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "— spf” Rie",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 601,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "f r= \"ie gon HAR his ih i | pi",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 690,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "R g re aislite a a BE",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 779,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "A ’ | GSR AUNT",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 868,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "Wi SET Td AO",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 957,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "a fads x AY PAPEL BN Lb",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 1046,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "3 J A AERA",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 1135,
+        "w": 640,
+        "h": 45
+      }
+    },
+    {
+      "text": "a EE Le YE",
+      "confidence": 25,
+      "bbox": {
+        "x": 80,
+        "y": 1224,
+        "w": 640,
+        "h": 45
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Photo of a person in a desert holding a smartphone.\nButton label: Click to enlarge image of Photo of a person in a desert holding a smartphone.\nEnglish caption: Figure 2.6 It is important to plan out your entrepreneurial journey, as you would plan out a trip. (credit: “#conservationlands15 Social Media Takeover, August 15th, Santa Rosa and San Jacinto National Monument in California” by Bureau of Land Management/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.9016100178890877,
+    "averageConfidence": 25,
+    "entropy": 7.457138800124085,
+    "sharpness": 3.7645891619324865
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a person in a desert holding a smartphone.\nButton label: Click to enlarge image of Photo of a person in a desert holding a smartphone.\nEnglish caption: Figure 2.6 It is important to plan out your entrepreneurial journey, as you would plan out a trip. (credit: “#conservationlands15 Social Media Takeover, August 15th, Santa Rosa and San Jacinto National Monument in California” by Bureau of Land Management/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: conservationlands, social, media, takeover, santa, rosa, jacinto, california, flickr. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "\" 2 hs By",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 126,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Ay 5 Ns a",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 294,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "no Vad, > ” BR pe _— : Ha",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 462,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "a : al Ld?",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 630,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "es SR ey",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 798,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": ". LRA er",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 966,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "LR a EEL WEP",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 1134,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "FUT WS SAFES RA eT PRY 4",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 1302,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "ty $ ad “ ie. ir x be 3 oo #3 1 Ry &",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 1470,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "1 Es ay We Sor vs LE",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 1638,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "FT et lh a 7",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 1806,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "N . a We 5 7 = i NT WE Rs",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 1974,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "nN hg a, es WY Nu WR a Q",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 2142,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "i lg ore SS, Bak . 3",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 2310,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "| ca quan Quin I Dét cing | hl - 5 itl . x i CoA ara 2 0",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 2478,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "-— Hehe AR i i ibe a id",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 2646,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "[ — “5 ! <5, RON fr AE ay ON he",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 2814,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "a Ey a gos Ane SORTASE Se SERRE 1 TS NO",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 2982,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "rm TE Er a MAN 7 SO I A",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 3150,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "or | Rl 54 We “77 SON a a JER 0 IGE 7",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 3318,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "A - > Po, TES 0S REIN |e SEPA es 7 LT",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 3486,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": ": 2 D Friar © SN 0 Re aa Se",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 3654,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Team 3 mo. a EY gl at J EE",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 3822,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "2 caligh NEPERNANE SRT i OTE GY",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 3990,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "ins Jom— on SEIS ENS SE Wis f 6",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 4158,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "= om em if 7) SUN SPT {i engleily WEN",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 4326,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": ". fie vera il Late APTA REA NSB ot",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 4494,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Sl. = i \\ <A ESTE i bd",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 4662,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "# a Shad AE al",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 4830,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "7 si Ah : ME CANES (BANS a",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 4998,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "3 { y PE ; \\K bh BAY i Si Nin AWAD §",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 5166,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Lod ; A of > ARE EASA A FRYER SAN",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 5334,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "Uh N— fee a A ite J HH ol Wi of Ly ih",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 5502,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "y ah a se h\\ 7% WN SARA Wr HE) WK ER NV 0% (NR NN ¥",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 5670,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "VAL) { An WARS, WKN CN \\ SRK 2 c SIN IIASA",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 5838,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "RA dey Tie 2° ARN 2 AV Yi | RUN AY ral 8 dh Py 4.",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 6006,
+          "w": 1200,
+          "h": 84
+        }
+      },
+      {
+        "text": "TERRI eh al IRS ESV ZARA ARE 2 EW ME Te a Se",
+        "confidence": 28,
+        "bbox": {
+          "x": 150,
+          "y": 6174,
+          "w": 1200,
+          "h": 84
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

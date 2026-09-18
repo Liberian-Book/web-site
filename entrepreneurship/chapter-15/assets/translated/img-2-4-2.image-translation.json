@@ -1,0 +1,221 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-4-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-4-frameworks-to-inform-your-entrepreneurial-path.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-4-2.vi.png",
+  "ocr": [
+    {
+      "text": "Customer",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 46,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "Relationships",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 108,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "Value Customer",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 170,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "Propositions Segments",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 232,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "Channels",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 294,
+        "w": 1040,
+        "h": 31
+      }
+    },
+    {
+      "text": "Cos EHS",
+      "confidence": 79,
+      "bbox": {
+        "x": 130,
+        "y": 356,
+        "w": 1040,
+        "h": 31
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Customer",
+      "normalizedSource": "Customer",
+      "target": "Khách hàng",
+      "bbox": {
+        "x": 130,
+        "y": 46,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "Relationships",
+      "normalizedSource": "Relationships",
+      "target": "Mối quan hệ",
+      "bbox": {
+        "x": 130,
+        "y": 108,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "Value Customer",
+      "normalizedSource": "Value Customer",
+      "target": "Giá trị khách hàng",
+      "bbox": {
+        "x": 130,
+        "y": 170,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "Propositions Segments",
+      "normalizedSource": "Propositions Segments",
+      "target": "Đề xuất phân khúc",
+      "bbox": {
+        "x": 130,
+        "y": 232,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "Channels",
+      "normalizedSource": "Channels",
+      "target": "Kênh",
+      "bbox": {
+        "x": 130,
+        "y": 294,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    },
+    {
+      "source": "Cos EHS",
+      "normalizedSource": "Cos EHS",
+      "target": "Cos EHS",
+      "bbox": {
+        "x": 130,
+        "y": 356,
+        "w": 1040,
+        "h": 31
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: The lean strategy canvas includes problems, solutions, value propositions, customer relationships, customer segments, metrics, channels, cost structure, and revenue streams.\nButton label: Click to enlarge image of The lean strategy canvas includes problems, solutions, value propositions, customer relationships, customer segments, metrics, channels, cost structure, and revenue streams.\nEnglish caption: Figure 2.23 Here is an example of Lean Strategy Canvas, a framework to assist in developing the business model, and competitive advantage and related areas aligning the product and market for the venture. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3864935064935065,
+    "averageConfidence": 79,
+    "entropy": 3.566728619414789,
+    "sharpness": 3.7974462242940334
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: The lean strategy canvas includes problems, solutions, value propositions, customer relationships, customer segments, metrics, channels, cost structure, and revenue streams.\nButton label: Click to enlarge image of The lean strategy canvas includes problems, solutions, value propositions, customer relationships, customer segments, metrics, channels, cost structure, and revenue streams.\nEnglish caption: Figure 2.23 Here is an example of Lean Strategy Canvas, a framework to assist in developing the business model, and competitive advantage and related areas aligning the product and market for the venture. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Customer => Khách hàng\n- Relationships => Mối quan hệ\n- Value Customer => Giá trị khách hàng\n- Propositions Segments => Đề xuất phân khúc\n- Channels => Kênh\n- Cos EHS => Cos EHS\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Moi quan hé",
+        "confidence": 76,
+        "bbox": {
+          "x": 217,
+          "y": 87,
+          "w": 1736,
+          "h": 58
+        }
+      },
+      {
+        "text": "- khach hang",
+        "confidence": 76,
+        "bbox": {
+          "x": 217,
+          "y": 203,
+          "w": 1736,
+          "h": 58
+        }
+      },
+      {
+        "text": "bé xuat Phan khtc",
+        "confidence": 76,
+        "bbox": {
+          "x": 217,
+          "y": 319,
+          "w": 1736,
+          "h": 58
+        }
+      },
+      {
+        "text": "gia tri khach hang",
+        "confidence": 76,
+        "bbox": {
+          "x": 217,
+          "y": 435,
+          "w": 1736,
+          "h": 58
+        }
+      },
+      {
+        "text": "Kénh",
+        "confidence": 76,
+        "bbox": {
+          "x": 217,
+          "y": 551,
+          "w": 1736,
+          "h": 58
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

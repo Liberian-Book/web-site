@@ -1,0 +1,188 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-1-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-1-entrepreneurship-today.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-1-1.vi.png",
+  "ocr": [
+    {
+      "text": "§ DISRUPT | DISKUE",
+      "confidence": 39,
+      "bbox": {
+        "x": 150,
+        "y": 69,
+        "w": 1200,
+        "h": 46
+      }
+    },
+    {
+      "text": "soot Hag) WARDY PARKER",
+      "confidence": 39,
+      "bbox": {
+        "x": 150,
+        "y": 161,
+        "w": 1200,
+        "h": 46
+      }
+    },
+    {
+      "text": "yO",
+      "confidence": 39,
+      "bbox": {
+        "x": 150,
+        "y": 253,
+        "w": 1200,
+        "h": 46
+      }
+    },
+    {
+      "text": "‘ §DSRUPT ‘gal # OFSRUPT m=",
+      "confidence": 39,
+      "bbox": {
+        "x": 150,
+        "y": 345,
+        "w": 1200,
+        "h": 46
+      }
+    },
+    {
+      "text": "i = 5 DIS# Nass |",
+      "confidence": 39,
+      "bbox": {
+        "x": 150,
+        "y": 437,
+        "w": 1200,
+        "h": 46
+      }
+    },
+    {
+      "text": "BY i i EEER >",
+      "confidence": 39,
+      "bbox": {
+        "x": 150,
+        "y": 529,
+        "w": 1200,
+        "h": 46
+      }
+    },
+    {
+      "text": "= ——, FE off — = ors",
+      "confidence": 39,
+      "bbox": {
+        "x": 150,
+        "y": 621,
+        "w": 1200,
+        "h": 46
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nButton label: Click to enlarge image of (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nEnglish caption: Figure 1.2 (a) Co-founder and co-CEO Dave Gilboa helped push (b) Warby Parker to become a successful entrepreneurial venture. (credit (a): modification of “775208326EC00084_TechCrunch” by TechCrunch/Flickr, CC BY 2.0; credit (b): modification of “Warby Parker Aventura Mall” by Phillip Pessar/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.44956369982547995,
+    "averageConfidence": 39,
+    "entropy": 7.065015633981602,
+    "sharpness": 1.9265504832464706
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nButton label: Click to enlarge image of (a) Photo of Dave Gilboa. (b) Photo of a Warby Parker retail store.\nEnglish caption: Figure 1.2 (a) Co-founder and co-CEO Dave Gilboa helped push (b) Warby Parker to become a successful entrepreneurial venture. (credit (a): modification of “775208326EC00084_TechCrunch” by TechCrunch/Flickr, CC BY 2.0; credit (b): modification of “Warby Parker Aventura Mall” by Phillip Pessar/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: warby, parker. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "fg ord v0 GIO HAN fg PHA vO 6101 HAN",
+        "confidence": 37,
+        "bbox": {
+          "x": 203,
+          "y": 93,
+          "w": 1624,
+          "h": 62
+        }
+      },
+      {
+        "text": "ig PHA vO GIOT HAN ¥- ) fg PHA VO KiNH MAT THOI TRANG a",
+        "confidence": 37,
+        "bbox": {
+          "x": 203,
+          "y": 217,
+          "w": 1624,
+          "h": 62
+        }
+      },
+      {
+        "text": "< RE i Eo",
+        "confidence": 37,
+        "bbox": {
+          "x": 203,
+          "y": 341,
+          "w": 1624,
+          "h": 62
+        }
+      },
+      {
+        "text": "fg PHA VO GIOTHAN wa [i PHA VO GIOT HAY — LL hi",
+        "confidence": 37,
+        "bbox": {
+          "x": 203,
+          "y": 465,
+          "w": 1624,
+          "h": 62
+        }
+      },
+      {
+        "text": "« BLL | PHA VO SP. Su .",
+        "confidence": 37,
+        "bbox": {
+          "x": 203,
+          "y": 589,
+          "w": 1624,
+          "h": 62
+        }
+      },
+      {
+        "text": "> a | x x 0) fr pl pa | :",
+        "confidence": 37,
+        "bbox": {
+          "x": 203,
+          "y": 713,
+          "w": 1624,
+          "h": 62
+        }
+      },
+      {
+        "text": "- aN EEL D= Ea] 1",
+        "confidence": 37,
+        "bbox": {
+          "x": 203,
+          "y": 837,
+          "w": 1624,
+          "h": 62
+        }
+      },
+      {
+        "text": "i § § | ir",
+        "confidence": 37,
+        "bbox": {
+          "x": 203,
+          "y": 961,
+          "w": 1624,
+          "h": 62
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

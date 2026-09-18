@@ -1,0 +1,54 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "te",
+      "confidence": 19,
+      "bbox": {
+        "x": 80,
+        "y": 96,
+        "w": 641,
+        "h": 64
+      }
+    },
+    {
+      "text": "NS A",
+      "confidence": 19,
+      "bbox": {
+        "x": 80,
+        "y": 224,
+        "w": 641,
+        "h": 64
+      }
+    },
+    {
+      "text": "NS",
+      "confidence": 19,
+      "bbox": {
+        "x": 80,
+        "y": 352,
+        "w": 641,
+        "h": 64
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Image of a label for Madam C. J. Walker’s Wonderful Hair Grower. The label states: Net contents 2 oz. Made by the Madam C. J. Walker Manufacturing Co. Indianapolis, IND. Price 50 cents.\nButton label: Click to enlarge image of Image of a label for Madam C. J. Walker’s Wonderful Hair Grower. The label states: Net contents 2 oz. Made by the Madam C. J. Walker Manufacturing Co. Indianapolis, IND. Price 50 cents.\nEnglish caption: Figure 2.12 Madam C. J. Walker developed her own hair care line, which is still sold today. (credit: Collection of the Smithsonian National Museum of African American History and Culture, Gift from Dawn Simon Spears and Alvin Spears, Sr.)",
+  "metrics": {
+    "textDensity": 0.19205992509363295,
+    "averageConfidence": 19,
+    "entropy": 6.318787132295256,
+    "sharpness": 4.746055312579923
+  }
+}

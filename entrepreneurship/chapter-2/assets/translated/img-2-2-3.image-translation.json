@@ -1,0 +1,410 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-2-3.vi.png",
+  "ocr": [
+    {
+      "text": "= 7 Lede itd » 7 FE | |",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 82,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "F=f gw of Sin = 8",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 192,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "ST) EE",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 302,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "L i Se WN,",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 412,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": ".l- J | ELS",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 522,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "Be ST ¥ L$ J >",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 632,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": "Li VV. A comm El ~ ia",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 742,
+        "w": 1040,
+        "h": 55
+      }
+    },
+    {
+      "text": ") @ So (b) (c)",
+      "confidence": 34,
+      "bbox": {
+        "x": 130,
+        "y": 852,
+        "w": 1040,
+        "h": 55
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nButton label: Click to enlarge image of (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nEnglish caption: Figure 2.14 Inventions abounded during the First Industrial Revolution. (a) A US patent was granted to Eli Whitney in 1794 for the cotton gin. (b) This sketch shows Samuel Morse’s telegraph. (c) Elias Howe invented the sewing machine. (credit (a): modification of “Patent for Cotton Gin (1794)” by “Gamaliel”/Wikimedia Commons, Public Domain; credit (b): modification of “Morse telegraph” by Unknown/Wikimedia Commons, Public Domain; credit (c): modification of “Elias Howe Sewing Machine 1846” by Unknown/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.5131195335276968,
+    "averageConfidence": 34,
+    "entropy": 5.716256160716512,
+    "sharpness": 2.6533515849771336
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nButton label: Click to enlarge image of (a) Patent for the cotton gin with illustrations. (b) Sketch of a telegraph. (c) Photo of a sewing machine.\nEnglish caption: Figure 2.14 Inventions abounded during the First Industrial Revolution. (a) A US patent was granted to Eli Whitney in 1794 for the cotton gin. (b) This sketch shows Samuel Morse’s telegraph. (c) Elias Howe invented the sewing machine. (credit (a): modification of “Patent for Cotton Gin (1794)” by “Gamaliel”/Wikimedia Commons, Public Domain; credit (b): modification of “Morse telegraph” by Unknown/Wikimedia Commons, Public Domain; credit (c): modification of “Elias Howe Sewing Machine 1846” by Unknown/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: whitney, samuel, morse, elias, howe, gamaliel. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "im",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 109,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": ". - Nam cham |",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 255,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "god : BR Pin dign",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 401,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "| oi Ban vé sing ché #3",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 547,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "Cita méy tach bong i)",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 693,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "S67-X a Sy",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 839,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "4) Ngay 14 thang 3",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 985,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "1 =| A 2A nam 1794 ¢ [",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 1131,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "3 “47 N § Nam chi",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 1277,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "Ql = i bio ion",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 1423,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "re WE (Te",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 1569,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "5 = =p er | A : 29+ 1 Banh ring bed BR",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 1715,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "3 Bid 2 Ve ©",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 1861,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "- 1 eh /] EAT CTE - soiee ff FN",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2007,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "i “a, § Be Ee cc RO",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2153,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "0 ak : NLR | A ) i",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2299,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "EE £ Cun day c ro Yb 4 Joi -",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2445,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": ": Eh tial Co LET)",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2591,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "i HERE E |",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2737,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "© I El E | | & og & [[]",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 2883,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "er AE § : 5 ae 2 wiki |",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 3029,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "a i EEA = : > a \\ Vv il | Ne",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 3175,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "% r= —— Y, | N LL E>",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 3321,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "= = 5 E ew 4",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 3467,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "g Nim tiép xtc in|",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 3613,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "§ Buge ip cho Eli Whitney Pp 4 & Lae (bank cay 4 =)",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 3759,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "i 3 Hoa Ky & 4 = : HER. | _ SEER",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 3905,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "[ve E . op x 4 :",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 4051,
+          "w": 1380,
+          "h": 73
+        }
+      },
+      {
+        "text": "[aE 0 Yi Eke ae Se : :",
+        "confidence": 40,
+        "bbox": {
+          "x": 173,
+          "y": 4197,
+          "w": 1380,
+          "h": 73
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": [
+        "whitney"
+      ]
+    },
+    "validationAttempt": 3
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-4-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-4-frameworks-to-inform-your-entrepreneurial-path.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Develop",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 97,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "recovery",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 226,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "plan",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 355,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "Create",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 484,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "recovery",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 613,
+        "w": 773,
+        "h": 65
+      }
+    },
+    {
+      "text": "timeline",
+      "confidence": 96,
+      "bbox": {
+        "x": 97,
+        "y": 742,
+        "w": 773,
+        "h": 65
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Develop",
+      "normalizedSource": "Develop",
+      "target": "Phát triển",
+      "bbox": {
+        "x": 97,
+        "y": 97,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "recovery",
+      "normalizedSource": "recovery",
+      "target": "kế hoạch phục hồi",
+      "bbox": {
+        "x": 97,
+        "y": 226,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": true
+    },
+    {
+      "source": "plan",
+      "normalizedSource": "plan",
+      "target": "kế hoạch",
+      "bbox": {
+        "x": 97,
+        "y": 355,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": true
+    },
+    {
+      "source": "Create",
+      "normalizedSource": "Create",
+      "target": "Tạo",
+      "bbox": {
+        "x": 97,
+        "y": 484,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "recovery",
+      "normalizedSource": "recovery",
+      "target": "phục hồi",
+      "bbox": {
+        "x": 97,
+        "y": 613,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": false
+    },
+    {
+      "source": "timeline",
+      "normalizedSource": "timeline",
+      "target": "thời gian",
+      "bbox": {
+        "x": 97,
+        "y": 742,
+        "w": 773,
+        "h": 65
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: Mind map that shows a disaster action plan with arrows extending to such areas as assess action plan results, hurricane, tornado, develop recovery plan, volcano eruption, identify solutions, research resources, flood, designate delivery methods, forest fire, create recovery timeline, earthquake, and monitor recovery efforts.\nButton label: Click to enlarge image of Mind map that shows a disaster action plan with arrows extending to such areas as assess action plan results, hurricane, tornado, develop recovery plan, volcano eruption, identify solutions, research resources, flood, designate delivery methods, forest fire, create recovery timeline, earthquake, and monitor recovery efforts.\nEnglish caption: Figure 2.26 From this mind map of disasters that occur and actions to take, we could focus on one action area that matches our interests, passions and skills. After selecting an area of interest, we could create another mind map focused on our area of interest to identify solution sets. Next, we could apply one of the frameworks listed in Table 2.3. From there we could create an action plan of actions needed to become more informed about the idea or solutions. As you can see, an action plan fits into multiple areas. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.3867171565571436,
+    "averageConfidence": 96,
+    "entropy": 3.29594017495765,
+    "sharpness": 4.917283884414628
+  }
+}

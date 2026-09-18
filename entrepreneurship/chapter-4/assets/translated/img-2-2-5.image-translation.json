@@ -1,0 +1,369 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-2-5.vi.png",
+  "ocr": [
+    {
+      "text": "1940s — > 1950s — 1960s ST 1970s",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 65,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "+» Minute Maid + Burger King + Walmart + Urban Outfitters",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 151,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "+ Sony (1946) + McDonald's « Comcast « Starbucks",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 237,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "+ 20th Century (1955) (1963) (1971)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 323,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "Fox Television « Nike (1964) » Microsoft",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 409,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "(1949) +» MasterCard (1975)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 495,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "(1966) + Apple (1976)",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 581,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "+ Southwest",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 667,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "Airlines",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 753,
+        "w": 1040,
+        "h": 43
+      }
+    },
+    {
+      "text": "+» The Gap",
+      "confidence": 78,
+      "bbox": {
+        "x": 130,
+        "y": 839,
+        "w": 1040,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "1940s — > 1950s — 1960s ST 1970s",
+      "normalizedSource": "1940s — > 1950s — 1960s ST 1970s",
+      "target": "1940s — > 1950s — 1960s ST 1970s",
+      "bbox": {
+        "x": 130,
+        "y": 65,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "+» Minute Maid + Burger King + Walmart + Urban Outfitters",
+      "normalizedSource": "+» Minute Maid + Burger King + Walmart + Urban Outfitters",
+      "target": "+» Minute Maid + Burger King + Walmart + Urban Outfitters",
+      "bbox": {
+        "x": 130,
+        "y": 151,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Sony (1946) + McDonald's « Comcast « Starbucks",
+      "normalizedSource": "+ Sony (1946) + McDonald's « Comcast « Starbucks",
+      "target": "+ Sony (1946) + McDonald's « Comcast « Starbucks",
+      "bbox": {
+        "x": 130,
+        "y": 237,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ 20th Century (1955) (1963) (1971)",
+      "normalizedSource": "+ 20th Century (1955) (1963) (1971)",
+      "target": "+ 20th Century (1955) (1963) (1971)",
+      "bbox": {
+        "x": 130,
+        "y": 323,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "Fox Television « Nike (1964) » Microsoft",
+      "normalizedSource": "Fox Television « Nike (1964) » Microsoft",
+      "target": "Fox Television « Nike (1964) » Microsoft",
+      "bbox": {
+        "x": 130,
+        "y": 409,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "(1949) +» MasterCard (1975)",
+      "normalizedSource": "(1949) +» MasterCard (1975)",
+      "target": "(1949) +» MasterCard (1975)",
+      "bbox": {
+        "x": 130,
+        "y": 495,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "(1966) + Apple (1976)",
+      "normalizedSource": "(1966) + Apple (1976)",
+      "target": "(1966) + Apple (1976)",
+      "bbox": {
+        "x": 130,
+        "y": 581,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Southwest",
+      "normalizedSource": "+ Southwest",
+      "target": "+ Southwest",
+      "bbox": {
+        "x": 130,
+        "y": 667,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "Airlines",
+      "normalizedSource": "Airlines",
+      "target": "Hãng hàng không",
+      "bbox": {
+        "x": 130,
+        "y": 753,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    },
+    {
+      "source": "+» The Gap",
+      "normalizedSource": "+» The Gap",
+      "target": "+» The Gap",
+      "bbox": {
+        "x": 130,
+        "y": 839,
+        "w": 1040,
+        "h": 43
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: Timeline of the development of corporations. 1940s: Minute Maid (1945), Sony (1946), and 20th Century Fox Television (1949). 1950s: Burger King (1954) and McDonald’s (1955). 1960s: Walmart (1962), Comcast (1963), Nike (1964), MasterCard (1966), Southwest Airlines (1967), and the Gap (1969). 1970s: Urban Outfitters (1970), Starbucks (1971), Microsoft (1975), and Apple (1976).\nButton label: Click to enlarge image of Timeline of the development of corporations. 1940s: Minute Maid (1945), Sony (1946), and 20th Century Fox Television (1949). 1950s: Burger King (1954) and McDonald’s (1955). 1960s: Walmart (1962), Comcast (1963), Nike (1964), MasterCard (1966), Southwest Airlines (1967), and the Gap (1969). 1970s: Urban Outfitters (1970), Starbucks (1971), Microsoft (1975), and Apple (1976).\nEnglish caption: Figure 2.16 Many important corporations developed in the decades after World War I. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.6370370370370371,
+    "averageConfidence": 78,
+    "entropy": 1.6313811446761974,
+    "sharpness": 5.196328073191894
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Timeline of the development of corporations. 1940s: Minute Maid (1945), Sony (1946), and 20th Century Fox Television (1949). 1950s: Burger King (1954) and McDonald’s (1955). 1960s: Walmart (1962), Comcast (1963), Nike (1964), MasterCard (1966), Southwest Airlines (1967), and the Gap (1969). 1970s: Urban Outfitters (1970), Starbucks (1971), Microsoft (1975), and Apple (1976).\nButton label: Click to enlarge image of Timeline of the development of corporations. 1940s: Minute Maid (1945), Sony (1946), and 20th Century Fox Television (1949). 1950s: Burger King (1954) and McDonald’s (1955). 1960s: Walmart (1962), Comcast (1963), Nike (1964), MasterCard (1966), Southwest Airlines (1967), and the Gap (1969). 1970s: Urban Outfitters (1970), Starbucks (1971), Microsoft (1975), and Apple (1976).\nEnglish caption: Figure 2.16 Many important corporations developed in the decades after World War I. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- 1940s — > 1950s — 1960s ST 1970s => 1940s — > 1950s — 1960s ST 1970s\n- +» Minute Maid + Burger King + Walmart + Urban Outfitters => +» Minute Maid + Burger King + Walmart + Urban Outfitters\n- + Sony (1946) + McDonald's « Comcast « Starbucks => + Sony (1946) + McDonald's « Comcast « Starbucks\n- + 20th Century (1955) (1963) (1971) => + 20th Century (1955) (1963) (1971)\n- Fox Television « Nike (1964) » Microsoft => Fox Television « Nike (1964) » Microsoft\n- (1949) +» MasterCard (1975) => (1949) +» MasterCard (1975)\n- (1966) + Apple (1976) => (1966) + Apple (1976)\n- + Southwest => + Southwest\n- Airlines => Hãng hàng không\n- +» The Gap => +» The Gap\nPrevious output was rejected because these English source words were still visible: minute, maid, burger, king, walmart, urban, outfitters, sony, mcdonald's, comcast, starbucks, century, television, nike, microsoft, mastercard, apple, southwest. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Trai cay Phat Chét * Vua Banh Kep * Siéu thi Lon * Cla hang Thoi trang",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 97,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "(1945) (1954) (1962) bo thi",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 226,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "£ Sages ia na (1970)",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 355,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "* Cong ty Dién tur * Nha hang Cia * Truyén thong Cap",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 484,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "* Truyén hinh Eos + Thé thao Gidy (1971)",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 613,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "Dién anh Thé ky 20 (1964) + Cong ty Phan mém",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 742,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "(1949) e Thé Chu (1975)",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 871,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "* Qué tao",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 1000,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "* Hang hang khong (1976)",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 1129,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "Phia Tay Nam",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 1258,
+          "w": 1555,
+          "h": 65
+        }
+      },
+      {
+        "text": "+ Cia hang Khoang trong",
+        "confidence": 70,
+        "bbox": {
+          "x": 194,
+          "y": 1387,
+          "w": 1555,
+          "h": 65
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 2
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

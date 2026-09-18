@@ -1,0 +1,455 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-1-overview-of-the-entrepreneurial-journey.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-1-6.vi.png",
+  "ocr": [
+    {
+      "text": "Preparation i ]",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 70,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "Reflection Questions",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 163,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "to + What do I want to accomplish",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 256,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "<Q now and in the future?",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 349,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "oO « What will I offer, create, or",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 442,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "change that might have an",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 535,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "impact on the world?",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 628,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "+ Is there a better way to solve",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 721,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "a problem or address an",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 814,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "issue?",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 907,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "+ What are the conditions of",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1000,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "my target market or",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1093,
+        "w": 1040,
+        "h": 46
+      }
+    },
+    {
+      "text": "environment?",
+      "confidence": 86,
+      "bbox": {
+        "x": 130,
+        "y": 1186,
+        "w": 1040,
+        "h": 46
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Preparation i ]",
+      "normalizedSource": "Preparation i ]",
+      "target": "Chuẩn bị i ]",
+      "bbox": {
+        "x": 130,
+        "y": 70,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "Reflection Questions",
+      "normalizedSource": "Reflection Questions",
+      "target": "Câu hỏi phản ánh",
+      "bbox": {
+        "x": 130,
+        "y": 163,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "to + What do I want to accomplish",
+      "normalizedSource": "to + What do I want to accomplish",
+      "target": "Tôi muốn đạt được điều gì",
+      "bbox": {
+        "x": 130,
+        "y": 256,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "<Q now and in the future?",
+      "normalizedSource": "<Q now and in the future?",
+      "target": "bây giờ và trong tương lai?",
+      "bbox": {
+        "x": 130,
+        "y": 349,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "oO « What will I offer, create, or",
+      "normalizedSource": "oO « What will I offer, create, or",
+      "target": "Tôi sẽ cung cấp, tạo ra, hoặc",
+      "bbox": {
+        "x": 130,
+        "y": 442,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "change that might have an",
+      "normalizedSource": "change that might have an",
+      "target": "thay đổi điều gì có thể",
+      "bbox": {
+        "x": 130,
+        "y": 535,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "impact on the world?",
+      "normalizedSource": "impact on the world?",
+      "target": "ảnh hưởng đến thế giới?",
+      "bbox": {
+        "x": 130,
+        "y": 628,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Is there a better way to solve",
+      "normalizedSource": "+ Is there a better way to solve",
+      "target": "Có cách nào tốt hơn để giải quyết",
+      "bbox": {
+        "x": 130,
+        "y": 721,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "a problem or address an",
+      "normalizedSource": "a problem or address an",
+      "target": "một vấn đề hoặc giải quyết một",
+      "bbox": {
+        "x": 130,
+        "y": 814,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "issue?",
+      "normalizedSource": "issue?",
+      "target": "vấn đề?",
+      "bbox": {
+        "x": 130,
+        "y": 907,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ What are the conditions of",
+      "normalizedSource": "+ What are the conditions of",
+      "target": "Điều kiện của thị trường mục tiêu",
+      "bbox": {
+        "x": 130,
+        "y": 1000,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "my target market or",
+      "normalizedSource": "my target market or",
+      "target": "hoặc môi trường của tôi?",
+      "bbox": {
+        "x": 130,
+        "y": 1093,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    },
+    {
+      "source": "environment?",
+      "normalizedSource": "environment?",
+      "target": "môi trường",
+      "bbox": {
+        "x": 130,
+        "y": 1186,
+        "w": 1040,
+        "h": 46
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nButton label: Click to enlarge image of A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nEnglish caption: Figure 2.7 In preparing for your venture, you need to ask what you want to accomplish, what you want to offer, and who you want to target. You also need to consider what potential obstacles might present challenges. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.8248275862068966,
+    "averageConfidence": 86,
+    "entropy": 3.742820243807728,
+    "sharpness": 4.560074576797339
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: statistics.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nButton label: Click to enlarge image of A drawing of a man shows he is in the Preparation stage. He asks himself the following Reflection Questions: What do I want to accomplish now and in the future? What will I offer, create, or change that might have an impact on the world? Is there a better way to solve a problem or address an issue? What are the conditions of my target market or environment? Potential Obstacles are Lack of ideas or inspiration, Idea or venture already exists, Unrealistic expectations for the “perfect” or “right” solution, Fear of risks, and Being too practical or too logical.\nEnglish caption: Figure 2.7 In preparing for your venture, you need to ask what you want to accomplish, what you want to offer, and who you want to target. You also need to consider what potential obstacles might present challenges. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Preparation i ] => Chuẩn bị i ]\n- Reflection Questions => Câu hỏi phản ánh\n- to + What do I want to accomplish => Tôi muốn đạt được điều gì\n- <Q now and in the future? => bây giờ và trong tương lai?\n- oO « What will I offer, create, or => Tôi sẽ cung cấp, tạo ra, hoặc\n- change that might have an => thay đổi điều gì có thể\n- impact on the world? => ảnh hưởng đến thế giới?\n- + Is there a better way to solve => Có cách nào tốt hơn để giải quyết\n- a problem or address an => một vấn đề hoặc giải quyết một\n- issue? => vấn đề?\n- + What are the conditions of => Điều kiện của thị trường mục tiêu\n- my target market or => hoặc môi trường của tôi?\n- environment? => môi trường\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "iE)",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 101,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "Chuan bi",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 235,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "Cau héi phan anh Nhirng tré ngai tiém an",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 369,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "Oo + Toi muon dat duoc diéu gi « Thiéuy tudng hodc cam hing",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 503,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "Oo bay gio va trong tuong lai? « Y tudng hodc du an da ton tai",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 637,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "+ Toi sé cung cap, tao ra, hoac + Ky vong khéng thuc té€ doi vai",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 771,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "0 thay d&i diéu gi c6 thé gidi phap “hoan hao” hoac",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 905,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "Eds anh huang dén thé gici? “ding”",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 1039,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "«+ C6 cach nao tot hon dé giai quyét + Néi sg rtiro",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 1173,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "mot van dé hodc giai quyét mot + Qua thuc té hoac qua logic",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 1307,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "van dé?",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 1441,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "+ Diéu kién cla thi trudng muc tiéu",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 1575,
+          "w": 1502,
+          "h": 67
+        }
+      },
+      {
+        "text": "hoac moi trudng cua toi?",
+        "confidence": 71,
+        "bbox": {
+          "x": 188,
+          "y": 1709,
+          "w": 1502,
+          "h": 67
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

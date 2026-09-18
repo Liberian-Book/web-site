@@ -1,0 +1,44 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-4-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-4-frameworks-to-inform-your-entrepreneurial-path.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "~ Empathize",
+      "confidence": 45,
+      "bbox": {
+        "x": 76,
+        "y": 88,
+        "w": 606,
+        "h": 59
+      }
+    },
+    {
+      "text": "Prototype : k",
+      "confidence": 45,
+      "bbox": {
+        "x": 76,
+        "y": 205,
+        "w": 606,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Cartoon with Design Thinking Process in the middle, with partially overlapping areas of Define to Ideate to Prototype to Test to Empathize and back to Define.\nButton label: Click to enlarge image of Cartoon with Design Thinking Process in the middle, with partially overlapping areas of Define to Ideate to Prototype to Test to Empathize and back to Define.\nEnglish caption: Figure 2.24 The design thinking process is a systematic approach for solving problems. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.12869530161724,
+    "averageConfidence": 45,
+    "entropy": 3.408226071180252,
+    "sharpness": 2.4782084029153637
+  }
+}

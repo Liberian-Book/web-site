@@ -1,0 +1,633 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><h2 data-type="document-title" id="page_92e5097b-a96a-4d0f-b6b5-265617f78bb8_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">7.5</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Central Limit Theorem (Cookie Recipes)</span>
+</h2><h2 data-type="document-title" id="page_92e5097b-a96a-4d0f-b6b5-265617f78bb8_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">7.5</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Định lý Giới hạn Trung tâm (Công thức làm bánh quy)</span></h2>
+  
+  <div data-type="note" data-has-label="true" id="fs-id1171897709330" class="statistics lab ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Stats Lab </span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Phòng thí nghiệm Thống kê </span></h3></header><section>
+<div class="os-note-body"><h4 data-type="title" class="os-subtitle eng hidden">
+  <span class="os-subtitle-label">Central Limit Theorem (Cookie Recipes)</span>
+</h4><h4 data-type="title" class="os-subtitle vn visible"><span class="os-subtitle-label">Định lý Giới hạn Trung tâm (Công thức làm bánh quy)</span></h4>
+
+<p id="id5609695" class="eng hidden">Class Time: </p><p id="id5609695-vn" class="vn visible">Thời gian học:</p>
+<p id="id5609702" class="eng hidden">Names:</p><p id="id5609702-vn" class="vn visible">Tên:</p>
+
+<div data-type="list" id="list-2397864897"><div data-type="title" class="eng hidden">Student Learning Outcomes</div><div data-type="title" class="vn visible">Kết quả học tập của sinh viên</div><ul>
+<li class="eng hidden">The student will demonstrate and compare properties of the central limit theorem.</li><li class="vn visible">Sinh viên sẽ trình bày và so sánh các thuộc tính của định lý giới hạn trung tâm.</li></ul></div>
+
+
+<p id="element-743"><span data-type="title" class="eng hidden">Given</span><span data-type="title" class="vn visible">Cho</span><em data-effect="italics">X</em><span class="eng hidden"> = length of time (in days) that a cookie recipe lasted at the Olmstead Homestead. (Assume that each of the different recipes makes the same quantity of cookies.)</span><span class="vn visible">= thời gian (tính bằng ngày) mà một công thức làm bánh quy được sử dụng tại Trang trại Olmstead. (Giả sử rằng mỗi công thức khác nhau làm ra cùng một số lượng bánh quy.)</span></p>
+
+<div class="os-table" id="tableones23"><table data-id="tableones23" data-summary="This table presents recipe data in the first column and X length of days data in the second column of 15 rows. These two columns repeat three more times in the same table."><thead>
+<tr>
+<th data-align="center" scope="col" class="eng hidden">Recipe #</th><th data-align="center" scope="col" class="vn visible">Công thức #</th>
+<th data-align="center" scope="col" class="eng hidden"><em data-effect="italics">X</em></th><th data-align="center" scope="col" class="vn visible"><em data-effect="italics">X</em></th>
+<th scope="col" class="eng hidden">
+</th><th scope="col" class="vn visible">
+</th><th data-align="center" scope="col" class="eng hidden">Recipe #</th><th data-align="center" scope="col" class="vn visible">Công thức #</th>
+<th data-align="center" scope="col" class="eng hidden"><em data-effect="italics">X</em></th><th data-align="center" scope="col" class="vn visible"><em data-effect="italics">X</em></th>
+<th scope="col" class="eng hidden">
+</th><th scope="col" class="vn visible">
+</th><th data-align="center" scope="col" class="eng hidden">Recipe #</th><th data-align="center" scope="col" class="vn visible">Công thức #</th>
+<th data-align="center" scope="col" class="eng hidden"><em data-effect="italics">X</em></th><th data-align="center" scope="col" class="vn visible"><em data-effect="italics">X</em></th>
+<th scope="col" class="eng hidden">
+</th><th scope="col" class="vn visible">
+</th><th data-align="center" scope="col" class="eng hidden">Recipe #</th><th data-align="center" scope="col" class="vn visible">Công thức #</th>
+<th data-align="center" scope="col" class="eng hidden"><em data-effect="italics">X</em></th><th data-align="center" scope="col" class="vn visible"><em data-effect="italics">X</em></th>
+</tr>
+</thead><tbody>
+<tr>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">16</td><td data-align="center" class="vn visible">16</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">31</td><td data-align="center" class="vn visible">31</td>
+<td data-align="center" class="eng hidden">3</td><td data-align="center" class="vn visible">3</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">46</td><td data-align="center" class="vn visible">46</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">17</td><td data-align="center" class="vn visible">17</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">32</td><td data-align="center" class="vn visible">32</td>
+<td data-align="center" class="eng hidden">4</td><td data-align="center" class="vn visible">4</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">47</td><td data-align="center" class="vn visible">47</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">3</td><td data-align="center" class="vn visible">3</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">18</td><td data-align="center" class="vn visible">18</td>
+<td data-align="center" class="eng hidden">4</td><td data-align="center" class="vn visible">4</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">33</td><td data-align="center" class="vn visible">33</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">48</td><td data-align="center" class="vn visible">48</td>
+<td data-align="center" class="eng hidden">11</td><td data-align="center" class="vn visible">11</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">4</td><td data-align="center" class="vn visible">4</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">19</td><td data-align="center" class="vn visible">19</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">34</td><td data-align="center" class="vn visible">34</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">49</td><td data-align="center" class="vn visible">49</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">20</td><td data-align="center" class="vn visible">20</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">35</td><td data-align="center" class="vn visible">35</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">50</td><td data-align="center" class="vn visible">50</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">21</td><td data-align="center" class="vn visible">21</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">36</td><td data-align="center" class="vn visible">36</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">51</td><td data-align="center" class="vn visible">51</td>
+<td data-align="center" class="eng hidden">4</td><td data-align="center" class="vn visible">4</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">7</td><td data-align="center" class="vn visible">7</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">22</td><td data-align="center" class="vn visible">22</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">37</td><td data-align="center" class="vn visible">37</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">52</td><td data-align="center" class="vn visible">52</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">8</td><td data-align="center" class="vn visible">8</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">23</td><td data-align="center" class="vn visible">23</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">38</td><td data-align="center" class="vn visible">38</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">53</td><td data-align="center" class="vn visible">53</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">9</td><td data-align="center" class="vn visible">9</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">24</td><td data-align="center" class="vn visible">24</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">39</td><td data-align="center" class="vn visible">39</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">54</td><td data-align="center" class="vn visible">54</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">10</td><td data-align="center" class="vn visible">10</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">25</td><td data-align="center" class="vn visible">25</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">40</td><td data-align="center" class="vn visible">40</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">55</td><td data-align="center" class="vn visible">55</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">11</td><td data-align="center" class="vn visible">11</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">26</td><td data-align="center" class="vn visible">26</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">41</td><td data-align="center" class="vn visible">41</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">56</td><td data-align="center" class="vn visible">56</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">12</td><td data-align="center" class="vn visible">12</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">27</td><td data-align="center" class="vn visible">27</td>
+<td data-align="center" class="eng hidden">4</td><td data-align="center" class="vn visible">4</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">42</td><td data-align="center" class="vn visible">42</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">57</td><td data-align="center" class="vn visible">57</td>
+<td data-align="center" class="eng hidden">4</td><td data-align="center" class="vn visible">4</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">13</td><td data-align="center" class="vn visible">13</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">28</td><td data-align="center" class="vn visible">28</td>
+<td data-align="center" class="eng hidden">1</td><td data-align="center" class="vn visible">1</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">43</td><td data-align="center" class="vn visible">43</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">58</td><td data-align="center" class="vn visible">58</td>
+<td data-align="center" class="eng hidden">3</td><td data-align="center" class="vn visible">3</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">14</td><td data-align="center" class="vn visible">14</td>
+<td data-align="center" class="eng hidden">3</td><td data-align="center" class="vn visible">3</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">29</td><td data-align="center" class="vn visible">29</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">44</td><td data-align="center" class="vn visible">44</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">59</td><td data-align="center" class="vn visible">59</td>
+<td data-align="center" class="eng hidden">6</td><td data-align="center" class="vn visible">6</td>
+</tr>
+<tr>
+<td data-align="center" class="eng hidden">15</td><td data-align="center" class="vn visible">15</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">30</td><td data-align="center" class="vn visible">30</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">45</td><td data-align="center" class="vn visible">45</td>
+<td data-align="center" class="eng hidden">2</td><td data-align="center" class="vn visible">2</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td data-align="center" class="eng hidden">60</td><td data-align="center" class="vn visible">60</td>
+<td data-align="center" class="eng hidden">5</td><td data-align="center" class="vn visible">5</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">7.4</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 7.4</div>
+</div><p id="element-538" class="eng hidden">Calculate the following:
+</p><p id="element-538-vn" class="vn visible">Tính toán các giá trị sau:</p><ol id="list-2396953" type="a">
+<li class="eng hidden"><em data-effect="italics">μ<sub>x</sub></em> = _______</li><li class="vn visible">μₓ = _______</li>
+<li class="eng hidden"><em data-effect="italics">σ<sub>x</sub></em> = _______</li><li class="vn visible">σₓ = _______</li>
+</ol>
+
+
+<p id="element-453"><span data-type="title" class="eng hidden">Collect the Data</span><span data-type="title" class="vn visible">Thu thập Dữ liệu</span><span class="eng hidden">Use a random number generator to randomly select four samples of size </span><span class="vn visible">Sử dụng một trình tạo số ngẫu nhiên để chọn ngẫu nhiên bốn mẫu có kích thước</span><em data-effect="italics">n</em><span class="eng hidden"> = 5 from the given population. Record your samples in </span><span class="vn visible">= 5 từ quần thể đã cho. Ghi lại các mẫu của bạn vào</span><a href="7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl002" class="autogenerated-content" aria-label="View Table 7.5">Table 7.5</a><span class="eng hidden">. Then, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.</span><span class="vn visible">Sau đó, với mỗi mẫu, hãy tính trung bình làm tròn đến chữ số thập phân thứ nhất. Ghi chúng vào các ô được cung cấp. Ghi lại các trung bình mẫu cho phần còn lại của lớp.</span></p>
+<ol id="list-98698565"><li><span class="eng hidden"> Complete the table:
+</span><span class="vn visible">Hoàn thành bảng sau:</span><div class="os-table" id="Ch07_lab2_tbl002"><table data-id="Ch07_lab2_tbl002" data-summary="Partially filled table with samples (4) in columns and 5 blank rows plus a blank Means row."><thead>
+<tr>
+<th scope="col" class="eng hidden">
+</th><th scope="col" class="vn visible">
+</th><th scope="col" class="eng hidden">Sample 1</th><th scope="col" class="vn visible">Mẫu 1</th>
+<th scope="col" class="eng hidden">Sample 2</th><th scope="col" class="vn visible">Mẫu 2</th>
+<th scope="col" class="eng hidden">Sample 3</th><th scope="col" class="vn visible">Mẫu 3</th>
+<th scope="col" class="eng hidden">Sample 4</th><th scope="col" class="vn visible">Mẫu 4</th>
+<th scope="col" class="eng hidden">Sample means from other groups:</th><th scope="col" class="vn visible">Các trung bình mẫu từ các nhóm khác:</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">Means:</td><td class="vn visible">Các trung bình:</td>
+<td class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="0" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td><td class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="0" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td>
+<td class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="1" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td><td class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="1" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td>
+<td class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="2" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td><td class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="2" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td>
+<td class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="3" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td><td class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="3" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">7.5</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible"><span class="os-title-label">Bảng </span>
+  <span class="os-number">7.5</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span></div>
+</div></li>
+<li><span class="eng hidden">Calculate the following:
+</span><span class="vn visible">Tính toán các giá trị sau:</span><ol id="eip-idp136101696" type="a">
+<li class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="4" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = _______</li><li class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="4" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = _______</li>
+<li class="eng hidden">
+<em data-effect="italics">s</em><sub><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="5" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container></sub> = _______</li><li class="vn visible">
+<em data-effect="italics">s</em><sub><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="5" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container></sub> = _______</li></ol>
+</li>
+
+<li><span class="eng hidden">Again, use a random number generator to randomly select four samples from the population. This time, make the samples of size </span><span class="vn visible">Một lần nữa, sử dụng một trình tạo số ngẫu nhiên để chọn bốn mẫu từ Quần thể. Lần này, hãy tạo các mẫu có kích thước</span><em data-effect="italics">n</em><span class="eng hidden"> = 10. Record the samples in </span><span class="vn visible">= 10. Ghi lại các mẫu trong</span><a href="7-5-central-limit-theorem-cookie-recipes#Ch07_lab2_tbl003" class="autogenerated-content" aria-label="View Table 7.6">Table 7.6</a><span class="eng hidden">. As before, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
+</span><span class="vn visible">. Như trước, đối với mỗi mẫu, hãy tính trung bình đến phần mười gần nhất. Ghi chúng vào các ô được cung cấp. Ghi lại các trung bình mẫu cho phần còn lại của lớp.</span><div class="os-table" id="Ch07_lab2_tbl003"><table data-id="Ch07_lab2_tbl003" data-summary="Same as the above table except with 10 blank rows and a means row."><thead>
+<tr>
+<th scope="col" class="eng hidden">
+</th><th scope="col" class="vn visible">
+</th><th scope="col" class="eng hidden">Sample 1</th><th scope="col" class="vn visible">Mẫu 1</th>
+<th scope="col" class="eng hidden">Sample 2</th><th scope="col" class="vn visible">Mẫu 2</th>
+<th scope="col" class="eng hidden">Sample 3</th><th scope="col" class="vn visible">Mẫu 3</th>
+<th scope="col" class="eng hidden">Sample 4</th><th scope="col" class="vn visible">Mẫu 4</th>
+<th scope="col" class="eng hidden">Sample means from other groups</th><th scope="col" class="vn visible">Trung bình mẫu từ các nhóm khác</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td><td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+<tr>
+<td class="eng hidden">Means:</td><td class="vn visible">Trung bình:</td>
+<td class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="6" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td><td class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="6" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td>
+<td class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="7" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td><td class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="7" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td>
+<td class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="8" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td><td class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="8" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td>
+<td class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="9" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td><td class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="9" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ____</td>
+<td class="eng hidden">
+</td><td class="vn visible">
+</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">7.6</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 7.6</div>
+</div></li>
+<li><span class="eng hidden">Calculate the following:
+</span><span class="vn visible">Tính toán các giá trị sau:</span><ol id="element-8475643" type="a">
+<li class="eng hidden"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="10" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ______</li><li class="vn visible"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="10" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> = ______</li>
+<li class="eng hidden"><em data-effect="italics">s</em><sub><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="11" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container></sub> = ______</li><li class="vn visible"><em data-effect="italics">s</em><sub><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="11" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container></sub> = ______</li></ol></li>
+<li><span class="eng hidden">For the original population, construct a histogram. Make intervals with a bar width of one day. Sketch the graph using a ruler and pencil. Scale the axes.</span><span class="vn visible">Đối với quần thể ban đầu, hãy xây dựng một biểu đồ tần suất. Tạo các khoảng với độ rộng thanh là một ngày. Phác thảo đồ thị bằng thước kẻ và bút chì. Chuẩn hóa các trục.</span><span data-type="newline"><br></span>
+<div class="os-figure" id="id6597795"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597795"><span data-type="media" id="id6597799" data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency."><button type="button" aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper"><img src="assets/img-7-5-1.webp" data-media-type="image/png" alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." width="688" height="363" loading="lazy"></button>
+</span><figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">7.13</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible">Hình 7.13</figcaption></figure></div></li>
+<li class="eng hidden">Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li><li class="vn visible">Vẽ một đường cong mượt mà qua đỉnh của các thanh trong biểu đồ tần suất. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng tổng quát của đường cong.</li>
+</ol><div data-type="list" id="list-2646"><div data-type="title" class="eng hidden">Repeat the Procedure for <em data-effect="italics">n</em> = 5</div><div data-type="title" class="vn visible">Lặp lại Quy trình cho <em data-effect="italics">n</em> = 5</div><ol><li><span class="eng hidden">For the sample of </span><span class="vn visible">Đối với mẫu gồm</span><em data-effect="italics">n</em><span class="eng hidden"> = 5 days averaged together, construct a histogram of the averages (your means together with the means of the other groups). Make intervals with bar widths of </span><span class="vn visible">= 5 ngày được lấy trung bình cộng, hãy xây dựng một biểu đồ tần suất của các giá trị trung bình (trung bình của bạn cùng với trung bình của các nhóm khác). Tạo các khoảng với độ rộng thanh là</span><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="12" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mrow><mjx-mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn size="s" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c31">1</mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mn size="s" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c32">2</mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-mrow></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mrow><mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">1</mn><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">2</mn></mfrac></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container><span class="eng hidden"> a day. Sketch the graph using a ruler and pencil. Scale the axes.
+</span><span class="vn visible">một ngày. Phác thảo đồ thị bằng thước kẻ và bút chì. Chuẩn hóa các trục.</span><div class="os-figure" id="id6597892"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597892"><span data-type="media" id="id6597897" data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency."><button type="button" aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper"><img src="assets/img-7-5-2.webp" data-media-type="image/png" alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." width="688" height="363" loading="lazy"></button></span>
+<figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">7.14</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible">Hình 7.14</figcaption></figure></div></li>
+<li class="eng hidden">Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li><li class="vn visible">Vẽ một đường cong mượt mà qua đỉnh của các thanh trong biểu đồ tần suất. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng tổng quát của đường cong.</li>
+</ol></div><div data-type="list" id="list-2764646"><div data-type="title" class="eng hidden">Repeat the Procedure for <em data-effect="italics">n</em> = 10</div><div data-type="title" class="vn visible">Lặp lại Quy trình cho <em data-effect="italics">n</em> = 10</div><ol><li><span class="eng hidden">For the sample of </span><span class="vn visible">Đối với mẫu gồm</span><em data-effect="italics">n</em><span class="eng hidden"> = 10 days averaged together, construct a histogram of the averages (your means together with the means of the other groups). Make intervals with bar widths of </span><span class="vn visible">= 10 ngày được tính trung bình cộng lại, hãy xây dựng một biểu đồ tần suất của các giá trị trung bình (trung bình của bạn cùng với trung bình của các nhóm khác). Hãy tạo các khoảng với độ rộng thanh là</span><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="13" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mrow><mjx-mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn size="s" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c31">1</mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mn size="s" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c32">2</mjx-c></mjx-mn></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-mrow></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mrow><mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-annotation="clearspeak:simple;depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">1</mn><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">2</mn></mfrac></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container><span class="eng hidden"> a day. Sketch the graph using a ruler and pencil. Scale the axes.</span><span class="vn visible">một ngày. Phác thảo đồ thị bằng thước kẻ và bút chì. Chuẩn hóa các trục.</span><div class="os-figure" id="id6597991"><figure class="scaled-down ui-has-child-figcaption" data-id="id6597991"><span data-type="media" id="id6597997" data-alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency.">
+<button type="button" aria-label="Click to enlarge image of This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." class="image-button-wrapper"><img src="assets/img-7-5-3.webp" data-media-type="image/png" alt="This is a blank graph template. The horizontal axis is labeled Time (days) and the vertical axis is labeled Frequency." width="688" height="363" loading="lazy"></button>
+</span><figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">7.15</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">7.15</span></figcaption></figure></div></li>
+<li class="eng hidden">Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li><li class="vn visible">Vẽ một đường cong mượt qua đỉnh của các thanh của biểu đồ tần suất. Sử dụng một đến hai câu hoàn chỉnh để mô tả hình dạng tổng quát của đường cong.</li>
+</ol></div><div data-type="list" id="list-2937597532"><div data-type="title" class="eng hidden">Discussion Questions</div><div data-type="title" class="vn visible">Câu hỏi thảo luận</div><ol data-mark-suffix="."><li data-mark-suffix="." class="eng hidden">Compare the three histograms you have made, the one for the population and the two for the sample means. In three to five sentences, describe the similarities and differences.</li><li data-mark-suffix="." class="vn visible">So sánh ba biểu đồ tần suất bạn đã thực hiện, biểu đồ cho quần thể và hai biểu đồ cho trung bình mẫu. Trong ba đến năm câu, hãy mô tả những điểm tương đồng và khác biệt.</li>
+<li data-mark-suffix="."><span class="eng hidden">State the theoretical (according to the clt) distributions for the sample means.
+</span><span class="vn visible">Nêu các phân phối lý thuyết (theo định lý giới hạn trung tâm) cho các trung bình mẫu.</span><ol id="list-239875697325" type="a">
+<li class="eng hidden"><em data-effect="italics">n</em> = 5: <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="14" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> ~ _____(_____,_____)</li><li class="vn visible"><em data-effect="italics">n</em> = 5: <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="14" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> ~ _____(_____,_____)</li>
+<li class="eng hidden"><em data-effect="italics">n</em> = 10: <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="15" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> ~ _____(_____,_____)</li><li class="vn visible"><em data-effect="italics">n</em> = 10: <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="15" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(2 0 1)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mover data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-id="2" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mjx-over style="padding-bottom: 0.105em; padding-left: 0.043em; margin-bottom: -0.63em;"><mjx-mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-id="1" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-stretchy-h class="mjx-c305" style="width: 0.572em;"><mjx-ext class="NCM-EM"><mjx-spacer></mjx-spacer><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c><mjx-c>̅</mjx-c></mjx-ext></mjx-stretchy-h></mjx-mo></mjx-over><mjx-base><mjx-mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-id="0" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c1D465">𝑥</mjx-c></mjx-mi></mjx-base></mjx-mover></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(2 0 1)"><semantics><mrow><mover accent="true" data-semantic-type="overscore" data-semantic-role="latinletter" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="0,1" data-semantic-owns="0 1" data-semantic-level-number="0" data-speech-node="true"><mi data-semantic-type="identifier" data-semantic-role="latinletter" data-semantic-font="italic" data-semantic-annotation="clearspeak:simple;nemeth:number;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">x</mi><mo data-semantic-type="operator" data-semantic-role="overaccent" data-semantic-annotation="accent:bar;depth:2" data-semantic-="" data-semantic-parent="2" data-semantic-level-number="1" data-speech-node="true">¯</mo></mover></mrow><annotation-xml encoding="MathML-Content"><mover xmlns="http://www.w3.org/1998/Math/MathML" accent="true"><mi>x</mi><mo>¯</mo></mover></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container> ~ _____(_____,_____)</li>
+</ol></li>
+<li data-mark-suffix="." class="eng hidden">Are the sample means for <em data-effect="italics">n</em> = 5 and <em data-effect="italics">n</em> = 10 “close” to the theoretical mean, <em data-effect="italics">μ<sub>x</sub></em>? Explain why or why not.</li><li data-mark-suffix="." class="vn visible">Các trung bình mẫu cho <em data-effect="italics">n</em> = 5 và <em data-effect="italics">n</em> = 10 có “gần” với trung bình lý thuyết <em data-effect="italics">μ<sub>x</sub></em> không? Giải thích tại sao có hoặc tại sao không.</li>
+<li data-mark-suffix="." class="eng hidden">Which of the two distributions of sample means has the smaller standard deviation? Why?</li><li data-mark-suffix="." class="vn visible">Phân phối của hai trung bình mẫu nào có độ lệch chuẩn nhỏ hơn? Tại sao?</li>
+<li data-mark-suffix="." class="eng hidden">As <em data-effect="italics">n</em> changed, why did the shape of the distribution of the data change? Use one to two complete sentences to explain what happened.</li><li data-mark-suffix="." class="vn visible">Khi <em data-effect="italics">n</em> thay đổi, tại sao hình dạng của phân phối Dữ liệu lại thay đổi? Sử dụng một đến hai câu hoàn chỉnh để giải thích điều gì đã xảy ra.</li>
+</ol></div></div></section></div>  
+  </body></html>

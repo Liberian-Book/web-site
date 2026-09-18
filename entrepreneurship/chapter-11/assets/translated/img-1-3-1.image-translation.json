@@ -1,0 +1,188 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-3-1.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-3-the-entrepreneurial-mindset.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-3-1.vi.png",
+  "ocr": [
+    {
+      "text": "Pr et =o £5. AE (Qi 1",
+      "confidence": 30,
+      "bbox": {
+        "x": 110,
+        "y": 88,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "i {3 oa Ho Nid / A] ~~ as",
+      "confidence": 30,
+      "bbox": {
+        "x": 110,
+        "y": 205,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "a\\{ 2 Cy me Vat Sa |",
+      "confidence": 30,
+      "bbox": {
+        "x": 110,
+        "y": 322,
+        "w": 880,
+        "h": 59
+      }
+    },
+    {
+      "text": "A\\T Se UCR EY",
+      "confidence": 30,
+      "bbox": {
+        "x": 110,
+        "y": 439,
+        "w": 880,
+        "h": 59
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Photo of a row of VEORIDE bikes.\nButton label: Click to enlarge image of Photo of a row of VEORIDE bikes.\nEnglish caption: Figure 1.10 A bike-sharing program in Pella, Iowa, allows users to access bikes at a variety of locations. (credit: “Corral of VeoRide Dockless Bike Share” by “paul.wasneski”/Flickr, Public Domain)",
+  "metrics": {
+    "textDensity": 0.25757162346521145,
+    "averageConfidence": 30,
+    "entropy": 7.1326248118894,
+    "sharpness": 3.8085420539923702
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a row of VEORIDE bikes.\nButton label: Click to enlarge image of Photo of a row of VEORIDE bikes.\nEnglish caption: Figure 1.10 A bike-sharing program in Pella, Iowa, allows users to access bikes at a variety of locations. (credit: “Corral of VeoRide Dockless Bike Share” by “paul.wasneski”/Flickr, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "A BT 7 5 rE : 7 :",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 123,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "i J o %.: eZ\" Py —= Ek i 8 —-— a",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 287,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "{ J a” — —_ es = 2 y AYe b- 9/ R — a y 1 J] org",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 451,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Tr NEN",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 615,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "77-4 xt",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 779,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "CN (EF Ts ££ ‘Ne 5 Al 7 7",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 943,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Na a= Ki) S | S RM ———i2 = TSA",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 1107,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "Zs z a /",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 1271,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "a= 2 \\ 7 WA",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 1435,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "3 NT ¢! \\- / — — A 4 NN Jf",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 1599,
+          "w": 1230,
+          "h": 82
+        }
+      },
+      {
+        "text": "; Noe ms . lle f=",
+        "confidence": 29,
+        "bbox": {
+          "x": 154,
+          "y": 1763,
+          "w": 1230,
+          "h": 82
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

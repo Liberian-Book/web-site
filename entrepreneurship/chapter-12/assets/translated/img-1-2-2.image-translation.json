@@ -1,0 +1,187 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-2-2.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-2-entrepreneurial-vision-and-goals.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-2-2.vi.png",
+  "ocr": [
+    {
+      "text": "INCUBATION",
+      "confidence": 78,
+      "bbox": {
+        "x": 110,
+        "y": 94,
+        "w": 881,
+        "h": 63
+      }
+    },
+    {
+      "text": "Let subconscious work",
+      "confidence": 78,
+      "bbox": {
+        "x": 110,
+        "y": 219,
+        "w": 881,
+        "h": 63
+      }
+    },
+    {
+      "text": "through information",
+      "confidence": 78,
+      "bbox": {
+        "x": 110,
+        "y": 344,
+        "w": 881,
+        "h": 63
+      }
+    },
+    {
+      "text": "BY ™",
+      "confidence": 78,
+      "bbox": {
+        "x": 110,
+        "y": 469,
+        "w": 881,
+        "h": 63
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "INCUBATION",
+      "normalizedSource": "INCUBATION",
+      "target": "THỜI GIAN Ủ",
+      "bbox": {
+        "x": 110,
+        "y": 94,
+        "w": 881,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "Let subconscious work",
+      "normalizedSource": "Let subconscious work",
+      "target": "Để tiềm thức làm việc",
+      "bbox": {
+        "x": 110,
+        "y": 219,
+        "w": 881,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "through information",
+      "normalizedSource": "through information",
+      "target": "thông qua thông tin",
+      "bbox": {
+        "x": 110,
+        "y": 344,
+        "w": 881,
+        "h": 63
+      },
+      "overflow": false
+    },
+    {
+      "source": "BY ™",
+      "normalizedSource": "BY ™",
+      "target": "BỞI ™",
+      "bbox": {
+        "x": 110,
+        "y": 469,
+        "w": 881,
+        "h": 63
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: Four gears in the head of a person in the creative thinking process are labeled preparation (plan and gather information), incubation (let subconscious work through information), illumination (identify “aha moment” solutions), and verification (test and implement).\nButton label: Click to enlarge image of Four gears in the head of a person in the creative thinking process are labeled preparation (plan and gather information), incubation (let subconscious work through information), illumination (identify “aha moment” solutions), and verification (test and implement).\nEnglish caption: Figure 1.8 These are the four steps of the creative thinking process. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.25720124562086416,
+    "averageConfidence": 78,
+    "entropy": 2.8866250491682877,
+    "sharpness": 3.0479616911752383
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Four gears in the head of a person in the creative thinking process are labeled preparation (plan and gather information), incubation (let subconscious work through information), illumination (identify “aha moment” solutions), and verification (test and implement).\nButton label: Click to enlarge image of Four gears in the head of a person in the creative thinking process are labeled preparation (plan and gather information), incubation (let subconscious work through information), illumination (identify “aha moment” solutions), and verification (test and implement).\nEnglish caption: Figure 1.8 These are the four steps of the creative thinking process. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- INCUBATION => THỜI GIAN Ủ\n- Let subconscious work => Để tiềm thức làm việc\n- through information => thông qua thông tin\n- BY ™ => BỞI ™\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "THOT GIAN U",
+        "confidence": 77,
+        "bbox": {
+          "x": 149,
+          "y": 127,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Dé tiem thurc lam viéc",
+        "confidence": 77,
+        "bbox": {
+          "x": 149,
+          "y": 296,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "KHAI SANG",
+        "confidence": 77,
+        "bbox": {
+          "x": 149,
+          "y": 465,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Xac dinh cac giai phap",
+        "confidence": 77,
+        "bbox": {
+          "x": 149,
+          "y": 634,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "KIEM CHUNG",
+        "confidence": 77,
+        "bbox": {
+          "x": 149,
+          "y": 803,
+          "w": 1190,
+          "h": 85
+        }
+      },
+      {
+        "text": "Thi nghiém va trién khai",
+        "confidence": 77,
+        "bbox": {
+          "x": 149,
+          "y": 972,
+          "w": 1190,
+          "h": 85
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

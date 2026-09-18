@@ -1,0 +1,65 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><div class="os-figure has-splash" id="fs-idm165993648"><figure data-id="fs-idm165993648" class="splash ui-has-child-figcaption"><span data-type="media" id="fs-idm52702960" data-alt="This is a picture of a Dalmation dog covered in black spots. He is wearing a red color, appears to be in a nature setting, and there is a spout of water from a water fountain in the foreground.">
+<button type="button" aria-label="Click to enlarge image of This is a picture of a Dalmation dog covered in black spots. He is wearing a red color, appears to be in a nature setting, and there is a spout of water from a water fountain in the foreground." class="image-button-wrapper"><img src="assets/img-9-1.webp" data-media-type="image/jpeg" alt="This is a picture of a Dalmation dog covered in black spots. He is wearing a red color, appears to be in a nature setting, and there is a spout of water from a water fountain in the foreground." width="1401" height="651" loading="lazy"></button>
+</span>
+  <figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">9.1</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">You can use a hypothesis test to decide if a dog breeder’s claim that every Dalmatian has 35 spots is statistically sound. (credit: modification of work “black and white, view, dog, animal, fur, mammal, garden, head, vertebrate, beautiful, elegant, rush, attention, dalmatian, dog breed, dog head, noble, stains, animal portrait, head drawing, spotty, hundeportrait, dalmatians”/ Pxhere, Public Domain)</span><span class="os-caption vn visible">Bạn có thể sử dụng một hypothesis test để quyết định xem tuyên bố của người lai tạo chó rằng mỗi con chó Dalmatian có 35 đốm có hợp lý về mặt thống kê hay không. (tín dụng: sửa đổi tác phẩm “black and white, view, dog, animal, fur, mammal, garden, head, vertebrate, beautiful, elegant, rush, attention, dalmatian, dog breed, dog head, noble, stains, animal portrait, head drawing, spotty, hundeportrait, dalmatians”/ Pxhere, Public Domain)</span>
+</figcaption></figure></div>
+
+
+
+
+    
+    
+  
+  
+  
+  <!-- LINK -->
+    
+      
+  <div class="intro-body">
+  <div data-type="note" data-has-label="true" id="fs-idp21504400" class="chapter-objectives ui-has-child-title" data-label=""><header><h2 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+  <p id="element-667" class="eng hidden">By the end of this chapter, the student should be able to:</p><p id="element-667-vn" class="vn visible">Cuối chương này, sinh viên có thể:</p>
+<ul id="list67">
+  <li class="eng hidden">Differentiate between Type I and Type II Errors</li><li class="vn visible">Phân biệt giữa Sai lầm loại I và Sai lầm loại II</li>
+<li class="eng hidden">Describe hypothesis testing in general and in practice</li><li class="vn visible">Mô tả hypothesis testing nói chung và trong thực tế</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for a single population mean, population standard deviation known.</li><li class="vn visible">Thực hiện và diễn giải các hypothesis test cho trung bình quần thể đơn lẻ, biết độ lệch chuẩn quần thể.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for a single population mean, population standard deviation unknown.</li><li class="vn visible">Thực hiện và diễn giải các hypothesis test cho trung bình quần thể đơn lẻ, chưa biết độ lệch chuẩn quần thể.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests for a single population proportion.</li><li class="vn visible">Thực hiện và diễn giải các hypothesis test cho một tỷ lệ quần thể đơn lẻ.</li></ul>
+  </div></section></div>
+  <div class="intro-text">
+    <h2 data-type="document-title" id="page_9c2fa5c1-8882-4d53-8b3b-333f0a9073f4_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span data-type="" itemprop="" class="os-text">Introduction</span>
+</h2><h2 data-type="document-title" id="page_9c2fa5c1-8882-4d53-8b3b-333f0a9073f4_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span data-type="" itemprop="" class="os-text">Giới thiệu</span></h2>
+    <p id="element-8182" class="eng hidden">One job of a statistician is to make statistical inferences about populations based on samples taken from the population. <span data-type="term" id="term-00001" group-by="C">Confidence intervals</span> are one way to estimate a population parameter. Another way to make a statistical inference is to make a decision about a parameter. For instance, a car dealer advertises that its new small truck gets 35 miles per gallon, on average. A tutoring service claims that its method of tutoring helps 90% of its students get an A or a B. A company says that women managers in their company earn an average of $60,000 per year.</p><p id="element-8182-vn" class="vn visible">Một công việc của nhà thống kê là đưa ra các suy luận thống kê về quần thể dựa trên các mẫu lấy từ quần thể. <span data-type="term" id="term-00001" group-by="C">Các khoảng tin cậy</span> là một cách để ước tính một Tham số quần thể. Một cách khác để đưa ra suy luận thống kê là đưa ra quyết định về một Tham số. Ví dụ, một đại lý xe hơi quảng cáo rằng chiếc xe tải nhỏ mới của họ đạt trung bình 35 dặm trên gallon. Một dịch vụ dạy kèm tuyên bố rằng phương pháp dạy kèm của họ giúp 90% học sinh đạt điểm A hoặc B. Một công ty cho biết rằng các nhà quản lý nữ trong công ty của họ kiếm được trung bình 60.000 đô la mỗi năm.</p><p id="element-818" class="eng hidden">A statistician will make a decision about these claims. This process is called "<span data-type="term" id="term-00002" group-by="h">hypothesis testing</span>." A hypothesis test involves collecting data from a sample and evaluating the data. Then, the statistician makes a decision as to whether or not there is sufficient evidence, based upon analyses of the data, to reject the null hypothesis.</p><p id="element-818-vn" class="vn visible">Một nhà thống kê sẽ đưa ra quyết định về các tuyên bố này. Quá trình này được gọi là "<span data-type="term" id="term-00002" group-by="h">Kiểm định giả thuyết</span>". Một hypothesis test bao gồm việc thu thập Dữ liệu từ một mẫu và đánh giá Dữ liệu đó. Sau đó, nhà thống kê sẽ đưa ra quyết định liệu có đủ bằng chứng, dựa trên phân tích Dữ liệu, để bác bỏ giả thuyết không hay không.</p><p id="element-224" class="eng hidden">In this chapter, you will conduct hypothesis tests on single means and single proportions.
+    You will also learn about the errors associated with these tests. </p><p id="element-224-vn" class="vn visible">Trong chương này, bạn sẽ thực hiện các hypothesis test về trung bình đơn lẻ và Tỷ lệ đơn lẻ.
+    Bạn cũng sẽ tìm hiểu về các sai số liên quan đến các bài kiểm tra này.</p><p id="element-616" class="eng hidden">Hypothesis testing consists of two contradictory hypotheses or statements, a decision based on the data, and a conclusion. To perform a hypothesis test, a statistician will:
+</p><p id="element-616-vn" class="vn visible">Kiểm định giả thuyết bao gồm hai giả thuyết hoặc phát biểu mâu thuẫn, một quyết định dựa trên Dữ liệu và một kết luận. Để thực hiện một hypothesis test, một nhà thống kê sẽ:</p><ol id="list-1"><li class="eng hidden">Set up two contradictory hypotheses.</li><li class="vn visible">Thiết lập hai giả thuyết mâu thuẫn.</li>
+<li class="eng hidden">Collect sample data (in homework problems, the data or summary statistics will be given to you).</li><li class="vn visible">Thu thập Dữ liệu mẫu (trong các bài tập về nhà, Dữ liệu hoặc các thống kê tóm tắt sẽ được cung cấp cho bạn).</li>
+<li class="eng hidden">Determine the correct distribution to perform the hypothesis test.</li><li class="vn visible">Xác định phân phối phù hợp để thực hiện hypothesis test.</li>
+<li class="eng hidden">Analyze sample data by performing the calculations that ultimately will allow you to reject or decline to reject the null hypothesis.</li><li class="vn visible">Phân tích Dữ liệu mẫu bằng cách thực hiện các phép tính cuối cùng sẽ cho phép bạn bác bỏ hoặc từ chối bác bỏ giả thuyết không.</li>
+<li class="eng hidden">Make a decision and write a meaningful conclusion.</li><li class="vn visible">Đưa ra quyết định và viết một kết luận có ý nghĩa.</li>
+</ol><div data-type="note" data-has-label="true" id="id23787041" data-label="" class="ui-has-child-title"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p id="eip-idm82174448" class="eng hidden">To do the hypothesis test homework problems for this chapter and later chapters, make copies of the appropriate special solution sheets. See <a href="e-solution-sheets" aria-label="Go to Appendix E" data-page-slug="e-solution-sheets" data-page-uuid="c0449c55-aa47-4f1c-bd5f-0521652f0e82" data-page-fragment="">Appendix E</a>.</p><p id="eip-idm82174448-vn" class="vn visible">Để làm các bài tập về nhà về hypothesis test cho chương này và các chương sau, hãy sao chép các biểu mẫu giải pháp đặc biệt phù hợp. Xem <a href="e-solution-sheets" aria-label="Go to Appendix E" data-page-slug="e-solution-sheets" data-page-uuid="c0449c55-aa47-4f1c-bd5f-0521652f0e82" data-page-fragment="">Phụ lục E</a>.</p></div></section></div>
+  </div>
+</div>
+</body></html>

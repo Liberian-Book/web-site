@@ -1,0 +1,245 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1-9.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-1-overview-of-the-entrepreneurial-journey.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "als",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 59,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "Business Plan (| ™",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 137,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "Fe E",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 215,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "- A — Reflection Questions",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 293,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "| =: + How can I manage and juggle",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "Ee——— the related operational and",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 449,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "-—, administrative responsibilities",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 527,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "© for the venture?",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 605,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "+ How quickly (or slowly)",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 683,
+        "w": 1040,
+        "h": 39
+      }
+    },
+    {
+      "text": "should I grow the venture?",
+      "confidence": 70,
+      "bbox": {
+        "x": 130,
+        "y": 761,
+        "w": 1040,
+        "h": 39
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "als",
+      "normalizedSource": "als",
+      "target": "N/A",
+      "bbox": {
+        "x": 130,
+        "y": 59,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Business Plan (| ™",
+      "normalizedSource": "Business Plan (| ™",
+      "target": "Kế hoạch Kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 137,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Fe E",
+      "normalizedSource": "Fe E",
+      "target": "N/A",
+      "bbox": {
+        "x": 130,
+        "y": 215,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "- A — Reflection Questions",
+      "normalizedSource": "- A — Reflection Questions",
+      "target": "- A — Câu hỏi phản ánh",
+      "bbox": {
+        "x": 130,
+        "y": 293,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "| =: + How can I manage and juggle",
+      "normalizedSource": "| =: + How can I manage and juggle",
+      "target": "| =: + Làm thế nào tôi có thể quản lý và cân bằng",
+      "bbox": {
+        "x": 130,
+        "y": 371,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "Ee——— the related operational and",
+      "normalizedSource": "Ee——— the related operational and",
+      "target": "N/A",
+      "bbox": {
+        "x": 130,
+        "y": 449,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "-—, administrative responsibilities",
+      "normalizedSource": "-—, administrative responsibilities",
+      "target": "-—, trách nhiệm hành chính",
+      "bbox": {
+        "x": 130,
+        "y": 527,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "© for the venture?",
+      "normalizedSource": "for the venture?",
+      "target": "cho dự án?",
+      "bbox": {
+        "x": 130,
+        "y": 605,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ How quickly (or slowly)",
+      "normalizedSource": "+ How quickly (or slowly)",
+      "target": "+ Tôi nên phát triển dự án nhanh chóng (hay chậm chạp)",
+      "bbox": {
+        "x": 130,
+        "y": 683,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": true
+    },
+    {
+      "source": "should I grow the venture?",
+      "normalizedSource": "should I grow the venture?",
+      "target": "như thế nào?",
+      "bbox": {
+        "x": 130,
+        "y": 761,
+        "w": 1040,
+        "h": 39
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: When constructing a Business Plan, ask the following questions: How can I manage and juggle the related operational and administrative responsibilities for the venture? How quickly (or slowly) should I grow the venture? Potential Obstacles include Limited experience or knowledge of the operational and administrative needs of a business, and Limited access to resources and a support system.\nButton label: Click to enlarge image of When constructing a Business Plan, ask the following questions: How can I manage and juggle the related operational and administrative responsibilities for the venture? How quickly (or slowly) should I grow the venture? Potential Obstacles include Limited experience or knowledge of the operational and administrative needs of a business, and Limited access to resources and a support system.\nEnglish caption: Figure 2.10 Writing a business plan before launching a venture can give you important insights into your idea and can help you modify your business before launch to give it a better chance of success. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.636734693877551,
+    "averageConfidence": 70,
+    "entropy": 3.9828246817705804,
+    "sharpness": 4.731379112097254
+  }
+}

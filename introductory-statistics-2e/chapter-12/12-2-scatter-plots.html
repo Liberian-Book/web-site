@@ -1,0 +1,181 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><h2 data-type="document-title" id="page_44891352-21cf-454b-b803-1cd2ffc828a4_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">12.2</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Scatter Plots</span>
+</h2><h2 data-type="document-title" id="page_44891352-21cf-454b-b803-1cd2ffc828a4_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span class="os-number">12.2</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Biểu đồ phân tán</span></h2>
+    
+    <p id="element-38110" class="eng hidden">Before we take up the discussion of linear regression and correlation, we need to examine a way to display the relation between two variables <em data-effect="italics">x</em> and <em data-effect="italics">y</em>. The most common and easiest way is a <strong>scatter plot</strong>. The following example illustrates a scatter plot.</p><p id="element-38110-vn" class="vn visible">Trước khi thảo luận về hồi quy tuyến tính và tương quan, chúng ta cần xem xét một phương pháp để biểu diễn mối quan hệ giữa hai biến số <em data-effect="italics">x</em> và <em data-effect="italics">y</em>. Cách phổ biến và dễ nhất là sử dụng <strong>biểu đồ phân tán</strong>. Ví dụ sau đây minh họa một biểu đồ phân tán.</p>
+
+
+
+<div data-type="example" id="element-777" class="ui-has-child-title"><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">12.5</span>
+  <span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+  <span class="os-number">12.5</span>
+  <span class="os-divider"> </span></h3></header><section>
+<div class="body"><p id="para-00001" class="eng hidden">An educational researcher collects data on the vocabulary size of children as a function of age. The data is shown in Table 12.1. Is there a relationship between age and vocabulary size for young children? Construct a scatter plot. Let <em data-effect="italics">x</em> = Child’s Age, and let <em data-effect="italics">y</em> = Vocabulary Size.</p><p id="para-00001-vn" class="vn visible">Một nhà nghiên cứu giáo dục thu thập dữ liệu về vốn từ vựng của trẻ em theo độ tuổi. Dữ liệu được trình bày trong Bảng 12.1. Có mối quan hệ nào giữa độ tuổi và vốn từ vựng ở trẻ nhỏ không? Hãy xây dựng một biểu đồ phân tán. Đặt <em data-effect="italics">x</em> = Tuổi của trẻ, và đặt <em data-effect="italics">y</em> = Vốn từ vựng.</p>
+  <div class="os-table" id="table-00001"><table data-summary=".." data-id="table-00001"><thead>
+  <tr>
+  <th scope="col" class="eng hidden">Age (years)</th><th scope="col" class="vn visible">Tuổi (năm)</th>
+  <th scope="col" class="eng hidden">Vocabulary Size (number of words)</th><th scope="col" class="vn visible">Vốn từ vựng (số từ)</th>
+  </tr>
+  </thead><tbody>
+  <tr>
+  <td class="eng hidden">3</td><td class="vn visible">3</td>
+  <td class="eng hidden">655</td><td class="vn visible">655</td>
+  </tr>
+  <tr>
+  <td class="eng hidden">4</td><td class="vn visible">4</td>
+  <td class="eng hidden">1098</td><td class="vn visible">1098</td>
+  </tr>
+  <tr>
+  <td class="eng hidden">6</td><td class="vn visible">6</td>
+  <td class="eng hidden">2463</td><td class="vn visible">2463</td>
+  </tr>
+  <tr>
+  <td class="eng hidden">7</td><td class="vn visible">7</td>
+  <td class="eng hidden">3195</td><td class="vn visible">3195</td>
+  </tr>
+  </tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">12.1</span>
+  <span class="os-divider"> </span>
+<span class="os-title eng hidden" data-type="title"><!-- no-selfclose --></span><span class="os-title vn visible" data-type="title"><!-- no-selfclose --></span>
+
+  <span class="os-divider"> </span>
+</div>
+</div>
+
+<div class="os-figure" id="linrgs_scater12"><figure class="scaled-down ui-has-child-figcaption" data-id="linrgs_scater12">
+  <span data-type="media" id="id1171452159644" data-alt="This is a scatter plot for the data provided. The x-axis represents the year and the y-axis represents the number of m-commerce users in millions. There are four points plotted, at (2000, 0.5), (2002, 20.0), (2003, 33.0), (2004, 47.0)."><button type="button" aria-label="Click to enlarge image of This is a scatter plot for the data provided. The x-axis represents the year and the y-axis represents the number of m-commerce users in millions. There are four points plotted, at (2000, 0.5), (2002, 20.0), (2003, 33.0), (2004, 47.0)." class="image-button-wrapper"><img src="assets/img-12-2-1.webp" data-media-type="image/png" alt="This is a scatter plot for the data provided. The x-axis represents the year and the y-axis represents the number of m-commerce users in millions. There are four points plotted, at (2000, 0.5), (2002, 20.0), (2003, 33.0), (2004, 47.0)." width="1087" height="782" loading="lazy"></button></span>
+<figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">12.5</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">12.5</span></figcaption></figure></div></div></section></div><div data-type="note" data-has-label="true" id="fs-idp52837344" class="statistics calculator ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Using the TI-83, 83+, 84, 84+ Calculator</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label">Sử dụng máy tính TI-83, 83+, 84, 84+</span></h3></header><section>
+<div class="os-note-body">
+To create a scatter plot:
+<ol id="fs-idp71144528">
+<li class="eng hidden">Enter your X data into list L1 and your Y data into list L2.</li><li class="vn visible">Nhập dữ liệu X của bạn vào danh sách L1 và dữ liệu Y của bạn vào danh sách L2.</li>
+<li class="eng hidden">Press 2nd <code data-type="code">STATPLOT ENTER</code> to use Plot 1.  On the input screen for PLOT 1, highlight On and press <code data-type="code">ENTER</code>. (Make sure the other plots are OFF.)</li><li class="vn visible">Nhấn 2nd <code data-type="code">STATPLOT ENTER</code> để sử dụng Plot 1. Trên màn hình nhập liệu cho PLOT 1, chọn On và nhấn <code data-type="code">ENTER</code>. (Đảm bảo rằng các plot khác đã được tắt.)</li>
+<li class="eng hidden">For TYPE: highlight the very first icon, which is the scatter plot, and press <code data-type="code">ENTER</code>.</li><li class="vn visible">Đối với TYPE: tô sáng biểu tượng đầu tiên, đó là biểu đồ phân tán, và nhấn <code data-type="code">ENTER</code>.</li>
+<li class="eng hidden">For Xlist:, enter <code data-type="code">L1</code> ENTER and for Ylist: <code data-type="code">L2</code> ENTER.</li><li class="vn visible">Đối với Xlist:, nhập <code data-type="code">L1</code> ENTER và đối với Ylist: <code data-type="code">L2</code> ENTER.</li>
+<li class="eng hidden">For Mark: it does not matter which symbol you highlight, but the square is the easiest to see. Press <code data-type="code">ENTER</code>.</li><li class="vn visible">Đối với Mark: không quan trọng bạn tô sáng ký hiệu nào, nhưng hình vuông là dễ nhìn nhất. Nhấn <code data-type="code">ENTER</code>.</li>
+<li class="eng hidden">Make sure there are no other equations that could be plotted.  Press Y = and clear any equations out.</li><li class="vn visible">Đảm bảo không có phương trình nào khác có thể được vẽ. Nhấn Y = và xóa bất kỳ phương trình nào.</li>
+<li class="eng hidden">Press the <code data-type="code">ZOOM</code> key and then the number 9 (for menu item "ZoomStat") ; the calculator will fit the window to the data.  You can press WINDOW to see the scaling of the axes.</li><li class="vn visible">Nhấn phím <code data-type="code">ZOOM</code> rồi nhấn số 9 (cho mục "ZoomStat"); máy tính sẽ điều chỉnh cửa sổ cho phù hợp với dữ liệu. Bạn có thể nhấn WINDOW để xem thang đo của các trục.</li>
+</ol>
+</div></section></div><div data-type="note" data-has-label="true" id="fs-idm16826784" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">12.5</span>
+</h3><h3 class="os-title vn visible">Thử thách 12.5</h3></header><section>
+<div class="os-note-body">
+
+<div data-type="exercise" id="eip-339" class="unnumbered"><header></header><section>
+<div data-type="problem" id="eip-740"><div class="os-problem-container">
+  <p id="eip-489" class="eng hidden">Amelia plays basketball for her high school. She wants to improve to play at the college level. She notices that the number of points she scores in a game goes up in response to the number of hours she practices her jump shot each week. She records the following data:</p><p id="eip-489-vn" class="vn visible">Amelia chơi bóng rổ cho trường trung học của mình. Cô ấy muốn cải thiện để chơi ở cấp độ đại học. Cô ấy nhận thấy rằng số điểm cô ấy ghi được trong một trận đấu tăng lên tương ứng với số giờ cô ấy luyện tập cú ném nhảy mỗi tuần. Cô ấy ghi lại dữ liệu sau:</p>
+<div class="os-table" id="eip-idp1116432"><table data-id="eip-idp1116432" data-summary=""><thead><tr><th scope="col" class="eng hidden"><em data-effect="italics">X</em> (hours practicing jump shot)</th><th scope="col" class="vn visible">X (giờ luyện tập cú ném nhảy)</th>	<th scope="col" class="eng hidden"><em data-effect="italics">Y</em> (points scored in a game)</th><th scope="col" class="vn visible">Y (điểm ghi được trong một trận đấu)</th></tr></thead><tbody>
+<tr><td class="eng hidden">5</td><td class="vn visible">5</td>	<td class="eng hidden">15</td><td class="vn visible">15</td></tr>
+<tr><td class="eng hidden">7</td><td class="vn visible">7</td>	<td class="eng hidden">22</td><td class="vn visible">22</td></tr>
+<tr><td class="eng hidden">9</td><td class="vn visible">9</td>	<td class="eng hidden">28</td><td class="vn visible">28</td></tr>
+<tr><td class="eng hidden">10</td><td class="vn visible">10</td>	<td class="eng hidden">31</td><td class="vn visible">31</td></tr>
+<tr><td class="eng hidden">11</td><td class="vn visible">11</td>	<td class="eng hidden">33</td><td class="vn visible">33</td></tr>
+<tr><td class="eng hidden">12</td><td class="vn visible">12</td>	<td class="eng hidden">36</td><td class="vn visible">36</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">12.2</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 12.2</div>
+</div>
+<p id="eip-idm36661536" class="eng hidden">Construct a scatter plot and state if what Amelia thinks appears to be true.</p><p id="eip-idm36661536-vn" class="vn visible">Vẽ biểu đồ phân tán và cho biết điều Amelia nghĩ có vẻ đúng không.</p>
+</div></div>
+</section></div>
+
+</div></section></div>
+
+
+
+<p id="element-83" class="eng hidden">A scatter plot shows the <strong>direction</strong> of a relationship between the variables. A clear direction happens when there is either:
+</p><p id="element-83-vn" class="vn visible">Biểu đồ phân tán cho thấy <strong>chiều hướng</strong> của mối quan hệ giữa các biến số. Một chiều hướng rõ ràng xảy ra khi có một trong hai trường hợp sau:</p><ul id="list1">
+<li class="eng hidden">High values of one variable occurring with high values of the other variable or low values of one variable occurring with low values of the other variable.</li><li class="vn visible">Giá trị cao của biến số này xảy ra cùng với giá trị cao của biến số kia hoặc giá trị thấp của biến số này xảy ra cùng với giá trị thấp của biến số kia.</li>
+<li class="eng hidden">High values of one variable occurring with low values of the other variable.</li><li class="vn visible">Giá trị cao của biến số này xảy ra cùng với giá trị thấp của biến số kia.</li>
+</ul>
+
+<p id="element-674" class="eng hidden">You can determine the <strong>strength</strong> of the relationship by looking at the scatter plot and seeing how close the points are to a line, a power function, an exponential function,
+or to some other type of function.  For a linear relationship there is an exception. Consider a scatter plot where all the points fall on a horizontal line providing a "perfect fit." The horizontal line would in fact show no relationship.</p><p id="element-674-vn" class="vn visible">Bạn có thể xác định <strong>độ mạnh</strong> của mối quan hệ bằng cách xem biểu đồ phân tán và quan sát các điểm gần với một đường thẳng, một hàm lũy thừa, một hàm số mũ, hoặc một loại hàm nào đó. Đối với mối quan hệ tuyến tính, có một ngoại lệ. Hãy xem xét một biểu đồ phân tán nơi tất cả các điểm nằm trên một đường thẳng ngang, tạo ra một "sự phù hợp hoàn hảo". Trên thực tế, đường thẳng ngang này sẽ cho thấy không có mối quan hệ.</p>
+
+
+
+<p id="element-708" class="eng hidden">When you look at a scatterplot, you want to notice the <strong>overall pattern</strong> and any <strong>deviations</strong> from the pattern. The following scatterplot examples illustrate these concepts.</p><p id="element-708-vn" class="vn visible">Khi bạn xem một biểu đồ phân tán, bạn muốn nhận thấy <strong>mô hình tổng thể</strong> và bất kỳ <strong>sự sai lệch</strong> nào khỏi mô hình đó. Các ví dụ về biểu đồ phân tán sau đây minh họa các khái niệm này.</p>
+
+
+
+<div class="os-figure" id="lingrgs10"><figure class="scaled-down ui-has-child-figcaption" data-id="lingrgs10"><span data-type="media" id="id1171450550347" data-alt="The first graph is a scatter plot with 6 points plotted. The points form a pattern that moves upward to the right, almost in a straight line. The second graph is a scatter plot with the same 6 points as the first graph. A 7th point is plotted in the top left corner of the quadrant. It falls outside the general pattern set by the other 6 points."><button type="button" aria-label="Click to enlarge image of The first graph is a scatter plot with 6 points plotted. The points form a pattern that moves upward to the right, almost in a straight line. The second graph is a scatter plot with the same 6 points as the first graph. A 7th point is plotted in the top left corner of the quadrant. It falls outside the general pattern set by the other 6 points." class="image-button-wrapper"><img src="assets/img-12-2-2.webp" data-media-type="image/png" alt="The first graph is a scatter plot with 6 points plotted. The points form a pattern that moves upward to the right, almost in a straight line. The second graph is a scatter plot with the same 6 points as the first graph. A 7th point is plotted in the top left corner of the quadrant. It falls outside the general pattern set by the other 6 points." width="1461" height="478" loading="lazy"></button>
+</span><figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">12.6</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">12.6</span></figcaption></figure></div>
+
+<div class="os-figure" id="lingrgs20"><figure class="scaled-down ui-has-child-figcaption" data-id="lingrgs20"><span data-type="media" id="id1171453496318" data-alt="The first graph is a scatter plot with 6 points plotted. The points form a pattern that moves downward to the right, almost in a straight line. The second graph is a scatter plot of 8 points. These points form a general downward pattern, but the point do not align in a tight pattern."><button type="button" aria-label="Click to enlarge image of The first graph is a scatter plot with 6 points plotted. The points form a pattern that moves downward to the right, almost in a straight line. The second graph is a scatter plot of 8 points. These points form a general downward pattern, but the point do not align in a tight pattern." class="image-button-wrapper"><img src="assets/img-12-2-3.webp" data-media-type="image/png" alt="The first graph is a scatter plot with 6 points plotted. The points form a pattern that moves downward to the right, almost in a straight line. The second graph is a scatter plot of 8 points. These points form a general downward pattern, but the point do not align in a tight pattern." width="1461" height="478" loading="lazy"></button>
+</span><figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">12.7</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">12.7</span></figcaption></figure></div>
+
+<div class="os-figure" id="lingrgs30"><figure class="scaled-down ui-has-child-figcaption" data-id="lingrgs30"><span data-type="media" id="id1171454842074" data-alt="The first graph is a scatter plot of 7 points in an exponential pattern. The pattern of the points begins along the x-axis and curves steeply upward to the right side of the quadrant. The second graph shows a scatter plot with many points scattered everywhere, exhibiting no pattern.">
+<button type="button" aria-label="Click to enlarge image of The first graph is a scatter plot of 7 points in an exponential pattern. The pattern of the points begins along the x-axis and curves steeply upward to the right side of the quadrant. The second graph shows a scatter plot with many points scattered everywhere, exhibiting no pattern." class="image-button-wrapper"><img src="assets/img-12-2-4.webp" data-media-type="image/png" alt="The first graph is a scatter plot of 7 points in an exponential pattern. The pattern of the points begins along the x-axis and curves steeply upward to the right side of the quadrant. The second graph shows a scatter plot with many points scattered everywhere, exhibiting no pattern." width="1461" height="478" loading="lazy"></button>
+</span><figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">12.8</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">12.8</span></figcaption></figure></div>
+
+<p id="element-243" class="eng hidden">In this chapter, we are interested in scatter plots that show a linear pattern. Linear patterns are quite common. The linear relationship is strong if the points are close to a straight line,  except in the case of a horizontal line where there is no relationship. If we think that the points show a linear relationship, we would like to draw a line on the scatter plot. This line can be calculated through a process called <span data-type="term" id="term-00001" group-by="l">linear regression</span>. However, we only calculate a regression line if one of the variables helps to explain or predict the other variable. If <em data-effect="italics">x</em> is the independent variable and <em data-effect="italics">y</em> the dependent variable,
+then we can use a regression line to predict <em data-effect="italics">y</em> for a given value of <em data-effect="italics">x</em></p><p id="element-243-vn" class="vn visible">Trong chương này, chúng ta quan tâm đến các biểu đồ phân tán cho thấy một mô hình tuyến tính. Các mô hình tuyến tính khá phổ biến. Mối quan hệ tuyến tính mạnh nếu các điểm gần với một đường thẳng, ngoại trừ trường hợp đường thẳng ngang nơi không có mối quan hệ. Nếu chúng ta nghĩ rằng các điểm cho thấy một mối quan hệ tuyến tính, chúng ta sẽ muốn vẽ một đường thẳng trên biểu đồ phân tán. Đường thẳng này có thể được tính toán thông qua một quy trình gọi là <span data-type="term" id="term-00001" group-by="l">hồi quy tuyến tính</span>. Tuy nhiên, chúng ta chỉ tính toán một đường hồi quy nếu một trong các biến số giúp giải thích hoặc dự đoán biến số kia. Nếu <em data-effect="italics">x</em> là biến số độc lập và <em data-effect="italics">y</em> là biến số phụ thuộc, thì chúng ta có thể sử dụng một đường hồi quy để dự đoán <em data-effect="italics">y</em> cho một giá trị cho trước của <em data-effect="italics">x</em></p>
+
+
+
+
+
+
+
+
+ 
+ 
+  </body></html>

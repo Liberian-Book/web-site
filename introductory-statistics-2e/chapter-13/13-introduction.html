@@ -1,0 +1,55 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><div class="os-figure has-splash" id="fs-idm12990704"><figure data-id="fs-idm12990704" class="splash ui-has-child-figcaption">
+<span data-type="media" id="fs-idp104097120" data-alt="This is a photo of magazine spines. The magazines cover various topics like plants, food, and architecture.">
+<button type="button" aria-label="Click to enlarge image of This is a photo of magazine spines. The magazines cover various topics like plants, food, and architecture." class="image-button-wrapper"><img src="assets/img-13-1.webp" data-media-type="image/jpg" alt="This is a photo of magazine spines. The magazines cover various topics like plants, food, and architecture." width="1401" height="651" loading="lazy"></button>
+</span>
+
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">13.1</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">One-way ANOVA is used to measure information from several groups. (credit: modification of work “Magazine Stack” by thebittenword.com/ Flickr, CC BY 2.0)</span><span class="os-caption vn visible">ANOVA một yếu tố được sử dụng để đo lường thông tin từ nhiều nhóm. (tín dụng: sửa đổi tác phẩm “Magazine Stack” của thebittenword.com/ Flickr, CC BY 2.0)</span>
+</figcaption></figure></div>
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+  <div class="intro-body">
+  <div data-type="note" data-has-label="true" id="fs-idp90615904" class="chapter-objectives ui-has-child-title" data-label=""><header><h2 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p id="element-672" class="eng hidden"> By the end of this chapter, the student should be able to:</p><p id="element-672-vn" class="vn visible">Cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="fs-idp124304720">
+<li class="eng hidden">Interpret the <em data-effect="italics">F</em> probability distribution as the number of groups and the sample size change.</li><li class="vn visible">Diễn giải phân phối xác suất <em data-effect="italics">F</em> khi số lượng nhóm và kích thước mẫu thay đổi.</li>
+<li class="eng hidden">Discuss two uses for the <em data-effect="italics">F</em> distribution: one-way ANOVA and the test of two variances.</li><li class="vn visible">Thảo luận hai ứng dụng của phân phối <em data-effect="italics">F</em>: ANOVA một yếu tố và kiểm định hai phương sai.</li>
+<li class="eng hidden">Conduct and interpret one-way ANOVA.</li><li class="vn visible">Thực hiện và diễn giải ANOVA một yếu tố.</li>
+<li class="eng hidden">Conduct and interpret hypothesis tests of two variances.</li><li class="vn visible">Thực hiện và diễn giải các hypothesis test của hai phương sai.</li>
+</ul>
+</div></section></div>
+  <div class="intro-text">
+    <h2 data-type="document-title" id="page_a2af1354-4528-4f2c-b7ec-100678e2fb47_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span data-type="" itemprop="" class="os-text">Introduction</span>
+</h2><h2 data-type="document-title" id="page_a2af1354-4528-4f2c-b7ec-100678e2fb47_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span data-type="" itemprop="" class="os-text">Giới thiệu</span></h2>
+    <p id="fs-idp61515728" class="eng hidden">Many statistical applications in psychology, social science, business administration, and the natural sciences involve several groups. For example, an environmentalist is interested in knowing if the average amount of pollution varies in several bodies of water. A sociologist is interested in knowing if the amount of income a person earns varies according to their upbringing. A consumer looking for a new car might compare the average gas mileage of several models.</p><p id="fs-idp61515728-vn" class="vn visible">Nhiều ứng dụng thống kê trong tâm lý học, khoa học xã hội, quản trị kinh doanh và khoa học tự nhiên liên quan đến nhiều nhóm. Ví dụ, một nhà môi trường quan tâm đến việc liệu lượng ô nhiễm trung bình có thay đổi ở nhiều vùng nước hay không. Một nhà xã hội học quan tâm đến việc liệu thu nhập của một người có thay đổi theo sự giáo dục của họ hay không. Một người tiêu dùng đang tìm mua một chiếc xe mới có thể so sánh mức tiêu thụ nhiên liệu trung bình của nhiều mẫu xe.</p><p id="fs-idp105761984" class="eng hidden">For hypothesis tests comparing averages between more than two groups, statisticians have developed a method called "<span data-type="term" id="term-00001" group-by="A">Analysis of Variance</span>" (abbreviated ANOVA). In this chapter, you will study the simplest form of ANOVA called single factor or <span data-type="term" id="term-00002" group-by="o">one-way ANOVA</span>. You will also study the <em data-effect="italics">F</em> distribution, used for one-way ANOVA, and the test of two variances. This is just a very brief overview of one-way ANOVA. You will study this topic in much greater detail in future statistics courses. One-Way ANOVA, as it is presented here, relies heavily on a calculator or computer.</p><p id="fs-idp105761984-vn" class="vn visible">Đối với các hypothesis test so sánh Trung bình giữa nhiều hơn hai nhóm, các nhà thống kê đã phát triển một phương pháp gọi là "<span data-type="term" id="term-00001" group-by="A">Phân tích Phương sai</span>" (viết tắt là ANOVA). Trong chương này, bạn sẽ nghiên cứu dạng đơn giản nhất của ANOVA gọi là yếu tố đơn hoặc <span data-type="term" id="term-00002" group-by="o">ANOVA một yếu tố</span>. Bạn cũng sẽ nghiên cứu phân phối <em data-effect="italics">F</em>, được sử dụng cho ANOVA một yếu tố, và kiểm định hai phương sai. Đây chỉ là một cái nhìn tổng quan rất ngắn gọn về ANOVA một yếu tố. Bạn sẽ nghiên cứu chủ đề này chi tiết hơn nhiều trong các khóa học thống kê sau này. ANOVA một yếu tố, như được trình bày ở đây, phụ thuộc nhiều vào máy tính hoặc máy tính bỏ túi.</p>
+  </div>
+</div>
+</body></html>

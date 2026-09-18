@@ -1,0 +1,48 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><div class="os-figure has-splash" id="fs-idm37352640"><figure data-id="fs-idm37352640" class="splash ui-has-child-figcaption"><span data-type="media" id="fs-idm47477408" data-alt="This is a photo of a car mechanic’s shop. There are three United States Postal Services trucks being serviced, and one not being serviced.">
+<button type="button" aria-label="Click to enlarge image of This is a photo of a car mechanic’s shop. There are three United States Postal Services trucks being serviced, and one not being serviced." class="image-button-wrapper"><img src="assets/img-12-1.webp" data-media-type="image/jpeg" alt="This is a photo of a car mechanic’s shop. There are three United States Postal Services trucks being serviced, and one not being serviced." width="1400" height="651" loading="lazy"></button>
+</span>
+  <figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">12.1</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">Linear regression and correlation can help you determine if an auto mechanic’s salary is related to his work experience. (credit: modification of work “USPS commissions local repair-shop for some needed work on its older trucks” by Joshua Rothhaas/ Flickr, CC BY 2.0)</span><span class="os-caption vn visible">Hồi quy tuyến tính và tương quan có thể giúp bạn xác định liệu mức lương của một thợ cơ khí ô tô có liên quan đến kinh nghiệm làm việc của anh ta hay không. (tín dụng: sửa đổi từ tác phẩm “USPS ủy quyền cho xưởng sửa chữa địa phương thực hiện một số công việc cần thiết trên những chiếc xe tải cũ của mình” của Joshua Rothhaas/ Flickr, CC BY 2.0)</span>
+</figcaption></figure></div>
+
+
+
+
+
+
+     
+     
+  <div class="intro-body">
+  <div data-type="note" data-has-label="true" id="fs-idm16563264" class="chapter-objectives ui-has-child-title" data-label=""><header><h2 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p id="element-382" class="eng hidden">By the end of this chapter, the student should be able to:</p><p id="element-382-vn" class="vn visible">Cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="element-22">
+<li class="eng hidden">Discuss basic ideas of linear regression and correlation.</li><li class="vn visible">Thảo luận các ý tưởng cơ bản về hồi quy tuyến tính và tương quan.</li>
+<li class="eng hidden">Create and interpret a line of best fit.</li><li class="vn visible">Tạo và diễn giải đường phù hợp nhất.</li>
+<li class="eng hidden">Calculate and interpret the correlation coefficient.</li><li class="vn visible">Tính toán và diễn giải hệ số tương quan.</li>
+<li class="eng hidden">Calculate and interpret outliers.</li><li class="vn visible">Tính toán và diễn giải các điểm ngoại lệ.</li></ul>
+</div></section></div>
+  <div class="intro-text">
+    <h2 data-type="document-title" id="page_74654e37-0383-428c-9be4-f3bdef422275_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span data-type="" itemprop="" class="os-text">Introduction</span>
+</h2><h2 data-type="document-title" id="page_74654e37-0383-428c-9be4-f3bdef422275_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span data-type="" itemprop="" class="os-text">Giới thiệu</span></h2>
+    <p id="element-3817" class="eng hidden">Professionals often want to know how two or more numeric variables are related. For example, is there a relationship between the grade on the second math exam a student takes and the grade on the final exam? If there is a relationship, what is the relationship and how strong is it?</p><p id="element-3817-vn" class="vn visible">Các chuyên gia thường muốn biết hai hoặc nhiều biến số số có mối quan hệ với nhau như thế nào. Ví dụ, có mối quan hệ nào giữa điểm thi toán lần hai của sinh viên và điểm thi cuối kỳ không? Nếu có mối quan hệ, mối quan hệ đó là gì và nó mạnh đến mức nào?</p><p id="element-814" class="eng hidden">In another example, your income may be determined by your education, your profession, your years of experience, and your ability. The amount you pay a repair person for labor is often determined by an initial amount plus an hourly fee.</p><p id="element-814-vn" class="vn visible">Trong một ví dụ khác, thu nhập của bạn có thể được xác định bởi trình độ học vấn, nghề nghiệp, số năm kinh nghiệm và khả năng của bạn. Số tiền bạn trả cho người sửa chữa cho lao động thường được xác định bởi một số tiền ban đầu cộng với một khoản phí theo giờ.</p><p id="element-363" class="eng hidden">The type of data described in the examples is <span data-type="term" id="term-00001" group-by="b">bivariate</span> data — "bi" for two variables. In reality, statisticians use <span data-type="term" id="term-00002" group-by="m">multivariate</span> data, meaning many variables.</p><p id="element-363-vn" class="vn visible">Loại Dữ liệu được mô tả trong các ví dụ là Dữ liệu <span data-type="term" id="term-00001" group-by="b">hai biến</span> — "bi" nghĩa là hai biến số. Trên thực tế, các nhà <span data-type="term" id="term-00002" group-by="m">thống kê</span> sử dụng Dữ liệu <span data-type="term" id="term-00002" group-by="m">đa biến</span>, nghĩa là nhiều biến số.</p><p id="element-601" class="eng hidden">In this chapter, you will be studying the simplest form of regression, "linear regression" with one independent variable (<em data-effect="italics">x</em>). This involves data that fits a line in two dimensions. You will also study correlation which measures how strong the relationship is.</p><p id="element-601-vn" class="vn visible">Trong chương này, bạn sẽ nghiên cứu dạng đơn giản nhất của hồi quy, "<span data-type="term" id="term-00003" group-by="l">hồi quy tuyến tính</span>" với một biến số <span data-type="term" id="term-00004" group-by="i">độc lập</span> (<em>x</em>). Điều này liên quan đến Dữ liệu phù hợp với một đường thẳng trong hai chiều. Bạn cũng sẽ nghiên cứu tương quan, đo lường mức độ mạnh mẽ của mối quan hệ.</p>
+  </div>
+</div>
+</body></html>

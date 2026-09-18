@@ -1,0 +1,298 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-1-5.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-1-entrepreneurship-today.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-1-1-5.vi.png",
+  "ocr": [
+    {
+      "text": "=. No",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 56,
+        "w": 640,
+        "h": 37
+      }
+    },
+    {
+      "text": "' j= ENE BE",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 131,
+        "w": 640,
+        "h": 37
+      }
+    },
+    {
+      "text": "aE 3 E30 Bem EY oe G0",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 206,
+        "w": 640,
+        "h": 37
+      }
+    },
+    {
+      "text": "Flat Ee Bee",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 281,
+        "w": 640,
+        "h": 37
+      }
+    },
+    {
+      "text": "\" J SECM ints RRR =5 Bd EEX EEE",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 356,
+        "w": 640,
+        "h": 37
+      }
+    },
+    {
+      "text": "| at a abate aie I TC I",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 431,
+        "w": 640,
+        "h": 37
+      }
+    },
+    {
+      "text": "i i We rR SN 7 EB E=",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 506,
+        "w": 640,
+        "h": 37
+      }
+    },
+    {
+      "text": "Ber aie Gee WE Tu gh",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 581,
+        "w": 640,
+        "h": 37
+      }
+    },
+    {
+      "text": "Ea Tr ~~ = EN =",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 656,
+        "w": 640,
+        "h": 37
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Photo of a city skyline clouded by smog.\nButton label: Click to enlarge image of Photo of a city skyline clouded by smog.\nEnglish caption: Figure 1.6 The Mumbai skyline is clouded by hazy pollution. (credit: modification of “Smog over Mumbai” by Christian Haugen/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.5704496788008565,
+    "averageConfidence": 28,
+    "entropy": 6.264010837126989,
+    "sharpness": 1.4936669916016116
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Photo of a city skyline clouded by smog.\nButton label: Click to enlarge image of Photo of a city skyline clouded by smog.\nEnglish caption: Figure 1.6 The Mumbai skyline is clouded by hazy pollution. (credit: modification of “Smog over Mumbai” by Christian Haugen/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "Se = 2A",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 115,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "|. be 1 oe HET gf",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 268,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "1 zene B= REP CI",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 421,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "MER i BEE Eben R= eR",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 574,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "' ; im) Gee Sd Lda de FEE",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 727,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "\" rl x ie BE vat CE HE Re",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 880,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": ": 47 RE <TC 72] [ER Fi",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 1033,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "| | fen edie Cufede sr JIE TR +5 i =",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 1186,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "} po! a TE TR eT eh eee i= fo",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 1339,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "if ; a ea fe pi al toy = fs",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 1492,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "LR RET th SERIE. TE EE ta WO ema dA pat Re — yt",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 1645,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "i——— ST garni i a Ce Cass i ge to fy BUT 0 CY",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 1798,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "me Be ee em Se Ml” ad wn ST Toll IR ram E21",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 1951,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "ea See ATR tm ae a ea ha i a ‘ :",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 2104,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "a oe EEE es es Te =",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 2257,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "me ese sma ©",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 2410,
+          "w": 1312,
+          "h": 77
+        }
+      },
+      {
+        "text": "es PI mg PY a = > :",
+        "confidence": 25,
+        "bbox": {
+          "x": 164,
+          "y": 2563,
+          "w": 1312,
+          "h": 77
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

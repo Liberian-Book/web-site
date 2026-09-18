@@ -1,0 +1,834 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><h2 data-type="document-title" id="page_28539d2b-16e2-4356-9ba8-9fcceaa27765_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span class="os-number">2.1</span>
+<span class="os-divider"> </span>
+<span data-type="" itemprop="" class="os-text">Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs</span>
+</h2><h2 data-type="document-title" id="page_28539d2b-16e2-4356-9ba8-9fcceaa27765_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible">Biểu đồ thân và lá (Stem-and-Leaf Graphs), Biểu đồ đường (Line Graphs) và Biểu đồ cột (Bar Graphs)</h2>
+
+<p id="id6999853" class="eng hidden">One simple graph, the <strong>stem-and-leaf graph</strong> or <strong>stemplot</strong>, comes from the field of exploratory data analysis. It is a good choice when the data sets are small. To create the plot, divide each observation of data into a stem and a leaf. The leaf consists of a <strong>final significant digit</strong>. For example, 23 has stem two and leaf three. The number 432 has stem 43 and leaf two. Likewise, the number 5,432 has stem 543 and leaf two. The decimal 9.3 has stem nine and leaf three. Write the stems in a vertical line from smallest to largest. Draw a vertical line to the right of the stems. Then write the leaves in increasing order next to their corresponding stem.</p><p id="id6999853-vn" class="vn visible">Một biểu đồ đơn giản, <strong>biểu đồ thân và lá</strong> hay <strong>stemplot</strong>, xuất phát từ lĩnh vực phân tích dữ liệu thăm dò. Đây là một lựa chọn tốt khi tập dữ liệu nhỏ. Để tạo biểu đồ, hãy chia mỗi quan sát dữ liệu thành một thân và một lá. Lá bao gồm <strong>chữ số có nghĩa cuối cùng</strong>. Ví dụ, 23 có thân là hai và lá là ba. Số 432 có thân là 43 và lá là hai. Tương tự, số 5.432 có thân là 543 và lá là hai. Số thập phân 9.3 có thân là chín và lá là ba. Viết các thân theo một đường thẳng đứng từ nhỏ nhất đến lớn nhất. Vẽ một đường thẳng đứng ở bên phải các thân. Sau đó, viết các lá theo thứ tự tăng dần bên cạnh thân tương ứng của chúng.</p>
+
+<div data-type="example" id="element-696" class="ui-has-child-title"><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">2.1</span>
+  <span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+  <span class="os-number">2.1</span>
+  <span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p id="element-948" class="eng hidden">For Professor Dean's spring pre-calculus class, scores for the first exam were as follows (smallest to largest):
+<span data-type="newline"><br></span>
+ 33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100</p><p id="element-948-vn" class="vn visible">Đối với lớp tiền giải tích mùa xuân của Giáo sư Dean, điểm thi lần đầu như sau (từ nhỏ đến lớn):
+<span data-type="newline"><br></span>
+ 33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100</p><div class="os-table" id="element-185"><table data-id="element-185" data-summary="Table displaying stem in first column and leaf in second column for the values listed above."><thead>
+<tr>
+<th scope="col" class="eng hidden">Stem</th><th scope="col" class="vn visible">Thân</th>
+<th scope="col" class="eng hidden">Leaf</th><th scope="col" class="vn visible">Lá</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">3</td><td class="vn visible">3</td><td class="eng hidden">3</td><td class="vn visible">3</td>
+</tr>
+<tr>
+<td class="eng hidden">4</td><td class="vn visible">4</td><td class="eng hidden">2 9 9</td><td class="vn visible">2 9 9</td>
+</tr>
+<tr>
+<td class="eng hidden">5</td><td class="vn visible">5</td><td class="eng hidden">3 5 5</td><td class="vn visible">3 5 5</td>
+</tr>
+<tr>
+<td class="eng hidden">6</td><td class="vn visible">6</td><td class="eng hidden">1 3 7 8 8 9 9</td><td class="vn visible">1 3 7 8 8 9 9</td>
+</tr>
+<tr>
+<td class="eng hidden">7</td><td class="vn visible">7</td><td class="eng hidden">2 3 4 8</td><td class="vn visible">2 3 4 8</td>
+</tr>
+<tr>
+<td class="eng hidden">8</td><td class="vn visible">8</td><td class="eng hidden">0 3 8 8 8</td><td class="vn visible">0 3 8 8 8</td>
+</tr>
+<tr>
+<td class="eng hidden">9</td><td class="vn visible">9</td><td class="eng hidden">0 2 4 4 4 4 6</td><td class="vn visible">0 2 4 4 4 4 6</td>
+</tr>
+<tr>
+<td class="eng hidden">10</td><td class="vn visible">10</td><td class="eng hidden">0</td><td class="vn visible">0</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.1</span>
+  <span class="os-divider"> </span>
+<span class="os-title" data-type="title">Stem-and-Leaf Graph</span>
+
+  <span class="os-divider"> </span>
+</div>
+</div><p id="element-541" class="eng hidden">The stemplot shows that most scores fell in the 60s, 70s, 80s, and 90s.  Eight out of the 31 scores or approximately 26% <span class="os-math-in-para"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="0" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(5 0 (3 1 2) 4)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mrow><mjx-mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="depth:1" data-semantic-id="5" data-semantic-children="3" data-semantic-content="0,4" data-semantic-owns="0 3 4" data-semantic-level-number="0" data-speech-node="true"><mjx-mo data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:2" data-semantic-id="0" data-semantic-parent="5" data-semantic-operator="fenced" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c28 NCM-LO">(</mjx-c></mjx-mo><mjx-mrow><mjx-mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-annotation="depth:2" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="5" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn size="s" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c38">8</mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mrow size="s"><mjx-mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="2" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c33" noic="true" style="padding-top: 0.666em;">3</mjx-c><mjx-c class="mjx-c31" style="padding-top: 0.666em;">1</mjx-c></mjx-mn></mjx-mrow></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-mrow><mjx-mo data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:2" data-semantic-id="4" data-semantic-parent="5" data-semantic-operator="fenced" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c29 NCM-LO">)</mjx-c></mjx-mo></mjx-mrow></mjx-mrow></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(5 0 (3 1 2) 4)"><semantics><mrow><mrow><mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="3" data-semantic-content="0,4" data-semantic-owns="0 3 4" data-semantic-level-number="0" data-speech-node="true"><mo data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-parent="5" data-semantic-operator="fenced" data-semantic-level-number="1" data-speech-node="true">(</mo><mrow><mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-children="1,2" data-semantic-parent="5" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">8</mn><mrow><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">31</mn></mrow></mfrac></mrow><mo data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-parent="5" data-semantic-operator="fenced" data-semantic-level-number="1" data-speech-node="true">)</mo></mrow></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mrow><mfrac><mn>8</mn><mrow><mn>31</mn></mrow></mfrac></mrow><mo>)</mo></mrow></mrow></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container></span> were in the 90s or 100, a fairly high number of As.</p><p id="element-541-vn" class="vn visible">Biểu đồ stemplot cho thấy hầu hết các điểm rơi vào khoảng 60, 70, 80 và 90. Tám trên 31 điểm, hay khoảng 26% <span class="os-math-in-para"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" overflow="overflow" tabindex="0" ctxtmenu_counter="0" style="font-size: 116.9%; position: relative;"><mjx-math data-semantic-structure="(5 0 (3 1 2) 4)" class="NCM-N" aria-hidden="true"><mjx-semantics><mjx-mrow><mjx-mrow><mjx-mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="depth:1" data-semantic-id="5" data-semantic-children="3" data-semantic-content="0,4" data-semantic-owns="0 3 4" data-semantic-level-number="0" data-speech-node="true"><mjx-mo data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:2" data-semantic-id="0" data-semantic-parent="5" data-semantic-operator="fenced" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c28 NCM-LO">(</mjx-c></mjx-mo><mjx-mrow><mjx-mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-annotation="depth:2" data-semantic-id="3" data-semantic-children="1,2" data-semantic-parent="5" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mjx-frac><mjx-num><mjx-nstrut></mjx-nstrut><mjx-mn size="s" data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="1" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c38">8</mjx-c></mjx-mn></mjx-num><mjx-dbox><mjx-dtable><mjx-line></mjx-line><mjx-row><mjx-den><mjx-dstrut></mjx-dstrut><mjx-mrow size="s"><mjx-mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-id="2" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true"><mjx-c class="mjx-c33">3</mjx-c><mjx-c class="mjx-c31">1</mjx-c></mjx-mn></mjx-mrow></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-mrow><mjx-mo data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:2" data-semantic-id="4" data-semantic-parent="5" data-semantic-operator="fenced" data-semantic-level-number="1" data-speech-node="true"><mjx-c class="mjx-c29 NCM-LO">)</mjx-c></mjx-mo></mjx-mrow></mjx-mrow></mjx-mrow></mjx-semantics></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" data-semantic-structure="(5 0 (3 1 2) 4)"><semantics><mrow><mrow><mrow data-semantic-type="fenced" data-semantic-role="leftright" data-semantic-annotation="depth:1" data-semantic-="" data-semantic-children="3" data-semantic-content="0,4" data-semantic-owns="0 3 4" data-semantic-level-number="0" data-speech-node="true"><mo data-semantic-type="fence" data-semantic-role="open" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-parent="5" data-semantic-operator="fenced" data-semantic-level-number="1" data-speech-node="true">(</mo><mrow><mfrac data-semantic-type="fraction" data-semantic-role="vulgar" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-children="1,2" data-semantic-parent="5" data-semantic-owns="1 2" data-semantic-level-number="1" data-speech-node="true"><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">8</mn><mrow><mn data-semantic-type="number" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:simple;depth:3" data-semantic-="" data-semantic-parent="3" data-semantic-level-number="2" data-speech-node="true">31</mn></mrow></mfrac></mrow><mo data-semantic-type="fence" data-semantic-role="close" data-semantic-annotation="depth:2" data-semantic-="" data-semantic-parent="5" data-semantic-operator="fenced" data-semantic-level-number="1" data-speech-node="true">)</mo></mrow></mrow></mrow><annotation-xml encoding="MathML-Content"><mrow xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mrow><mfrac><mn>8</mn><mrow><mn>31</mn></mrow></mfrac></mrow><mo>)</mo></mrow></mrow></annotation-xml></semantics></math></mjx-assistive-mml></mjx-container></span> là điểm A, một con số khá cao.</p>
+</div></section></div>
+
+
+
+<div data-type="note" data-has-label="true" id="fs-idp6114880" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">2.1</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử lại </span>
+  <span class="os-number">2.1</span></h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="fs-idp3142256" class="unnumbered"><header></header><section>
+<div data-type="problem" id="fs-idm28250320"><div class="os-problem-container">
+<p id="fs-idp29192512" class="eng hidden">For the Park City basketball team, scores for the last 30 games were as follows (smallest to largest):
+<span data-type="newline"><br></span>
+ 32; 32; 33; 34; 38; 40; 42; 42; 43; 44; 46; 47; 47; 48; 48; 48; 49; 50; 50; 51; 52; 52; 52; 53; 54; 56; 57; 57; 60; 61
+<span data-type="newline"><br></span>Construct a stem plot for the data.</p><p id="fs-idp29192512-vn" class="vn visible">Đối với đội bóng rổ Park City, điểm số trong 30 trận gần đây như sau (từ nhỏ đến lớn):
+<span data-type="newline"><br></span>
+ 32; 32; 33; 34; 38; 40; 42; 42; 43; 44; 46; 47; 47; 48; 48; 48; 49; 50; 50; 51; 52; 52; 52; 53; 54; 56; 57; 57; 60; 61
+<span data-type="newline"><br></span>Hãy lập biểu đồ thân và lá cho dữ liệu.</p></div></div>
+</section></div></div></section></div>
+
+
+
+
+
+<p id="eip-522" class="eng hidden">The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <span data-type="term" id="term-00001" group-by="o">outlier</span> is an observation of data that does not fit the rest of the data. It is sometimes called an <strong>extreme value.</strong> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes (for example, writing down 50 instead of 500) while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</p><p id="eip-522-vn" class="vn visible">Biểu đồ stemplot là một cách nhanh chóng để vẽ biểu đồ dữ liệu và cho ta một cái nhìn chính xác về dữ liệu. Bạn muốn tìm kiếm một mô hình tổng thể và bất kỳ điểm ngoại lệ nào. Một <span data-type="term" id="term-00001" group-by="o">điểm ngoại lệ</span> là một quan sát dữ liệu không phù hợp với phần còn lại của dữ liệu. Đôi khi nó được gọi là <strong>giá trị cực đoan.</strong> Khi bạn vẽ biểu đồ một điểm ngoại lệ, nó sẽ không phù hợp với mô hình của biểu đồ. Một số điểm ngoại lệ là do lỗi (ví dụ, ghi 50 thay vì 500) trong khi những điểm khác có thể chỉ ra rằng có điều gì đó bất thường đang xảy ra. Cần có một số thông tin nền để giải thích các điểm ngoại lệ, vì vậy chúng ta sẽ đề cập đến chúng chi tiết hơn sau.</p><div data-type="example" id="element-798" class="ui-has-child-title"><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">2.2</span>
+  <span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+  <span class="os-number">2.2</span>
+  <span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p id="element-534" class="eng hidden">The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data:
+<span data-type="newline"><br></span>1.1; 1.5; 2.3; 2.5; 2.7; 3.2; 3.3; 3.3; 3.5; 3.8; 4.0; 4.2; 4.5; 4.5; 4.7; 4.8; 5.5; 5.6; 6.5; 6.7; 12.3</p><p id="element-534-vn" class="vn visible">Dữ liệu là khoảng cách (tính bằng km) từ nhà đến các siêu thị địa phương. Lập biểu đồ thân và lá bằng dữ liệu:
+<span data-type="newline"><br></span>1.1; 1.5; 2.3; 2.5; 2.7; 3.2; 3.3; 3.3; 3.5; 3.8; 4.0; 4.2; 4.5; 4.5; 4.7; 4.8; 5.5; 5.6; 6.5; 6.7; 12.3</p><div data-type="exercise" id="element-6923" class="unnumbered has-problem-title"><header></header><section><div data-type="problem" id="id8567884"><h4 data-type="problem-title" class="eng hidden">
+  <span class="os-title-label">Problem</span>
+</h4><h4 data-type="problem-title" class="vn visible"><span class="os-title-label">Bài toán</span></h4>
+<div class="os-problem-container">
+<p id="fs-idp11807920" class="eng hidden">Do the data seem to have any concentration of values?</p><p id="fs-idp11807920-vn" class="vn visible">Dữ liệu có vẻ tập trung ở một số giá trị nào không?</p>
+<div data-type="note" data-has-label="true" id="id8559724" data-label="" class="ui-has-child-title"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title"><span class="os-title-label" data-type="">LƯU Ý</span></h3></header><section>
+<div class="os-note-body">
+<p id="fs-idp145995424" class="eng hidden">The leaves are to the right of the decimal.</p><p id="fs-idp145995424-vn" class="vn visible">Các lá nằm ở bên phải dấu thập phân.</p>
+</div></section></div>
+</div></div>
+<details data-type="solution" id="id8559734" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title" class="eng hidden">
+  <span class="os-title-label">Solution</span>
+</h4><h4 data-type="solution-title" class="vn visible"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<p id="element-23523" class="eng hidden">The value 12.3 may be an outlier. Values appear to concentrate at three and four kilometers.</p><p id="element-23523-vn" class="vn visible">Giá trị 12.3 có thể là một điểm ngoại lệ. Các giá trị dường như tập trung ở ba và bốn km.</p>
+<div class="os-table" id="element-533"><table data-id="element-533" data-summary="This is a Stem-Leaf graph with stems 1, 2, 3, 4, 5, 6, 12 and leaves to the right of the decimal point.">
+  <thead>
+<tr>
+<th scope="col" class="eng hidden">Stem</th><th scope="col" class="vn visible">Thân</th>
+<th scope="col" class="eng hidden">Leaf</th><th scope="col" class="vn visible">Lá</th>
+</tr>
+</thead>
+  <tbody>
+<tr>
+<td class="eng hidden">1</td><td class="vn visible">1</td><td class="eng hidden">1&nbsp;5</td><td class="vn visible">1&nbsp;5</td>
+</tr>
+<tr>
+<td class="eng hidden">2</td><td class="vn visible">2</td><td class="eng hidden">3&nbsp;5&nbsp;7</td><td class="vn visible">3&nbsp;5&nbsp;7</td>
+</tr>
+<tr>
+<td class="eng hidden">3</td><td class="vn visible">3</td><td class="eng hidden">2&nbsp;3&nbsp;3&nbsp;5&nbsp;8</td><td class="vn visible">2&nbsp;3&nbsp;3&nbsp;5&nbsp;8</td>
+</tr>
+<tr>
+<td class="eng hidden">4</td><td class="vn visible">4</td><td class="eng hidden">0&nbsp;2&nbsp;5&nbsp;5&nbsp;7&nbsp;8</td><td class="vn visible">0&nbsp;2&nbsp;5&nbsp;5&nbsp;7&nbsp;8</td>
+</tr>
+<tr>
+<td class="eng hidden">5</td><td class="vn visible">5</td><td class="eng hidden">5&nbsp;6</td><td class="vn visible">5&nbsp;6</td>
+</tr>
+<tr>
+<td class="eng hidden">6</td><td class="vn visible">6</td><td class="eng hidden">5&nbsp;7</td><td class="vn visible">5&nbsp;7</td>
+</tr>
+<tr>
+<td class="eng hidden">7</td><td class="vn visible">7</td><td class="eng hidden">
+</td><td class="vn visible"></td></tr>
+<tr>
+<td class="eng hidden">8</td><td class="vn visible">8</td><td class="eng hidden">
+</td><td class="vn visible"></td></tr>
+<tr>
+<td class="eng hidden">9</td><td class="vn visible">9</td><td class="eng hidden">
+</td><td class="vn visible"></td></tr>
+<tr>
+<td class="eng hidden">10</td><td class="vn visible">10</td><td class="eng hidden">
+</td><td class="vn visible"></td></tr>
+<tr>
+<td class="eng hidden">11</td><td class="vn visible">11</td><td class="eng hidden">
+</td><td class="vn visible"></td></tr>
+<tr>
+<td class="eng hidden">12</td><td class="vn visible">12</td><td class="eng hidden">3</td><td class="vn visible">3</td>
+</tr>
+</tbody>
+</table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.2</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+</div>
+</section>
+      </details>
+</section></div></div></section></div>
+
+
+
+<div data-type="note" data-has-label="true" id="fs-idp4001472" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">2.2</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử lại </span>
+  <span class="os-number">2.2</span></h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="fs-idm40603312" class="unnumbered"><header></header><section>
+<div data-type="problem" id="fs-idm28790944"><div class="os-problem-container">
+<p id="fs-idp73770272" class="eng hidden">The following data show the distances (in miles) from the homes of off-campus statistics students to the college. Create a stem plot using the data and identify any outliers:</p><p id="fs-idp73770272-vn" class="vn visible">Dữ liệu sau đây cho thấy khoảng cách (tính bằng dặm) từ nhà của các sinh viên thống kê ngoài khuôn viên trường đến trường đại học. Lập biểu đồ thân và lá bằng dữ liệu và xác định bất kỳ điểm ngoại lệ nào:</p>
+<p id="fs-idp20460656" class="eng hidden">0.5; 0.7; 1.1; 1.2; 1.2; 1.3; 1.3; 1.5; 1.5; 1.7; 1.7; 1.8; 1.9; 2.0; 2.2; 2.5; 2.6; 2.8; 2.8; 2.8; 3.5; 3.8; 4.4; 4.8; 4.9; 5.2; 5.5; 5.7; 5.8; 8.0
+</p><p id="fs-idp20460656-vn" class="vn visible">0.5; 0.7; 1.1; 1.2; 1.2; 1.3; 1.3; 1.5; 1.5; 1.7; 1.7; 1.8; 1.9; 2.0; 2.2; 2.5; 2.6; 2.8; 2.8; 2.8; 3.5; 3.8; 4.4; 4.8; 4.9; 5.2; 5.5; 5.7; 5.8; 8.0</p></div></div>
+</section></div>
+</div></section></div>
+
+
+
+
+
+<div data-type="example" id="fs-idp11879648" class="ui-has-child-title"><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">2.3</span>
+  <span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+  <span class="os-number">2.3</span>
+  <span class="os-divider"> </span></h3></header><section>
+<div class="body"><div data-type="exercise" id="fs-idp161531440" class="unnumbered has-problem-title"><header></header><section><div data-type="problem" id="fs-idp99219856"><h4 data-type="problem-title" class="eng hidden">
+  <span class="os-title-label">Problem</span>
+</h4><h4 data-type="problem-title" class="vn visible"><span class="os-title-label">Bài toán</span></h4>
+<div class="os-problem-container">
+<p id="fs-idp93832256" class="eng hidden">A <strong>side-by-side stem-and-leaf plot</strong> allows a comparison of the two data sets in two columns. In a side-by-side stem-and-leaf plot, two sets of leaves share the same stem. The leaves are to the left and the right of the stems. <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl005" class="autogenerated-content" aria-label="View Table 2.3">Table 2.3</a> and <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl006" class="autogenerated-content" aria-label="View Table 2.4">Table 2.4</a> show the ages of presidents at their inauguration and at their death. Construct a side-by-side stem-and-leaf plot using this data.</p><p id="fs-idp93832256-vn" class="vn visible">Một <strong>biểu đồ thân và lá ghép đôi</strong> cho phép so sánh hai tập dữ liệu trong hai cột. Trong biểu đồ thân và lá ghép đôi, hai tập lá chia sẻ cùng một thân. Các lá nằm ở bên trái và bên phải của thân. <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl005" class="autogenerated-content" aria-label="View Table 2.3">Bảng 2.3</a> và <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl006" class="autogenerated-content" aria-label="View Table 2.4">Bảng 2.4</a> cho thấy độ tuổi của các tổng thống khi nhậm chức và khi qua đời. Hãy lập biểu đồ thân và lá ghép đôi bằng dữ liệu này.</p>
+  <div class="os-table" id="M01_Ch02_tbl005"><table data-id="M01_Ch02_tbl005" data-summary=""><thead>
+    <tr><th scope="col" class="eng hidden">President</th><th scope="col" class="vn visible">Tổng thống</th><th scope="col" class="eng hidden">Age</th><th scope="col" class="vn visible">Tuổi</th><th scope="col" class="eng hidden">President</th><th scope="col" class="vn visible">Tổng thống</th><th scope="col" class="eng hidden">Age</th><th scope="col" class="vn visible">Tuổi</th><th scope="col" class="eng hidden">President</th><th scope="col" class="vn visible">Tổng thống</th><th scope="col" class="eng hidden">Age</th><th scope="col" class="vn visible">Tuổi</th></tr>
+    </thead><tbody>
+    <tr><td class="eng hidden">Washington</td><td class="vn visible">Washington</td><td class="eng hidden">57</td><td class="vn visible">57</td><td class="eng hidden">Lincoln</td><td class="vn visible">Lincoln</td><td class="eng hidden">52</td><td class="vn visible">52</td><td class="eng hidden">Hoover</td><td class="vn visible">Hoover</td><td class="eng hidden">54</td><td class="vn visible">54</td></tr>
+    <tr><td class="eng hidden">J. Adams</td><td class="vn visible">J. Adams</td><td class="eng hidden">61</td><td class="vn visible">61</td><td class="eng hidden">A. Johnson</td><td class="vn visible">A. Johnson</td><td class="eng hidden">56</td><td class="vn visible">56</td><td class="eng hidden">F. Roosevelt</td><td class="vn visible">F. Roosevelt</td><td class="eng hidden">51</td><td class="vn visible">51</td></tr>
+    <tr><td class="eng hidden">Jefferson</td><td class="vn visible">Jefferson</td><td class="eng hidden">57</td><td class="vn visible">57</td><td class="eng hidden">Grant</td><td class="vn visible">Grant</td><td class="eng hidden">46</td><td class="vn visible">46</td><td class="eng hidden">Truman</td><td class="vn visible">Truman</td><td class="eng hidden">60</td><td class="vn visible">60</td></tr>
+    <tr><td class="eng hidden">Madison</td><td class="vn visible">Madison</td><td class="eng hidden">57</td><td class="vn visible">57</td><td class="eng hidden">Hayes</td><td class="vn visible">Hayes</td><td class="eng hidden">54</td><td class="vn visible">54</td><td class="eng hidden">Eisenhower</td><td class="vn visible">Eisenhower</td><td class="eng hidden">62</td><td class="vn visible">62</td></tr>
+    <tr><td class="eng hidden">Monroe</td><td class="vn visible">Monroe</td><td class="eng hidden">58</td><td class="vn visible">58</td><td class="eng hidden">Garfield</td><td class="vn visible">Garfield</td><td class="eng hidden">49</td><td class="vn visible">49</td><td class="eng hidden">Kennedy</td><td class="vn visible">Kennedy</td><td class="eng hidden">43</td><td class="vn visible">43</td></tr>
+    <tr><td class="eng hidden">J. Q. Adams</td><td class="vn visible">J. Q. Adams</td><td class="eng hidden">57</td><td class="vn visible">57</td><td class="eng hidden">Arthur</td><td class="vn visible">Arthur</td><td class="eng hidden">51</td><td class="vn visible">51</td><td class="eng hidden">L. Johnson</td><td class="vn visible">L. Johnson</td><td class="eng hidden">55</td><td class="vn visible">55</td></tr>
+    <tr><td class="eng hidden">Jackson</td><td class="vn visible">Jackson</td><td class="eng hidden">61</td><td class="vn visible">61</td><td class="eng hidden">Cleveland</td><td class="vn visible">Cleveland</td><td class="eng hidden">47</td><td class="vn visible">47</td><td class="eng hidden">Nixon</td><td class="vn visible">Nixon</td><td class="eng hidden">56</td><td class="vn visible">56</td></tr>
+    <tr><td class="eng hidden">Van Buren</td><td class="vn visible">Van Buren</td><td class="eng hidden">54</td><td class="vn visible">54</td><td class="eng hidden">B. Harrison</td><td class="vn visible">B. Harrison</td><td class="eng hidden">55</td><td class="vn visible">55</td><td class="eng hidden">Ford</td><td class="vn visible">Ford</td><td class="eng hidden">61</td><td class="vn visible">61</td></tr>
+    <tr><td class="eng hidden">W. H. Harrison</td><td class="vn visible">W. H. Harrison</td><td class="eng hidden">68</td><td class="vn visible">68</td><td class="eng hidden">Cleveland</td><td class="vn visible">Cleveland</td><td class="eng hidden">55</td><td class="vn visible">55</td><td class="eng hidden">Carter</td><td class="vn visible">Carter</td><td class="eng hidden">52</td><td class="vn visible">52</td></tr>
+    <tr><td class="eng hidden">Tyler</td><td class="vn visible">Tyler</td><td class="eng hidden">51</td><td class="vn visible">51</td><td class="eng hidden">McKinley</td><td class="vn visible">McKinley</td><td class="eng hidden">54</td><td class="vn visible">54</td><td class="eng hidden">Reagan</td><td class="vn visible">Reagan</td><td class="eng hidden">69</td><td class="vn visible">69</td></tr>
+    <tr><td class="eng hidden">Polk</td><td class="vn visible">Polk</td><td class="eng hidden">49</td><td class="vn visible">49</td><td class="eng hidden">T. Roosevelt</td><td class="vn visible">T. Roosevelt</td><td class="eng hidden">42</td><td class="vn visible">42</td><td class="eng hidden">G.H.W. Bush</td><td class="vn visible">G.H.W. Bush</td><td class="eng hidden">64</td><td class="vn visible">64</td></tr>
+    <tr><td class="eng hidden">Taylor</td><td class="vn visible">Taylor</td><td class="eng hidden">64</td><td class="vn visible">64</td><td class="eng hidden">Taft</td><td class="vn visible">Taft</td><td class="eng hidden">51</td><td class="vn visible">51</td><td class="eng hidden">Clinton</td><td class="vn visible">Clinton</td><td class="eng hidden">47</td><td class="vn visible">47</td></tr>
+    <tr><td class="eng hidden">Fillmore</td><td class="vn visible">Fillmore</td><td class="eng hidden">50</td><td class="vn visible">50</td><td class="eng hidden">Wilson</td><td class="vn visible">Wilson</td><td class="eng hidden">56</td><td class="vn visible">56</td><td class="eng hidden">G. W. Bush</td><td class="vn visible">G. W. Bush</td><td class="eng hidden">54</td><td class="vn visible">54</td></tr>
+    <tr><td class="eng hidden">Pierce</td><td class="vn visible">Pierce</td><td class="eng hidden">48</td><td class="vn visible">48</td><td class="eng hidden">Harding</td><td class="vn visible">Harding</td><td class="eng hidden">55</td><td class="vn visible">55</td><td class="eng hidden">Obama</td><td class="vn visible">Obama</td><td class="eng hidden">47</td><td class="vn visible">47</td></tr>
+    <tr><td class="eng hidden">Buchanan</td><td class="vn visible">Buchanan</td><td class="eng hidden">65</td><td class="vn visible">65</td><td class="eng hidden">Coolidge</td><td class="vn visible">Coolidge</td><td class="eng hidden">51</td><td class="vn visible">51</td><td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden"></td><td class="vn visible"></td></tr>
+    </tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.3</span>
+  <span class="os-divider"> </span>
+<span class="os-title" data-type="title">Presidential Ages at Inauguration</span>
+
+  <span class="os-divider"> </span>
+</div>
+</div>
+    <div class="os-table" id="M01_Ch02_tbl006"><table data-id="M01_Ch02_tbl006" data-summary=""><thead>
+    <tr><th scope="col" class="eng hidden">President</th><th scope="col" class="vn visible">Tổng thống</th><th scope="col" class="eng hidden">Age</th><th scope="col" class="vn visible">Tuổi</th><th scope="col" class="eng hidden">President</th><th scope="col" class="vn visible">Tổng thống</th><th scope="col" class="eng hidden">Age</th><th scope="col" class="vn visible">Tuổi</th><th scope="col" class="eng hidden">President</th><th scope="col" class="vn visible">Tổng thống</th><th scope="col" class="eng hidden">Age</th><th scope="col" class="vn visible">Tuổi</th></tr>
+    </thead><tbody>
+    <tr><td class="eng hidden">Washington</td><td class="vn visible">Washington</td><td class="eng hidden">67</td><td class="vn visible">67</td><td class="eng hidden">Lincoln</td><td class="vn visible">Lincoln</td><td class="eng hidden">56</td><td class="vn visible">56</td><td class="eng hidden">Hoover</td><td class="vn visible">Hoover</td><td class="eng hidden">90</td><td class="vn visible">90</td></tr>
+    <tr><td class="eng hidden">J. Adams</td><td class="vn visible">J. Adams</td><td class="eng hidden">90</td><td class="vn visible">90</td><td class="eng hidden">A. Johnson</td><td class="vn visible">A. Johnson</td><td class="eng hidden">66</td><td class="vn visible">66</td><td class="eng hidden">F. Roosevelt</td><td class="vn visible">F. Roosevelt</td><td class="eng hidden">63</td><td class="vn visible">63</td></tr>
+    <tr><td class="eng hidden">Jefferson</td><td class="vn visible">Jefferson</td><td class="eng hidden">83</td><td class="vn visible">83</td><td class="eng hidden">Grant</td><td class="vn visible">Grant</td><td class="eng hidden">63</td><td class="vn visible">63</td><td class="eng hidden">Truman</td><td class="vn visible">Truman</td><td class="eng hidden">88</td><td class="vn visible">88</td></tr>
+    <tr><td class="eng hidden">Madison</td><td class="vn visible">Madison</td><td class="eng hidden">85</td><td class="vn visible">85</td><td class="eng hidden">Hayes</td><td class="vn visible">Hayes</td><td class="eng hidden">70</td><td class="vn visible">70</td><td class="eng hidden">Eisenhower</td><td class="vn visible">Eisenhower</td><td class="eng hidden">78</td><td class="vn visible">78</td></tr>
+    <tr><td class="eng hidden">Monroe</td><td class="vn visible">Monroe</td><td class="eng hidden">73</td><td class="vn visible">73</td><td class="eng hidden">Garfield</td><td class="vn visible">Garfield</td><td class="eng hidden">49</td><td class="vn visible">49</td><td class="eng hidden">Kennedy</td><td class="vn visible">Kennedy</td><td class="eng hidden">46</td><td class="vn visible">46</td></tr>
+    <tr><td class="eng hidden">J. Q. Adams</td><td class="vn visible">J. Q. Adams</td><td class="eng hidden">80</td><td class="vn visible">80</td><td class="eng hidden">Arthur</td><td class="vn visible">Arthur</td><td class="eng hidden">56</td><td class="vn visible">56</td><td class="eng hidden">L. Johnson</td><td class="vn visible">L. Johnson</td><td class="eng hidden">64</td><td class="vn visible">64</td></tr>
+    <tr><td class="eng hidden">Jackson</td><td class="vn visible">Jackson</td><td class="eng hidden">78</td><td class="vn visible">78</td><td class="eng hidden">Cleveland</td><td class="vn visible">Cleveland</td><td class="eng hidden">71</td><td class="vn visible">71</td><td class="eng hidden">Nixon</td><td class="vn visible">Nixon</td><td class="eng hidden">81</td><td class="vn visible">81</td></tr>
+    <tr><td class="eng hidden">Van Buren</td><td class="vn visible">Van Buren</td><td class="eng hidden">79</td><td class="vn visible">79</td><td class="eng hidden">B. Harrison</td><td class="vn visible">B. Harrison</td><td class="eng hidden">67</td><td class="vn visible">67</td><td class="eng hidden">Ford</td><td class="vn visible">Ford</td><td class="eng hidden">93</td><td class="vn visible">93</td></tr>
+    <tr><td class="eng hidden">W. H. Harrison</td><td class="vn visible">W. H. Harrison</td><td class="eng hidden">68</td><td class="vn visible">68</td><td class="eng hidden">Cleveland</td><td class="vn visible">Cleveland</td><td class="eng hidden">71</td><td class="vn visible">71</td><td class="eng hidden">Reagan</td><td class="vn visible">Reagan</td><td class="eng hidden">93</td><td class="vn visible">93</td></tr>
+    <tr><td class="eng hidden">Tyler</td><td class="vn visible">Tyler</td><td class="eng hidden">71</td><td class="vn visible">71</td><td class="eng hidden">McKinley</td><td class="vn visible">McKinley</td><td class="eng hidden">58</td><td class="vn visible">58</td><td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden"></td><td class="vn visible"></td></tr>
+    <tr><td class="eng hidden">Polk</td><td class="vn visible">Polk</td><td class="eng hidden">53</td><td class="vn visible">53</td><td class="eng hidden">T. Roosevelt</td><td class="vn visible">T. Roosevelt</td><td class="eng hidden">60</td><td class="vn visible">60</td><td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden"></td><td class="vn visible"></td></tr>
+    <tr><td class="eng hidden">Taylor</td><td class="vn visible">Taylor</td><td class="eng hidden">65</td><td class="vn visible">65</td><td class="eng hidden">Taft</td><td class="vn visible">Taft</td><td class="eng hidden">72</td><td class="vn visible">72</td><td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden"></td><td class="vn visible"></td></tr>
+    <tr><td class="eng hidden">Fillmore</td><td class="vn visible">Fillmore</td><td class="eng hidden">74</td><td class="vn visible">74</td><td class="eng hidden">Wilson</td><td class="vn visible">Wilson</td><td class="eng hidden">67</td><td class="vn visible">67</td><td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden"></td><td class="vn visible"></td></tr>
+    <tr><td class="eng hidden">Pierce</td><td class="vn visible">Pierce</td><td class="eng hidden">64</td><td class="vn visible">64</td><td class="eng hidden">Harding</td><td class="vn visible">Harding</td><td class="eng hidden">57</td><td class="vn visible">57</td><td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden"></td><td class="vn visible"></td></tr>
+    <tr><td class="eng hidden">Buchanan</td><td class="vn visible">Buchanan</td><td class="eng hidden">77</td><td class="vn visible">77</td><td class="eng hidden">Coolidge</td><td class="vn visible">Coolidge</td><td class="eng hidden">60</td><td class="vn visible">60</td><td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden"></td><td class="vn visible"></td></tr>
+    </tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.4</span>
+  <span class="os-divider"> </span>
+<span class="os-title" data-type="title">Presidential Age at Death</span>
+
+  <span class="os-divider"> </span>
+</div>
+</div>
+  </div></div>
+  <details data-type="solution" id="fs-idp107817952" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title" class="eng hidden">
+  <span class="os-title-label">Solution</span>
+</h4><h4 data-type="solution-title" class="vn visible"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<div class="os-table" id="M01_Ch02_tbl007"><table data-id="M01_Ch02_tbl007" data-summary="---">
+  <colgroup>
+    <col data-align="right">
+    <col data-align="center">
+    <col data-align="left">
+  </colgroup>
+  <thead>
+<tr>
+<th scope="col" class="eng hidden">Ages at Inauguration</th><th scope="col" class="vn visible">Tuổi khi nhậm chức</th>
+<th scope="col" class="eng hidden">
+</th><th scope="col" class="vn visible"></th><th scope="col" class="eng hidden">Ages at Death</th><th scope="col" class="vn visible">Tuổi khi qua đời</th>
+</tr>
+</thead>
+  <tbody>
+<tr>
+<td class="eng hidden">9 9 8 7 7 7 6 3 2</td><td class="vn visible">9 9 8 7 7 7 6 3 2</td><td class="eng hidden">4</td><td class="vn visible">4</td><td class="eng hidden">6 9</td><td class="vn visible">6 9</td>
+</tr>
+<tr>
+<td class="eng hidden">8 7 7 7 7 6 6 6 5 5 5 5 4 4 4 4 4 2 2 1 1 1 1 1 0</td><td class="vn visible">8 7 7 7 7 6 6 6 5 5 5 5 4 4 4 4 4 2 2 1 1 1 1 1 0</td><td class="eng hidden">5</td><td class="vn visible">5</td><td class="eng hidden">3 6 6 7 7 8</td><td class="vn visible">3 6 6 7 7 8</td>
+</tr>
+<tr>
+<td class="eng hidden">9 8 5 4 4 2 1 1 1 0</td><td class="vn visible">9 8 5 4 4 2 1 1 1 0</td><td class="eng hidden">6</td><td class="vn visible">6</td><td class="eng hidden">0 0 3 3 4 4 5 6 7 7 7 8</td><td class="vn visible">0 0 3 3 4 4 5 6 7 7 7 8</td>
+</tr>
+<tr>
+<td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden">7</td><td class="vn visible">7</td><td class="eng hidden">0 1 1 1 2 3 4 7 8 8 9</td><td class="vn visible">0 1 1 1 2 3 4 7 8 8 9</td>
+</tr>
+<tr>
+<td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden">8</td><td class="vn visible">8</td><td class="eng hidden">0 1 3 5 8</td><td class="vn visible">0 1 3 5 8</td>
+</tr>
+<tr>
+<td class="eng hidden"></td><td class="vn visible"></td><td class="eng hidden">9</td><td class="vn visible">9</td><td class="eng hidden">0 0 3 3</td><td class="vn visible">0 0 3 3</td>
+</tr>
+</tbody>
+</table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.5</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div></div>
+</section>
+      </details></section></div>
+</div></section></div>
+
+<div data-type="note" data-has-label="true" id="fs-idp9770768" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">2.3</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử thách </span>
+  <span class="os-number">2.3</span></h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="fs-idp35107968" class="unnumbered"><header></header><section>
+<div data-type="problem" id="fs-idm2063072"><div class="os-problem-container">
+<p id="fs-idm4586448" class="eng hidden">The table shows the number of wins and losses the Atlanta Hawks have had in 42 seasons. Create a side-by-side stemand-leaf plot of these wins and losses.</p><p id="fs-idm4586448-vn" class="vn visible">Bảng dưới đây cho biết số trận thắng và thua của đội Atlanta Hawks trong 42 mùa giải. Hãy tạo biểu đồ thân và lá song song cho số trận thắng và thua này.</p>
+<div class="os-table" id="fs-idm25873440"><table data-id="fs-idm25873440" data-summary=".."><thead>
+<tr>
+<th scope="col" class="eng hidden">Losses</th><th scope="col" class="vn visible">Thua</th>
+<th scope="col" class="eng hidden">Wins</th><th scope="col" class="vn visible">Thắng</th>
+<th scope="col" class="eng hidden">Season</th><th scope="col" class="vn visible">Mùa giải</th>
+<th scope="col" class="eng hidden">Losses</th><th scope="col" class="vn visible">Thua</th>
+<th scope="col" class="eng hidden">Wins</th><th scope="col" class="vn visible">Thắng</th>
+<th scope="col" class="eng hidden">Season</th><th scope="col" class="vn visible">Mùa giải</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">34</td><td class="vn visible">34</td>
+<td class="eng hidden">48</td><td class="vn visible">48</td>
+<td class="eng hidden">1</td><td class="vn visible">1</td>
+<td class="eng hidden">41</td><td class="vn visible">41</td>
+<td class="eng hidden">41</td><td class="vn visible">41</td>
+<td class="eng hidden">22</td><td class="vn visible">22</td>
+</tr>
+<tr>
+<td class="eng hidden">34</td><td class="vn visible">34</td>
+<td class="eng hidden">48</td><td class="vn visible">48</td>
+<td class="eng hidden">2</td><td class="vn visible">2</td>
+<td class="eng hidden">39</td><td class="vn visible">39</td>
+<td class="eng hidden">43</td><td class="vn visible">43</td>
+<td class="eng hidden">23</td><td class="vn visible">23</td>
+</tr>
+<tr>
+<td class="eng hidden">46</td><td class="vn visible">46</td>
+<td class="eng hidden">36</td><td class="vn visible">36</td>
+<td class="eng hidden">3</td><td class="vn visible">3</td>
+<td class="eng hidden">44</td><td class="vn visible">44</td>
+<td class="eng hidden">38</td><td class="vn visible">38</td>
+<td class="eng hidden">24</td><td class="vn visible">24</td>
+</tr>
+<tr>
+<td class="eng hidden">46</td><td class="vn visible">46</td>
+<td class="eng hidden">36</td><td class="vn visible">36</td>
+<td class="eng hidden">4</td><td class="vn visible">4</td>
+<td class="eng hidden">39</td><td class="vn visible">39</td>
+<td class="eng hidden">43</td><td class="vn visible">43</td>
+<td class="eng hidden">25</td><td class="vn visible">25</td>
+</tr>
+<tr>
+<td class="eng hidden">36</td><td class="vn visible">36</td>
+<td class="eng hidden">46</td><td class="vn visible">46</td>
+<td class="eng hidden">5</td><td class="vn visible">5</td>
+<td class="eng hidden">25</td><td class="vn visible">25</td>
+<td class="eng hidden">57</td><td class="vn visible">57</td>
+<td class="eng hidden">26</td><td class="vn visible">26</td>
+</tr>
+<tr>
+<td class="eng hidden">47</td><td class="vn visible">47</td>
+<td class="eng hidden">35</td><td class="vn visible">35</td>
+<td class="eng hidden">6</td><td class="vn visible">6</td>
+<td class="eng hidden">40</td><td class="vn visible">40</td>
+<td class="eng hidden">42</td><td class="vn visible">42</td>
+<td class="eng hidden">27</td><td class="vn visible">27</td>
+</tr>
+<tr>
+<td class="eng hidden">51</td><td class="vn visible">51</td>
+<td class="eng hidden">31</td><td class="vn visible">31</td>
+<td class="eng hidden">7</td><td class="vn visible">7</td>
+<td class="eng hidden">36</td><td class="vn visible">36</td>
+<td class="eng hidden">46</td><td class="vn visible">46</td>
+<td class="eng hidden">28</td><td class="vn visible">28</td>
+</tr>
+<tr>
+<td class="eng hidden">53</td><td class="vn visible">53</td>
+<td class="eng hidden">29</td><td class="vn visible">29</td>
+<td class="eng hidden">8</td><td class="vn visible">8</td>
+<td class="eng hidden">26</td><td class="vn visible">26</td>
+<td class="eng hidden">56</td><td class="vn visible">56</td>
+<td class="eng hidden">29</td><td class="vn visible">29</td>
+</tr>
+<tr>
+<td class="eng hidden">51</td><td class="vn visible">51</td>
+<td class="eng hidden">31</td><td class="vn visible">31</td>
+<td class="eng hidden">9</td><td class="vn visible">9</td>
+<td class="eng hidden">32</td><td class="vn visible">32</td>
+<td class="eng hidden">50</td><td class="vn visible">50</td>
+<td class="eng hidden">30</td><td class="vn visible">30</td>
+</tr>
+<tr>
+<td class="eng hidden">41</td><td class="vn visible">41</td>
+<td class="eng hidden">41</td><td class="vn visible">41</td>
+<td class="eng hidden">10</td><td class="vn visible">10</td>
+<td class="eng hidden">19</td><td class="vn visible">19</td>
+<td class="eng hidden">31</td><td class="vn visible">31</td>
+<td class="eng hidden">31</td><td class="vn visible">31</td>
+</tr>
+<tr>
+<td class="eng hidden">36</td><td class="vn visible">36</td>
+<td class="eng hidden">46</td><td class="vn visible">46</td>
+<td class="eng hidden">11</td><td class="vn visible">11</td>
+<td class="eng hidden">54</td><td class="vn visible">54</td>
+<td class="eng hidden">28</td><td class="vn visible">28</td>
+<td class="eng hidden">32</td><td class="vn visible">32</td>
+</tr>
+<tr>
+<td class="eng hidden">32</td><td class="vn visible">32</td>
+<td class="eng hidden">50</td><td class="vn visible">50</td>
+<td class="eng hidden">12</td><td class="vn visible">12</td>
+<td class="eng hidden">57</td><td class="vn visible">57</td>
+<td class="eng hidden">25</td><td class="vn visible">25</td>
+<td class="eng hidden">33</td><td class="vn visible">33</td>
+</tr>
+<tr>
+<td class="eng hidden">51</td><td class="vn visible">51</td>
+<td class="eng hidden">31</td><td class="vn visible">31</td>
+<td class="eng hidden">13</td><td class="vn visible">13</td>
+<td class="eng hidden">49</td><td class="vn visible">49</td>
+<td class="eng hidden">33</td><td class="vn visible">33</td>
+<td class="eng hidden">34</td><td class="vn visible">34</td>
+</tr>
+<tr>
+<td class="eng hidden">40</td><td class="vn visible">40</td>
+<td class="eng hidden">42</td><td class="vn visible">42</td>
+<td class="eng hidden">14</td><td class="vn visible">14</td>
+<td class="eng hidden">47</td><td class="vn visible">47</td>
+<td class="eng hidden">35</td><td class="vn visible">35</td>
+<td class="eng hidden">35</td><td class="vn visible">35</td>
+</tr>
+<tr>
+<td class="eng hidden">39</td><td class="vn visible">39</td>
+<td class="eng hidden">43</td><td class="vn visible">43</td>
+<td class="eng hidden">15</td><td class="vn visible">15</td>
+<td class="eng hidden">54</td><td class="vn visible">54</td>
+<td class="eng hidden">28</td><td class="vn visible">28</td>
+<td class="eng hidden">36</td><td class="vn visible">36</td>
+</tr>
+<tr>
+<td class="eng hidden">42</td><td class="vn visible">42</td>
+<td class="eng hidden">40</td><td class="vn visible">40</td>
+<td class="eng hidden">16</td><td class="vn visible">16</td>
+<td class="eng hidden">69</td><td class="vn visible">69</td>
+<td class="eng hidden">13</td><td class="vn visible">13</td>
+<td class="eng hidden">37</td><td class="vn visible">37</td>
+</tr>
+<tr>
+<td class="eng hidden">48</td><td class="vn visible">48</td>
+<td class="eng hidden">34</td><td class="vn visible">34</td>
+<td class="eng hidden">17</td><td class="vn visible">17</td>
+<td class="eng hidden">56</td><td class="vn visible">56</td>
+<td class="eng hidden">26</td><td class="vn visible">26</td>
+<td class="eng hidden">38</td><td class="vn visible">38</td>
+</tr>
+<tr>
+<td class="eng hidden">32</td><td class="vn visible">32</td>
+<td class="eng hidden">50</td><td class="vn visible">50</td>
+<td class="eng hidden">18</td><td class="vn visible">18</td>
+<td class="eng hidden">52</td><td class="vn visible">52</td>
+<td class="eng hidden">30</td><td class="vn visible">30</td>
+<td class="eng hidden">39</td><td class="vn visible">39</td>
+</tr>
+<tr>
+<td class="eng hidden">25</td><td class="vn visible">25</td>
+<td class="eng hidden">57</td><td class="vn visible">57</td>
+<td class="eng hidden">19</td><td class="vn visible">19</td>
+<td class="eng hidden">45</td><td class="vn visible">45</td>
+<td class="eng hidden">37</td><td class="vn visible">37</td>
+<td class="eng hidden">40</td><td class="vn visible">40</td>
+</tr>
+<tr>
+<td class="eng hidden">32</td><td class="vn visible">32</td>
+<td class="eng hidden">50</td><td class="vn visible">50</td>
+<td class="eng hidden">20</td><td class="vn visible">20</td>
+<td class="eng hidden">35</td><td class="vn visible">35</td>
+<td class="eng hidden">47</td><td class="vn visible">47</td>
+<td class="eng hidden">41</td><td class="vn visible">41</td>
+</tr>
+<tr>
+<td class="eng hidden">30</td><td class="vn visible">30</td>
+<td class="eng hidden">52</td><td class="vn visible">52</td>
+<td class="eng hidden">21</td><td class="vn visible">21</td>
+<td class="eng hidden">29</td><td class="vn visible">29</td>
+<td class="eng hidden">53</td><td class="vn visible">53</td>
+<td class="eng hidden">42</td><td class="vn visible">42</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.6</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+</section></div>
+</div></section></div>
+
+
+
+<p id="eip-313" class="eng hidden">Another type of graph that is useful for specific data values is a <strong>line graph</strong>. In the particular line graph shown in <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#example4" class="autogenerated-content" aria-label="Go to Example 2.4">Example 2.4</a>, the <strong><em data-effect="italics">x</em>-axis</strong> (horizontal axis) consists of <strong>data values</strong> and the <strong><em data-effect="italics">y</em>-axis</strong> (vertical axis) consists of <strong>frequency points</strong>. The frequency points are connected  using line segments.</p><p id="eip-313-vn" class="vn visible">Một loại biểu đồ khác hữu ích cho các giá trị dữ liệu cụ thể là <strong>biểu đồ đường</strong>. Trong biểu đồ đường cụ thể được hiển thị trong <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#example4" class="autogenerated-content" aria-label="Go to Example 2.4">Ví dụ 2.4</a>, <strong>trục <em data-effect="italics">x</em></strong> (trục ngang) bao gồm các <strong>giá trị dữ liệu</strong> và <strong>trục <em data-effect="italics">y</em></strong> (trục dọc) bao gồm các <strong>điểm tần số</strong>. Các điểm tần số được nối với nhau bằng các đoạn thẳng.</p>
+
+
+
+<div data-type="example" id="example4" class="ui-has-child-title"><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">2.4</span>
+  <span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+  <span class="os-number">2.4</span>
+  <span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<p id="eip-682" class="eng hidden">In a survey, 40 parents were asked how many times per week a teenager must be reminded to do their chores. The results are shown in <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl008" class="autogenerated-content" aria-label="View Table 2.7">Table 2.7</a> and in <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_fig001" class="autogenerated-content" aria-label="View Figure 2.2">Figure 2.2</a>.</p><p id="eip-682-vn" class="vn visible">Trong một cuộc khảo sát, 40 phụ huynh được hỏi về số lần một thiếu niên phải được nhắc nhở làm việc nhà mỗi tuần. Kết quả được trình bày trong <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl008" class="autogenerated-content" aria-label="View Table 2.7">Bảng 2.7</a> và trong <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_fig001" class="autogenerated-content" aria-label="View Figure 2.2">Hình 2.2</a>.</p><div class="os-table" id="M01_Ch02_tbl008"><table data-id="M01_Ch02_tbl008" data-summary="The first column of the table consists of the number of times a teenager must be reminded to do his/her chores and the second column consists of frequency."><thead>
+<tr>
+<th scope="col" class="eng hidden">Number of times
+teenager is reminded</th><th scope="col" class="vn visible">Số lần
+thiếu niên được nhắc nhở</th>
+<th scope="col" class="eng hidden">Frequency</th><th scope="col" class="vn visible">Tần số</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">0</td><td class="vn visible">0</td><td class="eng hidden">2</td><td class="vn visible">2</td>
+</tr>
+<tr>
+<td class="eng hidden">1</td><td class="vn visible">1</td><td class="eng hidden">5</td><td class="vn visible">5</td>
+</tr>
+<tr>
+<td class="eng hidden">2</td><td class="vn visible">2</td><td class="eng hidden">8</td><td class="vn visible">8</td>
+</tr>
+<tr>
+<td class="eng hidden">3</td><td class="vn visible">3</td><td class="eng hidden">14</td><td class="vn visible">14</td>
+</tr>
+<tr>
+<td class="eng hidden">4</td><td class="vn visible">4</td><td class="eng hidden">7</td><td class="vn visible">7</td>
+</tr>
+<tr>
+<td class="eng hidden">5</td><td class="vn visible">5</td><td class="eng hidden">4</td><td class="vn visible">4</td>
+</tr>
+
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.7</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+
+<div class="os-figure" id="M01_Ch02_fig001"><figure class="scaled-down ui-has-child-figcaption" data-id="M01_Ch02_fig001">
+<span data-type="media" id="fs-idp107902784" data-display="block" data-alt="A line graph showing the number of times a teenager needs to be reminded to do chores on the x-axis and  frequency on the y-axis.">
+<button type="button" aria-label="Click to enlarge image of A line graph showing the number of times a teenager needs to be reminded to do chores on the x-axis and  frequency on the y-axis." class="image-button-wrapper"><img src="assets/img-2-1-1.webp" data-media-type="image/png" alt="A line graph showing the number of times a teenager needs to be reminded to do chores on the x-axis and  frequency on the y-axis." width="924" height="602" loading="lazy"></button></span>
+<figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">2.2</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">2.2</span></figcaption></figure></div>
+</div></section></div>
+
+
+
+
+
+<div data-type="note" data-has-label="true" id="fs-idm28536512" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">2.4</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử lại </span>
+  <span class="os-number">2.4</span></h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="fs-idm95574864" class="unnumbered"><header></header><section><div data-type="problem" id="fs-idp19862832"><div class="os-problem-container">
+
+<p id="fs-idp28849584" class="eng hidden">In a survey, 40 people were asked how many times per year they had their car in the shop for repairs. The results are shown in <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl009" class="autogenerated-content" aria-label="View Table 2.8">Table 2.8</a>. Construct a line graph.</p><p id="fs-idp28849584-vn" class="vn visible">Trong một cuộc khảo sát, 40 người được hỏi về số lần họ mang xe đi sửa chữa mỗi năm. Kết quả được trình bày trong <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl009" class="autogenerated-content" aria-label="View Table 2.8">Bảng 2.8</a>. Hãy vẽ biểu đồ đường.</p>
+
+<div class="os-table" id="M01_Ch02_tbl009"><table data-id="M01_Ch02_tbl009" data-summary=""><thead>
+<tr><th scope="col" class="eng hidden">Number of times in shop</th><th scope="col" class="vn visible">Số lần mang xe</th><th scope="col" class="eng hidden">Frequency</th><th scope="col" class="vn visible">Tần số</th></tr>
+</thead><tbody>
+<tr><td class="eng hidden">0</td><td class="vn visible">0</td><td class="eng hidden">7</td><td class="vn visible">7</td></tr>
+<tr><td class="eng hidden">1</td><td class="vn visible">1</td><td class="eng hidden">10</td><td class="vn visible">10</td></tr>
+<tr><td class="eng hidden">2</td><td class="vn visible">2</td><td class="eng hidden">14</td><td class="vn visible">14</td></tr>
+<tr><td class="eng hidden">3</td><td class="vn visible">3</td><td class="eng hidden">9</td><td class="vn visible">9</td></tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.8</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+</section></div></div></section></div>
+
+
+
+<p id="eip-136" class="eng hidden"><strong>Bar graphs</strong> consist of bars that are separated from each other. The bars can be rectangles or they can be rectangular boxes (used in three-dimensional plots), and they can be vertical or horizontal. The <strong>bar graph</strong> shown in <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#example5" class="autogenerated-content" aria-label="Go to Example 2.5">Example 2.5</a> has age groups represented on the <strong><em data-effect="italics">x</em>-axis</strong> and proportions on the <strong><em data-effect="italics">y</em>-axis</strong>.</p><p id="eip-136-vn" class="vn visible"><strong>Biểu đồ cột</strong> bao gồm các cột được tách rời nhau. Các cột có thể là hình chữ nhật hoặc hộp hình chữ nhật (được sử dụng trong biểu đồ ba chiều), và chúng có thể là dọc hoặc ngang. <strong>Biểu đồ cột</strong> được trình bày trong <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#example5" class="autogenerated-content" aria-label="Go to Example 2.5">Ví dụ 2.5</a> có các nhóm tuổi được biểu thị trên <strong><em data-effect="italics">trục x</em></strong> và tỷ lệ phần trăm trên <strong><em data-effect="italics">trục y</em></strong>.</p><div data-type="example" id="example5" class="ui-has-child-title"><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">2.5</span>
+  <span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+  <span class="os-number">2.5</span>
+  <span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div data-type="exercise" id="fs-idm7260336" class="unnumbered has-problem-title"><header></header><section>
+<div data-type="problem" id="fs-idp99169968"><h4 data-type="problem-title" class="eng hidden">
+  <span class="os-title-label">Problem</span>
+</h4><h4 data-type="problem-title" class="vn visible"><span class="os-title-label">Bài toán</span></h4>
+<div class="os-problem-container">
+<p id="eip-666" class="eng hidden">The percentage of U.S.-based TikTok users by age is shown in <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl010" class="autogenerated-content" aria-label="View Table 2.9">Table 2.9</a>. Construct a bar graph using this data.</p><p id="eip-666-vn" class="vn visible">Tỷ lệ người dùng TikTok tại Hoa Kỳ theo độ tuổi được trình bày trong <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl010" class="autogenerated-content" aria-label="View Table 2.9">Bảng 2.9</a>. Hãy vẽ biểu đồ cột sử dụng dữ liệu này.</p><div class="os-table" id="M01_Ch02_tbl010"><table data-id="M01_Ch02_tbl010" data-summary="The information is from Facebook. The first row of the table displays age groups, the second row displays number of Facebook users and the third row displays percentages."><thead>
+<tr>
+<th scope="col" class="eng hidden">Age groups</th><th scope="col" class="vn visible">Nhóm tuổi</th>
+<th scope="col" class="eng hidden">Proportion (%) of TikTok users</th><th scope="col" class="vn visible">Tỷ lệ (%) người dùng TikTok</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">10–19</td><td class="vn visible">10–19</td>
+<td class="eng hidden">32.5%</td><td class="vn visible">32.5%</td>
+</tr>
+<tr>
+<td class="eng hidden">20–29</td><td class="vn visible">20–29</td>
+<td class="eng hidden">29.5%</td><td class="vn visible">29.5%</td>
+</tr>
+<tr>
+<td class="eng hidden">30–39</td><td class="vn visible">30–39</td>
+<td class="eng hidden">16.4%</td><td class="vn visible">16.4%</td>
+</tr>
+<tr>
+  <td class="eng hidden">40–49</td><td class="vn visible">40–49</td>
+  <td class="eng hidden">13.9%</td><td class="vn visible">13.9%</td>
+  </tr>
+  <tr>
+    <td class="eng hidden">50+</td><td class="vn visible">50+</td>
+    <td class="eng hidden">7.1%</td><td class="vn visible">7.1%</td>
+    </tr>
+    </tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.9</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+<details data-type="solution" id="fs-idp32850832" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title" class="eng hidden">
+  <span class="os-title-label">Solution</span>
+</h4><h4 data-type="solution-title" class="vn visible"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<div class="os-figure" id="fs-idm25485824"><figure class="scaled-down ui-has-child-figcaption" data-id="fs-idm25485824"><span data-type="media" id="bar_graph_Facebook" data-display="block" data-alt="Bar graph of age groups against percentage of TikTok users. The percentage ranges from 0 to 35 in increments of 5. Bar of age group 10 to 19 has height of 32 percent, 20 to 29 has height of 29 percent, 30 to 39 has height of 16 percent, 40 to 49 has height of 14 percent, 50 plus has height of 7 percent.">
+<button type="button" aria-label="Click to enlarge image of Bar graph of age groups against percentage of TikTok users. The percentage ranges from 0 to 35 in increments of 5. Bar of age group 10 to 19 has height of 32 percent, 20 to 29 has height of 29 percent, 30 to 39 has height of 16 percent, 40 to 49 has height of 14 percent, 50 plus has height of 7 percent." class="image-button-wrapper"><img src="assets/img-2-1-2.webp" data-media-type="image/png" alt="Bar graph of age groups against percentage of TikTok users. The percentage ranges from 0 to 35 in increments of 5. Bar of age group 10 to 19 has height of 32 percent, 20 to 29 has height of 29 percent, 30 to 39 has height of 16 percent, 40 to 49 has height of 14 percent, 50 plus has height of 7 percent." width="1108" height="608" loading="lazy"></button></span>
+<figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">2.3</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">2.3</span></figcaption></figure></div></div>
+</section>
+      </details>
+</section></div>
+</div></section></div>
+
+
+
+
+
+<div data-type="note" data-has-label="true" id="fs-idp2492880" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">2.5</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử lại </span>
+  <span class="os-number">2.5</span></h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="fs-idm47906688" class="unnumbered"><header></header><section>
+<div data-type="problem" id="fs-idm7708128"><div class="os-problem-container">
+
+<p id="fs-idp6746384" class="eng hidden">The population in Park City is made up of children, working-age adults, and retirees. <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl011" class="autogenerated-content" aria-label="View Table 2.10">Table 2.10</a> shows the three age groups, the number of people in the town from each age group, and the proportion (%) of people in each age group. Construct a bar graph showing the proportions.</p><p id="fs-idp6746384-vn" class="vn visible">Dân số tại Park City bao gồm trẻ em, người trong độ tuổi lao động và người về hưu. <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl011" class="autogenerated-content" aria-label="View Table 2.10">Bảng 2.10</a> cho thấy ba nhóm tuổi, số người trong thị trấn thuộc mỗi nhóm tuổi và tỷ lệ (%) người thuộc mỗi nhóm tuổi. Hãy vẽ biểu đồ cột thể hiện tỷ lệ phần trăm.</p>
+
+<div class="os-table" id="M01_Ch02_tbl011"><table data-id="M01_Ch02_tbl011" data-summary=""><thead>
+<tr><th scope="col" class="eng hidden">Age groups</th><th scope="col" class="vn visible">Nhóm tuổi</th><th scope="col" class="eng hidden">Number of people</th><th scope="col" class="vn visible">Số người</th><th scope="col" class="eng hidden">Proportion of population</th><th scope="col" class="vn visible">Tỷ lệ dân số</th></tr>
+</thead><tbody>
+<tr><td class="eng hidden">Children</td><td class="vn visible">Trẻ em</td>	<td class="eng hidden">67,059</td><td class="vn visible">67,059</td>	<td class="eng hidden">19%</td><td class="vn visible">19%</td></tr>
+<tr><td class="eng hidden">Working-age adults</td><td class="vn visible">Người trong độ tuổi lao động</td>	<td class="eng hidden">152,198</td><td class="vn visible">152,198</td>	<td class="eng hidden">43%</td><td class="vn visible">43%</td></tr>
+<tr><td class="eng hidden">Retirees</td><td class="vn visible">Người về hưu</td>	<td class="eng hidden">131,662</td><td class="vn visible">131,662</td>	<td class="eng hidden">38%</td><td class="vn visible">38%</td></tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.10</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+</section></div>
+</div></section></div>
+
+
+
+
+
+<div data-type="example" id="eip-708" class="ui-has-child-title"><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Example </span>
+  <span class="os-number">2.6</span>
+  <span class="os-divider"> </span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Ví dụ </span>
+  <span class="os-number">2.6</span>
+  <span class="os-divider"> </span></h3></header><section>
+<div class="body">
+<div data-type="exercise" id="fs-idm25526448" class="unnumbered has-problem-title"><header></header><section>
+<div data-type="problem" id="fs-idm19535184"><h4 data-type="problem-title" class="eng hidden">
+  <span class="os-title-label">Problem</span>
+</h4><h4 data-type="problem-title" class="vn visible"><span class="os-title-label">Bài toán</span></h4>
+<div class="os-problem-container">
+<p id="eip-655" class="eng hidden">The columns in <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl012" class="autogenerated-content" aria-label="View Table 2.11">Table 2.11</a> show the projected data for the year 2030 for the number and percentages of high school graduates by geographic region in the United States.  Create a bar graph for this data with the geographic region (qualitative data) on the <em data-effect="italics">x</em>-axis and the percentage of high school data (quantitative data) on the <em data-effect="italics">y</em>-axis.</p><p id="eip-655-vn" class="vn visible">Các cột trong <a href="2-1-stem-and-leaf-graphs-stemplots-line-graphs-and-bar-graphs#M01_Ch02_tbl012" class="autogenerated-content" aria-label="View Table 2.11">Bảng 2.11</a> cho thấy dữ liệu dự kiến cho năm 2030 về số lượng và tỷ lệ phần trăm của những người tốt nghiệp trung học theo vùng địa lý ở Hoa Kỳ. Hãy tạo một biểu đồ cột cho dữ liệu này với vùng địa lý (dữ liệu định tính) trên <em data-effect="italics">trục x</em> và tỷ lệ tốt nghiệp trung học (dữ liệu định lượng) trên <em data-effect="italics">trục y</em>.</p><div class="os-table" id="M01_Ch02_tbl012"><table data-id="M01_Ch02_tbl012" data-summary="The table shows Race and Ethnicity in the first column, Advanced Placement Examinee Population in the second column and Overall Student Population in the third column."><thead>
+<tr>
+<th scope="col" class="eng hidden">Region</th><th scope="col" class="vn visible">Vùng</th>
+<th scope="col" class="eng hidden">Number of Graduates</th><th scope="col" class="vn visible">Số người tốt nghiệp</th>
+<th scope="col" class="eng hidden">Percentage of Graduates</th><th scope="col" class="vn visible">Tỷ lệ tốt nghiệp</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">Northeast</td><td class="vn visible">Đông Bắc</td>
+<td class="eng hidden">517,720</td><td class="vn visible">517,720</td>
+<td class="eng hidden">16.1%</td><td class="vn visible">16.1%</td>
+</tr>
+<tr>
+<td class="eng hidden">Midwest</td><td class="vn visible">Trung Tây</td>
+<td class="eng hidden">695,170</td><td class="vn visible">695,170</td>
+<td class="eng hidden">21.6%</td><td class="vn visible">21.6%</td>
+</tr>
+<tr>
+<td class="eng hidden">South</td><td class="vn visible">Miền Nam</td>
+<td class="eng hidden">1,253,540</td><td class="vn visible">1,253,540</td>
+<td class="eng hidden">39.0%</td><td class="vn visible">39.0%</td>
+</tr>
+<tr>
+<td class="eng hidden">West</td><td class="vn visible">Miền Tây</td>
+<td class="eng hidden">749,400</td><td class="vn visible">749,400</td>
+<td class="eng hidden">23.3%</td><td class="vn visible">23.3%</td>
+</tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.11</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+<details data-type="solution" id="fs-idp30402432" aria-label="Show/Hide Solution">
+        <summary class="btn-link ui-toggle" title="Show/Hide Solution" data-content="Show/Hide Solution"></summary>
+        <section class="ui-body" role="alert"><h4 data-type="solution-title" class="eng hidden">
+  <span class="os-title-label">Solution</span>
+</h4><h4 data-type="solution-title" class="vn visible"><span class="os-title-label">Lời giải</span></h4>
+<div class="os-solution-container">
+<div class="os-figure" id="M01_Ch02_fig003"><figure class="scaled-down ui-has-child-figcaption" data-id="M01_Ch02_fig003"><span data-type="media" id="bar_graph_Ap_Examinee" data-display="block" data-alt="Bar graph of geographic region against percentage of graduates. Percent of graduates ranges from 0 to 45 in increments of 5. Bar of northeast has height of 16 percent, midwest has height of 22 percent, south has height of 39 percent, west has height of 23 percent.">
+<button type="button" aria-label="Click to enlarge image of Bar graph of geographic region against percentage of graduates. Percent of graduates ranges from 0 to 45 in increments of 5. Bar of northeast has height of 16 percent, midwest has height of 22 percent, south has height of 39 percent, west has height of 23 percent." class="image-button-wrapper"><img src="assets/img-2-1-3.webp" data-media-type="image/png" alt="Bar graph of geographic region against percentage of graduates. Percent of graduates ranges from 0 to 45 in increments of 5. Bar of northeast has height of 16 percent, midwest has height of 22 percent, south has height of 39 percent, west has height of 23 percent." width="1038" height="771" loading="lazy"></button></span>
+<figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">2.4</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">2.4</span></figcaption></figure></div></div>
+</section>
+      </details>
+</section></div>
+</div></section></div>
+
+
+
+<div data-type="note" data-has-label="true" id="fs-idp41522672" class="statistics try ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden">
+  <span class="os-title-label">Try It </span>
+  <span class="os-number">2.6</span>
+</h3><h3 class="os-title vn visible"><span class="os-title-label">Thử lại </span>
+  <span class="os-number">2.6</span></h3></header><section>
+<div class="os-note-body">
+<div data-type="exercise" id="fs-idm43065520" class="unnumbered"><header></header><section>
+<div data-type="problem" id="fs-idp3652336"><div class="os-problem-container">
+
+<p id="fs-idp31379616" class="eng hidden">Park city is broken down into six voting districts. The table shows the percent of the total registered voter population that lives in each district as well as the percent total of the entire population that lives in each district. Construct a bar graph that shows the registered voter population by district.</p><p id="fs-idp31379616-vn" class="vn visible">Park City được chia thành sáu khu vực bỏ phiếu. Bảng này cho biết tỷ lệ phần trăm của tổng số cử tri đã đăng ký sống ở mỗi khu vực cũng như tỷ lệ phần trăm tổng dân số sống ở mỗi khu vực. Hãy vẽ biểu đồ cột thể hiện số cử tri đã đăng ký theo khu vực.</p><div class="os-table" id="M01_Ch02_tbl013"><table data-id="M01_Ch02_tbl013" data-summary=""><colgroup><col data-align="center"><col><col></colgroup><thead>
+<tr><th scope="col" class="eng hidden">District</th><th scope="col" class="vn visible">Quận</th><th scope="col" class="eng hidden">Registered voter population</th><th scope="col" class="vn visible">Dân số cử tri đã đăng ký</th><th scope="col" class="eng hidden">Overall city population</th><th scope="col" class="vn visible">Dân số toàn thành phố</th></tr>
+</thead><tbody>
+<tr><td class="eng hidden">1</td><td class="vn visible">1</td><td class="eng hidden">15.5%</td><td class="vn visible">15.5%</td><td class="eng hidden">19.4%</td><td class="vn visible">19.4%</td></tr>
+<tr><td class="eng hidden">2</td><td class="vn visible">2</td><td class="eng hidden">12.2%</td><td class="vn visible">12.2%</td><td class="eng hidden">15.6%</td><td class="vn visible">15.6%</td></tr>
+<tr><td class="eng hidden">3</td><td class="vn visible">3</td><td class="eng hidden">9.8%</td><td class="vn visible">9.8%</td><td class="eng hidden">9.0%</td><td class="vn visible">9.0%</td></tr>
+<tr><td class="eng hidden">4</td><td class="vn visible">4</td><td class="eng hidden">17.4%</td><td class="vn visible">17.4%</td><td class="eng hidden">18.5%</td><td class="vn visible">18.5%</td></tr>
+<tr><td class="eng hidden">5</td><td class="vn visible">5</td><td class="eng hidden">22.8%</td><td class="vn visible">22.8%</td><td class="eng hidden">20.7%</td><td class="vn visible">20.7%</td></tr>
+<tr><td class="eng hidden">6</td><td class="vn visible">6</td><td class="eng hidden">22.3%</td><td class="vn visible">22.3%</td><td class="eng hidden">16.8%</td><td class="vn visible">16.8%</td></tr>
+</tbody></table><div class="os-caption-container">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">2.12</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div>
+</div>
+</div></div>
+</section></div>
+</div></section></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  </body></html>

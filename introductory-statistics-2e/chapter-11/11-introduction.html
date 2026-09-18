@@ -1,0 +1,67 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><div class="os-figure has-splash" id="fs-idm45331472"><figure data-id="fs-idm45331472" class="splash ui-has-child-figcaption"><span data-type="media" id="CNX_Stats_C11_CO.jpg" data-alt="This is a photo of a pile of grocery store receipts. The items and prices are blurred.">
+<button type="button" aria-label="Click to enlarge image of This is a photo of a pile of grocery store receipts. The items and prices are blurred." class="image-button-wrapper"><img src="assets/img-11-1.webp" data-media-type="image/jpg" alt="This is a photo of a pile of grocery store receipts. The items and prices are blurred." width="975" height="650" loading="lazy"></button>
+</span>
+<figcaption class="os-caption-container">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">11.1</span>
+
+
+
+  <span class="os-divider"> </span>
+  <span class="os-caption eng hidden">The chi-square distribution can be used to find relationships between two things, like grocery prices at different stores. (credit: modification of work “The first few times I used my Asda 'bag for life' I left the receipts in the bottom of the bag” by Pete/ Flickr, Public domain)</span><span class="os-caption vn visible">Phân phối chi-bình phương có thể được sử dụng để tìm mối quan hệ giữa hai yếu tố, chẳng hạn như giá cả hàng tạp hóa ở các cửa hàng khác nhau. (tín dụng: sửa đổi tác phẩm “Vài lần đầu tiên tôi sử dụng túi 'bag for life' của Asda, tôi đã để biên lai ở đáy túi” của Pete/ Flickr, Miền công cộng)</span>
+</figcaption></figure></div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  <div class="intro-body">
+  <div data-type="note" data-has-label="true" id="fs-idm151065040" class="chapter-objectives ui-has-child-title" data-label=""><header><h2 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Chapter Objectives</span>
+</h2><h2 class="os-title vn visible" data-type="title"><span class="os-title-label">Mục tiêu chương</span></h2></header><section>
+<div class="os-note-body">
+<p id="element-335" class="eng hidden">By the end of this chapter, the student should be able to:</p><p id="element-335-vn" class="vn visible">Cuối chương này, sinh viên sẽ có thể:</p>
+<ul id="element-377" data-bullet-style="bullet"><li class="eng hidden">Interpret the chi-square probability distribution as the sample size
+changes.</li><li class="vn visible">Diễn giải phân phối xác suất chi-bình phương khi kích thước mẫu thay đổi.</li>
+<li class="eng hidden">Conduct and interpret chi-square goodness-of-fit hypothesis tests.</li><li class="vn visible">Thực hiện và diễn giải các hypothesis test chi-bình phương về sự phù hợp (goodness-of-fit).</li>
+<li class="eng hidden">Conduct and interpret chi-square test of independence hypothesis
+tests.</li><li class="vn visible">Thực hiện và diễn giải các hypothesis test chi-bình phương về tính độc lập (test of independence).</li>
+<li class="eng hidden">Conduct and interpret chi-square homogeneity hypothesis tests.</li><li class="vn visible">Thực hiện và diễn giải các hypothesis test chi-bình phương về tính đồng nhất (homogeneity).</li>
+<li class="eng hidden">Conduct and interpret chi-square single variance hypothesis tests.</li><li class="vn visible">Thực hiện và diễn giải các hypothesis test chi-bình phương về phương sai đơn (single variance).</li>
+</ul></div></section></div>
+  <div class="intro-text">
+    <h2 data-type="document-title" id="page_6c29742a-166b-45b5-b303-317472ead41a_titlecreatedbycookbook" data-rex-keep="true" class="eng hidden"><span data-type="" itemprop="" class="os-text">Introduction</span>
+</h2><h2 data-type="document-title" id="page_6c29742a-166b-45b5-b303-317472ead41a_titlecreatedbycookbook-vn" data-rex-keep="true" class="vn visible"><span data-type="" itemprop="" class="os-text">Giới thiệu</span></h2>
+    <p id="element-3815" class="eng hidden">Have you ever wondered if lottery numbers were evenly distributed or if some numbers occurred with a greater frequency? How about if the types of movies people preferred were different across different age groups? What about if a coffee machine was dispensing approximately the same amount of coffee each time? You could answer these questions by conducting a hypothesis test.</p><p id="element-3815-vn" class="vn visible">Bạn đã bao giờ tự hỏi liệu các con số trong xổ số có được phân phối đều hay một số con số xuất hiện với tần số cao hơn không? Còn về việc các loại phim mà mọi người ưa thích có khác nhau giữa các nhóm tuổi khác nhau không? Còn về việc một máy pha cà phê có chiết ra lượng cà phê gần như giống nhau mỗi lần không? Bạn có thể trả lời những câu hỏi này bằng cách thực hiện một hypothesis test.</p><p id="element-8" class="eng hidden">You will now study a new distribution, one that is used to determine the answers to such questions. This distribution is called the chi-square distribution.</p><p id="element-8-vn" class="vn visible">Bây giờ bạn sẽ nghiên cứu một phân phối mới, một phân phối được sử dụng để xác định câu trả lời cho các câu hỏi như vậy. Phân phối này được gọi là phân phối chi-bình phương.</p><p id="element-213" class="eng hidden">In this chapter, you will learn the three major applications of the chi-square distribution:
+</p><p id="element-213-vn" class="vn visible">Trong chương này, bạn sẽ học ba ứng dụng chính của phân phối chi-bình phương:</p><ol id="list-9872341">
+<li class="eng hidden">the goodness-of-fit test, which determines if data fit a particular distribution, such as in the lottery example</li><li class="vn visible">kiểm định độ phù hợp, xác định xem dữ liệu có phù hợp với một phân phối cụ thể hay không, như trong ví dụ về xổ số</li>
+<li class="eng hidden">the test of independence, which determines if events are independent, such as in the movie example</li><li class="vn visible">kiểm định tính độc lập, xác định xem các sự kiện có độc lập hay không, như trong ví dụ về phim ảnh</li>
+<li class="eng hidden">the test of a single variance, which tests variability, such as in the coffee example</li><li class="vn visible">kiểm định phương sai đơn, kiểm định sự biến thiên, như trong ví dụ về cà phê</li>
+</ol><div data-type="note" data-has-label="true" id="id17641525" data-label="" class="ui-has-child-title"><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label" data-type="">NOTE</span>
+</h3><h3 class="os-title vn visible" data-type="title">LƯU Ý</h3></header><section>
+<div class="os-note-body">
+<p id="fs-idm100257904" class="eng hidden">Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <a href="g-notes-for-the-ti-83-83-84-84-calculators" class="autogenerated-content" aria-label="Go to Appendix G NOTEs for the TI-83, 83+, 84, 84+ Calculators" data-page-slug="g-notes-for-the-ti-83-83-84-84-calculators" data-page-uuid="d0ba1833-f0d2-4195-8765-3c436745f0fb" data-page-fragment="">Appendix G NOTEs for the TI-83, 83+, 84, 84+ Calculators</a>). TI-83+ and TI-84 calculator instructions are included in the text.</p><p id="fs-idm100257904-vn" class="vn visible">Mặc dù phân phối chi-bình phương phụ thuộc vào máy tính bỏ túi hoặc máy tính cho hầu hết các phép tính, có một bảng có sẵn (xem <a href="g-notes-for-the-ti-83-83-84-84-calculators" class="autogenerated-content" aria-label="Go to Appendix G NOTEs for the TI-83, 83+, 84, 84+ Calculators" data-page-slug="g-notes-for-the-ti-83-83-84-84-calculators" data-page-uuid="d0ba1833-f0d2-4195-8765-3c436745f0fb" data-page-fragment="">Phụ lục G LƯU Ý cho máy tính TI-83, 83+, 84, 84+</a>). Hướng dẫn sử dụng máy tính TI-83+ và TI-84 được bao gồm trong văn bản.</p></div></section></div><div data-type="note" data-has-label="true" id="fs-idm94608208" class="statistics collab ui-has-child-title" data-label=""><header><h3 class="os-title eng hidden" data-type="title">
+  <span class="os-title-label">Collaborative Exercise</span>
+</h3><h3 class="os-title vn visible" data-type="title">Bài tập nhóm</h3></header><section>
+<div class="os-note-body">
+<p id="element-747" class="eng hidden">Look in the sports section of a newspaper or on the Internet for some sports data (baseball averages, basketball scores, golf tournament scores, football odds, swimming times, and the like). Plot a histogram and a boxplot using your data. See if you can determine a probability distribution that your data fits. Have a discussion with the class about your choice.</p><p id="element-747-vn" class="vn visible">Tìm trong mục thể thao của một tờ báo hoặc trên Internet để tìm một số dữ liệu thể thao (Trung bình đánh bóng chày, điểm bóng rổ, điểm giải đấu golf, tỷ lệ cược bóng đá, thời gian bơi lội, v.v.). Vẽ biểu đồ tần suất và biểu đồ hộp bằng dữ liệu của bạn. Hãy xem liệu bạn có thể xác định một phân phối xác suất mà dữ liệu của bạn phù hợp hay không. Thảo luận với lớp về lựa chọn của bạn.</p></div></section></div>
+  </div>
+</div>
+</body></html>

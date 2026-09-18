@@ -1,0 +1,235 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "image-edit-leftover-source-english",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": ": = SSA 7",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 64,
+        "w": 960,
+        "h": 43
+      }
+    },
+    {
+      "text": "” {ISPS Jil ]",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 150,
+        "w": 960,
+        "h": 43
+      }
+    },
+    {
+      "text": "| Sana :",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 236,
+        "w": 960,
+        "h": 43
+      }
+    },
+    {
+      "text": "| RII al ge, NY a SETA oo ORE: be",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 322,
+        "w": 960,
+        "h": 43
+      }
+    },
+    {
+      "text": "R2522333 R10 \\ = oa Str 9 008 800 4 oa : ;",
+      "confidence": 34,
+      "bbox": {
+        "x": 120,
+        "y": 408,
+        "w": 960,
+        "h": 43
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nButton label: Click to enlarge image of (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nEnglish caption: Figure 2.15 (a) The first commercially successful typewriter was produced by Christopher Latham Sholes and Carlos S. Glidden; this is their 1873 prototype model. (b) The Wright brothers are among the best-known pioneers of early flight. In this photo, Orville flies over their air field in 1904. (credit (a): modification of “Sholes typewriter” by George Iles/Wikimedia Commons, Public Domain; credit (b): modification of “1904WrightFlyer” by “DonFB”/Wikimedia Commons, Public Domain)",
+  "metrics": {
+    "textDensity": 0.3208955223880597,
+    "averageConfidence": 34,
+    "entropy": 6.062038087147812,
+    "sharpness": 2.0985719040913393
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nButton label: Click to enlarge image of (a) Photo of a 1873 prototype of a typewriter. (b) Photo of an early airplane.\nEnglish caption: Figure 2.15 (a) The first commercially successful typewriter was produced by Christopher Latham Sholes and Carlos S. Glidden; this is their 1873 prototype model. (b) The Wright brothers are among the best-known pioneers of early flight. In this photo, Orville flies over their air field in 1904. (credit (a): modification of “Sholes typewriter” by George Iles/Wikimedia Commons, Public Domain; credit (b): modification of “1904WrightFlyer” by “DonFB”/Wikimedia Commons, Public Domain)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nPrevious output was rejected because these English source words were still visible: christopher, latham, sholes, carlos, glidden, wright, orville, george, wikimedia, commons, donfb. Remove or translate every one of them in the next output.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "acne",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 101,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "C rT | cE",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 235,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "J £3 : Ld Sey aN = f hE",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 369,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "1 A Lo.",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 503,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "I it » a 5 SRN A ii = fst",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 637,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "; Ara pe cn gail RATE TR : La SERN NL SE",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 771,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "/ TYTIiiYY an - oe ri oe REE A Fx",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 905,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "RA22228225 35 BOLTS ns, fr. TATIRL SEALE",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 1039,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "VVeov9e 999 | A EW ORNS SBR Se RR 3 Pal J",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 1173,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "Hinh 2.15 (a) Mdy danh ch thuong mai dau tién thanh cong dugc ché tao bsi Christopher Latham Sholes va Carlos S. Glidden; day la mau",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 1307,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "nguyén prototype cia ho vao nam 1873.",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 1441,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "(b) Anh em nha Wright 1a nhitng ngudi tién phong ndi tiéng trong linh vuc hang khong ban dau. Trong dnh nay, Orville dang bay trén sin bay",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 1575,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "cia ho vao nim 1904. (ngudn (a): chinh stra tir “Mdy dénh chit Sholes} hoi, Mién céng cong cong.",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 1709,
+          "w": 1497,
+          "h": 67
+        }
+      },
+      {
+        "text": "nguén (b): chinh sta tir “Méy bay Wright ndm 1904” béi “DonFB”, Mién cong cong.)",
+        "confidence": 59,
+        "bbox": {
+          "x": 187,
+          "y": 1843,
+          "w": 1497,
+          "h": 67
+        }
+      }
+    ],
+    "validation": {
+      "ok": false,
+      "reason": "image-edit-leftover-source-english",
+      "leftoverSourceWords": [
+        "prototype",
+        "christopher",
+        "latham",
+        "sholes",
+        "carlos",
+        "glidden",
+        "wright",
+        "orville",
+        "donfb"
+      ]
+    },
+    "validationAttempt": 3
+  }
+}

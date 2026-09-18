@@ -1,0 +1,34 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "unknown",
+    "eligible": false,
+    "reason": "no-positive-structural-classification"
+  },
+  "reason": "no-positive-structural-classification",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "New Venture Life Cycle",
+      "confidence": 95,
+      "bbox": {
+        "x": 120,
+        "y": 48,
+        "w": 960,
+        "h": 32
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: The New Venture Life Cycle involves Pre-seed (idea development), Early stage (implementation, growth, and maturity), and Late stage (sale of venture or IPO to fund future growth) that occurs over time.\nButton label: Click to enlarge image of The New Venture Life Cycle involves Pre-seed (idea development), Early stage (implementation, growth, and maturity), and Late stage (sale of venture or IPO to fund future growth) that occurs over time.\nEnglish caption: Figure 2.18 This image displays the phases that a new venture moves through as the idea is developed then created as a prototype. The prototype is then perfected in preparation for stage 4, when sales are generated. Stage 4 leads to the start of the growth stage, shown in Figure 2.19. Growth occurs through an increase in sales of the product. At this point, in the product life cycle, adding features or enhancements to the product will encourage increasing sales. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.06416040100250626,
+    "averageConfidence": 95,
+    "entropy": 4.324950846857973,
+    "sharpness": 4.146972713501025
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-2-6.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-2-the-process-of-becoming-an-entrepreneur.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "low-confidence-image-edit-attempt",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-2-6.vi.png",
+  "ocr": [
+    {
+      "text": ". ; oT —",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 71,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "— pm i EE — i. wd :",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 166,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "par lo ane",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 261,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "Ee oer Fla Te ¥",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 356,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "- or ’",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 451,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "ar wl eS se Eg",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 546,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "eer HP” : en RL",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 641,
+        "w": 640,
+        "h": 47
+      }
+    },
+    {
+      "text": "HC ll Es ff peg SE SE ne TT EO",
+      "confidence": 28,
+      "bbox": {
+        "x": 80,
+        "y": 736,
+        "w": 640,
+        "h": 47
+      }
+    }
+  ],
+  "translations": [],
+  "imageContext": "Image alt: Road sign with arrows pointing in opposite directions.\nButton label: Click to enlarge image of Road sign with arrows pointing in opposite directions.\nEnglish caption: Figure 2.17 Your entrepreneurial process may involve changing directions many times. (credit: modification of “this way or that” by Robert Couse-Baker/Flickr, CC BY 2.0)",
+  "metrics": {
+    "textDensity": 0.5072512647554807,
+    "averageConfidence": 28,
+    "entropy": 6.9697207570316095,
+    "sharpness": 1.790409570064329
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: Road sign with arrows pointing in opposite directions.\nButton label: Click to enlarge image of Road sign with arrows pointing in opposite directions.\nEnglish caption: Figure 2.17 Your entrepreneurial process may involve changing directions many times. (credit: modification of “this way or that” by Robert Couse-Baker/Flickr, CC BY 2.0)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Translate all visible English labels concisely to Vietnamese.\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "(ew",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 130,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Phai 3",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 303,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "TT — be",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 476,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "1 ; - o vd B g \" 4",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 649,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Bs J",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 822,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "KB",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 995,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "RB eT om RE Rea Se Pa Cb RN Sea",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1168,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "= a A I Ts ea 0 SA ps 3 Sar tr",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1341,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "J | op RE PRE SN Sa a YE a",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1514,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Bc V NET SAN Sg ARS EE HN CE",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1687,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "pease LIN ey ave. Wi Re Se",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 1860,
+          "w": 1165,
+          "h": 86
+        }
+      },
+      {
+        "text": "Sirti SMT Ee Cl 8 ES Cs COS SER Rl Sp SE",
+        "confidence": 23,
+        "bbox": {
+          "x": 146,
+          "y": 2033,
+          "w": 1165,
+          "h": 86
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}

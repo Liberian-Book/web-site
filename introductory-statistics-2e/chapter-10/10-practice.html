@@ -1,0 +1,984 @@
+<html><head>
+    <meta charset="utf-8"><link rel="stylesheet" href="./style.css">
+<style>
+.eng.hidden { display: none; }
+.vn.visible { color: #000; }
+</style>
+<script src="../book-reader/book-pages.js"></script>
+<link rel="stylesheet" href="../book-reader/book-reader.css">
+<script src="../book-reader/book-reader.js"></script>
+</head><body><div data-dynamic-style="true" id="main-content" tabindex="-1" class="main-content-styles" style="--content-text-scale: 1;"><div class="os-eoc os-practice-container" data-type="composite-page" data-uuid-key=".practice" id="composite-page-70" data-book-content="true">
+  <h2 data-type="document-title" data-rex-keep="true" class="eng hidden">
+    <span class="os-text">Practice</span>
+  </h2><h2 data-type="document-title" data-rex-keep="true" class="vn visible">Thực hành</h2>
+  <section data-depth="1" id="fs-idm9464368" class="practice"><a href="10-1-two-population-means-with-unknown-standard-deviations" aria-label="Go to 10.1 Two Population Means with Unknown Standard Deviations" data-page-slug="10-1-two-population-means-with-unknown-standard-deviations" data-page-uuid="01e79f95-f1ac-4eab-bc98-375b3e0c6948" data-page-fragment="">
+  <h3 data-type="document-title" class="eng hidden">
+  <span class="os-number">10.1</span>
+<span class="os-divider"> </span>
+
+  <span class="os-text" data-type="" itemprop="">Two Population Means with Unknown Standard Deviations</span>
+</h3><h3 data-type="document-title" class="vn visible">10.1
+ 
+ 
+  So sánh trung bình hai quần thể với độ lệch chuẩn chưa biết</h3>
+
+</a>
+
+<p id="fs-idm124875168" class="eng hidden"><em data-effect="italics">Use the following information to answer the next 15 exercises:</em> Indicate if the hypothesis test is for</p><p id="fs-idm124875168-vn" class="vn visible">Sử dụng thông tin sau để trả lời 15 bài tập tiếp theo: Cho biết hypothesis test là cho</p><ol id="fs-idm45665008" type="a">
+<li class="eng hidden">independent group means, population standard deviations, and/or variances known</li><li class="vn visible">so sánh trung bình các nhóm độc lập, độ lệch chuẩn quần thể, và/hoặc phương sai đã biết</li>
+<li class="eng hidden">independent group means, population standard deviations, and/or variances unknown</li><li class="vn visible">so sánh trung bình các nhóm độc lập, độ lệch chuẩn quần thể, và/hoặc phương sai chưa biết</li>
+<li class="eng hidden">matched or paired samples</li><li class="vn visible">mẫu ghép cặp hoặc mẫu cặp</li>
+<li class="eng hidden">single mean</li><li class="vn visible">trung bình một quần thể</li>
+<li class="eng hidden">two proportions</li><li class="vn visible">hai tỷ lệ</li>
+<li class="eng hidden">single proportion</li><li class="vn visible">một tỷ lệ</li>
+</ol>
+
+<div data-type="exercise" id="fs-idm22935904" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm124875424">
+<a class="os-number" href="10-solutions#fs-idm22935904-solution" aria-label="Go to 1" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm22935904-solution">1</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm84013008" class="eng hidden">It is believed that 70% of men pass their drivers test in the first attempt, while 65% of women pass the test in the first attempt. Of interest is whether the proportions are in fact equal.</p><p id="fs-idm84013008-vn" class="vn visible">Người ta tin rằng 70% nam giới vượt qua kỳ thi lái xe trong lần thử đầu tiên, trong khi 65% phụ nữ vượt qua kỳ thi trong lần thử đầu tiên. Điều quan tâm là liệu các tỷ lệ này có thực sự bằng nhau hay không.</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm146907648"><header></header><section>
+<div data-type="problem" id="fs-idm146907392">
+<span class="os-number">2</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm146907136" class="eng hidden">A new laundry detergent is tested on consumers. Of interest is the proportion of consumers who prefer the new brand over the leading competitor. A study is done to test this.</p><p id="fs-idm146907136-vn" class="vn visible">Một chất tẩy rửa quần áo mới được thử nghiệm trên người tiêu dùng. Điều quan tâm là tỷ lệ người tiêu dùng ưa thích nhãn hiệu mới hơn đối thủ cạnh tranh hàng đầu. Một nghiên cứu được thực hiện để kiểm tra điều này.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm161821520" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm161821264">
+<a class="os-number" href="10-solutions#fs-idm161821520-solution" aria-label="Go to 3" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm161821520-solution">3</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm164006592" class="eng hidden">A new windshield treatment claims to repel water more effectively. Ten windshields are tested by simulating rain without the new treatment. The same windshields are then treated, and the experiment is run again. A hypothesis test is conducted.</p><p id="fs-idm164006592-vn" class="vn visible">Một phương pháp xử lý kính chắn gió mới tuyên bố có khả năng chống nước hiệu quả hơn. Mười kính chắn gió được thử nghiệm bằng cách mô phỏng mưa mà không có phương pháp xử lý mới. Sau đó, cùng những kính chắn gió đó được xử lý và thí nghiệm được thực hiện lại. Một hypothesis test được tiến hành.</p>
+</div>
+</div>
+
+</section></div>
+<div data-type="exercise" id="fs-idm120536064"><header></header><section>
+<div data-type="problem" id="fs-idm68027168">
+<span class="os-number">4</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm68026912" class="eng hidden">The known standard deviation in salary for all mid-level professionals in the financial industry is $11,000. Company A and Company B are in the financial industry. Suppose samples are taken of mid-level professionals from Company A and from Company B. The sample mean salary for mid-level professionals in Company A is $80,000. The sample mean salary for mid-level professionals in Company B is $96,000.  Company A and Company B management want to know if their mid-level professionals are paid differently, on average.</p><p id="fs-idm68026912-vn" class="vn visible">Độ lệch chuẩn đã biết về lương cho tất cả các chuyên gia cấp trung trong ngành tài chính là 11.000 đô la. Công ty A và Công ty B thuộc ngành tài chính. Giả sử các mẫu được lấy từ các chuyên gia cấp trung của Công ty A và từ Công ty B. Trung bình mẫu lương cho các chuyên gia cấp trung tại Công ty A là 80.000 đô la. Trung bình mẫu lương cho các chuyên gia cấp trung tại Công ty B là 96.000 đô la. Ban quản lý Công ty A và Công ty B muốn biết liệu các chuyên gia cấp trung của họ có được trả lương khác nhau, tính trung bình hay không.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idp21825264" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idp21825520">
+<a class="os-number" href="10-solutions#fs-idp21825264-solution" aria-label="Go to 5" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idp21825264-solution">5</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm175592768" class="eng hidden">The average worker in Germany gets eight weeks of paid vacation.</p><p id="fs-idm175592768-vn" class="vn visible">Trung bình người lao động ở Đức được nghỉ tám tuần có lương.</p>
+</div>
+</div>
+
+</section></div>
+<div data-type="exercise" id="fs-idm170345552"><header></header><section>
+<div data-type="problem" id="fs-idm170345296">
+<span class="os-number">6</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm39186912" class="eng hidden">According to a television commercial, 80% of dentists agree that Ultrafresh toothpaste is the best on the market.</p><p id="fs-idm39186912-vn" class="vn visible">Theo một quảng cáo trên truyền hình, 80% nha sĩ đồng ý rằng kem đánh răng Ultrafresh là tốt nhất trên thị trường.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idp3576048" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm27505984">
+<a class="os-number" href="10-solutions#fs-idp3576048-solution" aria-label="Go to 7" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idp3576048-solution">7</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm27505728" class="eng hidden">It is believed that the average grade on an English essay in a particular school system for women is higher than for men. A random sample of 31 women had a mean score of 82 with a standard deviation of three, and a random sample of 25 men had a mean score of 76 with a standard deviation of four.</p><p id="fs-idm27505728-vn" class="vn visible">Người ta tin rằng điểm trung bình cho một bài luận tiếng Anh tại một hệ thống trường học cụ thể đối với phụ nữ cao hơn đối với nam giới. Một mẫu ngẫu nhiên gồm 31 phụ nữ có điểm trung bình là 82 với độ lệch chuẩn là ba, và một mẫu ngẫu nhiên gồm 25 nam giới có điểm trung bình là 76 với độ lệch chuẩn là bốn.</p>
+</div>
+</div>
+
+</section></div>
+<div data-type="exercise" id="fs-idm32687376"><header></header><section>
+<div data-type="problem" id="fs-idm32687120">
+<span class="os-number">8</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="fs-idm32686864" class="eng hidden">The league mean batting average is 0.280 with a known standard deviation of 0.06. The Rattlers and the Vikings belong to the league.  The mean batting average for a sample of eight Rattlers is 0.210, and the mean batting average for a sample of eight Vikings is 0.260. There are 24 players on the Rattlers and 19 players on the Vikings. Are the batting averages of the Rattlers and Vikings statistically different?</p><p id="fs-idm32686864-vn" class="vn visible">Trung bình đánh bóng của giải đấu là 0.280 với độ lệch chuẩn đã biết là 0.06. Đội Rattlers và đội Vikings thuộc giải đấu. Trung bình đánh bóng cho một mẫu gồm tám cầu thủ Rattlers là 0.210, và trung bình đánh bóng cho một mẫu gồm tám cầu thủ Vikings là 0.260. Có 24 cầu thủ trong đội Rattlers và 19 cầu thủ trong đội Vikings. Trung bình đánh bóng của đội Rattlers và Vikings có khác biệt về mặt thống kê không?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm36046944" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm36046688">
+<a class="os-number" href="10-solutions#fs-idm36046944-solution" aria-label="Go to 9" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm36046944-solution">9</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm3190160" class="eng hidden">In a random sample of 100 forests in the United States, 56 were coniferous or contained conifers. In a random sample of 80 forests in Mexico, 40 were coniferous or contained conifers. Is the proportion of conifers in the United States statistically more than the proportion of conifers in Mexico?</p><p id="fs-idm3190160-vn" class="vn visible">Trong một mẫu ngẫu nhiên gồm 100 khu rừng ở Hoa Kỳ, 56 khu rừng là cây lá kim hoặc chứa cây lá kim. Trong một mẫu ngẫu nhiên gồm 80 khu rừng ở Mexico, 40 khu rừng là cây lá kim hoặc chứa cây lá kim. Tỷ lệ cây lá kim ở Hoa Kỳ có cao hơn tỷ lệ cây lá kim ở Mexico về mặt thống kê không?</p></div>
+</div>
+
+</section></div>
+<div data-type="exercise" id="fs-idm84811344"><header></header><section><div data-type="problem" id="fs-idm84811088">
+<span class="os-number">10</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm16418448" class="eng hidden">A new medicine is said to help improve sleep. Eight subjects are picked at random and given the medicine. The means hours slept for each person were recorded before starting the medication and after.</p><p id="fs-idm16418448-vn" class="vn visible">Một loại thuốc mới được cho là giúp cải thiện giấc ngủ. Tám đối tượng được chọn ngẫu nhiên và được dùng thuốc. Giờ ngủ trung bình của mỗi người được ghi lại trước khi bắt đầu dùng thuốc và sau đó.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm111997184" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm111996928">
+<a class="os-number" href="10-solutions#fs-idm111997184-solution" aria-label="Go to 11" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm111997184-solution">11</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm35434864" class="eng hidden">It is thought that teenagers sleep more than adults on average. A study is done to verify this. A sample of 16 teenagers has a mean of 8.9 hours slept and a standard deviation of 1.2. A sample of 12 adults has a mean of 6.9 hours slept and a standard deviation of 0.6.</p><p id="fs-idm35434864-vn" class="vn visible">Người ta cho rằng thanh thiếu niên ngủ nhiều hơn người lớn tính trung bình. Một nghiên cứu được thực hiện để xác minh điều này. Một mẫu gồm 16 thanh thiếu niên có trung bình 8.9 giờ ngủ và độ lệch chuẩn là 1.2. Một mẫu gồm 12 người lớn có trung bình 6.9 giờ ngủ và độ lệch chuẩn là 0.6.</p>
+</div>
+</div>
+
+</section></div>
+<div data-type="exercise" id="fs-idm83613168"><header></header><section>
+<div data-type="problem" id="fs-idm83612912">
+<span class="os-number">12</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="fs-idm122472032" class="eng hidden">Varsity athletes practice five times a week, on average.</p><p id="fs-idm122472032-vn" class="vn visible">Vận động viên đội tuyển tập luyện trung bình năm lần một tuần.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm155074576" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm187988384">
+<a class="os-number" href="10-solutions#fs-idm155074576-solution" aria-label="Go to 13" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm155074576-solution">13</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm187988128" class="eng hidden">A sample of 12 in-state graduate school programs at school A has a mean tuition of $64,000 with a standard deviation of $8,000. At school B, a sample of 16 in-state graduate programs has a mean of $80,000 with a standard deviation of $6,000.  On average, are the mean tuitions different?</p><p id="fs-idm187988128-vn" class="vn visible">Một mẫu gồm 12 chương trình sau đại học trong bang tại trường A có trung bình học phí là 64.000 đô la với độ lệch chuẩn là 8.000 đô la. Tại trường B, một mẫu gồm 16 chương trình sau đại học trong bang có trung bình là 80.000 đô la với độ lệch chuẩn là 6.000 đô la. Trung bình, học phí trung bình có khác nhau không?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm86331952"><header></header><section>
+<div data-type="problem" id="fs-idm109695328">
+<span class="os-number">14</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm109695072" class="eng hidden">A new WiFi range booster is being offered to consumers. A researcher tests the native range of 12 different routers under the same conditions. The ranges are recorded. Then the researcher uses the new WiFi range booster and records the new ranges. Does the new WiFi range booster do a better job?</p><p id="fs-idm109695072-vn" class="vn visible">Một bộ tăng cường phạm vi WiFi mới đang được cung cấp cho người tiêu dùng. Một nhà nghiên cứu kiểm tra phạm vi gốc của 12 bộ định tuyến khác nhau trong cùng điều kiện. Các phạm vi được ghi lại. Sau đó, nhà nghiên cứu sử dụng bộ tăng cường phạm vi WiFi mới và ghi lại các phạm vi mới. Bộ tăng cường phạm vi WiFi mới có hoạt động tốt hơn không?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm152397632" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm187246864">
+<a class="os-number" href="10-solutions#fs-idm152397632-solution" aria-label="Go to 15" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm152397632-solution">15</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm187246608" class="eng hidden">A high school principal claims that 30% of student athletes drive themselves to school, while 4% of non-athletes drive themselves to school. In a sample of 20 student athletes, 45% drive themselves to school. In a sample of 35 non-athlete students, 6% drive themselves to school. Is the percent of student athletes who drive themselves to school more than the percent of nonathletes?</p><p id="fs-idm187246608-vn" class="vn visible">Một hiệu trưởng trường trung học tuyên bố rằng 30% vận động viên học sinh tự lái xe đến trường, trong khi 4% học sinh không phải vận động viên tự lái xe đến trường. Trong một mẫu gồm 20 vận động viên học sinh, 45% tự lái xe đến trường. Trong một mẫu gồm 35 học sinh không phải vận động viên, 6% tự lái xe đến trường. Tỷ lệ vận động viên học sinh tự lái xe đến trường có cao hơn tỷ lệ học sinh không phải vận động viên không?</p>
+</div>
+</div>
+
+</section></div>
+
+<p id="eip-980" class="eng hidden"><span data-type="newline"><br></span><em data-effect="italics">Use the following information to answer the next three exercises:</em> A study is done to determine which of two soft drinks has more sugar. There are 13 cans of Beverage A in a sample and six cans of Beverage B. The mean amount of sugar in Beverage A is 36 grams with a standard deviation of 0.6 grams. The mean amount of sugar in Beverage B is 38 grams with a standard deviation of 0.8 grams. The researchers believe that Beverage B has more sugar than Beverage A, on average. Both populations have normal distributions.</p><p id="eip-980-vn" class="vn visible"><span data-type="newline"><br></span><em data-effect="italics">Sử dụng thông tin sau để trả lời ba bài tập tiếp theo:</em> Một nghiên cứu được thực hiện để xác định loại đồ uống có ga nào trong hai loại có nhiều đường hơn. Có 13 lon Đồ uống A trong một mẫu và sáu lon Đồ uống B. Lượng đường trung bình trong Đồ uống A là 36 gam với độ lệch chuẩn là 0,6 gam. Lượng đường trung bình trong Đồ uống B là 38 gam với độ lệch chuẩn là 0,8 gam. Các nhà nghiên cứu tin rằng Đồ uống B có nhiều đường hơn Đồ uống A, trung bình. Cả hai quần thể đều có phân phối chuẩn.</p><div data-type="exercise" id="fs-idm174647808"><header></header><section>
+<div data-type="problem" id="fs-idm80739952">
+<span class="os-number">16</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm174134640" class="eng hidden">Are standard deviations known or unknown?</p><p id="fs-idm174134640-vn" class="vn visible">Độ lệch chuẩn đã biết hay chưa biết?</p></div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm213711120" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm213710864">
+<a class="os-number" href="10-solutions#fs-idm213711120-solution" aria-label="Go to 17" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm213711120-solution">17</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm213710608" class="eng hidden">What is the random variable?</p><p id="fs-idm213710608-vn" class="vn visible">Biến ngẫu nhiên là gì?</p>
+</div>
+</div>
+
+</section></div>
+<div data-type="exercise" id="fs-idm106857024"><header></header><section>
+<div data-type="problem" id="fs-idm38595520">
+<span class="os-number">18</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="fs-idm38595264" class="eng hidden">Is this a one-tailed or two-tailed test?</p><p id="fs-idm38595264-vn" class="vn visible">Đây là kiểm định một phía hay hai phía?</p>
+</div>
+</div>
+</section></div>
+
+ <p id="eip-356" class="eng hidden"><em data-effect="italics">Use the following information to answer the next 12 exercises:</em> The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people.</p><p id="eip-356-vn" class="vn visible"><em data-effect="italics">Sử dụng thông tin sau để trả lời 12 bài tập tiếp theo:</em> Trung tâm Kiểm soát Dịch bệnh Hoa Kỳ báo cáo rằng tuổi thọ trung bình là 47,6 năm đối với người Da trắng sinh năm 1900 và 33,0 năm đối với người không phải Da trắng. Giả sử bạn khảo sát ngẫu nhiên hồ sơ tử của những người sinh năm 1900 tại một quận nhất định. Trong số 124 người Da trắng, tuổi thọ trung bình là 45,3 năm với độ lệch chuẩn là 12,7 năm. Trong số 82 người không phải Da trắng, tuổi thọ trung bình là 34,1 năm với độ lệch chuẩn là 15,6 năm. Thực hiện một hypothesis test để xem liệu tuổi thọ trung bình trong quận có giống nhau đối với người Da trắng và người không phải Da trắng hay không.</p><div data-type="exercise" id="fs-idm77134224" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm77133968">
+<a class="os-number" href="10-solutions#fs-idm77134224-solution" aria-label="Go to 19" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm77134224-solution">19</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm82811296" class="eng hidden">Is this a test of means or proportions?</p><p id="fs-idm82811296-vn" class="vn visible">Đây là kiểm định trung bình hay tỷ lệ?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm87532368"><header></header><section>
+<div data-type="problem" id="fs-idm87532112">
+<span class="os-number">20</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm87531856" class="eng hidden">State the null and alternative hypotheses.</p><p id="fs-idm87531856-vn" class="vn visible">Phát biểu giả thuyết không và giả thuyết đối.</p>
+  <ol id="fs-idm126031792" type="a">
+    <li class="eng hidden"><em data-effect="italics">H<sub>0</sub></em>: __________</li><li class="vn visible"><em data-effect="italics">H<sub>0</sub></em>: __________</li>
+    <li class="eng hidden"><em data-effect="italics">H<sub>a</sub></em>: __________</li><li class="vn visible"><em>H<sub>a</sub></em>: __________</li>
+  </ol>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idp13932064" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm162071840">
+<a class="os-number" href="10-solutions#fs-idp13932064-solution" aria-label="Go to 21" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idp13932064-solution">21</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm162071584" class="eng hidden">Is this a right-tailed, left-tailed, or two-tailed test?</p><p id="fs-idm162071584-vn" class="vn visible">Đây là một kiểm định đuôi phải, đuôi trái, hay hai đuôi?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm104977072"><header></header><section>
+<div data-type="problem" id="fs-idm104976816">
+<span class="os-number">22</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="fs-idm161761248" class="eng hidden">In symbols, what is the random variable of interest for this test?</p><p id="fs-idm161761248-vn" class="vn visible">Theo ký hiệu, biến ngẫu nhiên quan tâm cho hypothesis test này là gì?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm147822240" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm147821984">
+<a class="os-number" href="10-solutions#fs-idm147822240-solution" aria-label="Go to 23" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm147822240-solution">23</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm147821728" class="eng hidden">In words, define the random variable of interest for this test.</p><p id="fs-idm147821728-vn" class="vn visible">Theo từ ngữ, hãy định nghĩa biến ngẫu nhiên quan tâm cho hypothesis test này.</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm17957104"><header></header><section>
+<div data-type="problem" id="fs-idm17956848">
+<span class="os-number">24</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm100280816" class="eng hidden">Which distribution (normal or Student's <em data-effect="italics">t</em>) would you use for this hypothesis test?</p><p id="fs-idm100280816-vn" class="vn visible">Bạn sẽ sử dụng phân phối nào (chuẩn hay <em data-effect="italics">t</em> của Student) cho hypothesis test này?</p></div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm121049024" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm121048768">
+<a class="os-number" href="10-solutions#fs-idm121049024-solution" aria-label="Go to 25" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm121049024-solution">25</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="fs-idm121048512" class="eng hidden">Explain why you chose the distribution you did for <a href="10-practice#fs-idm17957104" class="autogenerated-content" aria-label="Go to Exercise 10.24">Exercise 10.24</a>.</p><p id="fs-idm121048512-vn" class="vn visible">Giải thích tại sao bạn chọn phân phối đã chọn cho <a href="10-practice#fs-idm17957104" class="autogenerated-content" aria-label="Go to Exercise 10.24">Bài tập 10.24</a>.</p></div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm96874480"><header></header><section>
+<div data-type="problem" id="fs-idm96874224">
+<span class="os-number">26</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm263989856" class="eng hidden">Calculate the test statistic and <em data-effect="italics">p</em>-value. </p><p id="fs-idm263989856-vn" class="vn visible">Tính thống kê kiểm định và giá trị <em data-effect="italics">p</em>.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm120924688" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm120924432">
+<a class="os-number" href="10-solutions#fs-idm120924688-solution" aria-label="Go to 27" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm120924688-solution">27</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm120924176" class="eng hidden">Sketch a graph of the situation. Label the horizontal axis. Mark the hypothesized difference and the sample difference. Shade the area corresponding to the <em data-effect="italics">p</em>-value.</p><p id="fs-idm120924176-vn" class="vn visible">Phác thảo một đồ thị của tình huống. Ghi nhãn trục hoành. Đánh dấu sự khác biệt giả định và sự khác biệt mẫu. Tô bóng vùng tương ứng với giá trị <em data-effect="italics">p</em>.</p>
+</div>
+</div>
+  
+</section></div>
+
+<div data-type="exercise" id="fs-idm47382320"><header></header><section>
+<div data-type="problem" id="fs-idm47382064">
+<span class="os-number">28</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm174192304" class="eng hidden">Find the <em data-effect="italics">p</em>-value.</p><p id="fs-idm174192304-vn" class="vn visible">Tìm giá trị <em data-effect="italics">p</em>.</p></div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm129306608" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm129306352">
+<a class="os-number" href="10-solutions#fs-idm129306608-solution" aria-label="Go to 29" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm129306608-solution">29</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="fs-idm148755040" class="eng hidden">At a pre-conceived <em data-effect="italics">α</em> = 0.05, what is your:
+</p><p id="fs-idm148755040-vn" class="vn visible">Với mức ý nghĩa được định trước <em data-effect="italics">α</em> = 0.05, bạn có:</p><ol id="fs-idp598432" type="a">
+   <li class="eng hidden">Decision:</li><li class="vn visible">Quyết định:</li>
+   <li class="eng hidden">Reason for the decision:</li><li class="vn visible">Lý do cho quyết định:</li>
+   <li class="eng hidden">Conclusion (write out in a complete sentence):</li><li class="vn visible">Kết luận (viết thành một câu hoàn chỉnh):</li>
+    </ol>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm127412752"><header></header><section><div data-type="problem" id="fs-idm126248464">
+<span class="os-number">30</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm126248208" class="eng hidden">Does it appear that the means are the same? Why or why not?</p><p id="fs-idm126248208-vn" class="vn visible">Có vẻ như các trung bình là như nhau không? Tại sao có hoặc tại sao không?</p>
+</div>
+</div>
+</section></div>
+</section><section data-depth="1" id="fs-idm106403600" class="practice"><a href="10-2-two-population-means-with-known-standard-deviations" aria-label="Go to 10.2 Two Population Means with Known Standard Deviations" data-page-slug="10-2-two-population-means-with-known-standard-deviations" data-page-uuid="fd6ad405-a183-41c3-b152-44cabe4b4890" data-page-fragment="">
+  <h3 data-type="document-title" class="eng hidden">
+  <span class="os-number">10.2</span>
+<span class="os-divider"> </span>
+
+  <span class="os-text" data-type="" itemprop="">Two Population Means with Known Standard Deviations</span>
+</h3><h3 data-type="document-title" class="vn visible"><span class="os-number">10.2</span>
+<span class="os-divider"> </span>
+
+  <span class="os-text" data-type="" itemprop="">So sánh trung bình hai Quần thể với độ lệch chuẩn đã biết</span></h3>
+
+</a>
+
+<p id="fs-idm82036368" class="eng hidden"><em data-effect="italics">Use the following information to answer the next five exercises.</em> The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. <a href="10-practice#fs-idm34247936" class="autogenerated-content" aria-label="View Table 10.21">Table 10.21</a> shows the result. Scouters believe that Rodriguez pitches a speedier fastball.</p><p id="fs-idm82036368-vn" class="vn visible"><em data-effect="italics">Sử dụng thông tin sau để trả lời năm bài tập tiếp theo.</em> Trung bình tốc độ ném bóng nhanh của hai vận động viên ném bóng chày khác nhau sẽ được so sánh. Một mẫu gồm 14 lần ném bóng nhanh được đo từ mỗi vận động viên. Các Quần thể có phân phối chuẩn. <a href="10-practice#fs-idm34247936" class="autogenerated-content" aria-label="View Table 10.21">Bảng 10.21</a> cho thấy kết quả. Các tuyển trạch viên tin rằng Rodriguez ném bóng nhanh hơn.</p>
+
+<div class="os-table" id="fs-idm34247936"><table data-id="fs-idm34247936" data-summary=""><thead><tr><th scope="col" class="eng hidden">Pitcher</th><th scope="col" class="vn visible">Vận động viên ném bóng</th><th scope="col" class="eng hidden">Sample Mean Speed of Pitches (mph)</th><th scope="col" class="vn visible">Tốc độ trung bình mẫu của các lần ném (mph)</th><th scope="col" class="eng hidden">Population Standard Deviation</th><th scope="col" class="vn visible">Độ lệch chuẩn Quần thể</th></tr></thead><tbody>
+<tr><td class="eng hidden">Wesley</td><td class="vn visible">Wesley</td><td class="eng hidden">86</td><td class="vn visible">86</td><td class="eng hidden">3</td><td class="vn visible">3</td></tr>
+<tr><td class="eng hidden">Rodriguez</td><td class="vn visible">Rodriguez</td><td class="eng hidden">91</td><td class="vn visible">91</td><td class="eng hidden">7</td><td class="vn visible">7</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">10.21</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 10.21</div>
+</div>
+
+
+
+<div data-type="exercise" id="fs-idm106340640" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm94070176">
+<a class="os-number" href="10-solutions#fs-idm106340640-solution" aria-label="Go to 31" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm106340640-solution">31</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm94069920" class="eng hidden">What is the random variable?</p><p id="fs-idm94069920-vn" class="vn visible">Biến ngẫu nhiên là gì?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm41149200"><header></header><section>
+<div data-type="problem" id="fs-idm41148944">
+<span class="os-number">32</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm127287408" class="eng hidden">State the null and alternative hypotheses.</p><p id="fs-idm127287408-vn" class="vn visible">Phát biểu các giả thuyết vô nghiệm và đối.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm113366480" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm3418320">
+<a class="os-number" href="10-solutions#fs-idm113366480-solution" aria-label="Go to 33" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm113366480-solution">33</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm3418064" class="eng hidden">What is the test statistic?</p><p id="fs-idm3418064-vn" class="vn visible">Thống kê kiểm định là gì?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm174856784"><header></header><section>
+<div data-type="problem" id="fs-idm43128112">
+<span class="os-number">34</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm43127856" class="eng hidden">What is the <em data-effect="italics">p</em>-value?</p><p id="fs-idm43127856-vn" class="vn visible">Giá trị <em>p</em> là gì?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm126168192" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm126167936">
+<a class="os-number" href="10-solutions#fs-idm126168192-solution" aria-label="Go to 35" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm126168192-solution">35</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm99121104" class="eng hidden">At the 1% significance level, what is your conclusion?</p><p id="fs-idm99121104-vn" class="vn visible">Ở mức ý nghĩa 1%, kết luận của bạn là gì?</p>
+</div>
+</div>
+
+</section></div>
+
+ <p id="fs-idm29321648" class="eng hidden"><em data-effect="italics">Use the following information to answer the next five exercises.</em> A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.</p><p id="fs-idm29321648-vn" class="vn visible"><em>Sử dụng thông tin sau để trả lời năm bài tập tiếp theo.</em> Một nhà nghiên cứu đang kiểm tra ảnh hưởng của phân bón thực vật đối với sự phát triển của thực vật. Chín cây đã được bón phân. Chín cây khác không được bón phân. Chiều cao của cây được ghi lại sau tám tuần. Các Quần thể có phân phối chuẩn. Bảng sau đây là kết quả. Nhà nghiên cứu nghĩ rằng phân bón làm cây phát triển cao hơn.</p><div class="os-table" id="fs-idm112897184"><table data-id="fs-idm112897184" data-summary=""><thead><tr><th scope="col" class="eng hidden">Plant Group</th><th scope="col" class="vn visible">Nhóm cây</th>	<th scope="col" class="eng hidden">Sample Mean Height of Plants (inches)</th><th scope="col" class="vn visible">Trung bình mẫu Chiều cao của cây (inch)</th>	<th scope="col" class="eng hidden">Population Standard Deviation</th><th scope="col" class="vn visible">Độ lệch chuẩn Quần thể</th></tr></thead><tbody>
+<tr><td class="eng hidden">Food</td><td class="vn visible">Thức ăn</td>	<td class="eng hidden">16</td><td class="vn visible">16</td>	<td class="eng hidden">2.5</td><td class="vn visible">2.5</td></tr>
+<tr><td class="eng hidden">No food</td><td class="vn visible">Không có thức ăn</td>	<td class="eng hidden">14</td><td class="vn visible">14</td>	<td class="eng hidden">1.5</td><td class="vn visible">1.5</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">10.22</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 10.22</div>
+</div>
+
+
+
+<div data-type="exercise" id="fs-idm6624080"><header></header><section>
+<div data-type="problem" id="fs-idm6623824">
+<span class="os-number">36</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm121096704" class="eng hidden">Is the population standard deviation known or unknown?</p><p id="fs-idm121096704-vn" class="vn visible">Độ lệch chuẩn của quần thể đã biết hay chưa biết?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm92555424" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm92555168">
+<a class="os-number" href="10-solutions#fs-idm92555424-solution" aria-label="Go to 37" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm92555424-solution">37</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm49112064" class="eng hidden">State the null and alternative hypotheses.</p><p id="fs-idm49112064-vn" class="vn visible">Phát biểu giả thuyết không và giả thuyết đối.</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm40490208"><header></header><section>
+<div data-type="problem" id="fs-idm40489952">
+<span class="os-number">38</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm120787040" class="eng hidden">What is the <em data-effect="italics">p</em>-value?</p><p id="fs-idm120787040-vn" class="vn visible">Giá trị <em>p</em> là bao nhiêu?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm112309984" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm112309728">
+<a class="os-number" href="10-solutions#fs-idm112309984-solution" aria-label="Go to 39" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm112309984-solution">39</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm76087616" class="eng hidden">Draw the graph of the <em data-effect="italics">p</em>-value.</p><p id="fs-idm76087616-vn" class="vn visible">Vẽ đồ thị của giá trị <em>p</em>.</p>
+</div>
+</div>
+
+</section></div>
+
+
+<div data-type="exercise" id="fs-idm31661248"><header></header><section>
+<div data-type="problem" id="fs-idm165116080">
+<span class="os-number">40</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm165115824" class="eng hidden">At the 1% significance level, what is your conclusion?</p><p id="fs-idm165115824-vn" class="vn visible">Ở mức ý nghĩa 1%, kết luận của bạn là gì?</p>
+</div>
+</div>
+</section></div>
+
+ <p id="fs-idm129338912" class="eng hidden"><span data-type="newline"><br></span><em data-effect="italics">Use the following information to answer the next five exercises.</em> Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.</p><p id="fs-idm129338912-vn" class="vn visible"><span data-type="newline"><br></span><em data-effect="italics">Sử dụng thông tin sau để trả lời năm bài tập tiếp theo.</em> Hai hợp kim kim loại đang được xem xét làm vật liệu cho ổ bi. Trung bình điểm nóng chảy của hai hợp kim sẽ được so sánh. 15 mẫu của mỗi kim loại đang được thử nghiệm. Cả hai quần thể đều có phân phối chuẩn. Bảng sau đây là kết quả. Người ta tin rằng Hợp kim Zeta có điểm nóng chảy khác.</p>
+<div class="os-table" id="fs-idm150132352"><table data-id="fs-idm150132352" data-summary="table"><thead><tr><th scope="col" class="eng hidden">	</th><th scope="col" class="vn visible">	</th><th scope="col" class="eng hidden">Sample Mean Melting Temperatures (°F)</th><th scope="col" class="vn visible">Nhiệt độ nóng chảy trung bình của mẫu (°F)</th>	<th scope="col" class="eng hidden">Population Standard Deviation</th><th scope="col" class="vn visible">Độ lệch chuẩn của quần thể</th></tr></thead><tbody>
+<tr><td class="eng hidden">Alloy Gamma</td><td class="vn visible">Hợp kim Gamma</td>	<td class="eng hidden">800</td><td class="vn visible">800</td>	<td class="eng hidden">95</td><td class="vn visible">95</td></tr>
+<tr><td class="eng hidden">Alloy Zeta</td><td class="vn visible">Hợp kim Zeta</td>	<td class="eng hidden">900</td><td class="vn visible">900</td>	<td class="eng hidden">105</td><td class="vn visible">105</td></tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">10.23</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible"><span class="os-title-label">Bảng </span>
+  <span class="os-number">10.23</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span></div>
+</div><div data-type="exercise" id="fs-idm4478224" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm164950176">
+<a class="os-number" href="10-solutions#fs-idm4478224-solution" aria-label="Go to 41" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm4478224-solution">41</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm164949920" class="eng hidden">State the null and alternative hypotheses.</p><p id="fs-idm164949920-vn" class="vn visible">Phát biểu các giả thuyết null và giả thuyết đối.</p>
+ </div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm1600720"><header></header><section>
+<div data-type="problem" id="fs-idm1600464">
+<span class="os-number">42</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm108982624" class="eng hidden">Is this a right-, left-, or two-tailed test?</p><p id="fs-idm108982624-vn" class="vn visible">Đây là kiểm định một phía bên phải, một phía bên trái hay hai phía?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm100159520" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm87685136">
+<a class="os-number" href="10-solutions#fs-idm100159520-solution" aria-label="Go to 43" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm100159520-solution">43</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm87684880" class="eng hidden">What is the <em data-effect="italics">p</em>-value?</p><p id="fs-idm87684880-vn" class="vn visible">Giá trị <em data-effect="italics">p</em> là gì?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm183272192"><header></header><section>
+<div data-type="problem" id="fs-idm175683792">
+<span class="os-number">44</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm175683536" class="eng hidden">Draw the graph of the <em data-effect="italics">p</em>-value.</p><p id="fs-idm175683536-vn" class="vn visible">Vẽ đồ thị của giá trị <em data-effect="italics">p</em>.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm85314992" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm85314736">
+<a class="os-number" href="10-solutions#fs-idm85314992-solution" aria-label="Go to 45" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm85314992-solution">45</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm170275488" class="eng hidden">At the 1% significance level, what is your conclusion?</p><p id="fs-idm170275488-vn" class="vn visible">Ở mức ý nghĩa 1%, bạn đưa ra kết luận gì?</p>
+</div>
+</div>
+
+</section></div>
+</section><section data-depth="1" id="fs-idp47236640" class="practice"><a href="10-3-comparing-two-independent-population-proportions" aria-label="Go to 10.3 Comparing Two Independent Population Proportions" data-page-slug="10-3-comparing-two-independent-population-proportions" data-page-uuid="d154db56-29bb-487f-9bc7-4081c6733297" data-page-fragment="">
+  <h3 data-type="document-title" class="eng hidden">
+  <span class="os-number">10.3</span>
+<span class="os-divider"> </span>
+
+  <span class="os-text" data-type="" itemprop="">Comparing Two Independent Population Proportions</span>
+</h3><h3 data-type="document-title" class="vn visible">10.3
+
+  So sánh hai Tỷ lệ Quần thể độc lập</h3>
+
+</a>
+
+<p id="eip-283" class="eng hidden"><em data-effect="italics">Use the following information for the next five exercises.</em> Two types of phone operating system are being tested to determine if there is a difference in the proportions of system failures (crashes). Fifteen out of a random sample of 150 phones with OS<sub>1</sub> had system failures within the first eight hours of operation. Nine out of another random sample of 150 phones with OS<sub>2</sub> had system failures within the first eight hours of operation. OS<sub>2</sub> is believed to be more stable (have fewer crashes) than OS<sub>1</sub>.</p><p id="eip-283-vn" class="vn visible">Sử dụng thông tin sau cho năm bài tập tiếp theo. Hai loại hệ điều hành điện thoại đang được thử nghiệm để xác định xem có sự khác biệt về tỷ lệ lỗi hệ thống (sự cố) hay không. Mười lăm trên một mẫu ngẫu nhiên gồm 150 điện thoại có hệ điều hành<sub>1</sub> gặp sự cố hệ thống trong tám giờ hoạt động đầu tiên. Chín trên một mẫu ngẫu nhiên khác gồm 150 điện thoại có hệ điều hành<sub>2</sub> gặp sự cố hệ thống trong tám giờ hoạt động đầu tiên. Hệ điều hành<sub>2</sub> được cho là ổn định hơn (ít sự cố hơn) hệ điều hành<sub>1</sub>.</p><div data-type="exercise" id="eip-920"><header></header><section><div data-type="problem" id="eip-850">
+<span class="os-number">46</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="eip-955" class="eng hidden">Is this a test of means or proportions?</p><p id="eip-955-vn" class="vn visible">Đây là một bài kiểm tra về trung bình hay tỷ lệ?</p>
+</div>
+</div>
+</section></div><div data-type="exercise" id="eip-964" class="os-hasSolution"><header></header><section><div data-type="problem" id="eip-432">
+<a class="os-number" href="10-solutions#eip-964-solution" aria-label="Go to 47" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="eip-964-solution">47</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="eip-678" class="eng hidden">
+    What is the random variable?
+  </p><p id="eip-678-vn" class="vn visible">Biến ngẫu nhiên là gì?</p>
+</div>
+</div>
+
+
+</section></div>
+
+<div data-type="exercise" id="eip-11"><header></header><section><div data-type="problem" id="eip-701">
+<span class="os-number">48</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="eip-32" class="eng hidden">
+    State the null and alternative hypotheses.
+  </p><p id="eip-32-vn" class="vn visible">Phát biểu giả thuyết null và giả thuyết thay thế.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="eip-56" class="os-hasSolution"><header></header><section><div data-type="problem" id="eip-645">
+<a class="os-number" href="10-solutions#eip-56-solution" aria-label="Go to 49" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="eip-56-solution">49</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="eip-49" class="eng hidden">
+    What is the <em data-effect="italics">p</em>-value?
+  </p><p id="eip-49-vn" class="vn visible">Giá trị <em>p</em> là gì?</p>
+</div>
+</div>
+
+
+</section></div>
+
+<div data-type="exercise" id="eip-714"><header></header><section><div data-type="problem" id="eip-716">
+<span class="os-number">50</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="eip-836" class="eng hidden">
+    What can you conclude about the two operating systems?
+  </p><p id="eip-836-vn" class="vn visible">Bạn có thể kết luận gì về hai hệ điều hành?</p>
+</div>
+</div>
+</section></div>
+
+<p id="eip-531" class="eng hidden"><span data-type="newline"><br></span><em data-effect="italics">Use the following information to answer the next twelve exercises.</em> In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota.
+</p><p id="eip-531-vn" class="vn visible">Sử dụng thông tin sau để trả lời mười hai bài tập tiếp theo. Trong cuộc điều tra dân số gần đây, ba phần trăm dân số Hoa Kỳ báo cáo là thuộc hai hoặc nhiều chủng tộc. Tuy nhiên, tỷ lệ này thay đổi rất nhiều giữa các tiểu bang. Giả sử hai cuộc khảo sát ngẫu nhiên được thực hiện. Trong cuộc khảo sát ngẫu nhiên đầu tiên, trong số 1.000 người dân North Dakota, chỉ có chín người báo cáo là thuộc hai hoặc nhiều chủng tộc. Trong cuộc khảo sát ngẫu nhiên thứ hai, trong số 500 người dân Nevada, 17 người báo cáo là thuộc hai hoặc nhiều chủng tộc. Thực hiện một hypothesis test để xác định xem tỷ lệ quần thể có giống nhau đối với hai tiểu bang hay không hoặc tỷ lệ đối với Nevada có cao hơn đáng kể so với North Dakota hay không.</p>
+
+<div data-type="exercise" id="element-385" class="os-hasSolution"><header></header><section><div data-type="problem" id="id11329019">
+<a class="os-number" href="10-solutions#element-385-solution" aria-label="Go to 51" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="element-385-solution">51</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-249" class="eng hidden">Is this a test of means or proportions?</p><p id="element-249-vn" class="vn visible">Đây là một bài kiểm tra về trung bình hay tỷ lệ?</p></div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="element-818"><header></header><section><div data-type="problem" id="id20756414">
+<span class="os-number">52</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-591" class="eng hidden">State the null and alternative hypotheses.</p><p id="element-591-vn" class="vn visible">Phát biểu giả thuyết không và giả thuyết đối.</p>
+  <ol id="list-978623794" type="a"><li class="eng hidden"><em data-effect="italics">H<sub>0</sub></em>: _________</li><li class="vn visible"><em data-effect="italics">H<sub>0</sub></em>: _________</li>
+    <li class="eng hidden"><em data-effect="italics">H<sub>a</sub></em>: _________</li><li class="vn visible"><em data-effect="italics">H<sub>a</sub></em>: _________</li>
+  </ol></div>
+</div>
+</section></div>
+
+
+  <div data-type="exercise" id="element-22" class="os-hasSolution"><header></header><section>
+    <div data-type="problem" id="id22206121">
+<a class="os-number" href="10-solutions#element-22-solution" aria-label="Go to 53" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="element-22-solution">53</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-103" class="eng hidden">Is this a right-tailed, left-tailed, or two-tailed test?  How do you know?</p><p id="element-103-vn" class="vn visible">Đây là một kiểm định đuôi phải, đuôi trái, hay hai đuôi? Bạn biết bằng cách nào?</p>
+
+</div>
+</div>
+
+
+</section></div>
+
+<div data-type="exercise" id="element-708"><header></header><section><div data-type="problem" id="id22505556">
+<span class="os-number">54</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-44" class="eng hidden">What is the random variable of interest for this test? </p><p id="element-44-vn" class="vn visible">Biến ngẫu nhiên nào được quan tâm cho hypothesis test này?</p>
+</div>
+</div>
+</section></div>
+
+
+<div data-type="exercise" id="element-386" class="os-hasSolution"><header></header><section><div data-type="problem" id="id18170891">
+<a class="os-number" href="10-solutions#element-386-solution" aria-label="Go to 55" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="element-386-solution">55</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-101" class="eng hidden">In words, define the random variable for this test.</p><p id="element-101-vn" class="vn visible">Nói bằng lời, hãy định nghĩa biến ngẫu nhiên cho hypothesis test này.</p>
+</div>
+</div>
+
+</section></div><div data-type="exercise" id="element-7"><header></header><section><div data-type="problem" id="id16485244">
+<span class="os-number">56</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-189" class="eng hidden">Which distribution (normal or Student's <em data-effect="italics">t</em>) would you use for this hypothesis test?</p><p id="element-189-vn" class="vn visible">Bạn sẽ sử dụng phân phối nào (chuẩn hay <em data-effect="italics">t</em> của Student) cho hypothesis test này?</p></div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="element-464" class="os-hasSolution"><header></header><section><div data-type="problem" id="id13843081">
+<a class="os-number" href="10-solutions#element-464-solution" aria-label="Go to 57" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="element-464-solution">57</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-847" class="eng hidden">Explain why you chose the distribution you did for the <a href="10-practice#element-7" aria-label="Go to Exercise 10.56">Exercise 10.56</a>.</p><p id="element-847-vn" class="vn visible">Giải thích tại sao bạn chọn phân phối đã chọn cho Bài tập <a href="10-practice#element-7" aria-label="Go to Exercise 10.56">10.56</a>.</p></div>
+</div>
+
+</section></div><div data-type="exercise" id="element-345"><header></header><section><div data-type="problem" id="id17798140">
+<span class="os-number">58</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="fs-idm20738192" class="eng hidden">Calculate the test statistic.</p><p id="fs-idm20738192-vn" class="vn visible">Tính thống kê kiểm định.</p>
+</div>
+</div>
+</section></div>
+
+  <div data-type="exercise" id="element-814" class="os-hasSolution"><header></header><section>
+  <div data-type="problem" id="id20752849">
+<a class="os-number" href="10-solutions#element-814-solution" aria-label="Go to 59" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="element-814-solution">59</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-359" class="eng hidden">Sketch a graph of the situation. Mark the hypothesized difference and the sample difference. Shade the area corresponding to the <em data-effect="italics">p</em>-value.
+    </p><p id="element-359-vn" class="vn visible">Phác thảo một đồ thị của tình huống. Đánh dấu sự khác biệt giả định và sự khác biệt của mẫu. Tô bóng vùng tương ứng với <em data-effect="italics">p</em>-value.</p><div class="os-figure" id="id12575638a"><figure class="scaled-down ui-has-child-figcaption" data-id="id12575638a">
+  <span data-type="media" id="id12575642a" data-alt="This is a horizontal axis with arrows at each end. The axis is labeled p'N - p'ND">
+    <button type="button" aria-label="Click to enlarge image of This is a horizontal axis with arrows at each end. The axis is labeled p'N - p'ND" class="image-button-wrapper"><img src="assets/img-10-1.webp" data-media-type="image/png" alt="This is a horizontal axis with arrows at each end. The axis is labeled p'N - p'ND" width="951" height="56" loading="lazy"></button>
+  </span>
+<figcaption class="os-caption-container eng hidden">
+  <span class="os-title-label">Figure </span>
+<span class="os-number">10.17</span>
+
+
+
+  
+  
+</figcaption><figcaption class="os-caption-container vn visible"><span class="os-title-label">Hình </span>
+<span class="os-number">10.17</span></figcaption></figure></div>
+  </div>
+</div>
+  
+</section></div>
+
+  <div data-type="exercise" id="element-287"><header></header><section>
+    <div data-type="problem" id="id17163768">
+<span class="os-number">60</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="element-604" class="eng hidden">Find the <em data-effect="italics">p</em>-value.</p><p id="element-604-vn" class="vn visible">Tìm <em data-effect="italics">p</em>-value.</p>
+</div>
+</div>
+  </section></div>
+
+
+  <div data-type="exercise" id="element-723" class="os-hasSolution"><header></header><section>
+    <div data-type="problem" id="id11271894">
+<a class="os-number" href="10-solutions#element-723-solution" aria-label="Go to 61" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="element-723-solution">61</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+  <p id="fs-idm34769936" class="eng hidden">
+   At a pre-conceived <em data-effect="italics">α</em> = 0.05, what is your:
+    </p><p id="fs-idm34769936-vn" class="vn visible">Với <em data-effect="italics">α</em> = 0.05 đã được xác định trước, bạn có:</p><ol id="list-2353627788" type="a">
+      <li class="eng hidden">Decision:</li><li class="vn visible">Quyết định:</li>
+      <li class="eng hidden">Reason for the decision:</li><li class="vn visible">Lý do cho quyết định:</li>
+      <li class="eng hidden">Conclusion (write out in a complete sentence):</li><li class="vn visible">Kết luận (viết thành một câu hoàn chỉnh):</li>
+    </ol>
+</div>
+</div>
+
+
+</section></div>
+
+<div data-type="exercise" id="exerciselkj"><header></header><section><div data-type="problem" id="id17796096">
+<span class="os-number">62</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="prob_1" class="eng hidden">
+Does it appear that the proportion of Nevadans who are two or more races is higher than the proportion of North Dakotans? Why or why not?
+</p><p id="prob_1-vn" class="vn visible">Tỷ lệ người dân Nevada có hai hoặc nhiều chủng tộc có vẻ cao hơn tỷ lệ người dân North Dakota không? Tại sao có hoặc tại sao không?</p>
+</div>
+</div>
+</section></div>
+</section><section data-depth="1" id="fs-idm5499920" class="practice"><a href="10-4-matched-or-paired-samples" aria-label="Go to 10.4 Matched or Paired Samples" data-page-slug="10-4-matched-or-paired-samples" data-page-uuid="7366eb58-b390-4868-a9e7-7983c0997af9" data-page-fragment="">
+  <h3 data-type="document-title" class="eng hidden">
+  <span class="os-number">10.4</span>
+<span class="os-divider"> </span>
+
+  <span class="os-text" data-type="" itemprop="">Matched or Paired Samples</span>
+</h3><h3 data-type="document-title" class="vn visible"><span class="os-number">10.4</span>
+<span class="os-divider"> </span>
+
+  <span class="os-text" data-type="" itemprop="">Mẫu ghép đôi hoặc cặp</span></h3>
+
+</a>
+
+<p id="fs-idp116024816" class="eng hidden"><em data-effect="italics">Use the following information to answer the next five exercises.</em> A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in <a href="10-practice#fs-idp116025200" class="autogenerated-content" aria-label="View Table 10.24">Table 10.24</a>. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.</p><p id="fs-idp116024816-vn" class="vn visible"><em data-effect="italics">Sử dụng thông tin sau để trả lời năm bài tập tiếp theo.</em> Một nghiên cứu đã được thực hiện để kiểm tra hiệu quả của một bản vá phần mềm trong việc giảm thiểu sự cố hệ thống trong khoảng thời gian sáu tháng. Kết quả cho các cài đặt được chọn ngẫu nhiên được hiển thị trong <a href="10-practice#fs-idp116025200" class="autogenerated-content" aria-label="View Table 10.24">Bảng 10.24</a>. Giá trị “trước” được ghép với giá trị “sau”, và sự khác biệt được tính toán. Sự khác biệt có phân phối chuẩn. Kiểm định ở mức ý nghĩa 1%.</p><div class="os-table" id="fs-idp116025200"><table data-id="fs-idp116025200" data-summary=""><thead>
+<tr>
+<th scope="col" class="eng hidden">Installation</th><th scope="col" class="vn visible">Cài đặt</th>
+<th scope="col" class="eng hidden">A</th><th scope="col" class="vn visible">A</th>
+<th scope="col" class="eng hidden">B</th><th scope="col" class="vn visible">B</th>
+<th scope="col" class="eng hidden">C</th><th scope="col" class="vn visible">C</th>
+<th scope="col" class="eng hidden">D</th><th scope="col" class="vn visible">D</th>
+<th scope="col" class="eng hidden">E</th><th scope="col" class="vn visible">E</th>
+<th scope="col" class="eng hidden">F</th><th scope="col" class="vn visible">F</th>
+<th scope="col" class="eng hidden">G</th><th scope="col" class="vn visible">G</th>
+<th scope="col" class="eng hidden">H</th><th scope="col" class="vn visible">H</th>
+</tr>
+</thead><tbody>
+
+<tr>
+<td class="eng hidden">Before</td><td class="vn visible">Trước</td>
+<td class="eng hidden">3</td><td class="vn visible">3</td>
+<td class="eng hidden">6</td><td class="vn visible">6</td>
+<td class="eng hidden">4</td><td class="vn visible">4</td>
+<td class="eng hidden">2</td><td class="vn visible">2</td>
+<td class="eng hidden">5</td><td class="vn visible">5</td>
+<td class="eng hidden">8</td><td class="vn visible">8</td>
+<td class="eng hidden">2</td><td class="vn visible">2</td>
+<td class="eng hidden">6</td><td class="vn visible">6</td>
+</tr>
+<tr>
+<td class="eng hidden">After</td><td class="vn visible">Sau</td>
+<td class="eng hidden">1</td><td class="vn visible">1</td>
+<td class="eng hidden">5</td><td class="vn visible">5</td>
+<td class="eng hidden">2</td><td class="vn visible">2</td>
+<td class="eng hidden">0</td><td class="vn visible">0</td>
+<td class="eng hidden">1</td><td class="vn visible">1</td>
+<td class="eng hidden">0</td><td class="vn visible">0</td>
+<td class="eng hidden">2</td><td class="vn visible">2</td>
+<td class="eng hidden">2</td><td class="vn visible">2</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">10.24</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 10.24</div>
+</div>
+
+<div data-type="exercise" id="fs-idm5499280" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idp107935744">
+<a class="os-number" href="10-solutions#fs-idm5499280-solution" aria-label="Go to 63" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm5499280-solution">63</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp9763376" class="eng hidden">What is the random variable?</p><p id="fs-idp9763376-vn" class="vn visible">Biến ngẫu nhiên là gì?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idp71083104"><header></header><section>
+<div data-type="problem" id="fs-idp22060800">
+<span class="os-number">64</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp22061056" class="eng hidden">State the null and alternative hypotheses.</p><p id="fs-idp22061056-vn" class="vn visible">Phát biểu các giả thuyết không và giả thuyết đối.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm10056224" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm120978416">
+<a class="os-number" href="10-solutions#fs-idm10056224-solution" aria-label="Go to 65" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm10056224-solution">65</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm120978160" class="eng hidden">What is the <em data-effect="italics">p</em>-value?</p><p id="fs-idm120978160-vn" class="vn visible">Giá trị p là gì?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idp119203856"><header></header><section>
+<div data-type="problem" id="fs-idp119204112">
+<span class="os-number">66</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp119204368" class="eng hidden">Draw the graph of the <em data-effect="italics">p</em>-value.</p><p id="fs-idp119204368-vn" class="vn visible">Vẽ đồ thị giá trị p.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idp92713024" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm6212864">
+<a class="os-number" href="10-solutions#fs-idp92713024-solution" aria-label="Go to 67" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idp92713024-solution">67</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm6212608" class="eng hidden">What conclusion can you draw about the software patch?</p><p id="fs-idm6212608-vn" class="vn visible">Bạn có thể rút ra kết luận gì về bản vá phần mềm?</p>
+</div>
+</div>
+
+</section></div>
+
+<p id="fs-idp5775856" class="eng hidden"><span data-type="newline"><br></span><em data-effect="italics">Use the following information to answer next five exercises.</em> A study was conducted to test the effectiveness of a juggling class. Before the class started, six subjects juggled as many balls as they could at once. After the class, the same six subjects juggled as many balls as they could. The differences in the number of balls are calculated. The differences have a normal distribution. Test at the 1% significance level.</p><p id="fs-idp5775856-vn" class="vn visible">Sử dụng thông tin sau để trả lời năm bài tập tiếp theo. Một nghiên cứu đã được thực hiện để kiểm tra hiệu quả của một lớp học tung hứng. Trước khi lớp học bắt đầu, sáu đối tượng đã tung hứng càng nhiều bóng càng tốt cùng một lúc. Sau lớp học, sáu đối tượng đó đã tung hứng càng nhiều bóng càng tốt. Sự khác biệt về số lượng bóng được tính toán. Sự khác biệt có phân phối chuẩn. Kiểm định ở mức ý nghĩa 1%.</p>
+<div class="os-table" id="fs-idp110216832"><table data-id="fs-idp110216832" data-summary=""><thead>
+<tr>
+<th scope="col" class="eng hidden">Subject</th><th scope="col" class="vn visible">Đối tượng</th>
+<th scope="col" class="eng hidden">A</th><th scope="col" class="vn visible">A</th>
+<th scope="col" class="eng hidden">B</th><th scope="col" class="vn visible">B</th>
+<th scope="col" class="eng hidden">C</th><th scope="col" class="vn visible">C</th>
+<th scope="col" class="eng hidden">D</th><th scope="col" class="vn visible">D</th>
+<th scope="col" class="eng hidden">E</th><th scope="col" class="vn visible">E</th>
+<th scope="col" class="eng hidden">F</th><th scope="col" class="vn visible">F</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">Before</td><td class="vn visible">Trước</td>
+<td class="eng hidden">3</td><td class="vn visible">3</td>
+<td class="eng hidden">4</td><td class="vn visible">4</td>
+<td class="eng hidden">3</td><td class="vn visible">3</td>
+<td class="eng hidden">2</td><td class="vn visible">2</td>
+<td class="eng hidden">4</td><td class="vn visible">4</td>
+<td class="eng hidden">5</td><td class="vn visible">5</td>
+</tr>
+<tr>
+<td class="eng hidden">After</td><td class="vn visible">Sau</td>
+<td class="eng hidden">4</td><td class="vn visible">4</td>
+<td class="eng hidden">5</td><td class="vn visible">5</td>
+<td class="eng hidden">6</td><td class="vn visible">6</td>
+<td class="eng hidden">4</td><td class="vn visible">4</td>
+<td class="eng hidden">5</td><td class="vn visible">5</td>
+<td class="eng hidden">7</td><td class="vn visible">7</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">10.25</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng 10.25</div>
+</div>
+
+<div data-type="exercise" id="fs-idm940496"><header></header><section>
+<div data-type="problem" id="fs-idm54492608">
+<span class="os-number">68</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp81273744" class="eng hidden">State the null and alternative hypotheses.</p><p id="fs-idp81273744-vn" class="vn visible">Phát biểu các giả thuyết vô nghiệm và giả thuyết đối.</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idp15011664" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idp15011920">
+<a class="os-number" href="10-solutions#fs-idp15011664-solution" aria-label="Go to 69" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idp15011664-solution">69</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp15012176" class="eng hidden">What is the <em data-effect="italics">p</em>-value?</p><p id="fs-idp15012176-vn" class="vn visible">Giá trị <em>p</em> là bao nhiêu?</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idp12451552"><header></header><section>
+<div data-type="problem" id="fs-idp12451808">
+<span class="os-number">70</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm14064240" class="eng hidden">What is the sample mean difference?</p><p id="fs-idm14064240-vn" class="vn visible">Trung bình mẫu của sự khác biệt là bao nhiêu?</p>
+</div>
+</div>
+</section></div>
+<div data-type="exercise" id="fs-idp9592768" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idp9593024">
+<a class="os-number" href="10-solutions#fs-idp9592768-solution" aria-label="Go to 71" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idp9592768-solution">71</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp9593280" class="eng hidden">Draw the graph of the <em data-effect="italics">p</em>-value.</p><p id="fs-idp9593280-vn" class="vn visible">Vẽ đồ thị của giá trị <em>p</em>.</p>
+</div>
+</div>
+
+</section></div>
+
+<div data-type="exercise" id="fs-idm16412208"><header></header><section>
+<div data-type="problem" id="fs-idp41873440">
+<span class="os-number">72</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp41873696" class="eng hidden">What conclusion can you draw about the juggling class?</p><p id="fs-idp41873696-vn" class="vn visible">Bạn có thể rút ra kết luận gì về lớp học tung hứng?</p>
+</div>
+</div>
+</section></div>
+
+<p id="fs-idm27879072" class="eng hidden"><span data-type="newline"><br></span><em data-effect="italics">Use the following information to answer the next five exercises.</em> A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.</p><p id="fs-idm27879072-vn" class="vn visible">Một bác sĩ muốn biết liệu một loại thuốc huyết áp có hiệu quả hay không. Huyết áp của sáu đối tượng được ghi lại. Sau mười hai tuần dùng thuốc, huyết áp của cùng sáu đối tượng đó lại được ghi lại. Đối với bài kiểm tra này, chỉ quan tâm đến huyết áp tâm thu. Kiểm định ở mức ý nghĩa 1%.</p>
+<div class="os-table" id="fs-idm32701392"><table data-id="fs-idm32701392" data-summary=""><thead>
+<tr>
+<th scope="col" class="eng hidden">Patient</th><th scope="col" class="vn visible">Bệnh nhân</th>
+<th scope="col" class="eng hidden">A</th><th scope="col" class="vn visible">A</th>
+<th scope="col" class="eng hidden">B</th><th scope="col" class="vn visible">B</th>
+<th scope="col" class="eng hidden">C</th><th scope="col" class="vn visible">C</th>
+<th scope="col" class="eng hidden">D</th><th scope="col" class="vn visible">D</th>
+<th scope="col" class="eng hidden">E</th><th scope="col" class="vn visible">E</th>
+<th scope="col" class="eng hidden">F</th><th scope="col" class="vn visible">F</th>
+</tr>
+</thead><tbody>
+<tr>
+<td class="eng hidden">Before</td><td class="vn visible">Trước</td>
+<td class="eng hidden">161</td><td class="vn visible">161</td>
+<td class="eng hidden">162</td><td class="vn visible">162</td>
+<td class="eng hidden">165</td><td class="vn visible">165</td>
+<td class="eng hidden">162</td><td class="vn visible">162</td>
+<td class="eng hidden">166</td><td class="vn visible">166</td>
+<td class="eng hidden">171</td><td class="vn visible">171</td>
+</tr>
+<tr>
+<td class="eng hidden">After</td><td class="vn visible">Sau</td>
+<td class="eng hidden">158</td><td class="vn visible">158</td>
+<td class="eng hidden">159</td><td class="vn visible">159</td>
+<td class="eng hidden">166</td><td class="vn visible">166</td>
+<td class="eng hidden">160</td><td class="vn visible">160</td>
+<td class="eng hidden">167</td><td class="vn visible">167</td>
+<td class="eng hidden">169</td><td class="vn visible">169</td>
+</tr>
+</tbody></table><div class="os-caption-container eng hidden">
+  <span class="os-title-label">Table </span>
+  <span class="os-number">10.26</span>
+  <span class="os-divider"> </span>
+  <span class="os-divider"> </span>
+</div><div class="os-caption-container vn visible">Bảng
+  10.26
+  
+  </div>
+</div>
+
+<div data-type="exercise" id="fs-idp5612992" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idp5613248">
+<a class="os-number" href="10-solutions#fs-idp5612992-solution" aria-label="Go to 73" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idp5612992-solution">73</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp119813056" class="eng hidden">State the null and alternative hypotheses.</p><p id="fs-idp119813056-vn" class="vn visible">Phát biểu các giả thuyết vô hiệu và giả thuyết đối.</p>
+</div>
+</div>
+
+</section></div>
+<div data-type="exercise" id="fs-idm60519136"><header></header><section>
+<div data-type="problem" id="fs-idm60518880">
+<span class="os-number">74</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp8433040" class="eng hidden">What is the test statistic?</p><p id="fs-idp8433040-vn" class="vn visible">Thống kê kiểm định là gì?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idp69509280" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idp8847888">
+<a class="os-number" href="10-solutions#fs-idp69509280-solution" aria-label="Go to 75" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idp69509280-solution">75</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idp8848144" class="eng hidden">What is the <em data-effect="italics">p</em>-value?</p><p id="fs-idp8848144-vn" class="vn visible">Giá trị p là gì?</p>
+</div>
+</div>
+
+</section></div>
+<div data-type="exercise" id="fs-idp22543728"><header></header><section>
+<div data-type="problem" id="fs-idp22543984">
+<span class="os-number">76</span><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm72860048" class="eng hidden">What is the sample mean difference?</p><p id="fs-idm72860048-vn" class="vn visible">Trung bình mẫu của sự khác biệt là gì?</p>
+</div>
+</div>
+</section></div>
+
+<div data-type="exercise" id="fs-idm55198624" class="os-hasSolution"><header></header><section>
+<div data-type="problem" id="fs-idm27177184">
+<a class="os-number" href="10-solutions#fs-idm55198624-solution" aria-label="Go to 77" data-page-slug="10-solutions" data-page-uuid="c339b381-8e02-5e1a-9989-5339abbeeb64" data-page-fragment="fs-idm55198624-solution">77</a><span class="os-divider">. </span>
+<div class="os-problem-container">
+<p id="fs-idm27176928" class="eng hidden">What is the conclusion?</p><p id="fs-idm27176928-vn" class="vn visible">Kết luận là gì?</p>
+</div>
+</div>
+
+</section></div>
+</section>
+</div>
+
+</div></body></html>

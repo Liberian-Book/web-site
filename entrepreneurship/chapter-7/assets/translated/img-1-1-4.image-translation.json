@@ -1,0 +1,245 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-1-1-4.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/1-1-entrepreneurship-today.html",
+  "decision": "review",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "statistics",
+    "eligible": true,
+    "reason": "statistical-labels-detected"
+  },
+  "reason": "translation-overflow",
+  "outputImage": null,
+  "ocr": [
+    {
+      "text": "Venture Capital Activity",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 72,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "United States",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 168,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "China",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 264,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "§ India",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 360,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "2 Israe A",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 456,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "Canada| 1.5",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 552,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "Japan| 0.8",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 648,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "Number of Deals and Financial Value (in billions)",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 744,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.”",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 840,
+        "w": 961,
+        "h": 48
+      }
+    },
+    {
+      "text": "Entrepreneur Middle East. January 26, 2017.",
+      "confidence": 89,
+      "bbox": {
+        "x": 120,
+        "y": 936,
+        "w": 961,
+        "h": 48
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Venture Capital Activity",
+      "normalizedSource": "Venture Capital Activity",
+      "target": "Hoạt động Vốn Đầu Tư",
+      "bbox": {
+        "x": 120,
+        "y": 72,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "United States",
+      "normalizedSource": "United States",
+      "target": "Hoa Kỳ",
+      "bbox": {
+        "x": 120,
+        "y": 168,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "China",
+      "normalizedSource": "China",
+      "target": "Trung Quốc",
+      "bbox": {
+        "x": 120,
+        "y": 264,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": true
+    },
+    {
+      "source": "§ India",
+      "normalizedSource": "§ India",
+      "target": "Ấn Độ",
+      "bbox": {
+        "x": 120,
+        "y": 360,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "2 Israe A",
+      "normalizedSource": "2 Israe A",
+      "target": "2 Israe A",
+      "bbox": {
+        "x": 120,
+        "y": 456,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Canada| 1.5",
+      "normalizedSource": "Canada| 1.5",
+      "target": "Canada| 1.5",
+      "bbox": {
+        "x": 120,
+        "y": 552,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Japan| 0.8",
+      "normalizedSource": "Japan| 0.8",
+      "target": "Nhật Bản| 0.8",
+      "bbox": {
+        "x": 120,
+        "y": 648,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Number of Deals and Financial Value (in billions)",
+      "normalizedSource": "Number of Deals and Financial Value (in billions)",
+      "target": "Số lượng giao dịch và giá trị tài chính (tính bằng tỷ)",
+      "bbox": {
+        "x": 120,
+        "y": 744,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.”",
+      "normalizedSource": "Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.”",
+      "target": "Nhóm Inforgraphic.ly. “Đồ họa thông tin: Sự phát triển của khởi nghiệp trên toàn cầu.”",
+      "bbox": {
+        "x": 120,
+        "y": 840,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    },
+    {
+      "source": "Entrepreneur Middle East. January 26, 2017.",
+      "normalizedSource": "Entrepreneur Middle East. January 26, 2017.",
+      "target": "Entrepreneur Middle East. Ngày 26 tháng 1, 2017.",
+      "bbox": {
+        "x": 120,
+        "y": 936,
+        "w": 961,
+        "h": 48
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: Graph of venture capital activity showing venture capital investment and number of deals in billions by country. The United States is shown at 72.3; China is at 49.2; India is at 8.0; Israel is at 2.6; Canada is at 1.5; and Japan is at 0.8. Source: Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.” Entrepreneurship Middle East. January 26, 2017.\nButton label: Click to enlarge image of Graph of venture capital activity showing venture capital investment and number of deals in billions by country. The United States is shown at 72.3; China is at 49.2; India is at 8.0; Israel is at 2.6; Canada is at 1.5; and Japan is at 0.8. Source: Inforgraphic.ly Team. “Infographic: The Growth of Entrepreneurship Around the Globe.” Entrepreneurship Middle East. January 26, 2017.\nEnglish caption: Figure 1.5 The total venture capitalist investment and number of deals for several countries are shown. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.6390681088000709,
+    "averageConfidence": 89,
+    "entropy": 1.2613743849069579,
+    "sharpness": 4.487621725227589
+  }
+}

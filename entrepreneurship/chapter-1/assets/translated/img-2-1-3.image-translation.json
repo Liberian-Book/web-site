@@ -1,0 +1,23 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1-3.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-1-overview-of-the-entrepreneurial-journey.html",
+  "decision": "skip",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "natural",
+    "eligible": false,
+    "reason": "natural-image-without-ocr-text"
+  },
+  "reason": "low-text-density",
+  "outputImage": null,
+  "ocr": [],
+  "translations": [],
+  "imageContext": "Image alt: Photo of a hiker at the top of a hill, looking out at a mountain.\nButton label: Click to enlarge image of Photo of a hiker at the top of a hill, looking out at a mountain.\nEnglish caption: Figure 2.4 The journey to entrepreneurship is as important as reaching your destination. (credit: “raise challenge landscape mountain” by “mohamed_hassan”/Pixabay, CC0)",
+  "metrics": {
+    "textDensity": 0,
+    "averageConfidence": 0,
+    "entropy": 5.452073163054592,
+    "sharpness": 1.1164087159556508
+  }
+}

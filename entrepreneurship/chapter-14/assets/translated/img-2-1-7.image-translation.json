@@ -1,0 +1,337 @@
+{
+  "sourceImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/img-2-1-7.webp",
+  "htmlFile": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/translated/2-1-overview-of-the-entrepreneurial-journey.html",
+  "decision": "auto",
+  "renderer": "image-edit",
+  "model": "gpt-image-2",
+  "classification": {
+    "type": "screenshot",
+    "eligible": true,
+    "reason": "dense-structured-text-layout"
+  },
+  "reason": "text-bearing-image",
+  "outputImage": "/Users/zyta/zytacyberk/translate-agents/data/entrepreneurship/assets/translated/img-2-1-7.vi.png",
+  "ocr": [
+    {
+      "text": "Assessment (| ™",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 55,
+        "w": 1040,
+        "h": 37
+      }
+    },
+    {
+      "text": "(4) Reflection Questions",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 129,
+        "w": 1040,
+        "h": 37
+      }
+    },
+    {
+      "text": "+ Where will I find partners,",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 203,
+        "w": 1040,
+        "h": 37
+      }
+    },
+    {
+      "text": "customers, location(s), or",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 277,
+        "w": 1040,
+        "h": 37
+      }
+    },
+    {
+      "text": "other key resources?",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 351,
+        "w": 1040,
+        "h": 37
+      }
+    },
+    {
+      "text": "+ Who can help me achieve",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 425,
+        "w": 1040,
+        "h": 37
+      }
+    },
+    {
+      "text": "my goal(s) and maintain a",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 499,
+        "w": 1040,
+        "h": 37
+      }
+    },
+    {
+      "text": "healthy business operational",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 573,
+        "w": 1040,
+        "h": 37
+      }
+    },
+    {
+      "text": "status?",
+      "confidence": 83,
+      "bbox": {
+        "x": 130,
+        "y": 647,
+        "w": 1040,
+        "h": 37
+      }
+    }
+  ],
+  "translations": [
+    {
+      "source": "Assessment (| ™",
+      "normalizedSource": "Assessment (| ™",
+      "target": "Đánh giá (| ™",
+      "bbox": {
+        "x": 130,
+        "y": 55,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "(4) Reflection Questions",
+      "normalizedSource": "(4) Reflection Questions",
+      "target": "(4) Câu hỏi phản ánh",
+      "bbox": {
+        "x": 130,
+        "y": 129,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Where will I find partners,",
+      "normalizedSource": "+ Where will I find partners,",
+      "target": "+ Tôi sẽ tìm đối tác,",
+      "bbox": {
+        "x": 130,
+        "y": 203,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "customers, location(s), or",
+      "normalizedSource": "customers, location(s), or",
+      "target": "khách hàng, địa điểm hoặc",
+      "bbox": {
+        "x": 130,
+        "y": 277,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "other key resources?",
+      "normalizedSource": "other key resources?",
+      "target": "các nguồn lực quan trọng khác?",
+      "bbox": {
+        "x": 130,
+        "y": 351,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "+ Who can help me achieve",
+      "normalizedSource": "+ Who can help me achieve",
+      "target": "+ Ai có thể giúp tôi đạt được",
+      "bbox": {
+        "x": 130,
+        "y": 425,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "my goal(s) and maintain a",
+      "normalizedSource": "my goal(s) and maintain a",
+      "target": "mục tiêu và duy trì",
+      "bbox": {
+        "x": 130,
+        "y": 499,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "healthy business operational",
+      "normalizedSource": "healthy business operational",
+      "target": "trạng thái hoạt động kinh doanh",
+      "bbox": {
+        "x": 130,
+        "y": 573,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    },
+    {
+      "source": "status?",
+      "normalizedSource": "status?",
+      "target": "lành mạnh?",
+      "bbox": {
+        "x": 130,
+        "y": 647,
+        "w": 1040,
+        "h": 37
+      },
+      "overflow": false
+    }
+  ],
+  "imageContext": "Image alt: For the Assessment step, one must ask the following Reflection Questions: Where will I find partners, customers, location(s), or other key resources? Who can help me achieve my goal(s) and maintain a healthy business operational status? Potential Obstacles such as Limited connections, Partners without skills and resources that match your needs or goals, and Limited education or experience should also be considered.\nButton label: Click to enlarge image of For the Assessment step, one must ask the following Reflection Questions: Where will I find partners, customers, location(s), or other key resources? Who can help me achieve my goal(s) and maintain a healthy business operational status? Potential Obstacles such as Limited connections, Partners without skills and resources that match your needs or goals, and Limited education or experience should also be considered.\nEnglish caption: Figure 2.8 Assessing relationships and resources allows for reflection on your idea and intentions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)",
+  "metrics": {
+    "textDensity": 0.5791304347826087,
+    "averageConfidence": 83,
+    "entropy": 3.746745863078104,
+    "sharpness": 4.683122195760075
+  },
+  "imageEdit": {
+    "prompt": "Translate the visible English text in this textbook image to Vietnamese.\nImage type: screenshot.\nUse this HTML alt/caption context to understand blurred or low-confidence image text, but edit only text that is visibly present in the image:\nImage alt: For the Assessment step, one must ask the following Reflection Questions: Where will I find partners, customers, location(s), or other key resources? Who can help me achieve my goal(s) and maintain a healthy business operational status? Potential Obstacles such as Limited connections, Partners without skills and resources that match your needs or goals, and Limited education or experience should also be considered.\nButton label: Click to enlarge image of For the Assessment step, one must ask the following Reflection Questions: Where will I find partners, customers, location(s), or other key resources? Who can help me achieve my goal(s) and maintain a healthy business operational status? Potential Obstacles such as Limited connections, Partners without skills and resources that match your needs or goals, and Limited education or experience should also be considered.\nEnglish caption: Figure 2.8 Assessing relationships and resources allows for reflection on your idea and intentions. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\nPreserve all non-text visual content, layout, dimensions, colors, icons, grid lines, arrows, chart geometry, and overall style.\nDo not add new visual elements. Do not remove non-text content. Do not alter numbers unless they are part of translated labels.\nEvery visible English word from the original image must be replaced with Vietnamese. Do not leave English words such as Often, Sometimes, Rarely, Never, Source, Percent, Adults, News, Social, or Media.\nIgnore OCR artifacts that are only legend color markers, bullets, or isolated symbols; translate the real label text next to them.\nUse these translations exactly when the matching source text appears:\n- Assessment (| ™ => Đánh giá (| ™\n- (4) Reflection Questions => (4) Câu hỏi phản ánh\n- + Where will I find partners, => + Tôi sẽ tìm đối tác,\n- customers, location(s), or => khách hàng, địa điểm hoặc\n- other key resources? => các nguồn lực quan trọng khác?\n- + Who can help me achieve => + Ai có thể giúp tôi đạt được\n- my goal(s) and maintain a => mục tiêu và duy trì\n- healthy business operational => trạng thái hoạt động kinh doanh\n- status? => lành mạnh?\nReturn a complete edited PNG image.",
+    "outputOcr": [
+      {
+        "text": "airs",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 90,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": "banh gia",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 210,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": "— Cau hadi phan anh Nhirng tré ngai tiém an",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 330,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": "=~ + Toi sé tim dbi tac, + Cac moi két néi han ché",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 450,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": ". khach hang, dia diém hoc + Pbi tac khong co ky nang",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 570,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": "cac ngudn luc quan trong khac? va ngudn luc phu hop",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 690,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": "«Ai c6 thé gilp t6i dat dugc véi nhu cau hodc muc tiéu",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 810,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": "muc tiéu va duy tri cla ban",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 930,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": "trang thai hoat dong kinh doanh « Trinh do hoc van hoac",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 1050,
+          "w": 1685,
+          "h": 60
+        }
+      },
+      {
+        "text": "lanh manh? kinh nghiém han che",
+        "confidence": 71,
+        "bbox": {
+          "x": 211,
+          "y": 1170,
+          "w": 1685,
+          "h": 60
+        }
+      }
+    ],
+    "validation": {
+      "ok": true,
+      "leftoverSourceWords": []
+    },
+    "validationAttempt": 1
+  },
+  "retries": {
+    "attempts": 1,
+    "transientFailures": 0
+  }
+}
